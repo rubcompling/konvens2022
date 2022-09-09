@@ -1,0 +1,656 @@
+  year measure student      score
+1 1963 parac_s       1 0.00000000
+2 1963 parac_s       2 0.02083333
+3 1963 parac_s       3 0.00000000
+4 1963 parac_s       4 0.02083333
+5 1963 parac_s       5 0.01886792
+6 1963 parac_s       6 0.00000000
+'data.frame':	9696 obs. of  4 variables:
+ $ year   : int  1963 1963 1963 1963 1963 1963 1963 1963 1963 1963 ...
+ $ measure: Factor w/ 24 levels "clause_lens",..: 9 9 9 9 9 9 9 9 9 9 ...
+ $ student: int  1 2 3 4 5 6 7 8 9 10 ...
+ $ score  : num  0 0.0208 0 0.0208 0.0189 ...
+      year                 measure        student          score        
+ Min.   :1963   clause_lens    : 404   Min.   :  1.0   Min.   : 0.0000  
+ 1st Qu.:1974   clauses_s      : 404   1st Qu.:101.8   1st Qu.: 0.5645  
+ Median :1983   max_sent_embeds: 404   Median :202.5   Median : 2.6801  
+ Mean   :1987   mf_lens        : 404   Mean   :202.5   Mean   : 4.8240  
+ 3rd Qu.:2003   nf_lens        : 404   3rd Qu.:303.2   3rd Qu.: 6.3695  
+ Max.   :2013   nx_lens        : 404   Max.   :404.0   Max.   :48.4318  
+                (Other)        :7272                                    
+    clause_lens       clauses_s max_sent_embeds         mf_lens         nf_lens 
+   14.630639091     2.208973090     5.946545829     5.299693046    10.977419601 
+        nx_lens            nx_s         parac_c         parac_s         px_lens 
+    2.568149877     7.616626951     0.006834886     0.015728357     3.820979184 
+         relc_c       relc_lens          relc_s       sent_lens         simpx_c 
+    0.111204240     9.423759031     0.250462244    21.303919498     0.881960874 
+     simpx_lens         simpx_s          subc_c          subc_s      tok_embeds 
+   15.187133524     1.942782490     0.322417177     0.725100026     4.130563605 
+           vc_s         verbx_s         vf_lens           vv_nn 
+    1.457178383     2.966933978     3.463796063     0.517444308 
+                        1963         1968         1974         1978
+clause_lens     13.523204990 13.636203842 13.301414808 14.226393030
+clauses_s        2.273846246  2.272120761  2.106969222  2.163786623
+max_sent_embeds  5.761409013  5.779353222  5.572347928  5.842760864
+mf_lens          4.907592106  5.060554696  4.967335287  5.233811244
+nf_lens         10.086118993  9.977989180 10.160699651 10.539797905
+nx_lens          2.434714214  2.426209012  2.432845239  2.574020448
+nx_s             7.224917869  7.139731085  6.470078994  7.469114444
+parac_c          0.006802244  0.006662102  0.008652874  0.006703398
+parac_s          0.015065477  0.015742311  0.019367551  0.015561817
+px_lens          3.599598838  3.710954668  3.673378809  3.693154252
+relc_c           0.099976005  0.114432420  0.109947742  0.114294692
+relc_lens        8.282609455  9.087326716  9.318436153  8.956920294
+relc_s           0.234844047  0.258161152  0.233254698  0.256983400
+sent_lens       20.199116816 20.475005508 18.947100846 20.724196031
+simpx_c          0.893221751  0.878905478  0.881399383  0.879001910
+simpx_lens      14.006195539 14.178213119 13.638490759 14.832117118
+simpx_s          2.023936722  1.998217299  1.854346972  1.891241406
+subc_c           0.301463766  0.296166261  0.293149895  0.329534957
+subc_s           0.699042844  0.684963108  0.629002328  0.723302036
+tok_embeds       4.116715323  4.023414727  4.006791830  4.091068676
+vc_s             1.460295648  1.433594213  1.307349201  1.401080100
+verbx_s          3.019838754  2.952111297  2.790847514  2.912324306
+vf_lens          3.242650883  3.135086570  3.087956863  3.416622410
+vv_nn            0.528197473  0.511125526  0.520095581  0.503290423
+                        1983         1988         1993         1998
+clause_lens     15.541265729 15.592698136 16.237965074 13.977871869
+clauses_s        2.183711586  2.240246145  2.313316595  2.257955555
+max_sent_embeds  6.029506761  6.158013756  6.312150921  5.714852320
+mf_lens          5.497350597  5.734645436  5.879280058  4.865892578
+nf_lens         11.697664191 11.671075650 11.920609617 10.932832362
+nx_lens          2.606953718  2.688782010  2.823601934  2.337527435
+nx_s             7.635941283  8.197138983  8.314255072  6.930241455
+parac_c          0.007040078  0.009936063  0.005300843  0.005340263
+parac_s          0.016151876  0.023451287  0.013995121  0.012622191
+px_lens          3.805245934  3.823947027  4.099056798  3.521759574
+relc_c           0.120298024  0.116873455  0.138003649  0.106021240
+relc_lens       10.089551521  9.779183739 10.252676104  8.503890619
+relc_s           0.272306512  0.266127290  0.325900501  0.244778608
+sent_lens       21.930262430 22.687669302 23.804618071 20.403961937
+simpx_c          0.872661899  0.873190483  0.856695508  0.888638496
+simpx_lens      16.177615848 16.220217215 17.118576156 14.542648452
+simpx_s          1.895253199  1.950667567  1.973420973  2.000554756
+subc_c           0.326670301  0.332681874  0.346883772  0.345053589
+subc_s           0.736706047  0.760801986  0.808376848  0.790910939
+tok_embeds       4.142755462  4.207712864  4.264729926  4.004822729
+vc_s             1.524245795  1.521423171  1.553113386  1.571137600
+verbx_s          3.049706016  3.021224561  3.152630555  3.111153980
+vf_lens          3.630639904  3.744244993  3.961846840  3.183101670
+vv_nn            0.491921206  0.457868869  0.469695840  0.640691306
+                        2003         2008         2013
+clause_lens     15.019902335 15.554937051 15.582438761
+clauses_s        2.114707677  2.240186377  2.135266997
+max_sent_embeds  6.007521909  6.237663631  6.191768114
+mf_lens          5.476228290  5.497022226  5.612785807
+nf_lens         11.363734484 12.140681317 11.343766216
+nx_lens          2.678697208  2.655406137  2.754477238
+nx_s             7.776006337  8.306176187  8.612576565
+parac_c          0.006094559  0.006776271  0.005874312
+parac_s          0.013610277  0.015395398  0.013051277
+px_lens          3.850038933  4.010506405  4.250454350
+relc_c           0.102392754  0.112889032  0.100747094
+relc_lens        9.434249607 10.387850954  9.943834705
+relc_s           0.219586649  0.257164845  0.218084955
+sent_lens       21.106432559 22.789218157 22.523736201
+simpx_c          0.891512687  0.880334697  0.893378594
+simpx_lens      15.588526779 16.100891945 16.116661700
+simpx_s          1.881510750  1.967626134  1.904130765
+subc_c           0.321425411  0.340136765  0.338623619
+subc_s           0.692863741  0.776475723  0.732041749
+tok_embeds       4.167525338  4.204183290  4.269165523
+vc_s             1.415989483  1.520262127  1.404921867
+verbx_s          2.820761052  3.024556017  2.862039865
+vf_lens          3.102735973  3.849344745  3.835740460
+vv_nn            0.463842228  0.553087637  0.510403832
+    clause_lens       clauses_s max_sent_embeds         mf_lens         nf_lens 
+    2.352450216     0.388981938     0.578135620     0.863082733     2.179202993 
+        nx_lens            nx_s         parac_c         parac_s         px_lens 
+    0.323933753     1.794984942     0.009560847     0.022723196     0.523953529 
+         relc_c       relc_lens          relc_s       sent_lens         simpx_c 
+    0.043968530     2.314476149     0.119285207     4.303174458     0.044272907 
+     simpx_lens         simpx_s          subc_c          subc_s      tok_embeds 
+    2.563012508     0.323678062     0.068055557     0.244409161     0.306489144 
+           vc_s         verbx_s         vf_lens           vv_nn 
+    0.376279599     0.551116775     0.896414803     0.119457486 
+                      1963       1968       1974       1978        1983
+clause_lens     1.69446085 1.81454769 1.80325039 1.85996530 2.710455181
+clauses_s       0.43932336 0.37835563 0.34703786 0.34605036 0.414642195
+max_sent_embeds 0.56623197 0.42741508 0.46938419 0.44912916 0.589242271
+mf_lens         0.71836864 0.72482720 0.65270326 0.69885254 0.970269626
+nf_lens         1.94960236 1.69463845 1.60355542 2.06029413 2.483574646
+nx_lens         0.25987116 0.23502469 0.24313341 0.25141837 0.327027273
+nx_s            1.47406956 1.49832964 1.22277335 1.58386749 1.757146870
+parac_c         0.01017231 0.01063807 0.01037618 0.00876433 0.009828617
+parac_s         0.02105567 0.02543746 0.02380541 0.02135435 0.022966706
+px_lens         0.43210493 0.39009462 0.44388484 0.40320523 0.477296115
+relc_c          0.04606699 0.04545009 0.04794890 0.04443921 0.046784819
+relc_lens       1.76317681 2.51759109 2.45311146 2.04221520 2.274605152
+relc_s          0.13407930 0.10545395 0.11051617 0.13009987 0.131101293
+sent_lens       3.80030666 3.68446727 3.30158454 3.62964877 4.871919323
+simpx_c         0.04723810 0.04543849 0.04725175 0.04666324 0.046728040
+simpx_lens      1.86257699 1.92907612 1.95550196 2.08329480 2.930957514
+simpx_s         0.36876056 0.35503328 0.30105017 0.24196690 0.317727803
+subc_c          0.06873034 0.05660133 0.07456396 0.06362359 0.073902597
+subc_s          0.25191367 0.21996834 0.24150930 0.21464845 0.288845722
+tok_embeds      0.37742794 0.28411301 0.25481070 0.25185692 0.286245432
+vc_s            0.36431904 0.36456083 0.37821794 0.34006145 0.431405811
+verbx_s         0.56329828 0.53482724 0.54417336 0.53935903 0.619861006
+vf_lens         0.70284369 0.56845034 0.84594408 0.70279859 0.868578376
+vv_nn           0.15346885 0.08324837 0.10999851 0.10861057 0.090483183
+                      1988        1993        1998        2003        2008
+clause_lens     2.20743529 2.482910571 2.245038855 1.641760598 2.712632451
+clauses_s       0.47097322 0.426426147 0.405194135 0.289350285 0.389218857
+max_sent_embeds 0.58133542 0.652372299 0.605983735 0.308372933 0.643620362
+mf_lens         0.93355730 0.715733263 0.760784775 0.834104002 0.919119375
+nf_lens         2.36498312 2.107001323 2.025949930 1.526266615 2.574672238
+nx_lens         0.41042796 0.332056282 0.251736527 0.272528642 0.349864895
+nx_s            1.89544738 2.311516295 1.706313500 1.156221225 2.124024022
+parac_c         0.01320196 0.007866292 0.006111875 0.007429399 0.009689896
+parac_s         0.03531676 0.023440347 0.014779171 0.018061845 0.021529529
+px_lens         0.55323114 0.440355371 0.382213106 0.327805492 0.566797762
+relc_c          0.05440471 0.048540314 0.034148331 0.039525030 0.033930511
+relc_lens       2.43469789 2.158097407 1.692428498 1.582003136 2.845622831
+relc_s          0.14613995 0.147272305 0.105227368 0.093345664 0.104913992
+sent_lens       4.79646163 4.869057311 4.356394985 2.831796038 5.211712303
+simpx_c         0.05541321 0.049674310 0.034887514 0.039769203 0.032481259
+simpx_lens      2.51057298 2.825918806 2.417783278 1.862736609 2.864720808
+simpx_s         0.39645579 0.331073124 0.327153132 0.240177269 0.317590182
+subc_c          0.07638667 0.056170588 0.047456890 0.062847988 0.063899276
+subc_s          0.28655620 0.222733620 0.233915968 0.216792443 0.257622661
+tok_embeds      0.30767842 0.326936953 0.278640324 0.174230842 0.325889776
+vc_s            0.46055611 0.381497799 0.375908086 0.296698971 0.396880623
+verbx_s         0.68684037 0.558972744 0.552791379 0.453490041 0.519138556
+vf_lens         0.82928166 1.371179908 0.649937022 0.685935694 1.021531682
+vv_nn           0.13496473 0.082205161 0.165252645 0.087692202 0.083938478
+                       2013
+clause_lens     2.313814766
+clauses_s       0.344281298
+max_sent_embeds 0.522461457
+mf_lens         0.927405649
+nf_lens         2.003549431
+nx_lens         0.307316978
+nx_s            1.730220282
+parac_c         0.008622878
+parac_s         0.020172131
+px_lens         0.667480314
+relc_c          0.037197351
+relc_lens       2.102981061
+relc_s          0.094962876
+sent_lens       3.798868655
+simpx_c         0.036331987
+simpx_lens      2.552014382
+simpx_s         0.300547281
+subc_c          0.072109428
+subc_s          0.223594396
+tok_embeds      0.287813791
+vc_s            0.311880391
+verbx_s         0.466050613
+vf_lens         1.007917553
+vv_nn           0.104846708
+[1] "clause_lens"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-5.7838 -1.5622 -0.1777  1.2195 11.9676 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -71.338042  12.926234  -5.519 6.13e-08 ***
+year          0.043269   0.006506   6.651 9.53e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.236 on 402 degrees of freedom
+Multiple R-squared:  0.09913,	Adjusted R-squared:  0.09689 
+F-statistic: 44.24 on 1 and 402 DF,  p-value: 9.534e-11
+
+[1] "clauses_s"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.89662 -0.28070 -0.03872  0.22326  1.70061 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  4.386907   2.249283   1.950   0.0518 .
+year        -0.001096   0.001132  -0.968   0.3335  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.389 on 402 degrees of freedom
+Multiple R-squared:  0.002327,	Adjusted R-squared:  -0.0001548 
+F-statistic: 0.9376 on 1 and 402 DF,  p-value: 0.3335
+
+[1] "max_sent_embeds"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.29128 -0.32450 -0.05015  0.31517  2.77669 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -13.621167   3.201496  -4.255 2.61e-05 ***
+year          0.009849   0.001611   6.112 2.32e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5537 on 402 degrees of freedom
+Multiple R-squared:  0.08503,	Adjusted R-squared:  0.08276 
+F-statistic: 37.36 on 1 and 402 DF,  p-value: 2.325e-09
+
+[1] "mf_lens"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.87919 -0.54235 -0.07954  0.46695  3.13962 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -18.609283   4.852188  -3.835 0.000146 ***
+year          0.012034   0.002442   4.928 1.22e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8392 on 402 degrees of freedom
+Multiple R-squared:  0.05696,	Adjusted R-squared:  0.05462 
+F-statistic: 24.28 on 1 and 402 DF,  p-value: 1.219e-06
+
+[1] "nf_lens"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-4.260 -1.518 -0.282  1.259 12.130 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -60.198059  12.106118  -4.973 9.81e-07 ***
+year          0.035824   0.006093   5.880 8.66e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.094 on 402 degrees of freedom
+Multiple R-squared:  0.07918,	Adjusted R-squared:  0.07689 
+F-statistic: 34.57 on 1 and 402 DF,  p-value: 8.658e-09
+
+[1] "nx_lens"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.85499 -0.20062 -0.00155  0.15961  1.10064 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -8.6176077  1.7904124  -4.813 2.11e-06 ***
+year         0.0056300  0.0009011   6.248 1.06e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3097 on 402 degrees of freedom
+Multiple R-squared:  0.08851,	Adjusted R-squared:  0.08624 
+F-statistic: 39.04 on 1 and 402 DF,  p-value: 1.062e-09
+
+[1] "nx_s"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.5032 -1.2619 -0.2214  1.0130 10.4148 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -49.137149   9.998589  -4.914 1.30e-06 ***
+year          0.028565   0.005032   5.676 2.64e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.729 on 402 degrees of freedom
+Multiple R-squared:  0.0742,	Adjusted R-squared:  0.0719 
+F-statistic: 32.22 on 1 and 402 DF,  p-value: 2.638e-08
+
+[1] "parac_c"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.007409 -0.006927 -0.003407  0.003709  0.055212 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  5.470e-02  5.530e-02   0.989    0.323
+year        -2.409e-05  2.783e-05  -0.866    0.387
+
+Residual standard error: 0.009564 on 402 degrees of freedom
+Multiple R-squared:  0.00186,	Adjusted R-squared:  -0.0006227 
+F-statistic: 0.7492 on 1 and 402 DF,  p-value: 0.3872
+
+[1] "parac_s"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.017060 -0.015942 -0.008492  0.006848  0.129561 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  1.268e-01  1.314e-01   0.965    0.335
+year        -5.589e-05  6.615e-05  -0.845    0.399
+
+Residual standard error: 0.02273 on 402 degrees of freedom
+Multiple R-squared:  0.001773,	Adjusted R-squared:  -0.0007106 
+F-statistic: 0.7138 on 1 and 402 DF,  p-value: 0.3987
+
+[1] "px_lens"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.26887 -0.30587 -0.05787  0.23141  2.63700 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -15.482851   2.876420  -5.383 1.25e-07 ***
+year          0.009716   0.001448   6.711 6.58e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4975 on 402 degrees of freedom
+Multiple R-squared:  0.1008,	Adjusted R-squared:  0.09852 
+F-statistic: 45.04 on 1 and 402 DF,  p-value: 6.581e-11
+
+[1] "relc_c"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.098840 -0.030109 -0.004177  0.029084  0.157291 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  1.950e-01  2.545e-01   0.766    0.444
+year        -4.218e-05  1.281e-04  -0.329    0.742
+
+Residual standard error: 0.04402 on 402 degrees of freedom
+Multiple R-squared:  0.0002696,	Adjusted R-squared:  -0.002217 
+F-statistic: 0.1084 on 1 and 402 DF,  p-value: 0.7421
+
+[1] "relc_lens"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.6119 -1.6030 -0.1278  1.2255 11.6410 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -42.731666  13.144076  -3.251  0.00125 ** 
+year          0.026251   0.006615   3.968 8.58e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.273 on 402 degrees of freedom
+Multiple R-squared:  0.03769,	Adjusted R-squared:  0.0353 
+F-statistic: 15.75 on 1 and 402 DF,  p-value: 8.578e-05
+
+[1] "relc_s"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.22391 -0.08921 -0.01663  0.06707  0.42519 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.6462343  0.6902868   0.936    0.350
+year        -0.0001992  0.0003474  -0.573    0.567
+
+Residual standard error: 0.1194 on 402 degrees of freedom
+Multiple R-squared:  0.0008171,	Adjusted R-squared:  -0.001668 
+F-statistic: 0.3287 on 1 and 402 DF,  p-value: 0.5667
+
+[1] "sent_lens"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-9.6348 -3.1039 -0.6059  2.4732 26.0017 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -84.34578   24.34835  -3.464 0.000589 ***
+year          0.05318    0.01225   4.339 1.81e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.211 on 402 degrees of freedom
+Multiple R-squared:  0.04474,	Adjusted R-squared:  0.04237 
+F-statistic: 18.83 on 1 and 402 DF,  p-value: 1.811e-05
+
+[1] "simpx_c"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.150364 -0.028118  0.002267  0.032826  0.106128 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 7.503e-01  2.562e-01   2.928   0.0036 **
+year        6.627e-05  1.290e-04   0.514   0.6076   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04431 on 402 degrees of freedom
+Multiple R-squared:  0.0006564,	Adjusted R-squared:  -0.00183 
+F-statistic: 0.2641 on 1 and 402 DF,  p-value: 0.6076
+
+[1] "simpx_lens"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-6.3009 -1.6707 -0.2358  1.3101 12.1548 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -74.026618  14.154922  -5.230 2.74e-07 ***
+year          0.044903   0.007124   6.303 7.69e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.448 on 402 degrees of freedom
+Multiple R-squared:  0.08993,	Adjusted R-squared:  0.08767 
+F-statistic: 39.73 on 1 and 402 DF,  p-value: 7.69e-10
+
+[1] "simpx_s"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.71578 -0.21620 -0.03126  0.18795  1.25685 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  3.6139032  1.8719907   1.931   0.0542 .
+year        -0.0008411  0.0009422  -0.893   0.3725  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3238 on 402 degrees of freedom
+Multiple R-squared:  0.001979,	Adjusted R-squared:  -0.0005041 
+F-statistic: 0.797 on 1 and 402 DF,  p-value: 0.3725
+
+[1] "subc_c"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.176558 -0.045000  0.000769  0.043544  0.208448 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.5031706  0.3833226  -3.921 0.000103 ***
+year         0.0009188  0.0001929   4.763 2.67e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0663 on 402 degrees of freedom
+Multiple R-squared:  0.05341,	Adjusted R-squared:  0.05106 
+F-statistic: 22.68 on 1 and 402 DF,  p-value: 2.671e-06
+
+[1] "subc_s"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.48268 -0.17800 -0.02307  0.13847  0.89901 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)  
+(Intercept) -2.5563292  1.4054420  -1.819   0.0697 .
+year         0.0016516  0.0007074   2.335   0.0200 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2431 on 402 degrees of freedom
+Multiple R-squared:  0.01338,	Adjusted R-squared:  0.01093 
+F-statistic: 5.452 on 1 and 402 DF,  p-value: 0.02004
+
+[1] "tok_embeds"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.42949 -0.18139 -0.03124  0.15421  1.36591 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -3.0901015  1.7373998  -1.779   0.0761 .  
+year         0.0036343  0.0008744   4.156 3.96e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3005 on 402 degrees of freedom
+Multiple R-squared:  0.0412,	Adjusted R-squared:  0.03881 
+F-statistic: 17.27 on 1 and 402 DF,  p-value: 3.957e-05
+
+[1] "vc_s"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.83836 -0.25884 -0.05674  0.22026  1.79145 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) -0.803768   2.175447  -0.369    0.712
+year         0.001138   0.001095   1.039    0.299
+
+Residual standard error: 0.3762 on 402 degrees of freedom
+Multiple R-squared:  0.00268,	Adjusted R-squared:  0.000199 
+F-statistic:  1.08 on 1 and 402 DF,  p-value: 0.2993
+
+[1] "verbx_s"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.09661 -0.40840 -0.08062  0.33383  2.12498 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  3.061e+00  3.191e+00   0.959    0.338
+year        -4.744e-05  1.606e-03  -0.030    0.976
+
+Residual standard error: 0.5518 on 402 degrees of freedom
+Multiple R-squared:  2.171e-06,	Adjusted R-squared:  -0.002485 
+F-statistic: 0.0008727 on 1 and 402 DF,  p-value: 0.9764
+
+[1] "vf_lens"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.6455 -0.5512 -0.1366  0.3874  4.5535 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -20.75088    5.04705  -4.111 4.77e-05 ***
+year          0.01219    0.00254   4.798 2.26e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8729 on 402 degrees of freedom
+Multiple R-squared:  0.05416,	Adjusted R-squared:  0.05181 
+F-statistic: 23.02 on 1 and 402 DF,  p-value: 2.263e-06
+
+[1] "vv_nn"
+
+Call:
+lm(formula = score ~ year)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.25135 -0.07609 -0.01641  0.05625  0.57818 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept) -0.1562785  0.6907495  -0.226    0.821
+year         0.0003391  0.0003477   0.975    0.330
+
+Residual standard error: 0.1195 on 402 degrees of freedom
+Multiple R-squared:  0.002361,	Adjusted R-squared:  -0.0001207 
+F-statistic: 0.9514 on 1 and 402 DF,  p-value: 0.33
+

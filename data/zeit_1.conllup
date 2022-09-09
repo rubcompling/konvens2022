@@ -1,0 +1,601 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PTBLabel TREE
+# sent_id = 1
+# PTBstring = (:--(PSEUDO:--(NX:--(NX:--(ART:-- Der)(ADJX:--(ADJA:-- zerbrochene))(NN:-- Krug))($,:-- ,)(NX:--(ART:-- der)(ADJX:--(ADJA:-- chaotische))(NN:-- Schreibtisch))(KON:-- oder)(NX:--(NX:--(NX:--(ART:-- die)(NN:-- Fahrt))(PX:--(APPR:-- nach)(NX:--(NE:-- Rimini))))(PX:--(APPR:-- mit)(NX:--(ART:-- einem)(ADJX:--(ADJX:--(ADJD:-- Diesel))(ADJA:-- verbrennenden))(ADJX:--(ADJA:-- alten))(NN:-- Opel)))))($[:-- -)(SIMPX:--(VF:--(NX:--(NX:--(PDS:-- das))(NX:--(PIS:-- alles))))(LK:--(VXFIN:--(VAFIN:-- sind)))(MF:--(NX:--(NX:--(NN:-- Anwendungsfälle))(NX:--(NX:--(ART:-- des)(ADJX:--(ADJA:-- Zweiten))(NN:-- Hauptsatzes))(NX:--(ART:-- der)(NN:-- Thermodynamik))))))($.:-- .)))
+1	Der	_	_	ART	_	_	_	_	_	--	B-PSEUDO|B-NX|B-NX
+2	zerbrochene	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|B-ADJX
+3	Krug	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX
+4	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-NX
+5	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-NX|B-NX
+6	chaotische	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|B-ADJX
+7	Schreibtisch	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX
+8	oder	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-NX
+9	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-NX|B-NX|B-NX|B-NX
+10	Fahrt	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX|I-NX
+11	nach	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX|B-PX
+12	Rimini	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX|I-PX|B-NX
+13	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|B-PX
+14	einem	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-PX|B-NX
+15	Diesel	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-PX|I-NX|B-ADJX|B-ADJX
+16	verbrennenden	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-PX|I-NX|I-ADJX
+17	alten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-PX|I-NX|B-ADJX
+18	Opel	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-PX|I-NX
+19	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+20	das	_	_	PDS	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX|B-NX
+21	alles	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|B-NX
+22	sind	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+23	Anwendungsfälle	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX|B-NX
+24	des	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX|B-NX
+25	Zweiten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|I-NX|B-ADJX
+26	Hauptsatzes	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|I-NX
+27	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|B-NX
+28	Thermodynamik	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|I-NX
+29	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 2
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PDS:-- Der)))(LK:--(VXFIN:--(VVFIN:-- besagt)))(MF:--(PX:--(APPR:-- in)(NX:--(PIDAT:-- aller)(NN:-- Kürze))))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(MF:--(NX:--(PIDAT:-- jedes)(NN:-- System))(NX:--(NX:--(ART:-- den)(NN:-- Zustand))(NX:--(ADJX:--(ADJA:-- höchster))(NN:-- Unordnung))))(VC:--(VXFIN:--(VVFIN:-- anstrebt)))($[:-- -)(NF:--(SIMPX:--(C:--(KOUS:-- solange))(MF:--(NX:--(PIS:-- niemand))(NX:--(NN:-- Extraenergie)))(VC:--(VXFIN:--(VVFIN:-- reinsteckt))))))))($.:-- .)))
+1	Der	_	_	PDS	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	besagt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-PX
+4	aller	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX
+5	Kürze	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+7	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+8	jedes	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+9	System	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+10	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX|B-NX
+11	Zustand	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-NX
+12	höchster	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|B-NX|B-ADJX
+13	Unordnung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-NX
+14	anstrebt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+15	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX
+16	solange	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-NF|B-SIMPX|B-C
+17	niemand	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+18	Extraenergie	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX
+19	reinsteckt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+20	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 3
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NX:--(NX:--(PDAT:-- Dieses)(ADJX:--(ADJA:-- »))(NN:-- Extraenergiereinstecken))(NX:--(NN:-- «)))(ADVX:--(ADV:-- aber))))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(NX:--(NX:--(ART:-- die)(ADJX:--(ADJA:-- vornehmste))(NN:-- Aufgabe))(NX:--(ART:-- der)(NN:-- Politik)))))($.:-- .)))
+1	Dieses	_	_	PDAT	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX|B-NX|B-NX
+2	»	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|I-NX|B-ADJX
+3	Extraenergiereinstecken	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|I-NX
+4	«	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|B-NX
+5	aber	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|B-ADVX
+6	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+7	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX|B-NX
+8	vornehmste	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|B-ADJX
+9	Aufgabe	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+10	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX
+11	Politik	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+12	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 4
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(PX:--(NX:--(ART:-- Ein)(ADJX:--(ADJA:-- hervorragendes))(NN:-- Beispiel))(APPO:-- dafür)))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(NX:--(ART:-- die)(NN:-- Mülltrennung))))($.:-- .)))
+1	Ein	_	_	ART	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-PX|B-NX
+2	hervorragendes	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|B-ADJX
+3	Beispiel	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX
+4	dafür	_	_	APPO	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX
+5	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+6	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+7	Mülltrennung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+8	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 5
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(PX:--(APPR:-- Früher)(NX:--(NX:--(NN:--(:--))(PX:--(APPR:-- bis)(PX:--(APPR:-- in)(NX:--(ART:-- die)(ADJX:--(ADJA:-- Sechzigerjahre))(NN:--))))))))(LK:--(VXFIN:--(VVFIN:-- gab)))(MF:--(NX:--(PPER:-- es))(PX:--(APPR:-- für)(NX:--(ART:-- den)(ADJX:--(ADJA:-- gesamten))(NN:-- Müll)))(NX:--(ART:-- eine)(ADJX:--(ADJA:-- einzige))(ADJX:--(ADJA:-- große))(NN:-- Tonne))))($.:-- :)(SIMPX:--(VF:--(PX:--(APPR:-- für)(NX:--(NX:--(NX:--(NN:-- Zeitungen))(KON:-- und)(NX:--(ADJX:--(ADJA:-- faule))(NN:-- Äpfel)))($,:-- ,)(ADJX:--(ADJX:--(ADJD:-- für))(NX:--(NX:--(ADJX:--(ADJA:-- leere))(NX:--(NX:--(NN:-- Flaschen))(KON:-- und)(NX:--(NN:-- Konservendosen))))($,:-- ,)(NX:--(ADJX:--(ADJX:--(ADJD:-- für))(ADJA:-- alte))(NN:-- Batterien)))))))($,:-- ,)(LK:--(VXFIN:--(VVFIN:-- löchrige)))(MF:--(NX:--(NX:--(NN:-- Socken))(KON:-- und)(NX:--(NN:-- Asche)))(PX:--(APPR:-- aus)(NX:--(ART:-- dem)(NN:-- Kohleofen)))))($.:-- .)))
+1	Früher	_	_	APPR	_	_	_	_	_	--	B-PSEUDO|B-SIMPX
+2	<EMPTY>	_	_	_	_	_	_	_	_	_	I-PSEUDO|I-SIMPX
+3	bis	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+4	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+5	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+6	Sechzigerjahre	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-ADJX
+7	<EMPTY>	_	_	_	_	_	_	_	_	_	I-PSEUDO|I-SIMPX
+8	gab	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+9	es	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+10	für	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+11	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX
+12	gesamten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|B-ADJX
+13	Müll	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+14	eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+15	einzige	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-ADJX
+16	große	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-ADJX
+17	Tonne	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+18	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+19	für	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-PX
+20	Zeitungen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|B-NX|B-NX|B-NX
+21	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-NX
+22	faule	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-NX|B-NX|B-ADJX
+23	Äpfel	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX
+24	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX
+25	für	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|B-ADJX|B-ADJX
+26	leere	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ADJX|B-NX|B-NX|B-ADJX
+27	Flaschen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ADJX|I-NX|I-NX|B-NX|B-NX
+28	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ADJX|I-NX|I-NX|I-NX
+29	Konservendosen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ADJX|I-NX|I-NX|I-NX|B-NX
+30	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ADJX|I-NX
+31	für	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ADJX|I-NX|B-NX|B-ADJX|B-ADJX
+32	alte	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ADJX|I-NX|I-NX|I-ADJX
+33	Batterien	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ADJX|I-NX|I-NX
+34	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+35	löchrige	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+36	Socken	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX|B-NX
+37	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+38	Asche	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX
+39	aus	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+40	dem	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX
+41	Kohleofen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+42	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 6
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Manchmal)))(LK:--(VXFIN:--(VAFIN:-- war)))(MF:--(NX:--(PDS:-- die))(ADVX:--(ADV:-- noch)))(VC:--(VXINF:--(VVPP:-- heiß)))($,:-- ,)(NF:--(SIMPX:--(VF:--(ADVX:--(ADV:-- dann)))(LK:--(VXFIN:--(VVFIN:-- fing)))(MF:--(NX:--(ART:-- der)(NN:-- Mülleimer)))(VC:--(PTKVZ:-- an))(NF:--(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- qualmen)))))))($.:-- .)))
+1	Manchmal	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	war	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	die	_	_	PDS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	noch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+5	heiß	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+7	dann	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-VF|B-ADVX
+8	fing	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-LK|B-VXFIN
+9	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+10	Mülleimer	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+11	an	_	_	PTKVZ	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC
+12	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-NF|B-VC|B-VXINF
+13	qualmen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-VC|I-VXINF
+14	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 7
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(SIMPX:--(VF:--(PX:--(APPR:-- In)(NX:--(NX:--(NX:--(NX:--(PDAT:-- dieser)(ADJX:--(ADJA:--(:--))(ADJX:--(ADJA:-- guten))(NN:--)))(ENADD:--(NX:--(ADJX:--(ADJA:-- alten))(NN:-- Zeit))))($[:-- -)(PX:--(APPR:-- in)(NX:--(NN:-- Teilen))))(NX:--(ART:-- der)(NE:-- USA)))))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(NX:--(PDS:-- das))(ADVX:--(ADV:-- heute))(ADVX:--(ADV:-- noch))(ADVX:--(ADV:-- so))))($[:-- -)(LK:--(VXFIN:--(VAFIN:-- war)))(MF:--(NX:--(ART:-- die)(ADJX:--(ADJA:-- einzige))(ADJX:--(ADJX:--(ADJD:-- ernst))(PTKZU:-- zu)(ADJA:-- nehmende))(NN:-- Frage))))($.:-- :)(SIMPX:--(VF:--(NX:--(PWS:-- Wer)))(LK:--(VXFIN:--(VVFIN:-- bringt)))(MF:--(NX:--(ART:-- den)(NN:-- Müll))(ADVX:--(ADV:-- runter))))($.:-- ?)))
+1	In	_	_	APPR	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-SIMPX|B-VF|B-PX
+2	dieser	_	_	PDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|B-NX|B-NX|B-NX
+3	<EMPTY>	_	_	_	_	_	_	_	_	_	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX
+4	guten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|B-ADJX
+5	<EMPTY>	_	_	_	_	_	_	_	_	_	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX
+6	alten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|B-ENADD|B-NX|B-ADJX
+7	Zeit	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|I-ENADD|I-NX
+8	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|I-NX
+9	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|I-NX|B-PX
+10	Teilen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-PX|B-NX
+11	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|B-NX
+12	USA	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|I-NX
+13	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+14	das	_	_	PDS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+15	heute	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-ADVX
+16	noch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-ADVX
+17	so	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-ADVX
+18	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+19	war	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+20	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+21	einzige	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-ADJX
+22	ernst	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-ADJX|B-ADJX
+23	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-ADJX
+24	nehmende	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-ADJX
+25	Frage	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+26	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+27	Wer	_	_	PWS	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX
+28	bringt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+29	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+30	Müll	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+31	runter	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+32	?	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 8
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Dann)))(LK:--(VXFIN:--(VVFIN:-- knickte)))($[:-- -)(MF:--(ADVX:--(ADV:-- etwa))(ADJX:--(ADJD:-- gleichzeitig))(PX:--(APPR:-- in)(NX:--(NX:--(ART:-- der)(NE:-- BRD))(NX:--(KOKOM:-- wie)(NX:--(NX:--(ART:-- der)(NE:-- DDR))($[:-- -)(NX:--(NX:--(ART:-- die)(NN:-- Politik))(PX:--(APPR:-- vor)(NX:--(ART:-- dem)(ADJX:--(ADJA:-- Zweiten))(NN:-- Hauptsatz)))))))))(VC:--(PTKVZ:-- ein)))($.:-- :)(SIMPX:--(VF:--(NX:--(NX:--(ADVX:--(ADV:-- Schon))(ART:-- die)(NN:-- Müllerzeuger))($,:-- ,)(NX:--(ADVX:--(ADV:-- also))(ART:-- die)(NN:-- Haushalte))))($,:-- ,)(LK:--(VXFIN:--(VMFIN:-- sollten)))(FKOORD:--(FKONJ:--(MF:--(NX:--(NN:-- Energie)))(VC:--(VXINF:--(VVINF:-- investieren))))(KON:-- und)(FKONJ:--(MF:--(NX:--(ART:-- eine)(ADJX:--(ADJA:-- ordentliche))(NN:-- Mülltrennung)))(VC:--(VXFIN:--(VVFIN:-- vornehmen))))))($.:-- .)))
+1	Dann	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	knickte	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+4	etwa	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+5	gleichzeitig	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX
+6	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+7	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX|B-NX
+8	BRD	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+9	wie	_	_	KOKOM	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|B-NX
+10	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|B-NX|B-NX
+11	DDR	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX
+12	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX
+13	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|B-NX|B-NX
+14	Politik	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-NX
+15	vor	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|B-PX
+16	dem	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-PX|B-NX
+17	Zweiten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-PX|I-NX|B-ADJX
+18	Hauptsatz	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-PX|I-NX
+19	ein	_	_	PTKVZ	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC
+20	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+21	Schon	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX|B-NX|B-ADVX
+22	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX
+23	Müllerzeuger	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX
+24	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+25	also	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|B-NX|B-ADVX
+26	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX
+27	Haushalte	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX
+28	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+29	sollten	_	_	VMFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+30	Energie	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-FKOORD|B-FKONJ|B-MF|B-NX
+31	investieren	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-VC|B-VXINF
+32	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD
+33	eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|B-FKONJ|B-MF|B-NX
+34	ordentliche	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|B-ADJX
+35	Mülltrennung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX
+36	vornehmen	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-VC|B-VXFIN
+37	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 9
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(SIMPX:--(VF:--(NX:--(ART:-- Die)(NN:-- Abfalltrennung)))(LK:--(VXFIN:--(VVFIN:-- entfaltete)))(MF:--(NX:--(PRF:-- sich))(ADVX:--(ADV:-- zumindest))(PX:--(APPR:-- in)(NX:--(NE:-- Deutschland))))(VC:--(VXINF:--(VVPP:-- rasant))))($,:-- ,)(SIMPX:--(VF:--(NX:--(ART:-- das)(NN:-- Ergebnis)))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(ADJX:--(ADJD:-- bekannt)))))($.:-- :)(SIMPX:--(VF:--(NX:--(ART:-- Eine)(ADJX:--(ADJA:-- deutsche))(NN:-- Küche)))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(ADVX:--(ADV:-- heute))(PX:--(KON:-- weder)(PX:--(APPRART:-- zum)(NX:--(NN:-- Kochen)))(KON:-- noch)(PX:--(APPRART:-- zum)(NX:--(NN:-- Wohnen)))))(VC:--(PTKVZ:-- da)))($.:-- .)))
+1	Die	_	_	ART	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-SIMPX|B-VF|B-NX
+2	Abfalltrennung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-NX
+3	entfaltete	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+4	sich	_	_	PRF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+5	zumindest	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-ADVX
+6	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-PX
+7	Deutschland	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX
+8	rasant	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-VC|B-VXINF
+9	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+10	das	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-NX
+11	Ergebnis	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-NX
+12	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+13	bekannt	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-ADJX
+14	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+15	Eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX
+16	deutsche	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|B-ADJX
+17	Küche	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+18	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+19	heute	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+20	weder	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+21	zum	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-PX
+22	Kochen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-PX|B-NX
+23	noch	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX
+24	zum	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-PX
+25	Wohnen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-PX|B-NX
+26	da	_	_	PTKVZ	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC
+27	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 10
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PPER:-- Sie)))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(NX:--(ART:-- eine)(NN:-- Recyclingstation))))($.:-- .)))
+1	Sie	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	Recyclingstation	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+5	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 11
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(ART:-- Das)(NN:-- Glas)))(LK:--(VXFIN:--(VVFIN:-- für)))(MF:--(NX:--(ADJX:--(ADJA:-- leere))(NN:-- Batterien)))($[:-- -)(VC:--(VXINF:--(VVPP:-- geschenkt))))($.:-- .)))
+1	Das	_	_	ART	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	Glas	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+3	für	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+4	leere	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX|B-ADJX
+5	Batterien	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+6	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+7	geschenkt	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+8	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 12
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(ART:-- Die)(NN:-- Box)))(LK:--(VXFIN:--(VVFIN:-- für)))(MF:--(NX:--(ADJX:--(ADJA:-- abgelaufene))(NN:-- Medikamente))))($[:-- -)(NX:--(ADVX:--(PTKNEG:-- nicht))(NX:--(ART:-- der)(NN:-- Rede))(ADJX:--(ADJD:-- wert)))($.:-- .)))
+1	Die	_	_	ART	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	Box	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+3	für	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+4	abgelaufene	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX|B-ADJX
+5	Medikamente	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+6	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+7	nicht	_	_	PTKNEG	_	_	_	_	_	--	I-PSEUDO|B-NX|B-ADVX
+8	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-NX|B-NX
+9	Rede	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX
+10	wert	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-NX|B-ADJX
+11	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 13
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PIAT:-- Mehr)(NN:-- Platz)))(LK:--(VXFIN:--(VVFIN:-- braucht)))(MF:--(NX:--(PIS:-- man))(ADVX:--(ADV:-- schon)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUI:-- um))(MF:--(NX:--(ADJX:--(ADJA:-- kaputte))(NN:-- Glühbirnen)))(VC:--(VXINF:--(VVIZU:-- aufzuheben))))))($.:-- .)))
+1	Mehr	_	_	PIAT	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	Platz	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+3	braucht	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+4	man	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+5	schon	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+7	um	_	_	KOUI	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+8	kaputte	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX|B-ADJX
+9	Glühbirnen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+10	aufzuheben	_	_	VVIZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+11	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 14
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NX:--(ADJX:--(ADJA:-- Richtig))(NN:-- Raum))(PX:--(PROP:-- dagegen))))(LK:--(VXFIN:--(VVFIN:-- beansprucht)))(MF:--(NX:--(ART:-- der)(NN:-- Karton))(PX:--(APPR:-- für)(NX:--(NX:--(ADJX:--(ADJA:-- alte))(NN:-- Zeitungen))(KON:-- und)(NX:--(NN:-- Reklame))))))($.:-- .)))
+1	Richtig	_	_	ADJA	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX|B-NX|B-ADJX
+2	Raum	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX
+3	dagegen	_	_	PROP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|B-PX
+4	beansprucht	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+5	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+6	Karton	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+7	für	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+8	alte	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX|B-NX|B-ADJX
+9	Zeitungen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+10	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+11	Reklame	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|B-NX
+12	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 15
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADJX:--(ADVX:--(ADV:-- Noch))(ADJD:-- breitbeiniger)))(LK:--(VXFIN:--(VVFIN:-- drängeln)))(MF:--(SIMPX:--(MF:--(NX:--(PRF:-- sich))(NX:--(NX:--(ART:-- die)(NN:-- Tüten))(ENADD:--(FX:--(FM:-- für)(FM:-- Altglas)(FM:--(:--)))))(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- trennen))))(PX:--(APPR:-- nach)(NX:--(TRUNC:-- Braun-)($,:-- ,)(TRUNC:-- Grün-)(KON:-- und)(NN:-- Weißglas)))(ADJX:--(ADJD:--))))($,:-- ,)(NF:--(RSIMPX:--(C:--(PX:--(APPR:-- neben)(NX:--(PRELS:-- denen))))(MF:--(NX:--(ART:-- die)(NX:--(NX:--(ADJX:--(ADJA:-- gläsernen))(NN:-- Mehrwegflaschen))(KON:-- und)(NX:--(NN:-- Kunststoffflaschen))))(PX:--(APPR:-- mit)(NX:--(NN:-- Pfand))))(VC:--(VXINF:--(VVPP:-- gesammelt))(VXFIN:--(VAFIN:-- werden))))))($.:-- .)))
+1	Noch	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADJX|B-ADVX
+2	breitbeiniger	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADJX
+3	drängeln	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+4	sich	_	_	PRF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+5	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+6	Tüten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+7	für	_	_	FM	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF
+8	Altglas	_	_	FM	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF
+9	<EMPTY>	_	_	_	_	_	_	_	_	_	I-PSEUDO|I-SIMPX|I-MF
+10	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-VC|B-VXINF
+11	trennen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-VC|I-VXINF
+12	nach	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-PX
+13	Braun-	_	_	TRUNC	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-PX|B-NX
+14	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-PX|I-NX
+15	Grün-	_	_	TRUNC	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-PX|I-NX
+16	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-PX|I-NX
+17	Weißglas	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-PX|I-NX
+18	<EMPTY>	_	_	_	_	_	_	_	_	_	I-PSEUDO|I-SIMPX
+19	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+20	neben	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-RSIMPX|B-C|B-PX
+21	denen	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-C|I-PX|B-NX
+22	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-MF|B-NX
+23	gläsernen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|B-NX|B-NX|B-ADJX
+24	Mehrwegflaschen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|I-NX|I-NX
+25	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|I-NX
+26	Kunststoffflaschen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|I-NX|B-NX
+27	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-MF|B-PX
+28	Pfand	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-PX|B-NX
+29	gesammelt	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-VC|B-VXINF
+30	werden	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-VC|B-VXFIN
+31	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 16
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADVX:--(ADV:-- Wenig))(SIMPX:--(VF:--(NX:--(NN:-- Freude)))(LK:--(VXFIN:--(VVFIN:-- bereiten)))(MF:--(ADVX:--(ADV:-- auch))(NX:--(NX:--(ART:-- die)(NN:-- Behälter))(ENADD:--(NX:--(NE:-- für)(NE:-- Biomüll))))))))($,:-- ,)(LK:--(VXFIN:--(VVFIN:-- für)))(MF:--(NX:--(ART:-- den)(ADJX:--(ADJA:-- voluminösen))(NN:-- Gelben))(NX:--(NX:--(NN:-- Sack))(KON:-- und)(NX:--(ART:-- den)(ADJX:--(ADJA:-- sogenannten))(NN:-- Restmüll)))))($.:-- .)))
+1	Wenig	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX|B-ADVX
+2	Freude	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADVX|B-SIMPX|B-VF|B-NX
+3	bereiten	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADVX|I-SIMPX|B-LK|B-VXFIN
+4	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADVX|I-SIMPX|B-MF|B-ADVX
+5	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADVX|I-SIMPX|I-MF|B-NX|B-NX
+6	Behälter	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADVX|I-SIMPX|I-MF|I-NX|I-NX
+7	für	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADVX|I-SIMPX|I-MF|I-NX|B-ENADD|B-NX
+8	Biomüll	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADVX|I-SIMPX|I-MF|I-NX|I-ENADD|I-NX
+9	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+10	für	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+11	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+12	voluminösen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-ADJX
+13	Gelben	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+14	Sack	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX|B-NX
+15	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+16	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX
+17	sogenannten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|B-ADJX
+18	Restmüll	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+19	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 17
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(C:--(NX:--(PWS:-- Wer)))(MF:--(ADVX:--(ADV:-- dann))(ADVX:--(ADV:-- noch))(NX:--(NX:--(NX:--(NN:-- Farbreste))(PX:--(APPR:-- in)(NX:--(NX:--(NN:-- Eimern))(KON:-- und)(NX:--(ADJX:--(ADJA:-- defekte))(NN:-- Autobatterien)))))($,:-- ,)(KON:-- aber)(NX:--(PIAT:-- keine)(NN:-- Garage))))(VC:--(VXFIN:--(VAFIN:-- hat)))($,:-- ,)(NF:--(SIMPX:--(VF:--(NX:--(PDS:-- der)))(LK:--(VXFIN:--(VVFIN:-- läuft)))(MF:--(NX:--(NN:-- Gefahr)))($,:-- ,)(SIMPX:--(MF:--(NX:--(PRF:-- sich))(NX:--(NX:--(ART:-- einen)(NN:-- Namen))(NX:--(KOKOM:-- als)(NN:-- Messie))))(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- machen)))))))($.:-- .)))
+1	Wer	_	_	PWS	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-C|B-NX
+2	dann	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+3	noch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+4	Farbreste	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX|B-NX|B-NX
+5	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|B-PX
+6	Eimern	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|I-PX|B-NX|B-NX
+7	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|I-PX|I-NX
+8	defekte	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|I-PX|I-NX|B-NX|B-ADJX
+9	Autobatterien	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX|I-PX|I-NX|I-NX
+10	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+11	aber	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+12	keine	_	_	PIAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX
+13	Garage	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+14	hat	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXFIN
+15	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+16	der	_	_	PDS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-VF|B-NX
+17	läuft	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-LK|B-VXFIN
+18	Gefahr	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+19	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX
+20	sich	_	_	PRF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-SIMPX|B-MF|B-NX
+21	einen	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-MF|B-NX|B-NX
+22	Namen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-MF|I-NX|I-NX
+23	als	_	_	KOKOM	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-MF|I-NX|B-NX
+24	Messie	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-MF|I-NX|I-NX
+25	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|B-VC|B-VXINF
+26	machen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-VC|I-VXINF
+27	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 18
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(SIMPX:--(LK:--(VXFIN:--(VVFIN:-- Gäbe)))(MF:--(NX:--(PPER:-- es))(ADVX:--(ADV:-- nun))(PX:--(APPR:-- innerhalb)(NX:--(NX:--(ART:-- des)(ADJX:--(ADJA:-- ehrbaren))(NN:-- Berufsfeldes))(NX:--(ART:-- der)(NN:-- Möbeldesigner))))(NX:--(ART:-- ein)(ADJX:--(ADJA:-- funktionierendes))(NN:-- Küchendesign)))))($,:-- ,)(LK:--(VXFIN:--(VVFIN:-- könnte)))(MF:--(NX:--(PIS:-- man))(ADJX:--(ADJD:-- längst))(PX:--(APPR:-- bei)(NX:--(NX:--(ART:-- der)(NN:-- Planung))(NX:--(NX:--(ART:-- einer)(ADJX:--(ADJA:-- ebensolchen))(NX:--(ART:-- einen)(ADJX:--(ADJX:--(ADJA:-- schicken))($,:-- ,)(ADJX:--(ADJA:-- schlanken))($,:-- ,)(ADJX:--(ADJA:-- funktionalen))(KON:-- und)(ADJX:--(ADJA:-- mithin)))(ADJX:--(ADVX:--(ADV:-- auch))(ADJA:-- intelligenten))(NN:-- Recycling-Schrank)))(PX:--(APPR:-- samt)(NX:--(ADJX:--(ADJA:-- gekennzeichneten))(NN:-- Einwurfklappen)))))))(VC:--(VXINF:--(VVINF:-- anbieten))))($.:-- .)))
+1	Gäbe	_	_	VVFIN	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-SIMPX|B-LK|B-VXFIN
+2	es	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|B-MF|B-NX
+3	nun	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|B-ADVX
+4	innerhalb	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|B-PX
+5	des	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-PX|B-NX|B-NX
+6	ehrbaren	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-PX|I-NX|I-NX|B-ADJX
+7	Berufsfeldes	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+8	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-PX|I-NX|B-NX
+9	Möbeldesigner	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+10	ein	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|B-NX
+11	funktionierendes	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-NX|B-ADJX
+12	Küchendesign	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-NX
+13	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+14	könnte	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+15	man	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+16	längst	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX
+17	bei	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+18	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX|B-NX
+19	Planung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+20	einer	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|B-NX|B-NX
+21	ebensolchen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|B-ADJX
+22	einen	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|B-NX
+23	schicken	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|B-ADJX|B-ADJX
+24	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-ADJX
+25	schlanken	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-ADJX|B-ADJX
+26	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-ADJX
+27	funktionalen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-ADJX|B-ADJX
+28	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-ADJX
+29	mithin	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-ADJX|B-ADJX
+30	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|B-ADJX|B-ADVX
+31	intelligenten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX|I-ADJX
+32	Recycling-Schrank	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-NX
+33	samt	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|B-PX
+34	gekennzeichneten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-PX|B-NX|B-ADJX
+35	Einwurfklappen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-PX|I-NX
+36	anbieten	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+37	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 19
+# PTBstring = (:--(PSEUDO:--(ADJX:--(ADVX:--(ADVX:--(ADV:-- Vielleicht))(ADVX:--(ADV:-- sogar)))(ADJX:--(ADJD:-- ansprechbar)))($.:-- :)(DM:--(ITJ:-- Hallo))($,:-- ,)(DM:--(NX:--(NN:-- Schrank)))($,:-- ,)(SIMPX:--(LK:--(VXFIN:--(VVFIN:-- wohin)))(MF:--(PX:--(APPR:-- mit)(NX:--(ART:-- den)(ADJX:--(ADJA:-- kalten))(NN:-- Kippen)))))($.:-- ?)))
+1	Vielleicht	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-ADJX|B-ADVX|B-ADVX
+2	sogar	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-ADJX|I-ADVX|B-ADVX
+3	ansprechbar	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-ADJX|B-ADJX
+4	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+5	Hallo	_	_	ITJ	_	_	_	_	_	--	I-PSEUDO|B-DM
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO
+7	Schrank	_	_	NN	_	_	_	_	_	--	I-PSEUDO|B-DM|B-NX
+8	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO
+9	wohin	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-LK|B-VXFIN
+10	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-PX
+11	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX
+12	kalten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|B-ADJX
+13	Kippen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+14	?	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 20
+# PTBstring = (:--(PSEUDO:--(PX:--(PROP:-- Stattdessen))($.:-- :)(NX:--(NN:-- Gedöns))($.:-- .)))
+1	Stattdessen	_	_	PROP	_	_	_	_	_	--	B-PSEUDO|B-PX
+2	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+3	Gedöns	_	_	NN	_	_	_	_	_	--	I-PSEUDO|B-NX
+4	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 21
+# PTBstring = (:--(PSEUDO:--(NX:--(NX:--(NN:-- Abfalleimer))(PX:--(APPR:-- mit)(NX:--(NX:--(NN:-- »))(ENADD:--(NX:--(NE:-- Softclose-Deckel)(NE:-- «))))))($.:-- .)))
+1	Abfalleimer	_	_	NN	_	_	_	_	_	--	B-PSEUDO|B-NX|B-NX
+2	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-NX|B-PX
+3	»	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-PX|B-NX|B-NX
+4	Softclose-Deckel	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-NX|I-PX|I-NX|B-ENADD|B-NX
+5	«	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-NX|I-PX|I-NX|I-ENADD|I-NX
+6	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 22
+# PTBstring = (:--(PSEUDO:--(PX:--(APPR:-- Mit)(NX:--(NX:--(NN:-- Klemmring))($,:-- ,)(SIMPX:--(C:--(KOUI:-- um))(MF:--(NX:--(NN:-- Müllbeutel)))(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- befestigen))))))($.:-- .)))
+1	Mit	_	_	APPR	_	_	_	_	_	--	B-PSEUDO|B-PX
+2	Klemmring	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-PX|B-NX|B-NX
+3	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-PX|I-NX
+4	um	_	_	KOUI	_	_	_	_	_	--	I-PSEUDO|I-PX|I-NX|B-SIMPX|B-C
+5	Müllbeutel	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-PX|I-NX|I-SIMPX|B-MF|B-NX
+6	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-PX|I-NX|I-SIMPX|B-VC|B-VXINF
+7	befestigen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-PX|I-NX|I-SIMPX|I-VC|I-VXINF
+8	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 23
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NN:-- Flammen)))(LK:--(VXFIN:--(VVFIN:-- löschende)))(MF:--(NX:--(NN:-- Eimer))))($.:-- .)))
+1	Flammen	_	_	NN	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	löschende	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	Eimer	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 24
+# PTBstring = (:--(PSEUDO:--(NX:--(NX:--(ADJX:--(ADJA:-- Recycelbare))(NN:-- Mülleimer))(PX:--(APPR:-- aus)(NX:--(NN:-- Pappe))))($.:-- .)))
+1	Recycelbare	_	_	ADJA	_	_	_	_	_	--	B-PSEUDO|B-NX|B-NX|B-ADJX
+2	Mülleimer	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX
+3	aus	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-NX|B-PX
+4	Pappe	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-PX|B-NX
+5	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 25
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NX:--(ART:-- Das)(NN:-- höchste))(NX:--(ART:-- der)(NN:-- Gefühle))))(LK:--(VXFIN:--(VAFIN:-- sind)))(MF:--(NX:--(NN:-- Abfalleimer))(PX:--(APPR:-- mit)(NX:--(NX:--(NX:--(NN:-- Sensor))(KON:-- und)(NX:--(ADJX:--(ADJA:-- automatischem))(NN:-- Deckel)))($,:-- ,)(NX:--(NX:--(NX:--(NN:-- Eimer))(PX:--(APPR:-- mit)(NX:--(ADJX:--(ADJA:-- automatischem))(NN:-- Müllbeutelwechsel))))($,:-- ,)(NX:--(NN:-- Füllstandsensoren))(KON:-- und)(NX:--(NN:-- Geruchsneutralisierung)))))))($.:-- .)))
+1	Das	_	_	ART	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX|B-NX
+2	höchste	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX
+3	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|B-NX
+4	Gefühle	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX
+5	sind	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+6	Abfalleimer	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+7	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+8	Sensor	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX|B-NX|B-NX
+9	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+10	automatischem	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|B-NX|B-ADJX
+11	Deckel	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX
+12	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+13	Eimer	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|B-NX|B-NX|B-NX
+14	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|B-PX
+15	automatischem	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-PX|B-NX|B-ADJX
+16	Müllbeutelwechsel	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|I-PX|I-NX
+17	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+18	Füllstandsensoren	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|B-NX
+19	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+20	Geruchsneutralisierung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|B-NX
+21	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 26
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(KOORD:--(KON:-- Oder))(VF:--(NX:--(NX:--(PIS:-- solche))($,:-- ,)(NX:--(NX:--(ART:-- die)(NN:-- selbstständig))(PX:--(APPR:-- an)(NX:--(NX:--(ART:-- den)(NN:-- Termin))(NX:--(ART:-- der)(NN:-- Müllabfuhr)))))))(VC:--(VXINF:--(VVINF:-- erinnern))))($.:-- .)))
+1	Oder	_	_	KON	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-KOORD
+2	solche	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VF|B-NX|B-NX
+3	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+4	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|B-NX|B-NX
+5	selbstständig	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|I-NX
+6	an	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|B-PX
+7	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|I-PX|B-NX|B-NX
+8	Termin	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|I-PX|I-NX|I-NX
+9	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|I-PX|I-NX|B-NX
+10	Müllabfuhr	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|I-PX|I-NX|I-NX
+11	erinnern	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+12	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 27
+# PTBstring = (:--(PSEUDO:--(NX:--(ART:-- Der)(ADJX:--(ADJA:-- größte))(NN:-- Unfug))($.:-- :)(SIMPX:--(VF:--(NX:--(ADJX:--(ADJX:--(ADJD:-- biologisch))(ADJA:-- abbaubare))(NN:-- Tüten)))(LK:--(VXFIN:--(VVFIN:-- für)))(MF:--(NX:--(ART:-- den)(NN:-- Biomülleimer))))($.:-- .)))
+1	Der	_	_	ART	_	_	_	_	_	--	B-PSEUDO|B-NX
+2	größte	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-NX|B-ADJX
+3	Unfug	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX
+4	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+5	biologisch	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX|B-ADJX|B-ADJX
+6	abbaubare	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-ADJX
+7	Tüten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+8	für	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+9	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+10	Biomülleimer	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+11	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 28
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PDS:-- Diese)))(LK:--(VXFIN:--(VAFIN:-- sind)))(MF:--(ADVX:--(ADVX:--(ADV:-- erstens))(PTKNEG:-- nicht)))(VC:--(VXINF:--(VVPP:-- wasserdicht)))($,:-- ,)(NF:--(SIMPX:--(C:--(ADVX:--(ADV:-- sodass)))(MF:--(NX:--(PRF:-- sich))(PX:--(APPRART:-- im)(NX:--(NN:-- Eimer)))(ADJX:--(ADJD:-- regelmäßig))(NX:--(ART:-- eine)(ADJX:--(ADJA:-- stinkende))(NN:-- Jauche)))(VC:--(VXFIN:--(VVFIN:-- sammelt))))))($.:-- .)))
+1	Diese	_	_	PDS	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	sind	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	erstens	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX|B-ADVX
+4	nicht	_	_	PTKNEG	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-ADVX
+5	wasserdicht	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+7	sodass	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C|B-ADVX
+8	sich	_	_	PRF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+9	im	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX
+10	Eimer	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX
+11	regelmäßig	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-ADJX
+12	eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX
+13	stinkende	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|B-ADJX
+14	Jauche	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+15	sammelt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+16	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 29
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(KOORD:--(KON:-- Und))(VF:--(NX:--(ART:-- der)(NN:-- Biomüll-Entsorger)))(LK:--(VXFIN:--(VVFIN:-- weigert)))(MF:--(NX:--(PRF:-- sich)))($,:-- ,)(NF:--(SIMPX:--(MF:--(NX:--(PIDAT:-- solche)(NN:-- Tüten)))(VC:--(VXINF:--(VVIZU:-- abzunehmen))))($,:-- ,)(SIMPX:--(C:--(KOUS:-- weil))(FKOORD:--(FKONJ:--(MF:--(NX:--(PPER:-- sie))(ADJX:--(ADJD:-- schlecht))(PX:--(APPR:-- von)(NX:--(ADJX:--(ADJA:-- normalen))(NN:-- Plastiktüten))))(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- unterscheiden))(VXFIN:--(VAFIN:-- sind))))(KON:-- und)(FKONJ:--(MF:--(NX:--(PPER:-- sie))(PX:--(APPR:-- für)(NX:--(PPOSAT:-- ihre)(NN:-- Zersetzung)))(ADVX:--(ADV:-- letztlich))(ADJX:--(ADVX:--(ADV:-- viel))(ADJD:-- länger)))(VC:--(VXFIN:--(VVFIN:-- brauchen)))(NF:--(NX:--(KOKOM:-- als)(NN:-- Kartoffelschalen))))))))($.:-- .)))
+1	Und	_	_	KON	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-KOORD
+2	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VF|B-NX
+3	Biomüll-Entsorger	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+4	weigert	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+5	sich	_	_	PRF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+7	solche	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-MF|B-NX
+8	Tüten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+9	abzunehmen	_	_	VVIZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+10	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF
+11	weil	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|B-SIMPX|B-C
+12	sie	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-FKOORD|B-FKONJ|B-MF|B-NX
+13	schlecht	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-ADJX
+14	von	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX
+15	normalen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|B-ADJX
+16	Plastiktüten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX
+17	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|B-VC|B-VXINF
+18	unterscheiden	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-VC|I-VXINF
+19	sind	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-VC|B-VXFIN
+20	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD
+21	sie	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|B-FKONJ|B-MF|B-NX
+22	für	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX
+23	ihre	_	_	PPOSAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX
+24	Zersetzung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX
+25	letztlich	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-ADVX
+26	viel	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-ADJX|B-ADVX
+27	länger	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-ADJX
+28	brauchen	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|B-VC|B-VXFIN
+29	als	_	_	KOKOM	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|B-NF|B-NX
+30	Kartoffelschalen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-NF|I-NX
+31	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO

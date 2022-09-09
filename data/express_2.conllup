@@ -1,0 +1,603 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PTBLabel TREE
+# sent_id = 1
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(ADJX:--(ADJA:-- Mönchengladbach-))(NN:-- Selten)))(LK:--(VXFIN:--(VAFIN:-- hat)))(MF:--(NX:--(NX:--(ART:-- eine)(NN:-- Personalentscheidung))(PX:--(APPR:-- in)(NX:--(NE:-- Gladbach))))(NX:--(NX:--(PIDAT:-- solch)(ART:-- eine)(NN:-- Welle))(NX:--(ART:-- der)(NN:-- Emotionen)))(PX:--(ADVX:--(ADV:-- rund))(APPR:-- um)(NX:--(NX:--(ART:-- den)(NN:-- VfL))(NX:--(NE:-- Borussia)))))(VC:--(VXINF:--(VVPP:-- ausgelöst))))($.:-- .)))
+1	Mönchengladbach-	_	_	ADJA	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX|B-ADJX
+2	Selten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+3	hat	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+4	eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX|B-NX
+5	Personalentscheidung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+6	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-PX
+7	Gladbach	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-PX|B-NX
+8	solch	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX|B-NX
+9	eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+10	Welle	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+11	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX
+12	Emotionen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+13	rund	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX|B-ADVX
+14	um	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX
+15	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX|B-NX
+16	VfL	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+17	Borussia	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|B-NX
+18	ausgelöst	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+19	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 2
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NX:--(NX:--(NN:-- Trainer))(ENADD:--(NX:--(NE:-- Marco)(NE:-- Rose))))(KON:--(:--)(NX:--(ADJX:--(CARD:-- 44))(NN:--)))))(LK:--(VXFIN:--(VAFIN:-- hat)))(MF:--(NX:--(ART:-- dem)(NN:-- Klub)))(VC:--(VXINF:--(VVPP:-- mitgeteilt)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(MF:--(NX:--(PPER:-- er))(PX:--(APPR:-- nach)(NX:--(ART:-- der)(NN:-- Saison)))(PX:--(APPR:-- bei)(ENADD:--(NX:--(NE:-- Borussia)(NE:-- Dortmund)))))(VC:--(VXINF:--(VVPP:-- anheuern))(VXFIN:--(VAFIN:-- wird))))))($.:-- .)))
+1	Trainer	_	_	NN	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-NX|B-NX
+2	Marco	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NX|B-ENADD|B-NX
+3	Rose	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NX|I-ENADD|I-NX
+4	<EMPTY>	_	_	_	_	_	_	_	_	_	I-PSEUDO|I-SIMPX
+5	44	_	_	CARD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-ADJX
+6	<EMPTY>	_	_	_	_	_	_	_	_	_	I-PSEUDO|I-SIMPX
+7	hat	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+8	dem	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+9	Klub	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+10	mitgeteilt	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+11	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+12	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+13	er	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+14	nach	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX
+15	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX
+16	Saison	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX
+17	bei	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX
+18	Borussia	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-ENADD|B-NX
+19	Dortmund	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-ENADD|I-NX
+20	anheuern	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+21	wird	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-VC|B-VXFIN
+22	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 3
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(PX:--(APPR:-- VONACHIM)(NX:--(NX:--(NN:-- MÜLLERsport))(ENADD:--(NX:--(NE:-- @)(NE:-- express.deMontag))))))(LK:--(VXFIN:--(VAFIN:-- hatte)))(MF:--(NX:--(NE:-- Gladbach))(NX:--(PDS:-- das))(ADJX:--(ADJD:-- öffentlich)))(VC:--(VXINF:--(VVPP:-- gemacht)))($,:-- ,)(SIMPX:--(VF:--(PX:--(APPR:-- in)(NX:--(ART:-- den)(ADJX:--(ADJA:-- sozialen))(NN:-- Medien))))(LK:--(VXFIN:--(VVFIN:-- entstand)))(MF:--(NX:--(NX:--(ART:-- ein)(NN:-- Tsunami))(NX:--(ART:-- der)(NX:--(NX:--(NN:-- Empörung))(KON:-- und)(NX:--(NN:-- Entrüstung)))))(PX:--(APPR:-- aus)(NX:--(ART:-- dem)(NN:-- Fanlager))))($[:-- -)(NF:--(PX:--(APPR:-- mit)(NX:--(NX:--(ADJX:--(ADJA:-- zahlreichen))(NN:-- Beiträgen))(PX:--(ADJX:--(ADJD:-- deutlich))(APPR:-- unterhalb)(NX:--(ART:-- der)(NN:-- Gürtellinie))))))))($.:-- .)))
+1	VONACHIM	_	_	APPR	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-PX
+2	MÜLLERsport	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|B-NX|B-NX
+3	@	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|B-ENADD|B-NX
+4	express.deMontag	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ENADD|I-NX
+5	hatte	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+6	Gladbach	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+7	das	_	_	PDS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+8	öffentlich	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX
+9	gemacht	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+10	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+11	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-PX
+12	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|B-NX
+13	sozialen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX|B-ADJX
+14	Medien	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-PX|I-NX
+15	entstand	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+16	ein	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX|B-NX
+17	Tsunami	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|I-NX
+18	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|B-NX
+19	Empörung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|I-NX|B-NX|B-NX
+20	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|I-NX|I-NX
+21	Entrüstung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|I-NX|I-NX|B-NX
+22	aus	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-PX
+23	dem	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX
+24	Fanlager	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX
+25	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX
+26	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-NF|B-PX
+27	zahlreichen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-PX|B-NX|B-NX|B-ADJX
+28	Beiträgen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-PX|I-NX|I-NX
+29	deutlich	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-PX|I-NX|B-PX|B-ADJX
+30	unterhalb	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-PX|I-NX|I-PX
+31	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-PX|I-NX|I-PX|B-NX
+32	Gürtellinie	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-PX|I-NX|I-PX|I-NX
+33	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 4
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Gestern)))(LK:--(VXFIN:--(VAFIN:-- haben)))(MF:--(NX:--(NX:--(NN:-- Manager))(ENADD:--(NX:--(NE:-- Max)(NE:-- Eberl))))(PX:--(APPR:--(:--)(NX:--(NX:--(ADJX:--(CARD:-- 47))(NN:--)))(KON:-- und)(NX:--(NN:-- Rose))))(NX:--(NX:--(PRF:-- sich))(NX:--(ART:-- der)(NN:-- Öffentlichkeit))))(VC:--(VXINF:--(VVPP:-- gestellt))))($.:-- .)))
+1	Gestern	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	haben	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	Manager	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX|B-NX
+4	Max	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-ENADD|B-NX
+5	Eberl	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-ENADD|I-NX
+6	<EMPTY>	_	_	_	_	_	_	_	_	_	I-PSEUDO|I-SIMPX|I-MF
+7	47	_	_	CARD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX
+8	<EMPTY>	_	_	_	_	_	_	_	_	_	I-PSEUDO|I-SIMPX|I-MF
+9	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF
+10	Rose	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+11	sich	_	_	PRF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX|B-NX
+12	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX
+13	Öffentlichkeit	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+14	gestellt	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+15	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 5
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NE:-- Eberl)))(LK:--(VXFIN:--(VVFIN:-- betonte)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(MF:--(NX:--(NE:-- Rose))(PX:--(APPR:-- trotz)(NX:--(NX:--(PIDAT:-- aller)(NN:-- Anfeindungen))(PX:--(APPR:-- aus)(NX:--(PPOSAT:-- seiner)(NN:-- Sicht)))))(ADVX:--(ADV:-- weiterhin))(NX:--(ART:-- der)(ADJX:--(ADJA:-- geeignete))(NN:-- Trainer))(PX:--(APPR:-- für)(NX:--(ART:-- die)(NN:-- Fohlen-Elf))))(VC:--(VXFIN:--(VAFIN:-- sei))))))($.:-- .)))
+1	Eberl	_	_	NE	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	betonte	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+4	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+5	Rose	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+6	trotz	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX
+7	aller	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX|B-NX
+8	Anfeindungen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+9	aus	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX|B-PX
+10	seiner	_	_	PPOSAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX|I-PX|B-NX
+11	Sicht	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX|I-PX|I-NX
+12	weiterhin	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-ADVX
+13	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX
+14	geeignete	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|B-ADJX
+15	Trainer	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+16	für	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX
+17	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX
+18	Fohlen-Elf	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX
+19	sei	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+20	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 6
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(KOORD:--(KON:-- Und))(VF:--(NX:--(PPER:-- er)))(LK:--(VXFIN:--(VVFIN:-- nahm)))(MF:--(NX:--(NX:--(NN:-- Stellung))(PX:--(APPR:-- zu)(NX:--(ART:-- den)(NN:-- Anfeindungen))))))($.:-- .)))
+1	Und	_	_	KON	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-KOORD
+2	er	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VF|B-NX
+3	nahm	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+4	Stellung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX|B-NX
+5	zu	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-PX
+6	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-PX|B-NX
+7	Anfeindungen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-PX|I-NX
+8	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 7
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PPER:-- Er)))(LK:--(VXFIN:--(VAFIN:-- sei)))(MF:--(ADJX:--(ADJX:--(ADJD:-- schockiert))(ADJD:-- darüber)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- wie))(MF:--(NX:--(PIS:-- man))(ADJX:--(ADJX:--(ADJD:-- ``))(ADJX:--(ADJX:--(ADJD:-- dumpf))(KON:-- und)(ADJX:--(ADJD:-- dumm))))(NX:--(NX:--(PIAT:-- irgendwelche)(NN:-- Kommentare))(NX:--(ADJX:--(ADJA:-- verbreiten))(NN:-- ''))))(VC:--(VXFIN:--(VVFIN:-- könne))))))($.:-- .)))
+1	Er	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	sei	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	schockiert	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADJX|B-ADJX
+4	darüber	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-ADJX
+5	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+6	wie	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+7	man	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+8	``	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-ADJX|B-ADJX
+9	dumpf	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-ADJX|B-ADJX|B-ADJX
+10	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-ADJX|I-ADJX
+11	dumm	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-ADJX|I-ADJX|B-ADJX
+12	irgendwelche	_	_	PIAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX|B-NX
+13	Kommentare	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-NX
+14	verbreiten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|B-NX|B-ADJX
+15	''	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-NX
+16	könne	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+17	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 8
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PPER:-- Es)))(LK:--(VXFIN:--(VAFIN:-- seien)))(MF:--(NX:--(NN:-- ``))(NX:--(PIAT:-- einige)(NN:-- Dumpfbacken))(PX:--(APPRART:-- im)(NX:--(NX:--(NX:--(NN:-- Hintergrund))(PX:--(APPR:-- an)(NX:--(ART:-- der)(NN:-- Arbeit))))($,:-- ,)(SIMPX:--(C:--(KOUI:-- um))(MF:--(NX:--(NN:-- Zwietracht)))(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- säen)))))))(VC:--(VXINF:--(VVINF:-- ''))))($.:-- .)))
+1	Es	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	seien	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	``	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	einige	_	_	PIAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+5	Dumpfbacken	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+6	im	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+7	Hintergrund	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX|B-NX|B-NX
+8	an	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|B-PX
+9	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-PX|B-NX
+10	Arbeit	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-PX|I-NX
+11	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+12	um	_	_	KOUI	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|B-SIMPX|B-C
+13	Zwietracht	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-SIMPX|B-MF|B-NX
+14	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-SIMPX|B-VC|B-VXINF
+15	säen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|I-SIMPX|I-VC|I-VXINF
+16	''	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+17	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 9
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- So)))(LK:--(VXFIN:--(VVFIN:-- entstünden)))(MF:--(NX:--(NN:-- ``))(NX:--(NX:--(NN:-- Wut))(KON:-- und)(NX:--(NN:-- Hass)))(PX:--(APPR:-- aufgrund)(PX:--(APPR:-- von)(NX:--(NN:-- Aussagen)))))($,:-- ,)(NF:--(RSIMPX:--(C:--(NX:--(PRELS:-- die)))(MF:--(ADJX:--(ADJD:-- überhaupt))(ADVX:--(PTKNEG:-- nicht)))(VC:--(VXINF:--(VVINF:-- zutreffen))(VXFIN:--(VMFIN:-- ''))))))($.:-- .)))
+1	So	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	entstünden	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	``	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	Wut	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX|B-NX
+5	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+6	Hass	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX
+7	aufgrund	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+8	von	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-PX
+9	Aussagen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-PX|B-NX
+10	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+11	die	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-RSIMPX|B-C|B-NX
+12	überhaupt	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-MF|B-ADJX
+13	nicht	_	_	PTKNEG	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-MF|B-ADVX
+14	zutreffen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-VC|B-VXINF
+15	''	_	_	VMFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-VC|B-VXFIN
+16	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 10
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Zuvor)))(LK:--(VXFIN:--(VAFIN:-- war)))(MF:--(NX:--(ART:-- ein)(NN:-- Foto)))(VC:--(VXINF:--(VVPP:-- aufgetaucht)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(FKOORD:--(FKONJ:--(MF:--(PX:--(APPRART:-- am)(NX:--(NN:-- Borussen-Stadion)))(NX:--(ART:-- ein)(NN:-- XXL-Banner)))(VC:--(VXFIN:--(VVFIN:-- zeigte))))($,:-- ,)(FKONJ:--(MF:--(PX:--(APPR:-- auf)(NX:--(PRELS:-- dem))))(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- lesen))(VXFIN:--(VAFIN:-- war))))))))($.:-- :)(SIMPX:--(VF:--(NX:--(DP:--(ADVX:--(ADV:-- ``))(PIAT:-- Kein))(NN:-- Söldner)))(LK:--(VXFIN:--(VVFIN:-- steht)))(MF:--(ADJX:--(ADJD:-- über))(NX:--(ART:-- dem)(NN:-- Verein))))($[:-- -)(PX:--(ADVX:--(ADV:-- sofort))(ADVX:--(ADV:-- raus))(PX:--(APPR:-- mit)(NX:--(ART:-- dem)(ADJX:--(ADJA:-- charakterlosen))(NN:-- Schwein))))($.:-- !)($[:-- '')))
+1	Zuvor	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	war	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	ein	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	Foto	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+5	aufgetaucht	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+7	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+8	am	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-FKOORD|B-FKONJ|B-MF|B-PX
+9	Borussen-Stadion	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX
+10	ein	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-NX
+11	XXL-Banner	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX
+12	zeigte	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|B-VC|B-VXFIN
+13	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD
+14	auf	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|B-FKONJ|B-MF|B-PX
+15	dem	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX
+16	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|B-VC|B-VXINF
+17	lesen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-VC|I-VXINF
+18	war	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|I-VC|B-VXFIN
+19	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+20	``	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX|B-DP|B-ADVX
+21	Kein	_	_	PIAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-DP
+22	Söldner	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+23	steht	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+24	über	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADJX
+25	dem	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+26	Verein	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+27	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+28	sofort	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|B-PX|B-ADVX
+29	raus	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-PX|B-ADVX
+30	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-PX|B-PX
+31	dem	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-PX|I-PX|B-NX
+32	charakterlosen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-PX|I-PX|I-NX|B-ADJX
+33	Schwein	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-PX|I-PX|I-NX
+34	!	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+35	''	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 11
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADJX:--(ADJX:--(ADJD:-- Tatsächlich))($,:-- ,)(ADJX:--(ADVX:--(ADV:-- so))(ADJD:-- Eberl))))($,:-- ,)(LK:--(VXFIN:--(VAFIN:-- habe)))(MF:--(NX:--(PPER:-- er))(ADVX:--(PTKNEG:-- nicht))(NX:--(ART:-- eine)(NN:-- Sekunde))(ADJX:--(ADJD:-- darüber)))(VC:--(VXINF:--(VVPP:-- nachgedacht)))($,:-- ,)(NF:--(SIMPX:--(MF:--(NX:--(NN:-- Rose)))(VC:--(VXINF:--(VVIZU:-- freizustellen))))))($.:-- .)))
+1	Tatsächlich	_	_	ADJD	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADJX|B-ADJX
+2	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADJX
+3	so	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADJX|B-ADJX|B-ADVX
+4	Eberl	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-ADJX|I-ADJX
+5	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+6	habe	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+7	er	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+8	nicht	_	_	PTKNEG	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+9	eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+10	Sekunde	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+11	darüber	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX
+12	nachgedacht	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+13	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+14	Rose	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-MF|B-NX
+15	freizustellen	_	_	VVIZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+16	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 12
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NE:-- Eberl)))(LK:--(VXFIN:--(VVFIN:-- sprach)))(MF:--(PX:--(APPR:-- von)(NX:--(NN:-- Lügen))))($,:-- ,)(NF:--(RSIMPX:--(C:--(NX:--(PRELS:-- die)))(VC:--(VXINF:--(VVPP:-- verbreitet))(VXFIN:--(VAFIN:-- wurden))))))($.:-- .)))
+1	Eberl	_	_	NE	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	sprach	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	von	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-PX
+4	Lügen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX
+5	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+6	die	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-RSIMPX|B-C|B-NX
+7	verbreitet	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-VC|B-VXINF
+8	wurden	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-VC|B-VXFIN
+9	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 13
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PPER:-- Es)))(LK:--(VXFIN:--(VAFIN:-- sei)))(MF:--(ADVX:--(PTKNEG:-- nicht))(ADVX:--(ADV:-- so)))(VC:--(VXINF:--(VAPP:-- gewesen)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(MF:--(NX:--(PPER:-- er))(PX:--(APPRART:-- am)(NX:--(NN:-- Montag)))(NX:--(NN:-- ``))(ADJX:--(ADJX:--(ADJD:-- tief))(ADJD:-- enttäuscht))(PX:--(APPR:-- auf)(NX:--(ART:-- den)(NN:-- Boden))))(VC:--(VXINF:--(VVPP:-- gefallen))(VXINF:--(VAINF:-- ''))(VXFIN:--(VAFIN:-- sei))))))($.:-- .)))
+1	Es	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	sei	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	nicht	_	_	PTKNEG	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+4	so	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+5	gewesen	_	_	VAPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+7	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+8	er	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+9	am	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX
+10	Montag	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX
+11	``	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX
+12	tief	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-ADJX|B-ADJX
+13	enttäuscht	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-ADJX
+14	auf	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX
+15	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX
+16	Boden	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX
+17	gefallen	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+18	''	_	_	VAINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-VC|B-VXINF
+19	sei	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-VC|B-VXFIN
+20	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 14
+# PTBstring = (:--(PSEUDO:--($[:-- ``)(SIMPX:--(SIMPX:--(VF:--(NX:--(PPER:-- Wir)))(LK:--(VXFIN:--(VAFIN:-- haben)))(MF:--(ADJX:--(ADJD:-- schließlich))(PX:--(APPR:-- seit)(NX:--(NX:--(NN:-- Wochen))(KON:-- und)(NX:--(NN:-- Monaten))))(ADJX:--(ADJD:-- über))(NX:--(PDAT:-- dieses)(NN:-- Thema)))(VC:--(VXINF:--(VVPP:-- gesprochen))))($,:-- ,)(SIMPX:--(VF:--(NX:--(PDS:-- das)))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(ADVX:--(ADV:-- jetzt))(NX:--(PPOSAT:-- seine)(ADJX:--(ADJX:--(ADJD:-- völlig))(ADJA:-- legitime))(NN:-- Entscheidung)))))($.:-- .)))
+1	``	_	_	$[	_	_	_	_	_	--	B-PSEUDO
+2	Wir	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-SIMPX|B-VF|B-NX
+3	haben	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+4	schließlich	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-ADJX
+5	seit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-PX
+6	Wochen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX|B-NX
+7	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX
+8	Monaten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|B-NX
+9	über	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-ADJX
+10	dieses	_	_	PDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-NX
+11	Thema	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX
+12	gesprochen	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-VC|B-VXINF
+13	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+14	das	_	_	PDS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-NX
+15	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+16	jetzt	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-ADVX
+17	seine	_	_	PPOSAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-NX
+18	völlig	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|B-ADJX|B-ADJX
+19	legitime	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|I-ADJX
+20	Entscheidung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX
+21	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 15
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Eigentlich)))(LK:--(VXFIN:--(VVFIN:-- müssten)))(MF:--(NX:--(ART:-- die)(NN:-- Fans))(PX:--(APPR:-- auf)(NX:--(PPER:-- mich)))(ADJX:--(ADJD:-- sauer)))(VC:--(VXINF:--(VAINF:-- sein)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- weil))(MF:--(NX:--(PPER:-- ich))(NX:--(PDAT:-- dieser)(NN:-- Klausel)))(VC:--(VXINF:--(VVPP:-- zugestimmt))(VXFIN:--(VAFIN:-- habe))))))($.:-- .)))
+1	Eigentlich	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	müssten	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	Fans	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+5	auf	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+6	mich	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX
+7	sauer	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX
+8	sein	_	_	VAINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+9	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+10	weil	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+11	ich	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+12	dieser	_	_	PDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX
+13	Klausel	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+14	zugestimmt	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+15	habe	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-VC|B-VXFIN
+16	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 16
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(KOORD:--(KON:-- Aber))(VF:--(ADVX:--(ADV:-- sonst)))(LK:--(VXFIN:--(VVFIN:-- hätte)))(MF:--(NX:--(PPER:-- ich))(NX:--(NE:-- Marco))(PX:--(APPR:-- vor)(NX:--(ADJX:--(CARD:-- zwei))(NN:-- Jahren)))(ADVX:--(PTKNEG:-- nicht)))(VC:--(VXINF:--(VVPP:-- bekommen))))($.:-- .)($[:-- '')))
+1	Aber	_	_	KON	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-KOORD
+2	sonst	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VF|B-ADVX
+3	hätte	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+4	ich	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+5	Marco	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+6	vor	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+7	zwei	_	_	CARD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX|B-ADJX
+8	Jahren	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+9	nicht	_	_	PTKNEG	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+10	bekommen	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+11	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+12	''	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 17
+# PTBstring = (:--(PSEUDO:--(NX:--(NX:--(NE:-- ``)(NE:-- Scheißegal))($,:-- ,)(RSIMPX:--(C:--(ADVX:--(PWAV:-- wo)))(MF:--(NX:--(PPER:-- er))(PX:--(APPR:-- ab)(NX:--(NN:-- Sommer))))(VC:--(VXINF:--(VAINF:-- sein))(VXFIN:--(VAFIN:-- wird)))))($.:-- .)($[:-- '')))
+1	``	_	_	NE	_	_	_	_	_	--	B-PSEUDO|B-NX|B-NX
+2	Scheißegal	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX
+3	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-NX
+4	wo	_	_	PWAV	_	_	_	_	_	--	I-PSEUDO|I-NX|B-RSIMPX|B-C|B-ADVX
+5	er	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-NX|I-RSIMPX|B-MF|B-NX
+6	ab	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-NX|I-RSIMPX|I-MF|B-PX
+7	Sommer	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-RSIMPX|I-MF|I-PX|B-NX
+8	sein	_	_	VAINF	_	_	_	_	_	--	I-PSEUDO|I-NX|I-RSIMPX|B-VC|B-VXINF
+9	wird	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-RSIMPX|I-VC|B-VXFIN
+10	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+11	''	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 18
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NE:-- Eberl)))(LK:--(VXFIN:--(VVFIN:-- dementierte)))(MF:--(PX:--(PROP:-- zudem)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(MF:--(NX:--(PPER:-- er))(NX:--(ART:-- den)(NN:-- Mannschaftsrat)))(VC:--(VXINF:--(VVPP:-- einberufen))(VXFIN:--(VAFIN:-- habe))))))($.:-- :)($[:-- ``)(NX:--(PIAT:-- Alles)(NN:-- Lügen))($.:-- .)($[:-- '')))
+1	Eberl	_	_	NE	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	dementierte	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	zudem	_	_	PROP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-PX
+4	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+5	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+6	er	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+7	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX
+8	Mannschaftsrat	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+9	einberufen	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+10	habe	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-VC|B-VXFIN
+11	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+12	``	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+13	Alles	_	_	PIAT	_	_	_	_	_	--	I-PSEUDO|B-NX
+14	Lügen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX
+15	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+16	''	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 19
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(KOORD:--(KON:-- Und))(C:--(KOUS:-- dass))(MF:--(NX:--(PPER:-- es))(NX:--(ART:-- einen)(ADJX:--(ADJA:-- offenen))(NN:-- Streit)))(VC:--(VXINF:--(VVPP:-- gegeben))(VXINF:--(VAINF:-- haben))(VXFIN:--(VMFIN:-- soll)))($.:-- :)(SIMPX:--(VF:--(NX:--(NE:-- ``)(NE:-- Natürlich)))(LK:--(VXFIN:--(VVFIN:-- bekommt)))(MF:--(NX:--(PIS:-- man))(PX:--(APPRART:-- im)(NX:--(NN:-- Klub)))(NX:--(ART:-- die)(NN:-- Vehemenz)))(VC:--(PTKVZ:-- mit))($,:-- ,)(NF:--(RSIMPX:--(C:--(PX:--(APPR:-- mit)(NX:--(PRELS:-- der))))(MF:--(NX:--(ART:-- die)(NN:-- Entscheidung))(PX:--(APPRART:-- im)(NX:--(NN:-- Umfeld))))(VC:--(VXINF:--(VVPP:-- begleitet))(VXFIN:--(VAFIN:-- wird)))))))($.:-- .)))
+1	Und	_	_	KON	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-KOORD
+2	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-C
+3	es	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	einen	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+5	offenen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-ADJX
+6	Streit	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+7	gegeben	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+8	haben	_	_	VAINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VC|B-VXINF
+9	soll	_	_	VMFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VC|B-VXFIN
+10	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+11	``	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-NX
+12	Natürlich	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-NX
+13	bekommt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+14	man	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+15	im	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-PX
+16	Klub	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX
+17	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-NX
+18	Vehemenz	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX
+19	mit	_	_	PTKVZ	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-VC
+20	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX
+21	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-NF|B-RSIMPX|B-C|B-PX
+22	der	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-C|I-PX|B-NX
+23	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|B-MF|B-NX
+24	Entscheidung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX
+25	im	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|B-PX
+26	Umfeld	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-PX|B-NX
+27	begleitet	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|B-VC|B-VXINF
+28	wird	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-VC|B-VXFIN
+29	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 20
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PDS:-- Das)))(LK:--(VXFIN:--(VVFIN:-- bestürzt)))(MF:--(NX:--(PPER:-- mich))(ADVX:--(ADV:-- teilweise))))($.:-- .)))
+1	Das	_	_	PDS	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	bestürzt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	mich	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	teilweise	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+5	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 21
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(SIMPX:--(KOORD:--(KON:-- Aber))(VF:--(NX:--(PPER:-- ich)))(LK:--(VXFIN:--(VAFIN:-- bin)))(MF:--(ADVX:--(ADV:-- jetzt))(PX:--(APPR:-- seit)(NX:--(ADJX:--(CARD:-- 21))(NN:-- Jahren)))(ADVX:--(ADV:-- da))))($,:-- ,)(SIMPX:--(VF:--(ADVX:--(ADV:-- da)))(LK:--(VXFIN:--(VAFIN:-- haben)))(MF:--(NX:--(PPER:-- wir))(NX:--(PIDAT:-- viele)(NN:-- Krisen))(ADJX:--(ADJD:-- gemeinsam)))(VC:--(VXINF:--(VVPP:-- gemeistert)))))($.:-- .)($[:-- '')))
+1	Aber	_	_	KON	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-SIMPX|B-KOORD
+2	ich	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-VF|B-NX
+3	bin	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+4	jetzt	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-ADVX
+5	seit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-PX
+6	21	_	_	CARD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX|B-ADJX
+7	Jahren	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX
+8	da	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-ADVX
+9	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+10	da	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-ADVX
+11	haben	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+12	wir	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+13	viele	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-NX
+14	Krisen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX
+15	gemeinsam	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-ADJX
+16	gemeistert	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-VC|B-VXINF
+17	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+18	''	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 22
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NE:-- Eberl)))(LK:--(VXFIN:--(VVFIN:-- betonte)))($.:-- :)($[:-- ``)(NF:--(SIMPX:--(VF:--(NX:--(PPER:-- Wir)))(LK:--(VXFIN:--(VAFIN:-- sind)))(MF:--(PX:--(APPR:-- in)(NX:--(ADJX:--(CARD:-- drei))(NN:-- Wettbewerben)))(PX:--(APPR:-- in)(NX:--(ART:-- einer)(ADJX:--(ADVX:--(ADV:-- sehr))(ADJA:-- guten))(NN:-- Ausgangslage))))))($,:-- ,)(SIMPX:--(VF:--(NX:--(PDS:-- das)))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(NX:--(PPOSAT:-- unser)(NN:-- Fokus)))))($.:-- .)))
+1	Eberl	_	_	NE	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	betonte	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+4	``	_	_	$[	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+5	Wir	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-VF|B-NX
+6	sind	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-LK|B-VXFIN
+7	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-PX
+8	drei	_	_	CARD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX|B-ADJX
+9	Wettbewerben	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX
+10	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX
+11	einer	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX
+12	sehr	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX|B-ADJX|B-ADVX
+13	guten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX|I-ADJX
+14	Ausgangslage	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX
+15	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+16	das	_	_	PDS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-NX
+17	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+18	unser	_	_	PPOSAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+19	Fokus	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX
+20	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 23
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PPER:-- Ich)))(LK:--(VXFIN:--(VVFIN:-- weiß)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(MF:--(NX:--(NE:-- Marco))(NX:--(PIS:-- alles)))(VC:--(VXINF:--(VVINF:-- geben))(VXFIN:--(VAFIN:-- wird)))($,:-- ,)(NF:--(SIMPX:--(SIMPX:--(C:--(KOUI:-- um))(MF:--(PX:--(APPRART:-- im)(NX:--(NN:-- Pokal)))(NX:--(NE:-- Dortmund)))(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- schlagen))))(KON:-- und)(SIMPX:--(MF:--(PX:--(APPR:-- in)(NX:--(NX:--(ART:-- der)(NN:-- Tabelle))(PX:--(APPR:-- vor)(NX:--(NE:-- Dortmund))))))(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- landen)))))))))($.:-- .)))
+1	Ich	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	weiß	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+4	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+5	Marco	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+6	alles	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX
+7	geben	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+8	wird	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-VC|B-VXFIN
+9	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX
+10	um	_	_	KOUI	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-NF|B-SIMPX|B-SIMPX|B-C
+11	im	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|B-MF|B-PX
+12	Pokal	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX
+13	Dortmund	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-MF|B-NX
+14	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|B-VC|B-VXINF
+15	schlagen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-VC|I-VXINF
+16	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX
+17	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|B-SIMPX|B-MF|B-PX
+18	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX|B-NX
+19	Tabelle	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+20	vor	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|B-PX
+21	Dortmund	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|I-PX|B-NX
+22	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|B-VC|B-VXINF
+23	landen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-VC|I-VXINF
+24	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 24
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PPER:-- Er)))(LK:--(VXFIN:--(VAFIN:-- wird)))(MF:--(PX:--(APPR:-- bis)(NX:--(NX:--(CARD:-- 30))($.:-- .)(NX:--(NN:-- Juni))))(NX:--(PIS:-- alles)))(VC:--(VXINF:--(VVINF:-- reinhauen)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUI:-- um))(MF:--(NX:--(PDAT:-- diesen)(NN:-- Klub))(ADJX:--(ADJD:-- erfolgreich)))(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- machen))))))($.:-- .)))
+1	Er	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	wird	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	bis	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-PX
+4	30	_	_	CARD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX|B-NX
+5	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+6	Juni	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX|B-NX
+7	alles	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+8	reinhauen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+9	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+10	um	_	_	KOUI	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+11	diesen	_	_	PDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+12	Klub	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+13	erfolgreich	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-ADJX
+14	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+15	machen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-VC|I-VXINF
+16	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 25
+# PTBstring = (:--(PSEUDO:--(NX:--(NX:--(NE:-- Scheißegal))($,:-- ,)(RSIMPX:--(C:--(ADVX:--(PWAV:-- wo)))(MF:--(NX:--(PPER:-- er))(PX:--(APPR:-- ab)(NX:--(NN:-- Sommer))))(VC:--(VXINF:--(VAINF:-- sein))(VXFIN:--(VAFIN:-- wird)))))($.:-- .)))
+1	Scheißegal	_	_	NE	_	_	_	_	_	--	B-PSEUDO|B-NX|B-NX
+2	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-NX
+3	wo	_	_	PWAV	_	_	_	_	_	--	I-PSEUDO|I-NX|B-RSIMPX|B-C|B-ADVX
+4	er	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-NX|I-RSIMPX|B-MF|B-NX
+5	ab	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-NX|I-RSIMPX|I-MF|B-PX
+6	Sommer	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-RSIMPX|I-MF|I-PX|B-NX
+7	sein	_	_	VAINF	_	_	_	_	_	--	I-PSEUDO|I-NX|I-RSIMPX|B-VC|B-VXINF
+8	wird	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-RSIMPX|I-VC|B-VXFIN
+9	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 26
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PPER:-- Es)))(LK:--(VXFIN:--(VVFIN:-- passt)))(MF:--(ADVX:--(ADV:-- jedenfalls))(NX:--(NX:--(PIAT:-- kein)(NN:-- Blatt))(PX:--(APPR:-- zwischen)(NX:--(ENADD:--(NX:--(NE:-- Marco)(NE:-- Rose)))(KON:-- und)(ENADD:--(NX:--(NE:-- Max)(NE:-- Eberl))))))))($.:-- .)($[:-- '')))
+1	Es	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	passt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	jedenfalls	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+4	kein	_	_	PIAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX|B-NX
+5	Blatt	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+6	zwischen	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-PX
+7	Marco	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-PX|B-NX|B-ENADD|B-NX
+8	Rose	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-PX|I-NX|I-ENADD|I-NX
+9	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-PX|I-NX
+10	Max	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-PX|I-NX|B-ENADD|B-NX
+11	Eberl	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-PX|I-NX|I-ENADD|I-NX
+12	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+13	''	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 27
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(ADVX:--(ADV:-- Auch))(NE:-- Rose)))(LK:--(VXFIN:--(VVFIN:-- äußerte)))(MF:--(NX:--(PRF:-- sich))))($.:-- :)(SIMPX:--($[:-- ``)(VF:--(NX:--(PPER:-- Ich)))(LK:--(VXFIN:--(VMFIN:-- kann)))(MF:--(NX:--(ART:-- die)(NN:-- Reaktionen))(PX:--(APPR:-- bis)(PX:--(APPR:-- zu)(NX:--(ART:-- einem)(ADJX:--(ADJA:-- gewissen))(NN:-- Punkt)))))(VC:--(VXINF:--(VVINF:-- nachvollziehen))))($.:-- .)))
+1	Auch	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX|B-ADVX
+2	Rose	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+3	äußerte	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+4	sich	_	_	PRF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+5	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+6	``	_	_	$[	_	_	_	_	_	--	I-PSEUDO|B-SIMPX
+7	Ich	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VF|B-NX
+8	kann	_	_	VMFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+9	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+10	Reaktionen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+11	bis	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+12	zu	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-PX
+13	einem	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-PX|B-NX
+14	gewissen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-PX|I-NX|B-ADJX
+15	Punkt	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-PX|I-NX
+16	nachvollziehen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+17	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 28
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PPER:-- Es)))(LK:--(VXFIN:--(VVFIN:-- gibt)))(MF:--(ADVX:--(ADV:-- auch))(ADVX:--(ADV:-- immer))(ADVX:--(ADV:-- irgendwo))(NX:--(ART:-- eine)(NN:-- Grenze))))($.:-- .)))
+1	Es	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	gibt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+4	immer	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+5	irgendwo	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+6	eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+7	Grenze	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+8	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 29
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(SIMPX:--(VF:--(NX:--(PPER:-- Ich)))(LK:--(VXFIN:--(VMFIN:-- kann)))(VC:--(VXINF:--(VVINF:-- nachvollziehen)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(MF:--(NX:--(ART:-- die)(NN:-- Fans)))(VC:--(VXINF:--(VVPP:-- enttäuscht))(VXFIN:--(VAFIN:-- sind))))))($,:-- ,)(KON:-- aber)(SIMPX:--(VF:--(NX:--(PPER:-- es)))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(NX:--(PPER:-- mir))(ADVX:--(ADV:-- lieber)))($,:-- ,)(NF:--(SIMPX:--(VF:--(NX:--(PPER:-- sie)))(LK:--(VXFIN:--(VAFIN:-- sind)))(MF:--(ADJX:--(ADJX:--(ADJD:-- enttäuscht))(ADJD:-- darüber)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(MF:--(NX:--(PPER:-- ich)))(VC:--(VXFIN:--(VVFIN:-- gehe)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- als)(KOUS:-- dass))(MF:--(NX:--(PPER:-- sie))(NX:--(PRF:-- mich))(ADVX:--(ADV:-- vorher))(ADVX:--(ADV:-- schon))(ADJX:--(ADJD:-- weggewünscht)))(VC:--(VXFIN:--(VVFIN:-- hätten)))))))))))($.:-- .)))
+1	Ich	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-SIMPX|B-VF|B-NX
+2	kann	_	_	VMFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+3	nachvollziehen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-VC|B-VXINF
+4	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX
+5	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-NF|B-SIMPX|B-C
+6	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+7	Fans	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+8	enttäuscht	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+9	sind	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-VC|B-VXFIN
+10	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+11	aber	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+12	es	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-NX
+13	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+14	mir	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+15	lieber	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-ADVX
+16	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX
+17	sie	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-NF|B-SIMPX|B-VF|B-NX
+18	sind	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-LK|B-VXFIN
+19	enttäuscht	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-MF|B-ADJX|B-ADJX
+20	darüber	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|I-ADJX
+21	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX
+22	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-NF|B-SIMPX|B-C
+23	ich	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+24	gehe	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+25	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX
+26	als	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|B-NF|B-SIMPX|B-C
+27	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-C
+28	sie	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+29	mich	_	_	PRF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX
+30	vorher	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-MF|B-ADVX
+31	schon	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-MF|B-ADVX
+32	weggewünscht	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-MF|B-ADJX
+33	hätten	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+34	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO

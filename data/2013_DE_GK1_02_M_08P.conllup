@@ -1,0 +1,1888 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC TimelineID IST IST_ZIEL IST_INDEX IST_NORMAL_DIFF ZEILENTRENNUNG FEHLER FEHLERKATEGORIE SENT UEBERSCHRIFT ZITAT SYNTAX UNEINDEUTIG KOMMENTAR WEBANNO
+# sent_id = 1
+# text = 1 ) In dem Auszug aus dem vierten Kapitel des Romans " Peter Camenzind " von Herman Hesse aus dem Jahre 1904 geht es um die Erinnerung des Protagonisten an eine Italienreise in seiner Jugendzeit mit seinem damalig besten Freund und die Folgen für ihn nach dessen frühem Tod.
+1	1	1	_	CARD	_	_	_	_	_	T1	1	1	1	_	_	0	0	B-s1	B-1	0	B-SIMPX|B-NX|CARD|NX	0	_	B-1
+2	)	)	_	$(	_	_	_	_	_	T2	)	)	2	_	_	0	0	I-s1	E-1	0	I-SIMPX|I-NX|$(	0	_	I-1
+3	In	in	_	APPR	_	_	_	_	_	T3	In	In	3	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|B-SIMPX|B-PX|B-VF|APPR	0	_	I-1
+4	dem	die	_	ART	_	_	_	_	_	T4	dem	dem	4	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|B-NX|B-NX|B-NX|ART	0	_	I-1
+5	Auszug	Auszug	_	NN	_	_	_	_	_	T5	Auszug	Auszug	5	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|E-NX|NN	0	_	I-1
+6	aus	aus	_	APPR	_	_	_	_	_	T6	aus	aus	6	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|B-PX|APPR	0	_	I-1
+7	dem	die	_	ART	_	_	_	_	_	T7	dem	dem	7	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|B-NX|B-NX|ART	0	_	I-1
+8	vierten	viert	_	ADJA	_	_	_	_	_	T8	vierten	vierten	8	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+9	Kapitel	Kapitel	_	NN	_	_	_	_	_	T9	Kapitel	Kapitel	9	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|I-NX|E-NX|NN	0	_	I-1
+10	des	die	_	ART	_	_	_	_	_	T10	des	des	10	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|I-NX|B-NX|B-NX|B-NX|ART	0	_	I-1
+11	Romans	Roman	_	NN	_	_	_	_	_	T11	Romans	Romans	11	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|I-NX|I-NX|I-NX|E-NX|NN	0	_	I-1
+12	"	"	_	$(	_	_	_	_	_	T12	"	"	12	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|I-NX|I-NX|I-NX|$(	0	_	I-1
+13	Peter	Peter	_	NE	_	_	_	_	_	T13	Peter	Peter	13	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|I-NX|I-NX|I-NX|B-NX|B-ENADD|NE	0	_	I-1
+14	Camenzind	Camenzind	_	NE	_	_	_	_	_	T14	Camenzind	Camenzind	14	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|I-NX|I-NX|I-NX|E-NX|E-ENADD|NE	0	_	I-1
+15	"	"	_	$(	_	_	_	_	_	T15	"	"	15	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|I-NX|I-NX|E-NX|$(	0	_	I-1
+16	von	von	_	APPR	_	_	_	_	_	T16	von	von	16	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|I-NX|I-NX|B-PX|APPR	0	_	I-1
+17	Herman	Herman	_	NE	_	_	_	_	_	T17	Herman	Herman	17	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|I-NX|I-NX|I-PX|B-NX|B-ENADD|NE	0	_	I-1
+18	Hesse	Hesse	_	NE	_	_	_	_	_	T18	Hesse	Hesse	18	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|E-NX|E-PX|E-NX|E-NX|E-PX|E-NX|E-ENADD|NE	0	_	I-1
+19	aus	aus	_	APPR	_	_	_	_	_	T19	aus	aus	19	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|B-PX|APPR	0	_	I-1
+20	dem	die	_	ART	_	_	_	_	_	T20	dem	dem	20	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-PX|B-NX|B-NX|ART	0	_	I-1
+21	Jahre	Jahr	_	NN	_	_	_	_	_	T21	Jahre	Jahre	21	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-PX|I-VF|I-NX|I-PX|I-NX|E-NX|NN	0	_	I-1
+22	1904	@card@	_	CARD	_	_	_	_	_	T22	1904	1904	22	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|E-PX|E-VF|E-NX|E-PX|E-NX|CARD|NX	0	_	I-1
+23	geht	gehen	_	VVFIN	_	_	_	_	_	T23	geht	geht	23	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+24	es	es	_	PPER	_	_	_	_	_	T24	es	es	24	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+25	um	um	_	APPR	_	_	_	_	_	T25	um	um	25	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+26	die	die	_	ART	_	_	_	_	_	T26	die	die	26	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+27	Erinnerung	Erinnerung	_	NN	_	_	_	_	_	T27	Erinnerung	Erinnerung	27	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+28	des	die	_	ART	_	_	_	_	_	T28	des	des	28	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|I-NX|B-NX|ART	0	_	I-1
+29	Protagonisten	Protagonist	_	NN	_	_	_	_	_	T29	Protagonisten	Protagonisten	29	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|E-PX|E-NX|E-NX|NN	0	_	I-1
+30	an	an	_	APPR	_	_	_	_	_	T30	an	an	30	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+31	eine	eine	_	ART	_	_	_	_	_	T31	eine	eine	31	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|B-NX|B-NX|B-NX|ART	0	_	I-1
+32	Italienreise	Italienreise	_	NN	_	_	_	_	_	T32	Italienreise	Italienreise	32	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|I-NX|I-NX|E-NX|NN	0	_	I-1
+33	in	in	_	APPR	_	_	_	_	_	T33	in	in	33	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|I-NX|I-NX|B-PX|APPR	0	_	I-1
+34	seiner	sein	_	PPOSAT	_	_	_	_	_	T34	seiner	seiner	34	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-PX|B-NX|PPOSAT	0	_	I-1
+35	Jugendzeit	Jugendzeit	_	NN	_	_	_	_	_	T35	Jugendzeit	Jugendzeit	35	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|I-NX|E-NX|E-PX|E-NX|NN	0	_	I-1
+36	mit	mit	_	APPR	_	_	_	_	_	T36	mit	mit	36	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|I-NX|B-PX|APPR	0	_	I-1
+37	seinem	sein	_	PPOSAT	_	_	_	_	_	T37	seinem	seinem	37	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|I-NX|I-PX|B-NX|PPOSAT	0	_	I-1
+38	damalig	damalig	_	ADJD	_	_	_	_	_	T38	damalig	damalig	38	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|I-NX|I-PX|I-NX|B-ADJX|ADJD|ADJX	0	_	I-1
+39	besten	gut	_	ADJA	_	_	_	_	_	T39	besten	besten	39	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-SIMPX|I-MF|I-PX|I-NX|I-PX|I-NX|E-ADJX|ADJA	0	_	I-1
+40	Freund	Freund	_	NN	_	_	_	_	_	T40	Freund	Freund	40	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|E-SIMPX|E-MF|E-PX|E-NX|E-PX|E-NX|NN	0	_	I-1
+41	und	und	_	KON	_	_	_	_	_	T41	und	und	41	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|B-MF|KON	0	_	I-1
+42	die	die	_	ART	_	_	_	_	_	T42	die	die	42	_	_	0	0	I-s1	0	0	I-SIMPX|I-NX|I-MF|B-NX|ART	0	_	I-1
+43	Folgen	Folge	_	NN	_	_	_	_	_	T43	Folgen	Folgen	43	_	_	0	0	I-s1	0	0	I-SIMPX|E-NX|E-MF|E-NX|NN	0	_	I-1
+44	für	für	_	APPR	_	_	_	_	_	T44	für	für	44	_	_	0	0	I-s1	0	0	I-SIMPX|B-MF|VVFIN|VXFIN	0	_	I-1
+45	ihn	er	_	PPER	_	_	_	_	_	T45	ihn	ihn	45	_	_	0	0	I-s1	0	0	I-SIMPX|I-MF|PPER|NX	0	_	I-1
+46	nach	nach	_	APPR	_	_	_	_	_	T46	nach	nach	46	_	_	0	0	I-s1	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+47	dessen	die	_	PDAT	_	_	_	_	_	T47	dessen	dessen	47	_	_	0	0	I-s1	0	0	I-SIMPX|I-MF|I-PX|B-NX|PRELAT	0	_	I-1
+48	frühem	früh	_	ADJA	_	_	_	_	_	T48	frühen	frühem	48	XXX	_	1	FLEX	I-s1	0	0	I-SIMPX|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+49	Tod	Tod	_	NN	_	_	_	_	_	T49	Tod	Tod	49	_	_	0	0	I-s1	0	0	E-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+50	.	.	_	$.	_	_	_	_	_	T50	.	.	50	_	_	0	0	E-s1	0	0	$.	0	_	E-1
+
+# sent_id = 2
+# text = Der Autor hat in diesem Auszug die Intention, die Schönheit des einfachen Lebens, aber auch dessen Vergänglichkeit darzustellen.
+1	Der	die	_	ART	_	_	_	_	_	T51	Der	Der	51	_	_	0	0	B-s2	0	0	B-SIMPX|B-NX|B-VF|ART	0	_	B-1
+2	Autor	Autor	_	NN	_	_	_	_	_	T52	Autor	Autor	52	_	_	0	0	I-s2	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	hat	haben	_	VAFIN	_	_	_	_	_	T53	hat	hat	53	_	_	0	0	I-s2	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+4	in	in	_	APPR	_	_	_	_	_	T54	in	in	54	_	_	0	0	I-s2	0	0	I-SIMPX|B-MF|B-PX|APPR	0	_	I-1
+5	diesem	dies	_	PDAT	_	_	_	_	_	T55	diesem	diesem	55	_	_	0	0	I-s2	0	0	I-SIMPX|I-MF|I-PX|B-NX|PDAT	0	_	I-1
+6	Auszug	Auszug	_	NN	_	_	_	_	_	T56	Auszug	Auszug	56	_	_	0	0	I-s2	0	0	I-SIMPX|I-MF|E-PX|E-NX|NN	0	_	I-1
+7	die	die	_	ART	_	_	_	_	_	T57	die	die	57	_	_	0	0	I-s2	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+8	Intention	Intention	_	NN	_	_	_	_	_	T58	Intention	Intention	58	_	_	0	0	I-s2	0	0	I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+9	,	,	_	$,	_	_	_	_	_	T59	,	,	59	_	_	0	0	I-s2	0	0	I-SIMPX|$,	0	_	I-1
+10	die	die	_	ART	_	_	_	_	_	T60	die	die	60	_	_	0	0	I-s2	0	0	I-SIMPX|B-NF|B-MF|B-NX|B-NX|ART	0	_	I-1
+11	Schönheit	Schönheit	_	NN	_	_	_	_	_	T61	Schönheit	Schönheit	61	_	_	0	0	I-s2	0	0	I-SIMPX|I-NF|I-MF|I-NX|E-NX|NN	0	_	I-1
+12	des	die	_	ART	_	_	_	_	_	T62	des	des	62	_	_	0	0	I-s2	0	0	I-SIMPX|I-NF|I-MF|I-NX|B-NX|ART	0	_	I-1
+13	einfachen	einfach	_	ADJA	_	_	_	_	_	T63	einfachen	einfachen	63	_	_	0	0	I-s2	0	0	I-SIMPX|I-NF|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+14	Lebens	Leben	_	NN	_	_	_	_	_	T64	Lebens	Lebens	64	_	_	0	0	I-s2	0	0	I-SIMPX|I-NF|I-MF|E-NX|E-NX|NN	0	_	I-1
+15	,	,	_	$,	_	_	_	_	_	T65	,	,	65	_	_	0	0	I-s2	0	0	I-SIMPX|I-NF|I-MF|$,	0	_	I-1
+16	aber	aber	_	KON	_	_	_	_	_	T66	aber	aber	66	_	_	0	0	I-s2	0	0	I-SIMPX|I-NF|I-MF|KON	0	_	I-1
+17	auch	auch	_	ADV	_	_	_	_	_	T67	auch	auch	67	_	_	0	0	I-s2	0	0	I-SIMPX|I-NF|I-MF|ADV|ADVX	0	_	I-1
+18	dessen	die	_	PDAT	_	_	_	_	_	T68	dessen	dessen	68	_	_	0	0	I-s2	0	0	I-SIMPX|I-NF|I-MF|B-NX|PDAT	0	_	I-1
+19	Vergänglichkeit	Vergänglichkeit	_	NN	_	_	_	_	_	T69	Vergänglichkeit	Vergänglichkeit	69	_	_	0	0	I-s2	0	0	I-SIMPX|I-NF|E-MF|E-NX|NN	0	_	I-1
+20	darzustellen	darstellen	_	VVIZU	_	_	_	_	_	T70	darzustellen	darzustellen	70	_	_	0	0	I-s2	0	0	E-SIMPX|E-NF|VVIZU|VXINF|VC	0	_	I-1
+21	.	.	_	$.	_	_	_	_	_	T71	.	.	71	_	_	0	0	E-s2	0	0	$.	0	_	E-1
+
+# sent_id = 3
+# text = Zudem übt er Kritik an der Moderne.
+1	Zudem	zudem	_	ADV	_	_	_	_	_	T72	Zudem	Zudem	72	_	_	0	0	B-s3	0	0	B-SIMPX|PROP|PX|VF	0	_	B-1
+2	übt	üben	_	VVFIN	_	_	_	_	_	T73	übt	übt	73	_	_	0	0	I-s3	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	er	er	_	PPER	_	_	_	_	_	T74	er	er	74	_	_	0	0	I-s3	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+4	Kritik	Kritik	_	NN	_	_	_	_	_	T75	Kritik	Kritik	75	_	_	0	0	I-s3	0	0	I-SIMPX|I-MF|B-NX|NN|NX	0	_	I-1
+5	an	an	_	APPR	_	_	_	_	_	T76	an	an	76	_	_	0	0	I-s3	0	0	I-SIMPX|I-MF|I-NX|B-PX|APPR	0	_	I-1
+6	der	die	_	ART	_	_	_	_	_	T77	der	der	77	_	_	0	0	I-s3	0	0	I-SIMPX|I-MF|I-NX|I-PX|B-NX|ART	0	_	I-1
+7	Moderne	Moderne	_	NN	_	_	_	_	_	T78	Moderne	Moderne	78	_	_	0	0	I-s3	0	0	E-SIMPX|E-MF|E-NX|E-PX|E-NX|NN	0	_	I-1
+8	.	.	_	$.	_	_	_	_	_	T79	.	.	79	_	_	0	0	E-s3	0	0	$.	0	_	E-1
+
+# sent_id = 4
+# text = Zu Anfang fasst der Protagonist, Peter Camenzind, seine Reise in kurzen Worten zusammen.
+1	Zu	zu	_	APPR	_	_	_	_	_	T80	Zu	Zu	80	_	_	0	0	B-s4	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	Anfang	Anfang	_	NN	_	_	_	_	_	T81	Anfang	Anfang	81	_	_	0	0	I-s4	0	0	I-SIMPX|E-PX|E-VF|NN|NX	0	_	I-1
+3	fasst	fassen	_	VVFIN	_	_	_	_	_	T82	fasst	fasst	82	_	_	0	0	I-s4	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	der	die	_	ART	_	_	_	_	_	T83	der	der	83	_	_	0	0	I-s4	0	0	I-SIMPX|B-MF|B-NX|B-NX|ART	0	_	I-1
+5	Protagonist	Protagonist	_	NN	_	_	_	_	_	T84	Protagonist	Protagonist	84	_	_	0	0	I-s4	0	0	I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T85	,	,	85	_	_	0	0	I-s4	0	0	I-SIMPX|I-MF|I-NX|$,	0	_	I-1
+7	Peter	Peter	_	NE	_	_	_	_	_	T86	Peter	Peter	86	_	_	0	0	I-s4	0	0	I-SIMPX|I-MF|I-NX|B-NX|B-ENADD|NE	0	_	I-1
+8	Camenzind	Camenzind	_	NE	_	_	_	_	_	T87	Camenzind	Camenzind	87	_	_	0	0	I-s4	0	0	I-SIMPX|I-MF|E-NX|E-NX|E-ENADD|NE	0	_	I-1
+9	,	,	_	$,	_	_	_	_	_	T88	,	,	88	_	_	0	0	I-s4	0	0	I-SIMPX|I-MF|$,	0	_	I-1
+10	seine	sein	_	PPOSAT	_	_	_	_	_	T89	seine	seine	89	_	_	0	0	I-s4	0	0	I-SIMPX|I-MF|B-NX|PPOSAT	0	_	I-1
+11	Reise	Reise	_	NN	_	_	_	_	_	T90	Reise	Reise	90	_	_	0	0	I-s4	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+12	in	in	_	APPR	_	_	_	_	_	T91	in	in	91	_	_	0	0	I-s4	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+13	kurzen	kurz	_	ADJA	_	_	_	_	_	T92	kurzen	kurzen	92	_	_	0	0	I-s4	0	0	I-SIMPX|I-MF|I-PX|B-NX|ADJA|ADJX	0	_	I-1
+14	Worten	Wort	_	NN	_	_	_	_	_	T93	Worten	Worten	93	_	_	0	0	I-s4	0	0	I-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+15	zusammen	zusammen	_	PTKVZ	_	_	_	_	_	T94	zusammen	zusammen	94	_	_	0	0	I-s4	0	0	E-SIMPX|PTKVZ|VC	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T95	.	.	95	_	_	0	0	E-s4	0	0	$.	0	_	E-1
+
+# sent_id = 5
+# text = Er bezeichnet sie als die beste Zeit in seiner Jugend.
+1	Er	er	_	PPER	_	_	_	_	_	T96	Er	Er	96	_	_	0	0	B-s5	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	bezeichnet	bezeichnen	_	VVFIN	_	_	_	_	_	T97	bezeichnet	bezeichnet	97	_	_	0	0	I-s5	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	sie	sie	_	PPER	_	_	_	_	_	T98	sie	sie	98	_	_	0	0	I-s5	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+4	als	als	_	KOKOM	_	_	_	_	_	T99	als	als	99	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|B-NX|KOKOM	0	_	I-1
+5	die	die	_	ART	_	_	_	_	_	T100	die	die	100	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|I-NX|B-NX|ART	0	_	I-1
+6	beste	gut	_	ADJA	_	_	_	_	_	T101	beste	beste	101	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+7	Zeit	Zeit	_	NN	_	_	_	_	_	T102	Zeit	Zeit	102	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+8	in	in	_	APPR	_	_	_	_	_	T103	in	in	103	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|I-NX|B-PX|APPR	0	_	I-1
+9	seiner	sein	_	PPOSAT	_	_	_	_	_	T104	seiner	seiner	104	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|I-NX|I-PX|B-NX|PPOSAT	0	_	I-1
+10	Jugend	Jugend	_	NN	_	_	_	_	_	T105	Jugend	Jugend	105	_	_	0	0	I-s5	0	0	E-SIMPX|E-MF|E-NX|E-PX|E-NX|NN	0	_	I-1
+11	.	.	_	$.	_	_	_	_	_	T106	.	.	106	_	_	0	0	E-s5	0	0	$.	0	_	E-1
+
+# sent_id = 6
+# text = Auf seiner Reise mit seinem Freund Richard pilgerten sie den Weg, den auch Franz von Assisi ging.
+1	Auf	auf	_	APPR	_	_	_	_	_	T107	Auf	Auf	107	_	_	0	0	B-s6	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	seiner	sein	_	PPOSAT	_	_	_	_	_	T108	seiner	seiner	108	_	_	0	0	I-s6	0	0	I-SIMPX|I-PX|I-VF|B-NX|B-NX|B-NX|PPOSAT	0	_	I-1
+3	Reise	Reise	_	NN	_	_	_	_	_	T109	Reise	Reise	109	_	_	0	0	I-s6	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|E-NX|NN	0	_	I-1
+4	mit	mit	_	APPR	_	_	_	_	_	T110	mit	mit	110	_	_	0	0	I-s6	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|B-PX|APPR	0	_	I-1
+5	seinem	sein	_	PPOSAT	_	_	_	_	_	T111	seinem	seinem	111	_	_	0	0	I-s6	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-PX|B-NX|PPOSAT	0	_	I-1
+6	Freund	Freund	_	NN	_	_	_	_	_	T112	Freund	Freund	112	_	_	0	0	I-s6	0	0	I-SIMPX|I-PX|I-VF|I-NX|E-NX|E-PX|E-NX|NN	0	_	I-1
+7	Richard	Richard	_	NE	_	_	_	_	_	T113	Richard	Richard	113	_	_	0	0	I-s6	0	0	I-SIMPX|E-PX|E-VF|E-NX|NE|NX	0	_	I-1
+8	pilgerten	pilgern	_	VVFIN	_	_	_	_	_	T114	pilgerten	pilgerten	114	_	_	0	0	I-s6	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+9	sie	sie	_	PPER	_	_	_	_	_	T115	sie	sie	115	_	_	0	0	I-s6	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+10	den	die	_	ART	_	_	_	_	_	T116	den	den	116	_	_	0	0	I-s6	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+11	Weg	Weg	_	NN	_	_	_	_	_	T117	Weg	Weg	117	_	_	0	0	I-s6	0	0	I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+12	,	,	_	$,	_	_	_	_	_	T118	,	,	118	_	_	0	0	I-s6	0	0	I-SIMPX|$,	0	_	I-1
+13	den	die	_	PRELS	_	_	_	_	_	T119	den	den	119	_	_	0	0	I-s6	0	0	I-SIMPX|B-R-SIMPX|B-NF|PRELS|NX|C	0	_	I-1
+14	auch	auch	_	ADV	_	_	_	_	_	T120	auch	auch	120	_	_	0	0	I-s6	0	0	I-SIMPX|I-R-SIMPX|I-NF|B-MF|ADV|ADVX	0	_	I-1
+15	Franz	Franz	_	NE	_	_	_	_	_	T121	Franz	Franz	121	_	_	0	0	I-s6	0	0	I-SIMPX|I-R-SIMPX|I-NF|I-MF|NE|NX	0	_	I-1
+16	von	von	_	APPR	_	_	_	_	_	T122	von	von	122	_	_	0	0	I-s6	0	0	I-SIMPX|I-R-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+17	Assisi	Assisi	_	NN	_	_	_	_	_	T123	Assisi	Assisi	123	_	_	0	0	I-s6	0	0	I-SIMPX|I-R-SIMPX|I-NF|E-MF|E-PX|NE|NX	0	_	I-1
+18	ging	gehen	_	VVFIN	_	_	_	_	_	T124	ging	ging	124	_	_	0	0	I-s6	0	0	E-SIMPX|E-R-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+19	.	.	_	$.	_	_	_	_	_	T125	.	.	125	_	_	0	0	E-s6	0	0	$.	0	_	E-1
+
+# sent_id = 7
+# text = Sie genossen das einfache Leben, das die Menschen dort führten.
+1	Sie	Sie|sie	_	PPER	_	_	_	_	_	T126	Sie	Sie	126	_	_	0	0	B-s7	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	genossen	genießen	_	VVFIN	_	_	_	_	_	T127	genoßen	genossen	127	XXX	_	1	WORT	I-s7	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	das	die	_	ART	_	_	_	_	_	T128	das	das	128	_	_	0	0	I-s7	0	0	I-SIMPX|B-NX|B-MF|ART	0	_	I-1
+4	einfache	einfach	_	ADJA	_	_	_	_	_	T129	einfache	einfache	129	_	_	0	0	I-s7	0	0	I-SIMPX|I-NX|I-MF|ADJA|ADJX	0	_	I-1
+5	Leben	Leben	_	NN	_	_	_	_	_	T130	Leben	Leben	130	_	_	0	0	I-s7	0	0	I-SIMPX|E-NX|E-MF|NN	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T131	,	,	131	_	_	0	0	I-s7	0	0	I-SIMPX|$,	0	_	I-1
+7	das	die	_	PRELS	_	_	_	_	_	T132	das	das	132	_	_	0	0	I-s7	0	0	I-SIMPX|B-R-SIMPX|B-NF|PRELS|NX|C	0	_	I-1
+8	die	die	_	ART	_	_	_	_	_	T133	die	die	133	_	_	0	0	I-s7	0	0	I-SIMPX|I-R-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+9	Menschen	Mensch	_	NN	_	_	_	_	_	T134	Menschen	Menschen	134	_	_	0	0	I-s7	0	0	I-SIMPX|I-R-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+10	dort	dort	_	ADV	_	_	_	_	_	T135	dort	dort	135	_	_	0	0	I-s7	0	0	I-SIMPX|I-R-SIMPX|I-NF|E-MF|ADV|ADVX	0	_	I-1
+11	führten	führen	_	VVFIN	_	_	_	_	_	T136	führten	führten	136	_	_	0	0	I-s7	0	0	E-SIMPX|E-R-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+12	.	.	_	$.	_	_	_	_	_	T137	.	.	137	_	_	0	0	E-s7	0	0	$.	0	_	E-1
+
+# sent_id = 8
+# text = Dabei wurde Peter bewusst, wie nachteilig die Moderne doch ist, und begann sie abzuwerten und gab dem einfachen Leben gleichzeitig einen höheren Stellenwert.
+1	Dabei	dabei	_	PAV	_	_	_	_	_	T138	Dabei	Dabei	138	_	_	0	0	B-s8	0	0	B-SIMPX|PROP|PX|VF	0	_	B-1
+2	wurde	werden	_	VAFIN	_	_	_	_	_	T139	wurde	wurde	139	_	_	0	0	I-s8	0	0	I-SIMPX|B-FKOORD|B-FKONJ|VAFIN|VXFIN|LK	0	_	I-1
+3	Peter	Peter	_	NE	_	_	_	_	_	T140	Peter	Peter	140	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|NE|NX|MF	0	_	I-1
+4	bewusst	bewusst	_	ADJD	_	_	_	_	_	T141	bewusst	bewusst	141	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|VVPP|VXINF|VC	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T142	,	,	142	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|$,	0	_	I-1
+6	wie	wie	_	KOKOM	_	_	_	_	_	T143	wie	wie	143	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-SIMPX|B-NF|B-ADJX|PWAV|ADVX|C	0	_	I-1
+7	nachteilig	nachteilig	_	ADJD	_	_	_	_	_	T144	nachteilig	nachteilig	144	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|E-ADJX|MF|ADJD	0	_	I-1
+8	die	die	_	ART	_	_	_	_	_	T145	die	die	145	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+9	Moderne	Moderne	_	NN	_	_	_	_	_	T146	Moderne	Moderne	146	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+10	doch	doch	_	ADV	_	_	_	_	_	T147	doch	doch	147	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|E-MF|ADV|ADVX	0	_	I-1
+11	ist	sein	_	VAFIN	_	_	_	_	_	T148	ist	ist	148	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|E-FKONJ|E-SIMPX|E-NF|VAFIN|VXFIN|VC	0	_	I-1
+12	,	,	_	$,	_	_	_	_	_	T149	_	,	_	_	_	1	PKT	I-s8	0	0	I-SIMPX|I-FKOORD|$,	0	_	I-1
+13	und	und	_	KON	_	_	_	_	_	T150	und	und	149	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+14	begann	beginnen	_	VVFIN	_	_	_	_	_	T152	begann	begann	150	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+15	sie	sie	_	PPER	_	_	_	_	_	T153	sie	sie	151	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|PPER|NX|MF	0	_	I-1
+16	abzuwerten	abwerten	_	VVIZU	_	_	_	_	_	T154	abzuwerten	abzuwerten	152	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|E-FKONJ|VVINF|VXINF|VC	0	_	I-1
+17	und	und	_	KON	_	_	_	_	_	T155	und	und	153	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+18	gab	geben	_	VVFIN	_	_	_	_	_	T156	gab	gab	154	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+19	dem	die	_	ART	_	_	_	_	_	T157	dem	dem	155	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-NX|ART	0	_	I-1
+20	einfachen	einfach	_	ADJA	_	_	_	_	_	T158	einfachen	einfachen	156	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+21	Leben	Leben	_	NN	_	_	_	_	_	T159	Leben	Leben	157	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|E-NX|NN	0	_	I-1
+22	gleichzeitig	gleichzeitig	_	ADJD	_	_	_	_	_	T160	gleichzeitig	gleichzeitig	158	_	gleich-zeitig 	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|ADJD|ADJX	0	_	I-1
+23	einen	eine	_	ART	_	_	_	_	_	T161	einen	einen	159	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-NX|ART	0	_	I-1
+24	höheren	hoch	_	ADJA	_	_	_	_	_	T162	höheren	höheren	160	_	_	0	0	I-s8	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+25	Stellenwert	Stellenwert	_	NN	_	_	_	_	_	T163	Stellenwert	Stellenwert	161	_	_	0	0	I-s8	0	0	E-SIMPX|E-FKOORD|E-FKONJ|E-MF|E-NX|NN	0	_	I-1
+26	.	.	_	$.	_	_	_	_	_	T164	.	.	162	_	_	0	0	E-s8	0	0	$.	0	_	E-1
+
+# sent_id = 9
+# text = Er bemerkte auch, wie Richard sich positiv veränderte.
+1	Er	er	_	PPER	_	_	_	_	_	T165	Er	Er	163	_	_	0	0	B-s9	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	bemerkte	bemerken	_	VVFIN	_	_	_	_	_	T166	bemerkte	bemerkte	164	_	_	0	0	I-s9	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	auch	auch	_	ADV	_	_	_	_	_	T167	auch	auch	165	_	_	0	0	I-s9	0	0	I-SIMPX|ADV|ADVX|MF	0	_	I-1
+4	,	,	_	$,	_	_	_	_	_	T168	_	,	_	XXX	_	1	PKT	I-s9	0	0	I-SIMPX|$,	0	_	I-1
+5	wie	wie	_	KOUS	_	_	_	_	_	T169	wie	wie	166	_	_	0	0	I-s9	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+6	Richard	Richard	_	NE	_	_	_	_	_	T170	Richard	Richard	167	_	_	0	0	I-s9	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|NE|NX	0	_	I-1
+7	sich	sich	_	PRF	_	_	_	_	_	T171	sich	sich	168	_	_	0	0	I-s9	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|PRF|NX	0	_	I-1
+8	positiv	positiv	_	ADJD	_	_	_	_	_	T172	positiv	positiv	169	_	_	0	0	I-s9	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|ADJD|ADJX	0	_	I-1
+9	veränderte	verändern	_	VVFIN	_	_	_	_	_	T173	veränderte	veränderte	170	_	_	0	0	I-s9	0	0	E-SIMPX|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+10	.	.	_	$.	_	_	_	_	_	T174	.	.	171	_	_	0	0	E-s9	0	0	$.	0	_	E-1
+
+# sent_id = 10
+# text = Die beiden tranken und freundeten sich mit Fremden an.
+1	Die	die	_	ART	_	_	_	_	_	T175	Die	Die	172	_	_	0	0	B-s10	0	0	B-SIMPX|B-NX|B-VF|ART	0	_	B-1
+2	beiden	beide	_	PIS	_	_	_	_	_	T176	Beiden	beiden	173	XXX	_	1	GKS	I-s10	0	0	I-SIMPX|E-NX|E-VF|PIS	0	_	I-1
+3	tranken	trinken	_	VVFIN	_	_	_	_	_	T177	tranken	tranken	174	_	_	0	0	I-s10	0	0	I-SIMPX|B-FKOORD|VVFIN|VXFIN|LK	0	_	I-1
+4	und	und	_	KON	_	_	_	_	_	T178	und	und	175	_	_	0	0	I-s10	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+5	freundeten	freunden	_	VVFIN	_	_	_	_	_	T179	freundeten	freundeten	176	_	_	0	0	I-s10	0	0	I-SIMPX|I-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+6	sich	sich	_	PRF	_	_	_	_	_	T180	sich	sich	177	_	_	0	0	I-s10	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|PRF|NX	0	_	I-1
+7	mit	mit	_	APPR	_	_	_	_	_	T181	mit	mit	178	_	_	0	0	I-s10	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX|APPR	0	_	I-1
+8	Fremden	Fremde	_	NN	_	_	_	_	_	T182	Fremden	Fremden	179	_	_	0	0	I-s10	0	0	I-SIMPX|I-FKOORD|I-FKONJ|E-MF|E-PX|NN|NX	0	_	I-1
+9	an	an	_	PTKVZ	_	_	_	_	_	T183	an	an	180	_	_	0	0	I-s10	0	0	E-SIMPX|E-FKOORD|E-FKONJ|PTKVZ|VC	0	_	I-1
+10	.	.	_	$.	_	_	_	_	_	T184	.	.	181	_	_	0	0	E-s10	0	0	$.	0	_	E-1
+
+# sent_id = 11
+# text = Sie waren so glücklich und zufrieden miteinander, dass sie den nahenden Abschied nicht als schlimm betrachteten.
+1	Sie	Sie|sie	_	PPER	_	_	_	_	_	T185	Sie	Sie	182	_	_	0	0	B-s11	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	waren	sein	_	VAFIN	_	_	_	_	_	T186	waren	waren	183	_	_	0	0	I-s11	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	so	so	_	ADV	_	_	_	_	_	T187	so	so	184	_	_	0	0	I-s11	0	0	I-SIMPX|B-ADJX|B-MF|B-ADJX|ADV|ADVX	0	_	I-1
+4	glücklich	glücklich	_	ADJD	_	_	_	_	_	T188	glücklich	glücklich	185	_	_	0	0	I-s11	0	0	I-SIMPX|I-ADJX|I-MF|I-ADJX|B-ADJX|ADJD|ADJX	0	_	I-1
+5	und	und	_	KON	_	_	_	_	_	T189	und	und	186	_	_	0	0	I-s11	0	0	I-SIMPX|I-ADJX|I-MF|I-ADJX|I-ADJX|KON	0	_	I-1
+6	zufrieden	zufrieden	_	ADJD	_	_	_	_	_	T190	zufrieden	zufrieden	187	_	_	0	0	I-s11	0	0	I-SIMPX|I-ADJX|I-MF|E-ADJX|E-ADJX|ADJD|ADJX	0	_	I-1
+7	miteinander	miteinander	_	ADV	_	_	_	_	_	T191	miteinander	miteinander	188	_	_	0	0	I-s11	0	0	I-SIMPX|E-ADJX|E-MF|ADV|ADVX	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T192	,	,	189	_	_	0	0	I-s11	0	0	I-SIMPX|$,	0	_	I-1
+9	dass	dass	_	KOUS	_	_	_	_	_	T193	dass	dass	190	_	_	0	0	I-s11	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+10	sie	sie	_	PPER	_	_	_	_	_	T194	sie	sie	191	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+11	den	die	_	ART	_	_	_	_	_	T195	den	den	192	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|ART	0	_	I-1
+12	nahenden	nahend	_	ADJA	_	_	_	_	_	T196	nahenden	nahenden	193	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+13	Abschied	Abschied	_	NN	_	_	_	_	_	T197	Abschied	Abschied	194	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+14	nicht	nicht	_	PTKNEG	_	_	_	_	_	T198	nich	nicht	195	XXX	_	1	WORT	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|PTKNEG|ADVX	0	_	I-1
+15	als	als	_	KOKOM	_	_	_	_	_	T199	als	als	196	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-ADJX|KOKOM	0	_	I-1
+16	schlimm	schlimm	_	ADJD	_	_	_	_	_	T200	schlimm	schlimm	197	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-ADJX|ADJD	0	_	I-1
+17	betrachteten	betrachten	_	VVFIN	_	_	_	_	_	T201	betrachteten	betrachteten	198	_	_	0	0	I-s11	0	0	E-SIMPX|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+18	.	.	_	$.	_	_	_	_	_	T202	.	.	199	_	_	0	0	E-s11	0	0	$.	0	_	E-1
+
+# sent_id = 12
+# text = Nach dieser Reise waren sie sich sicher, dass sie eine wahre, freundschaftliche Beziehung führten und dass diese ihr ganzes Leben andauern würde.
+1	Nach	nach	_	APPR	_	_	_	_	_	T203	Nach	Nach	200	_	_	0	0	B-s12	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	dieser	dies	_	PDAT	_	_	_	_	_	T204	dieser	dieser	201	_	_	0	0	I-s12	0	0	I-SIMPX|I-PX|I-VF|B-NX|PDAT	0	_	I-1
+3	Reise	Reise	_	NN	_	_	_	_	_	T205	Reise	Reise	202	_	_	0	0	I-s12	0	0	I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+4	waren	sein	_	VAFIN	_	_	_	_	_	T206	waren	waren	203	_	_	0	0	I-s12	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+5	sie	sie	_	PPER	_	_	_	_	_	T207	sie	sie	204	_	_	0	0	I-s12	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+6	sich	sich	_	PRF	_	_	_	_	_	T208	sich	sich	205	_	_	0	0	I-s12	0	0	I-SIMPX|I-MF|PRF|NX	0	_	I-1
+7	sicher	sicher	_	ADJD	_	_	_	_	_	T209	sicher	sicher	206	_	_	0	0	I-s12	0	0	I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T210	,	,	207	_	_	0	0	I-s12	0	0	I-SIMPX|$,	0	_	I-1
+9	dass	dass	_	KOUS	_	_	_	_	_	T211	dass	dass	208	_	_	0	0	I-s12	0	0	I-SIMPX|B-SIMPX|B-NF|B-SIMPX|KOUS|C	0	_	I-1
+10	sie	sie	_	PPER	_	_	_	_	_	T212	sie	sie	209	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+11	eine	eine	_	ART	_	_	_	_	_	T213	eine	eine	210	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+12	wahre	wahr	_	ADJA	_	_	_	_	_	T214	wahre	wahre	211	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|B-ADJX|ADJA|ADJX	0	_	I-1
+13	,	,	_	$,	_	_	_	_	_	T215	,	,	212	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-ADJX|$,	0	_	I-1
+14	freundschaftliche	freundschaftlich	_	ADJA	_	_	_	_	_	T216	freundschaftliche	freundschaftliche	213	_	freundschaft-liche 	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|E-ADJX|ADJA|ADJX	0	_	I-1
+15	Beziehung	Beziehung	_	NN	_	_	_	_	_	T217	Beziehung	Beziehung	214	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+16	führten	führen	_	VVFIN	_	_	_	_	_	T218	führten	führten	215	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|E-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+17	und	und	_	KON	_	_	_	_	_	T219	und	und	216	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|KON	0	_	I-1
+18	dass	dass	_	KOUS	_	_	_	_	_	T220	dass	dass	217	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|B-SIMPX|KOUS|C	0	_	I-1
+19	diese	diese	_	PDS	_	_	_	_	_	T221	diese	diese	218	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-MF|PDS|NX	0	_	I-1
+20	ihr	ihr	_	PPOSAT	_	_	_	_	_	T222	ihr	ihr	219	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX|PPOSAT	0	_	I-1
+21	ganzes	ganz	_	ADJA	_	_	_	_	_	T223	ganzes	ganzes	220	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+22	Leben	Leben	_	NN	_	_	_	_	_	T224	Leben	Leben	221	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+23	andauern	andauern	_	VVINF	_	_	_	_	_	T225	andauern	andauern	222	_	_	0	0	I-s12	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-VC|VVINF|VXINF	0	_	I-1
+24	würde	werden	_	VAFIN	_	_	_	_	_	T226	würde	würde	223	_	_	0	0	I-s12	0	0	E-SIMPX|E-SIMPX|E-NF|E-SIMPX|E-VC|VVFIN|VXFIN	0	_	I-1
+25	.	.	_	$.	_	_	_	_	_	T227	.	.	224	_	_	0	0	E-s12	0	0	$.	0	_	E-1
+
+# sent_id = 13
+# text = Camenzind fasst zusammen, dass ihm seine Jugend sehr kurz erschien, sie dennoch wunderschön war.
+1	Camenzind	Camenzind	_	NE	_	_	_	_	_	T228	Camenzind	Camenzind	225	_	_	0	0	B-s13	0	0	B-SIMPX|NN|NX|VF	0	_	B-1
+2	fasst	fassen	_	VVFIN	_	_	_	_	_	T229	fasst	fasst	226	_	_	0	0	I-s13	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	zusammen	zusammen	_	PTKVZ	_	_	_	_	_	T230	zusammen	zusammen	227	_	_	0	0	I-s13	0	0	I-SIMPX|PTKVZ|VC	0	_	I-1
+4	,	,	_	$,	_	_	_	_	_	T231	,	,	228	_	_	0	0	I-s13	0	0	I-SIMPX|$,	0	_	I-1
+5	dass	dass	_	KOUS	_	_	_	_	_	T232	dass	dass	229	_	_	0	0	I-s13	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+6	ihm	er	_	PPER	_	_	_	_	_	T233	ihm	ihm	230	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NF|B-FKOORD|B-FKONJ|B-MF|PPER|NX	0	_	I-1
+7	seine	sein	_	PPOSAT	_	_	_	_	_	T234	seine	seine	231	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|B-NX|PPOSAT	0	_	I-1
+8	Jugend	Jugend	_	NN	_	_	_	_	_	T235	Jugend	Jugend	232	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|E-NX|NN	0	_	I-1
+9	sehr	sehr	_	ADV	_	_	_	_	_	T236	sehr	sehr	233	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|B-ADJX|ADV|ADVX	0	_	I-1
+10	kurz	kurz	_	ADJD	_	_	_	_	_	T237	kurz	kurz	234	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|E-ADJX|ADJD	0	_	I-1
+11	erschien	erscheinen	_	VVFIN	_	_	_	_	_	T238	erschien	erschien	235	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|E-FKONJ|VVFIN|VXFIN|VC	0	_	I-1
+12	,	,	_	$,	_	_	_	_	_	T239	,	,	236	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|$,	0	_	I-1
+13	sie	sie	_	PPER	_	_	_	_	_	T240	sie	sie	237	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|B-FKONJ|B-MF|PPER|NX	0	_	I-1
+14	dennoch	dennoch	_	ADV	_	_	_	_	_	T241	dennoch	dennoch	238	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|ADV|ADVX	0	_	I-1
+15	wunderschön	wunderschön	_	ADJD	_	_	_	_	_	T242	wunderschön	wunderschön	239	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|VVPP|VXINF	0	_	I-1
+16	war	sein	_	VAFIN	_	_	_	_	_	T243	war	war	240	_	_	0	0	I-s13	0	0	E-SIMPX|E-SIMPX|E-NF|E-FKOORD|E-FKONJ|VAFIN|VXFIN|VC	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T244	.	.	241	_	_	0	0	E-s13	0	0	$.	0	_	E-1
+
+# sent_id = 14
+# text = Am Ende der Reise verabschiedeten die Freunde sich auf eine ganz emotionale Art und Weise.
+1	Am	an	_	APPRART	_	_	_	_	_	T245	Am	Am	242	_	_	0	0	B-s14	0	0	B-SIMPX|B-PX|B-VF|APPRART	0	_	B-1
+2	Ende	Ende	_	NN	_	_	_	_	_	T246	Ende	Ende	243	_	_	0	0	I-s14	0	0	I-SIMPX|I-PX|I-VF|B-NX|NN|NX	0	_	I-1
+3	der	die	_	ART	_	_	_	_	_	T247	der	der	244	_	_	0	0	I-s14	0	0	I-SIMPX|I-PX|I-VF|I-NX|B-NX|ART	0	_	I-1
+4	Reise	Reise	_	NN	_	_	_	_	_	T248	Reise	Reise	245	_	_	0	0	I-s14	0	0	I-SIMPX|E-PX|E-VF|E-NX|E-NX|NN	0	_	I-1
+5	verabschiedeten	verabschieden	_	VVFIN	_	_	_	_	_	T249	verabschiedeten	verabschiedeten	246	_	_	0	0	I-s14	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+6	die	die	_	ART	_	_	_	_	_	T250	die	die	247	_	_	0	0	I-s14	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+7	Freunde	Freund	_	NN	_	_	_	_	_	T251	Freunde	Freunde	248	_	_	0	0	I-s14	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+8	sich	sich	_	PRF	_	_	_	_	_	T252	sich	sich	249	_	_	0	0	I-s14	0	0	I-SIMPX|I-MF|PRF|NX	0	_	I-1
+9	auf	auf	_	APPR	_	_	_	_	_	T253	auf	auf	250	_	_	0	0	I-s14	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+10	eine	eine	_	ART	_	_	_	_	_	T254	eine	eine	251	_	_	0	0	I-s14	0	0	I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+11	ganz	ganz	_	ADV	_	_	_	_	_	T255	ganz	ganz	252	_	_	0	0	I-s14	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-ADJX|ADV|ADVX	0	_	I-1
+12	emotionale	emotional	_	ADJA	_	_	_	_	_	T256	emotionale	emotionale	253	_	_	0	0	I-s14	0	0	I-SIMPX|I-MF|I-PX|I-NX|E-ADJX|ADJA	0	_	I-1
+13	Art	Art	_	NN	_	_	_	_	_	T257	Art	Art	254	_	_	0	0	I-s14	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-NX|NN|NX	0	_	I-1
+14	und	und	_	KON	_	_	_	_	_	T258	und	und	255	_	_	0	0	I-s14	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|KON	0	_	I-1
+15	Weise	Weise	_	NN	_	_	_	_	_	T259	Weise	Weise	256	_	_	0	0	I-s14	0	0	E-SIMPX|E-MF|E-PX|E-NX|E-NX|NN|NX	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T260	.	.	257	_	_	0	0	E-s14	0	0	$.	0	_	E-1
+
+# sent_id = 15
+# text = Zwei Wochen später ertrinkt Richard, was der Protagonist nicht rechtzeitig erfährt.
+1	Zwei	zwei	_	CARD	_	_	_	_	_	T261	Zwei	Zwei	258	_	_	0	0	B-s15	0	0	B-NX|B-NX|B-VF|B-NX|CARD|ADJX	0	_	B-1
+2	Wochen	Woche	_	NN	_	_	_	_	_	T262	Wochen	Wochen	259	_	_	0	0	I-s15	0	0	I-NX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	später	spät	_	ADJD	_	_	_	_	_	T263	später	später	260	_	_	0	0	I-s15	0	0	I-NX|I-NX|E-VF|NX|NX|ADJA|ADJX	0	_	I-1
+4	ertrinkt	ertrinken	_	VVFIN	_	_	_	_	_	T264	ertrinkt	ertrinkt	261	_	_	0	0	I-s15	0	0	I-NX|I-NX|B-NX|NX|NN|LK	0	_	I-1
+5	Richard	Richard	_	NE	_	_	_	_	_	T265	Richard	Richard	262	_	_	0	0	I-s15	0	0	I-NX|E-NX|E-NX|NE|NX|MF	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T266	,	,	263	_	_	0	0	I-s15	0	0	I-NX|$,	0	_	I-1
+7	was	was	_	PRELS	_	_	_	_	_	T267	was	was	264	_	_	0	0	I-s15	0	0	I-NX|B-R-SIMPX|B-NF|PWS|NX|C	0	_	I-1
+8	der	die	_	ART	_	_	_	_	_	T268	der	der	265	_	_	0	0	I-s15	0	0	I-NX|I-R-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+9	Protagonist	Protagonist	_	NN	_	_	_	_	_	T269	Protagonist	Protagonist	266	_	_	0	0	I-s15	0	0	I-NX|I-R-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+10	nicht	nicht	_	PTKNEG	_	_	_	_	_	T270	nicht	nicht	267	_	_	0	0	I-s15	0	0	I-NX|I-R-SIMPX|I-NF|I-MF|PTKNEG|ADVX	0	_	I-1
+11	rechtzeitig	rechtzeitig	_	ADJD	_	_	_	_	_	T271	rechtzeitig	rechtzeitig	268	_	_	0	0	I-s15	0	0	I-NX|I-R-SIMPX|I-NF|E-MF|ADJD|ADJX	0	_	I-1
+12	erfährt	erfahren	_	VVFIN	_	_	_	_	_	T272	erfährt	erfährt	269	_	_	0	0	I-s15	0	0	E-NX|E-R-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+13	.	.	_	$.	_	_	_	_	_	T273	.	.	270	_	_	0	0	E-s15	0	0	$.	0	_	E-1
+
+# sent_id = 16
+# text = Somit konnte Peter nicht einmal an seiner Beerdigung teilnehmen.
+1	Somit	somit	_	ADV	_	_	_	_	_	T274	Somit	Somit	271	_	_	0	0	B-s16	0	0	B-SIMPX|ADV|ADVX|VF	0	_	B-1
+2	konnte	können	_	VMFIN	_	_	_	_	_	T275	konnte	konnte	272	_	_	0	0	I-s16	0	0	I-SIMPX|VMFIN|VXFIN|LK	0	_	I-1
+3	Peter	Peter	_	NE	_	_	_	_	_	T276	Peter	Peter	273	_	_	0	0	I-s16	0	0	I-SIMPX|B-MF|NE|NX	0	_	I-1
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	T277	nicht	nicht	274	_	_	0	0	I-s16	0	0	I-SIMPX|I-MF|PTKNEG|ADVX	0	_	I-1
+5	einmal	einmal	_	ADV	_	_	_	_	_	T278	einmal	einmal	275	_	_	0	0	I-s16	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+6	an	an	_	APPR	_	_	_	_	_	T279	an	an	276	_	_	0	0	I-s16	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+7	seiner	sein	_	PPOSAT	_	_	_	_	_	T280	seiner	seiner	277	_	_	0	0	I-s16	0	0	I-SIMPX|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+8	Beerdigung	Beerdigung	_	NN	_	_	_	_	_	T281	Beerdigung	Beerdigung	278	_	_	0	0	I-s16	0	0	I-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+9	teilnehmen	teilnehmen	_	VVINF	_	_	_	_	_	T282	teilnehmen	teilnehmen	279	_	_	0	0	I-s16	0	0	E-SIMPX|VVINF|VXINF|VC	0	_	I-1
+10	.	.	_	$.	_	_	_	_	_	T283	.	.	280	_	_	0	0	E-s16	0	0	$.	0	_	E-1
+
+# sent_id = 17
+# text = Durch den Tod seines Freundes wird Peter bewusst, wie wichtig seine Freundschaft zu ihm war.
+1	Durch	durch	_	APPR	_	_	_	_	_	T284	Durch	Durch	281	_	_	0	0	B-s17	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	den	die	_	ART	_	_	_	_	_	T285	den	den	282	_	_	0	0	I-s17	0	0	I-SIMPX|I-PX|I-VF|B-NX|B-NX|ART	0	_	I-1
+3	Tod	Tod	_	NN	_	_	_	_	_	T286	Tod	Tod	283	_	_	0	0	I-s17	0	0	I-SIMPX|I-PX|I-VF|I-NX|E-NX|NN	0	_	I-1
+4	seines	sein	_	PPOSAT	_	_	_	_	_	T287	seines	seines	284	_	_	0	0	I-s17	0	0	I-SIMPX|I-PX|I-VF|I-NX|B-NX|PPOSAT	0	_	I-1
+5	Freundes	Freund	_	NN	_	_	_	_	_	T288	Freundes	Freundes	285	_	_	0	0	I-s17	0	0	I-SIMPX|E-PX|E-VF|E-NX|E-NX|NN	0	_	I-1
+6	wird	werden	_	VAFIN	_	_	_	_	_	T289	wird	wird	286	_	_	0	0	I-s17	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+7	Peter	Peter	_	NE	_	_	_	_	_	T290	Peter	Peter	287	_	_	0	0	I-s17	0	0	I-SIMPX|NE|NX|MF	0	_	I-1
+8	bewusst	bewusst	_	ADJD	_	_	_	_	_	T291	bewusst	bewusst	288	_	_	0	0	I-s17	0	0	I-SIMPX|VVPP|VXINF|VC	0	_	I-1
+9	,	,	_	$,	_	_	_	_	_	T292	,	,	289	_	_	0	0	I-s17	0	0	I-SIMPX|$,	0	_	I-1
+10	wie	wie	_	KOKOM	_	_	_	_	_	T293	wie	wie	290	_	_	0	0	I-s17	0	0	I-SIMPX|B-SIMPX|B-NF|B-ADJX|PWAV|ADVX|C	0	_	I-1
+11	wichtig	wichtig	_	ADJD	_	_	_	_	_	T294	wichtig	wichtig	291	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|E-ADJX|MF|ADJD	0	_	I-1
+12	seine	sein	_	PPOSAT	_	_	_	_	_	T295	seine	seine	292	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|PPOSAT	0	_	I-1
+13	Freundschaft	Freundschaft	_	NN	_	_	_	_	_	T296	Freundschaft	Freundschaft	293	_	Freund-schaft 	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+14	zu	zu	_	APPR	_	_	_	_	_	T297	zu	zu	294	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+15	ihm	er	_	PPER	_	_	_	_	_	T298	ihm	ihm	295	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-PX|PPER|NX	0	_	I-1
+16	war	sein	_	VAFIN	_	_	_	_	_	T299	war	war	296	_	_	0	0	I-s17	0	0	E-SIMPX|E-SIMPX|E-NF|VAFIN|VXFIN|VC	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T300	.	.	297	_	_	0	0	E-s17	0	0	$.	0	_	E-1
+
+# sent_id = 18
+# text = Er war zutiefst verletzt und sich nicht sicher, ob er jemals wieder glücklich werden könnte.
+1	Er	er	_	PPER	_	_	_	_	_	T301	Er	Er	298	_	_	0	0	B-s18	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	war	sein	_	VAFIN	_	_	_	_	_	T302	war	war	299	_	_	0	0	I-s18	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	zutiefst	zutiefst	_	ADV	_	_	_	_	_	T303	zutiefst	zutiefst	300	_	_	0	0	I-s18	0	0	I-SIMPX|ADV|ADVX|MF	0	_	I-1
+4	verletzt	verletzen	_	VVPP	_	_	_	_	_	T304	verletzt	verletzt	301	_	_	0	0	I-s18	0	0	I-SIMPX|VVPP|VXINF|VC	0	_	I-1
+5	und	und	_	KON	_	_	_	_	_	T305	und	und	302	_	_	0	0	I-s18	0	0	I-SIMPX|B-NF|KON	0	_	I-1
+6	sich	sich	_	PRF	_	_	_	_	_	T306	sich	sich	303	_	_	0	0	I-s18	0	0	I-SIMPX|I-NF|B-MF|PRF|NX	0	_	I-1
+7	nicht	nicht	_	PTKNEG	_	_	_	_	_	T307	nicht	nicht	304	_	_	0	0	I-s18	0	0	I-SIMPX|I-NF|I-MF|PTKNEG|ADVX	0	_	I-1
+8	sicher	sicher	_	ADJD	_	_	_	_	_	T308	sicher	sicher	305	_	_	0	0	I-s18	0	0	I-SIMPX|I-NF|E-MF|ADJD|ADJX	0	_	I-1
+9	,	,	_	$,	_	_	_	_	_	T309	_	,	_	XXX	_	1	PKT	I-s18	0	0	I-SIMPX|I-NF|$,	0	_	I-1
+10	ob	ob	_	KOUS	_	_	_	_	_	T310	ob	ob	306	_	_	0	0	I-s18	0	0	I-SIMPX|I-NF|B-SIMPX|KOUS|C	0	_	I-1
+11	er	er	_	PPER	_	_	_	_	_	T311	er	er	307	_	_	0	0	I-s18	0	0	I-SIMPX|I-NF|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+12	jemals	jemals	_	ADV	_	_	_	_	_	T312	jemals	jemals	308	_	_	0	0	I-s18	0	0	I-SIMPX|I-NF|I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+13	wieder	wieder	_	ADV	_	_	_	_	_	T313	wieder	wieder	309	_	_	0	0	I-s18	0	0	I-SIMPX|I-NF|I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+14	glücklich	glücklich	_	ADJD	_	_	_	_	_	T314	glücklich	glücklich	310	_	_	0	0	I-s18	0	0	I-SIMPX|I-NF|I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+15	werden	werden	_	VAINF	_	_	_	_	_	T315	werden	werden	311	_	_	0	0	I-s18	0	0	I-SIMPX|I-NF|I-SIMPX|B-VC|VAINF|VXINF	0	_	I-1
+16	könnte	können	_	VMFIN	_	_	_	_	_	T316	könnte	könnte	312	_	_	0	0	I-s18	0	0	E-SIMPX|E-NF|E-SIMPX|E-VC|VVFIN|VXFIN	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T317	.	.	313	_	_	0	0	E-s18	0	0	$.	0	_	E-1
+
+# sent_id = 19
+# text = Ohne Richard war er plötzlich alleine, unsicher und orientierungslos.
+1	Ohne	ohne	_	APPR	_	_	_	_	_	T318	Ohne	Ohne	314	_	_	0	0	B-s19	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	Richard	Richard	_	NE	_	_	_	_	_	T319	Richard	Richard	315	_	_	0	0	I-s19	0	0	I-SIMPX|E-PX|E-VF|NE|NX	0	_	I-1
+3	war	sein	_	VAFIN	_	_	_	_	_	T320	war	war	316	_	_	0	0	I-s19	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+4	er	er	_	PPER	_	_	_	_	_	T321	er	er	317	_	_	0	0	I-s19	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+5	plötzlich	plötzlich	_	ADJD	_	_	_	_	_	T322	plötzlich	plötzlich	318	_	_	0	0	I-s19	0	0	I-SIMPX|I-MF|B-ADJX|B-ADJX|ADJD|ADJX	0	_	I-1
+6	alleine	alleine	_	PTKVZ	_	_	_	_	_	T323	alleine	alleine	319	_	_	0	0	I-s19	0	0	I-SIMPX|I-MF|I-ADJX|E-ADJX|ADV|ADVX	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T324	,	,	320	_	_	0	0	I-s19	0	0	I-SIMPX|I-MF|I-ADJX|$,	0	_	I-1
+8	unsicher	unsicher	_	ADJD	_	_	_	_	_	T325	unsicher	unsicher	321	_	_	0	0	I-s19	0	0	I-SIMPX|I-MF|I-ADJX|ADJD|ADJX	0	_	I-1
+9	und	und	_	KON	_	_	_	_	_	T326	und	und	322	_	_	0	0	I-s19	0	0	I-SIMPX|I-MF|I-ADJX|KON	0	_	I-1
+10	orientierungslos	orientierungslos	_	ADJD	_	_	_	_	_	T327	orientierungslos	orientierungslos	323	_	_	0	0	I-s19	0	0	E-SIMPX|E-MF|E-ADJX|ADJD|ADJX	0	_	I-1
+11	.	.	_	$.	_	_	_	_	_	T328	.	.	324	_	_	0	0	E-s19	0	0	$.	0	_	E-1
+
+# sent_id = 20
+# text = In dem Romanauszug wird Kritik an der materialistischen Moderne ausgeübt.
+1	In	in	_	APPR	_	_	_	_	_	T329	In	In	325	_	_	0	0	B-s20	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	dem	die	_	ART	_	_	_	_	_	T330	dem	dem	326	_	_	0	0	I-s20	0	0	I-SIMPX|I-PX|I-VF|B-NX|ART	0	_	I-1
+3	Romanauszug	Romanauszug	_	NN	_	_	_	_	_	T331	Romanauszug	Romanauszug	327	_	_	0	0	I-s20	0	0	I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+4	wird	werden	_	VAFIN	_	_	_	_	_	T332	wird	wird	328	_	_	0	0	I-s20	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+5	Kritik	Kritik	_	NN	_	_	_	_	_	T333	Kritik	Kritik	329	_	_	0	0	I-s20	0	0	I-SIMPX|B-NX|B-MF|NN|NX	0	_	I-1
+6	an	an	_	APPR	_	_	_	_	_	T334	an	an	330	_	_	0	0	I-s20	0	0	I-SIMPX|I-NX|I-MF|B-PX|APPR	0	_	I-1
+7	der	die	_	ART	_	_	_	_	_	T335	der	der	331	_	_	0	0	I-s20	0	0	I-SIMPX|I-NX|I-MF|I-PX|B-NX|ART	0	_	I-1
+8	materialistischen	materialistisch	_	ADJA	_	_	_	_	_	T336	materialistischen	materialistischen	332	_	_	0	0	I-s20	0	0	I-SIMPX|I-NX|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+9	Moderne	Moderne	_	NN	_	_	_	_	_	T337	Moderne	Moderne	333	_	_	0	0	I-s20	0	0	I-SIMPX|E-NX|E-MF|E-PX|E-NX|NN	0	_	I-1
+10	ausgeübt	ausüben	_	VVPP	_	_	_	_	_	T338	ausgeübt	ausgeübt	334	_	_	0	0	I-s20	0	0	E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+11	.	.	_	$.	_	_	_	_	_	T339	.	.	335	_	_	0	0	E-s20	0	0	$.	0	_	E-1
+
+# sent_id = 21
+# text = Auf der Reise leben die beiden Freunde ein einfaches Leben und pilgern sogar den Weg des Franz von Assisi <EMPTY> ( vgl. Z. 6 ).
+1	Auf	auf	_	APPR	_	_	_	_	_	T340	Auf	Auf	336	_	_	0	0	B-s21	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	der	die	_	ART	_	_	_	_	_	T341	der	der	337	_	_	0	0	I-s21	0	0	I-SIMPX|I-PX|I-VF|B-NX|ART	0	_	I-1
+3	Reise	Reise	_	NN	_	_	_	_	_	T342	Reise	Reise	338	_	_	0	0	I-s21	0	0	I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+4	leben	leben	_	VVFIN	_	_	_	_	_	T343	leben	leben	339	_	_	0	0	I-s21	0	0	I-SIMPX|B-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+5	die	die	_	ART	_	_	_	_	_	T344	die	die	340	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-NX|ART	0	_	I-1
+6	beiden	beide	_	PIAT	_	_	_	_	_	T345	beiden	beiden	341	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|PIDAT|ADJX	0	_	I-1
+7	Freunde	Freund	_	NN	_	_	_	_	_	T346	Freunde	Freunde	342	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|E-NX|NN	0	_	I-1
+8	ein	eine	_	ART	_	_	_	_	_	T347	ein	ein	343	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-NX|ART	0	_	I-1
+9	einfaches	einfach	_	ADJA	_	_	_	_	_	T348	einfaches	einfaches	344	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+10	Leben	Leben	_	NN	_	_	_	_	_	T349	Leben	Leben	345	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|E-FKONJ|E-MF|E-NX|NN	0	_	I-1
+11	und	und	_	KON	_	_	_	_	_	T350	und	und	346	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+12	pilgern	pilgern	_	VVFIN	_	_	_	_	_	T351	pilgern	pilgern	347	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+13	sogar	sogar	_	ADV	_	_	_	_	_	T352	sogar	sogar	348	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|ADV|ADVX	0	_	I-1
+14	den	die	_	ART	_	_	_	_	_	T353	denn	den	349	XXX	_	1	WORT	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-NX|B-NX|ART	0	_	I-1
+15	Weg	Weg	_	NN	_	_	_	_	_	T354	Weg	Weg	350	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|E-NX|NN	0	_	I-1
+16	des	die	_	ART	_	_	_	_	_	T355	des	des	351	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|B-NX|B-NX|ART	0	_	I-1
+17	Franz	Franz	_	NE	_	_	_	_	_	T356	Franz	Franz	352	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|E-NX|NE	0	_	I-1
+18	von	von	_	APPR	_	_	_	_	_	T357	von	von	353	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|B-PX|APPR	0	_	I-1
+19	Assisi	Assisi	_	NN	_	_	_	_	_	T358	Assisi	Assisi	354	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|I-PX|B-NX|NE|NX	0	_	I-1
+20	<EMPTY>	_	_	_	_	_	_	_	_	T359	.	_	355	_	_	1	PKT	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|I-PX|I-NX	0	_	I-1
+21	(	(	_	$(	_	_	_	_	_	T360	(	(	356	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|I-PX|I-NX|$(	0	_	I-1
+22	vgl.	vgl.	_	ADV	_	_	_	_	_	T361	vgl.	vgl.	357	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|I-PX|I-NX|B-NX|B-NX|B-ENADD|NE	0	_	I-1
+23	Z.	Z.	_	NE	_	_	_	_	_	T362	Z.	Z.	358	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|I-PX|I-NX|I-NX|E-NX|E-ENADD|NE	0	_	I-1
+24	6	6	_	CARD	_	_	_	_	_	T363	6	6	359	_	_	0	0	I-s21	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|I-PX|I-NX|E-NX|CARD|NX	0	_	I-1
+25	)	)	_	$(	_	_	_	_	_	T364	)	)	360	_	_	0	0	I-s21	0	0	E-SIMPX|E-FKOORD|E-FKONJ|E-MF|E-NX|E-NX|E-PX|E-NX|$(	0	_	I-1
+26	.	.	_	$.	_	_	_	_	_	T365	.	.	361	_	_	0	0	E-s21	0	0	$.	0	_	E-1
+
+# sent_id = 22
+# text = Daran erkennt man sofort, dass der Protagonist und sein Freund einen sehr idealistischen Lebensstil haben.
+1	Daran	daran	_	PAV	_	_	_	_	_	T366	Daran	Daran	362	_	_	0	0	B-s22	0	0	B-SIMPX|PROP|PX|VF	0	_	B-1
+2	erkennt	erkennen	_	VVFIN	_	_	_	_	_	T367	erkennt	erkennt	363	_	_	0	0	I-s22	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	man	man	_	PIS	_	_	_	_	_	T368	man	man	364	_	_	0	0	I-s22	0	0	I-SIMPX|B-MF|PIS|NX	0	_	I-1
+4	sofort	sofort	_	ADV	_	_	_	_	_	T369	sofort	sofort	365	_	_	0	0	I-s22	0	0	I-SIMPX|E-MF|ADV|ADVX	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T370	,	,	366	_	_	0	0	I-s22	0	0	I-SIMPX|$,	0	_	I-1
+6	dass	dass	_	KOUS	_	_	_	_	_	T371	dass	dass	367	_	_	0	0	I-s22	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+7	der	die	_	ART	_	_	_	_	_	T372	der	der	368	_	_	0	0	I-s22	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|B-NX|ART	0	_	I-1
+8	Protagonist	Protagonist	_	NN	_	_	_	_	_	T373	Protagonist	Protagonist	369	_	_	0	0	I-s22	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|E-NX|NN	0	_	I-1
+9	und	und	_	KON	_	_	_	_	_	T374	und	und	370	_	_	0	0	I-s22	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|KON	0	_	I-1
+10	sein	sein	_	PPOSAT	_	_	_	_	_	T375	sein	sein	371	_	_	0	0	I-s22	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|B-NX|PPOSAT	0	_	I-1
+11	Freund	Freund	_	NN	_	_	_	_	_	T376	Freund	Freund	372	_	_	0	0	I-s22	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|E-NX|NN	0	_	I-1
+12	einen	eine	_	ART	_	_	_	_	_	T377	einen	einen	373	_	_	0	0	I-s22	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|ART	0	_	I-1
+13	sehr	sehr	_	ADV	_	_	_	_	_	T378	sehr	sehr	374	_	_	0	0	I-s22	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|B-ADJX|ADV|ADVX	0	_	I-1
+14	idealistischen	idealistisch	_	ADJA	_	_	_	_	_	T379	idealistischen	idealistischen	375	_	_	0	0	I-s22	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|E-ADJX|ADJA	0	_	I-1
+15	Lebensstil	Lebensstil	_	NN	_	_	_	_	_	T380	Lebensstil	Lebensstil	376	_	_	0	0	I-s22	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-NX|NN	0	_	I-1
+16	haben	haben	_	VAINF	_	_	_	_	_	T381	haben	haben	377	_	_	0	0	I-s22	0	0	E-SIMPX|E-SIMPX|E-NF|VAFIN|VXFIN|VC	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T382	.	.	378	_	_	0	0	E-s22	0	0	$.	0	_	E-1
+
+# sent_id = 23
+# text = Sie genießen das einfache, idealistische Leben in Italien ( vgl. Z. 6 ).
+1	Sie	Sie|sie	_	PPER	_	_	_	_	_	T383	Sie	Sie	379	_	_	0	0	B-s23	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	genießen	genießen	_	VVFIN	_	_	_	_	_	T384	genießen	genießen	380	_	_	0	0	I-s23	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	das	die	_	ART	_	_	_	_	_	T385	das	das	381	_	_	0	0	I-s23	0	0	I-SIMPX|B-NX|B-MF|B-NX|ART	0	_	I-1
+4	einfache	einfach	_	ADJA	_	_	_	_	_	T386	einfache	einfache	382	_	_	0	0	I-s23	0	0	I-SIMPX|I-NX|I-MF|I-NX|B-ADJX|ADJA|ADJX	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T387	,	,	383	_	_	0	0	I-s23	0	0	I-SIMPX|I-NX|I-MF|I-NX|I-ADJX|$,	0	_	I-1
+6	idealistische	idealistisch	_	ADJA	_	_	_	_	_	T388	idealistische	idealistische	384	_	_	0	0	I-s23	0	0	I-SIMPX|I-NX|I-MF|I-NX|E-ADJX|ADJA|ADJX	0	_	I-1
+7	Leben	Leben	_	NN	_	_	_	_	_	T389	Leben	Leben	385	_	_	0	0	I-s23	0	0	I-SIMPX|I-NX|I-MF|E-NX|NN	0	_	I-1
+8	in	in	_	APPR	_	_	_	_	_	T390	in	in	386	_	_	0	0	I-s23	0	0	I-SIMPX|I-NX|I-MF|B-PX|APPR	0	_	I-1
+9	Italien	Italien	_	NE	_	_	_	_	_	T391	Italien	Italien	387	_	_	0	0	I-s23	0	0	E-SIMPX|E-NX|E-MF|E-PX|NE|NX	0	_	I-1
+10	(	(	_	$(	_	_	_	_	_	T392	(	(	388	_	_	0	0	I-s23	0	0	$(	0	_	I-1
+11	vgl.	vgl.	_	ADV	_	_	_	_	_	T393	vgl.	vgl.	389	_	_	0	0	I-s23	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+12	Z.	Z.	_	NE	_	_	_	_	_	T394	Z.	Z.	390	_	_	0	0	I-s23	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+13	6	6	_	CARD	_	_	_	_	_	T395	6	6	391	_	_	0	0	I-s23	0	0	E-NX|CARD|NX	0	_	I-1
+14	)	)	_	$(	_	_	_	_	_	T396	)	)	392	_	_	0	0	I-s23	0	0	$(	0	_	I-1
+15	.	.	_	$.	_	_	_	_	_	T397	.	.	393	_	_	0	0	E-s23	0	0	$.	0	_	E-1
+
+# sent_id = 24
+# text = Mit dieser Lebensweise konfrontiert kommen Peter <B->erstmals <E->erstmals Zweifel an der materialistischen Moderne und kritisiert diese offen ( vgl. Z. 8/9 ).
+1	Mit	mit	_	APPR	_	_	_	_	_	T398	Mit	Mit	394	_	_	0	0	B-s24	0	0	B-SIMPX|B-FKONJ|B-VF|B-PX|APPR	0	_	B-1
+2	dieser	dies	_	PDAT	_	_	_	_	_	T399	dieser	dieser	395	_	_	0	0	I-s24	0	0	I-SIMPX|I-FKONJ|I-VF|I-PX|B-NX|PDAT	0	_	I-1
+3	Lebensweise	Lebensweise	_	NN	_	_	_	_	_	T400	Lebensweise	Lebensweise	396	_	Lebens-weise 	0	0	I-s24	0	0	I-SIMPX|I-FKONJ|I-VF|E-PX|E-NX|NN	0	_	I-1
+4	konfrontiert	konfrontieren	_	VVPP	_	_	_	_	_	T401	konfrontiert	konfrontiert	397	_	_	0	0	I-s24	0	0	I-SIMPX|E-FKONJ|E-VF|VVPP|VXINF	0	_	I-1
+5	kommen	kommen	_	VVFIN	_	_	_	_	_	T402	kommen	kommen	398	_	_	0	0	I-s24	0	0	I-SIMPX|B-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+6	Peter	Peter	_	NE	_	_	_	_	_	T403	Peter	Peter	399	_	_	0	0	I-s24	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|NE|NX	0	_	I-1
+7	<B->erstmals	<B->erstmals	_	B-ADV	_	_	_	_	_	T404	erst	<B->erstmals	400	XXX	_	B-1	B-GZS	I-s24	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-ADV|B-ADVX	0	_	I-1
+8	<E->erstmals	<E->erstmals	_	E-ADV	_	_	_	_	_	T405	mals	<E->erstmals	401	XXX	_	E-1	E-GZS	I-s24	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|E-ADV|E-ADVX	0	_	I-1
+9	Zweifel	Zweifel	_	NN	_	_	_	_	_	T406	Zweifel	Zweifel	402	_	_	0	0	I-s24	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-NX|NN|NX	0	_	I-1
+10	an	an	_	APPR	_	_	_	_	_	T407	an	an	403	_	_	0	0	I-s24	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|B-PX|APPR	0	_	I-1
+11	der	die	_	ART	_	_	_	_	_	T408	der	der	404	_	_	0	0	I-s24	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-PX|B-NX|ART	0	_	I-1
+12	materialistischen	materialistisch	_	ADJA	_	_	_	_	_	T409	materialistischen	materialistischen	405	_	_	0	0	I-s24	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+13	Moderne	Moderne	_	NN	_	_	_	_	_	T410	Moderne	Moderne	406	_	_	0	0	I-s24	0	0	I-SIMPX|I-FKOORD|E-FKONJ|E-MF|E-NX|E-PX|E-NX|NN	0	_	I-1
+14	und	und	_	KON	_	_	_	_	_	T411	und	und	407	_	_	0	0	I-s24	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+15	kritisiert	kritisieren	_	VVFIN	_	_	_	_	_	T413	kritisiert	kritisiert	408	_	_	0	0	I-s24	0	0	I-SIMPX|I-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+16	diese	diese	_	PDS	_	_	_	_	_	T414	diese	diese	409	_	_	0	0	I-s24	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|PDS|NX	0	_	I-1
+17	offen	offen	_	ADJD	_	_	_	_	_	T415	offen	offen	410	_	_	0	0	I-s24	0	0	E-SIMPX|E-FKOORD|E-FKONJ|E-MF|ADJD|ADJX	0	_	I-1
+18	(	(	_	$(	_	_	_	_	_	T416	(	(	411	_	_	0	0	I-s24	0	0	$(	0	_	I-1
+19	vgl.	vgl.	_	ADV	_	_	_	_	_	T417	vgl.	vgl.	412	_	_	0	0	I-s24	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+20	Z.	Z.	_	NE	_	_	_	_	_	T418	Z.	Z.	413	_	_	0	0	I-s24	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+21	8/9	8/9	_	CARD	_	_	_	_	_	T419	8/9	8/9	414	_	_	0	0	I-s24	0	0	E-NX|CARD|NX	0	_	I-1
+22	)	)	_	$(	_	_	_	_	_	T420	)	)	415	_	_	0	0	I-s24	0	0	$(	0	_	I-1
+23	.	.	_	$.	_	_	_	_	_	T421	.	.	416	_	_	0	0	E-s24	0	0	$.	0	_	E-1
+
+# sent_id = 25
+# text = Camenzind kann in der italienischen Gesellschaft offen verkehren ( vgl. Z. 12-19 ).
+1	Camenzind	Camenzind	_	NN	_	_	_	_	_	T422	Camenzind	Camenzind	417	_	_	0	0	B-s25	0	0	B-SIMPX|NN|NX|VF	0	_	B-1
+2	kann	können	_	VMFIN	_	_	_	_	_	T423	kann	kann	418	_	_	0	0	I-s25	0	0	I-SIMPX|VMFIN|VXFIN|LK	0	_	I-1
+3	in	in	_	APPR	_	_	_	_	_	T424	in	in	419	_	_	0	0	I-s25	0	0	I-SIMPX|B-MF|B-PX|APPR	0	_	I-1
+4	der	die	_	ART	_	_	_	_	_	T425	der	der	420	_	_	0	0	I-s25	0	0	I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+5	italienischen	italienisch	_	ADJA	_	_	_	_	_	T426	italienischen	italienischen	421	_	_	0	0	I-s25	0	0	I-SIMPX|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+6	Gesellschaft	Gesellschaft	_	NN	_	_	_	_	_	T427	Gesellschaft	Gesellschaft	422	_	_	0	0	I-s25	0	0	I-SIMPX|I-MF|E-PX|E-NX|NN	0	_	I-1
+7	offen	offen	_	ADJD	_	_	_	_	_	T428	offen	offen	423	_	_	0	0	I-s25	0	0	I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+8	verkehren	verkehren	_	VVINF	_	_	_	_	_	T429	verkehren	verkehren	424	_	_	0	0	I-s25	0	0	E-SIMPX|VVINF|VXINF|VC	0	_	I-1
+9	(	(	_	$(	_	_	_	_	_	T430	(	(	425	_	_	0	0	I-s25	0	0	$(	0	_	I-1
+10	vgl.	vgl.	_	ADV	_	_	_	_	_	T431	vgl.	vgl.	426	_	_	0	0	I-s25	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+11	Z.	Z.	_	NE	_	_	_	_	_	T432	Z.	Z.	427	_	_	0	0	I-s25	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+12	12-19	@card@	_	CARD	_	_	_	_	_	T433	12-19	12-19	428	_	_	0	0	I-s25	0	0	E-NX|CARD|NX	0	_	I-1
+13	)	)	_	$(	_	_	_	_	_	T434	)	)	429	_	_	0	0	I-s25	0	0	$(	0	_	I-1
+14	.	.	_	$.	_	_	_	_	_	T435	.	.	430	_	_	0	0	E-s25	0	0	$.	0	_	E-1
+
+# sent_id = 26
+# text = Dies lässt darauf schließen, dass die Menschen in der modernen Gesellschaft wahrscheinlich verstellt, unehrlich und verschlossen sind.
+1	Dies	dies	_	PDS	_	_	_	_	_	T436	Dies	Dies	431	_	_	0	0	B-s26	0	0	B-SIMPX|PDS|NX|VF	0	_	B-1
+2	lässt	lassen	_	VVFIN	_	_	_	_	_	T437	lässt	lässt	432	_	_	0	0	I-s26	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	darauf	darauf	_	PAV	_	_	_	_	_	T438	darauf	darauf	433	_	_	0	0	I-s26	0	0	I-SIMPX|PROP|PX|MF	0	_	I-1
+4	schließen	schließen	_	VVINF	_	_	_	_	_	T439	schließen	schließen	434	_	_	0	0	I-s26	0	0	I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T440	,	,	435	_	_	0	0	I-s26	0	0	I-SIMPX|$,	0	_	I-1
+6	dass	dass	_	KOUS	_	_	_	_	_	T441	dass	dass	436	_	_	0	0	I-s26	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+7	die	die	_	ART	_	_	_	_	_	T442	die	die	437	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+8	Menschen	Mensch	_	NN	_	_	_	_	_	T443	Menschen	Menschen	438	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+9	in	in	_	APPR	_	_	_	_	_	T444	in	in	439	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+10	der	die	_	ART	_	_	_	_	_	T445	der	der	440	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-PX|B-NX|ART	0	_	I-1
+11	modernen	modern	_	ADJA	_	_	_	_	_	T446	modernen	modernen	441	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+12	Gesellschaft	Gesellschaft	_	NN	_	_	_	_	_	T447	Gesellschaft	Gesellschaft	442	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-PX|E-NX|NN	0	_	I-1
+13	wahrscheinlich	wahrscheinlich	_	ADJD	_	_	_	_	_	T448	wahrscheinlich	wahrscheinlich	443	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|ADJD|ADJX	0	_	I-1
+14	verstellt	verstellen	_	VVPP	_	_	_	_	_	T449	verstellt	verstellt	444	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|VVFIN|VXFIN	0	_	I-1
+15	,	,	_	$,	_	_	_	_	_	T450	,	,	445	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|$,	0	_	I-1
+16	unehrlich	unehrlich	_	ADJD	_	_	_	_	_	T451	unehrlich	unehrlich	446	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|ADJD|ADJX	0	_	I-1
+17	und	und	_	KON	_	_	_	_	_	T452	und	und	447	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|KON	0	_	I-1
+18	verschlossen	verschlossen	_	ADJD	_	_	_	_	_	T453	verschlossen	verschlossen	448	_	_	0	0	I-s26	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|VVPP|VXINF	0	_	I-1
+19	sind	sein	_	VAFIN	_	_	_	_	_	T454	sind	sind	449	_	_	0	0	I-s26	0	0	E-SIMPX|E-SIMPX|E-NF|VAFIN|VXFIN|VC	0	_	I-1
+20	.	.	_	$.	_	_	_	_	_	T455	.	.	450	_	_	0	0	E-s26	0	0	$.	0	_	E-1
+
+# sent_id = 27
+# text = Man bemerkt aber auch, dass Peter und sein Freund noch etwas materialistisch sind, da sie Alkohol zu sich nehmen ( vgl. Z. 17-18 ) und ein einfacher, idealistischer Mensch normalerweise keinen Alkohol braucht, um sein Glück zu finden.
+1	Man	man	_	PIS	_	_	_	_	_	T456	Man	Man	451	_	_	0	0	B-s27	0	0	B-SIMPX|PIS|NX|VF	0	_	B-1
+2	bemerkt	bemerken	_	VVFIN	_	_	_	_	_	T457	bemerkt	bemerkt	452	_	_	0	0	I-s27	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	aber	aber	_	ADV	_	_	_	_	_	T458	aber	aber	453	_	_	0	0	I-s27	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+4	auch	auch	_	ADV	_	_	_	_	_	T459	auch	auch	454	_	_	0	0	I-s27	0	0	I-SIMPX|E-MF|ADV|ADVX	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T460	,	,	455	_	_	0	0	I-s27	0	0	I-SIMPX|$,	0	_	I-1
+6	dass	dass	_	KOUS	_	_	_	_	_	T461	dass	dass	456	_	_	0	0	I-s27	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+7	Peter	Peter	_	NE	_	_	_	_	_	T462	Peter	Peter	457	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|NE|NX	0	_	I-1
+8	und	und	_	KON	_	_	_	_	_	T463	und	und	458	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|KON	0	_	I-1
+9	sein	sein	_	PPOSAT	_	_	_	_	_	T464	sein	sein	459	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|B-NX|PPOSAT	0	_	I-1
+10	Freund	Freund	_	NN	_	_	_	_	_	T465	Freund	Freund	460	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|E-NX|NN	0	_	I-1
+11	noch	noch	_	ADV	_	_	_	_	_	T466	noch	noch	461	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|ADV|ADVX	0	_	I-1
+12	etwas	etwas	_	ADV	_	_	_	_	_	T467	etwas	etwas	462	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-ADJX|ADV|ADVX	0	_	I-1
+13	materialistisch	materialistisch	_	ADJD	_	_	_	_	_	T468	materialistisch	materialistisch	463	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-ADJX|ADJD	0	_	I-1
+14	sind	sein	_	VAFIN	_	_	_	_	_	T469	sind	sind	464	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|VAFIN|VXFIN|VC	0	_	I-1
+15	,	,	_	$,	_	_	_	_	_	T470	,	,	465	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|$,	0	_	I-1
+16	da	da	_	KOUS	_	_	_	_	_	T471	da	da	466	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+17	sie	sie	_	PPER	_	_	_	_	_	T472	sie	sie	467	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|B-FKOORD|B-FKONJ|B-MF|PPER|NX	0	_	I-1
+18	Alkohol	Alkohol	_	NN	_	_	_	_	_	T473	Alkohol	Alkohol	468	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|NN|NX	0	_	I-1
+19	zu	zu	_	APPR	_	_	_	_	_	T474	zu	zu	469	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|B-PX|APPR	0	_	I-1
+20	sich	sich	_	PRF	_	_	_	_	_	T475	sich	sich	470	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|E-PX|PRF|NX	0	_	I-1
+21	nehmen	nehmen	_	VVINF	_	_	_	_	_	T476	nehmen	nehmen	471	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|E-FKONJ|VVINF|VXINF|VC	0	_	I-1
+22	(	(	_	$(	_	_	_	_	_	T477	(	(	472	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|$(	0	_	I-1
+23	vgl.	vgl.	_	ADV	_	_	_	_	_	T478	vgl.	vgl.	473	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|B-SIMPX|VVIMP|VXFIN|LK	0	_	I-1
+24	Z.	Z.	_	NE	_	_	_	_	_	T479	Z.	Z.	474	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-SIMPX|B-MF|NE|NX	0	_	I-1
+25	17-18	@card@	_	CARD	_	_	_	_	_	T480	17-18	17-18	475	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|E-SIMPX|E-MF|CARD|NX	0	_	I-1
+26	)	)	_	$(	_	_	_	_	_	T481	)	)	476	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|$(	0	_	I-1
+27	und	und	_	KON	_	_	_	_	_	T482	und	und	477	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|KON	0	_	I-1
+28	ein	eine	_	ART	_	_	_	_	_	T483	ein	ein	478	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|B-FKONJ|B-MF|B-NX|ART	0	_	I-1
+29	einfacher	einfach	_	ADJA	_	_	_	_	_	T484	einfacher	einfacher	479	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|I-NX|B-ADJX|ADJA|ADJX	0	_	I-1
+30	,	,	_	$,	_	_	_	_	_	T485	,	,	480	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|$,	0	_	I-1
+31	idealistischer	idealistisch	_	ADJA	_	_	_	_	_	T486	idealistischer	idealistischer	481	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|I-NX|E-ADJX|ADJA|ADJX	0	_	I-1
+32	Mensch	Mensch	_	NN	_	_	_	_	_	T487	Mensch	Mensch	482	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|E-NX|NN	0	_	I-1
+33	normalerweise	normalerweise	_	ADV	_	_	_	_	_	T488	normalerweise	normalerweise	483	_	normaler-weise 	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|ADV|ADVX	0	_	I-1
+34	keinen	keine	_	PIAT	_	_	_	_	_	T489	keinen	keinen	484	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|B-NX|PIAT	0	_	I-1
+35	Alkohol	Alkohol	_	NN	_	_	_	_	_	T490	Alkohol	Alkohol	485	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|E-NX|NN	0	_	I-1
+36	braucht	brauchen	_	VVFIN	_	_	_	_	_	T491	braucht	braucht	486	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|VVFIN|VXFIN|VC	0	_	I-1
+37	,	,	_	$,	_	_	_	_	_	T492	_	,	_	XXX	_	1	PKT	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|$,	0	_	I-1
+38	um	um	_	KOUI	_	_	_	_	_	T493	um	um	487	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|B-SIMPX|B-NF|KOUI|C	0	_	I-1
+39	sein	sein	_	PPOSAT	_	_	_	_	_	T494	sein	sein	488	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|B-NX|B-MF|PPOSAT	0	_	I-1
+40	Glück	Glück	_	NN	_	_	_	_	_	T495	Glück	Glück	489	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|E-NX|E-MF|NN	0	_	I-1
+41	zu	zu	_	PTKZU	_	_	_	_	_	T496	zu	zu	490	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|B-VXINF|B-VC|PTKZU	0	_	I-1
+42	finden	finden	_	VVINF	_	_	_	_	_	T497	finden	finden	491	_	_	0	0	I-s27	0	0	E-SIMPX|E-SIMPX|E-NF|E-SIMPX|E-NF|E-FKOORD|E-FKONJ|E-SIMPX|E-NF|E-VXINF|E-VC|VVINF	0	_	I-1
+43	.	.	_	$.	_	_	_	_	_	T498	.	.	492	_	_	0	0	E-s27	0	0	$.	0	_	E-1
+
+# sent_id = 28
+# text = Man bemerkt aufgrund der innigen Freundschaft zwischen Peter und Richard den hohen idealistischen Wert von menschlicher Nähe.
+1	Man	man	_	PIS	_	_	_	_	_	T499	Man	Man	493	_	_	0	0	B-s28	0	0	B-SIMPX|PIS|NX|VF	0	_	B-1
+2	bemerkt	bemerken	_	VVFIN	_	_	_	_	_	T500	bemerkt	bemerkt	494	_	_	0	0	I-s28	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	aufgrund	aufgrund	_	APPR	_	_	_	_	_	T501	aufgrund	aufgrund	495	_	_	0	0	I-s28	0	0	I-SIMPX|B-MF|B-PX|APPR	0	_	I-1
+4	der	die	_	ART	_	_	_	_	_	T502	der	der	496	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+5	innigen	innig	_	ADJA	_	_	_	_	_	T503	innigen	innigen	497	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+6	Freundschaft	Freundschaft	_	NN	_	_	_	_	_	T504	Freundschaft	Freundschaft	498	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+7	zwischen	zwischen	_	APPR	_	_	_	_	_	T505	zwischen	zwischen	499	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-PX|APPR	0	_	I-1
+8	Peter	Peter	_	NE	_	_	_	_	_	T506	Peter	Peter	500	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-PX|B-NX|NE|NX	0	_	I-1
+9	und	und	_	KON	_	_	_	_	_	T507	und	und	501	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-PX|I-NX|KON	0	_	I-1
+10	Richard	Richard	_	NE	_	_	_	_	_	T508	Richard	Richard	502	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|E-PX|E-NX|E-PX|E-NX|NE|NX	0	_	I-1
+11	den	die	_	ART	_	_	_	_	_	T509	den	den	503	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|B-NX|B-NX|ART	0	_	I-1
+12	hohen	hoch	_	ADJA	_	_	_	_	_	T510	hohen	hohen	504	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+13	idealistischen	idealistisch	_	ADJA	_	_	_	_	_	T511	idealistischen	idealistischen	505	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+14	Wert	Wert	_	NN	_	_	_	_	_	T512	Wert	Wert	506	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+15	von	von	_	APPR	_	_	_	_	_	T513	von	von	507	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-NX|B-PX|APPR	0	_	I-1
+16	menschlicher	menschlich	_	ADJA	_	_	_	_	_	T514	menschlicher	menschlicher	508	_	_	0	0	I-s28	0	0	I-SIMPX|I-MF|I-NX|I-PX|B-NX|ADJA|ADJX	0	_	I-1
+17	Nähe	Nähe	_	NN	_	_	_	_	_	T515	Nähe	Nähe	509	_	_	0	0	I-s28	0	0	E-SIMPX|E-MF|E-NX|E-PX|E-NX|NN	0	_	I-1
+18	.	.	_	$.	_	_	_	_	_	T516	.	.	510	_	_	0	0	E-s28	0	0	$.	0	_	E-1
+
+# sent_id = 29
+# text = Dass die beiden diesen Wert sehr zu schätzen wissen, wird deutlich, da sie keine Ängste vor der einheimischen Bevölkerung haben und mit ihr Freundschaften schließen und sie beschenken ( vgl. Z. 18-23 ).
+1	Dass	dass	_	KOUS	_	_	_	_	_	T517	Dass	Dass	511	_	_	0	0	B-s29	0	0	B-SIMPX|B-SIMPX|B-VF|ADV|ADVX|C	0	_	B-1
+2	die	die	_	ART	_	_	_	_	_	T518	die	die	512	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-VF|B-MF|B-NX|ART	0	_	I-1
+3	beiden	beide	_	PIAT	_	_	_	_	_	T519	beiden	beiden	513	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|E-NX|PIS	0	_	I-1
+4	diesen	dies	_	PDAT	_	_	_	_	_	T520	diesen	diesen	514	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|B-NX|PDAT	0	_	I-1
+5	Wert	Wert	_	NN	_	_	_	_	_	T521	Wert	Wert	515	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|E-NX|NN	0	_	I-1
+6	sehr	sehr	_	ADV	_	_	_	_	_	T522	sehr	sehr	516	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-VF|E-MF|ADV|ADVX	0	_	I-1
+7	zu	zu	_	PTKZU	_	_	_	_	_	T523	zu	zu	517	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-VF|B-VC|B-VXINF|PTKZU	0	_	I-1
+8	schätzen	schätzen	_	VVINF	_	_	_	_	_	T524	schätzen	schätzen	518	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-VF|I-VC|E-VXINF|VVINF	0	_	I-1
+9	wissen	wissen	_	VVFIN	_	_	_	_	_	T525	wissen	wissen	519	_	_	0	0	I-s29	0	0	I-SIMPX|E-SIMPX|E-VF|E-VC|VVFIN|VXFIN	0	_	I-1
+10	,	,	_	$,	_	_	_	_	_	T526	_	,	_	XXX	_	1	PKT	I-s29	0	0	I-SIMPX|$,	0	_	I-1
+11	wird	werden	_	VAFIN	_	_	_	_	_	T527	wird	wird	520	_	_	0	0	I-s29	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+12	deutlich	deutlich	_	ADJD	_	_	_	_	_	T528	deutlich	deutlich	521	_	_	0	0	I-s29	0	0	I-SIMPX|ADJD|ADJX|MF	0	_	I-1
+13	,	,	_	$,	_	_	_	_	_	T529	,	,	522	_	_	0	0	I-s29	0	0	I-SIMPX|$,	0	_	I-1
+14	da	da	_	KOUS	_	_	_	_	_	T530	da	da	523	_	_	0	0	I-s29	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+15	sie	sie	_	PPER	_	_	_	_	_	T531	sie	sie	524	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|B-FKOORD|B-FKONJ|B-MF|PPER|NX	0	_	I-1
+16	keine	keine	_	PIAT	_	_	_	_	_	T532	keine	keine	525	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|B-NX|PIAT	0	_	I-1
+17	Ängste	Angst	_	NN	_	_	_	_	_	T533	Ängste	Ängste	526	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|E-NX|NN	0	_	I-1
+18	vor	vor	_	APPR	_	_	_	_	_	T534	vor	vor	527	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|B-PX|APPR	0	_	I-1
+19	der	die	_	ART	_	_	_	_	_	T535	der	der	528	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|ART	0	_	I-1
+20	einheimischen	einheimisch	_	ADJA	_	_	_	_	_	T536	einheimischen	einheimischen	529	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+21	Bevölkerung	Bevölkerung	_	NN	_	_	_	_	_	T537	Bevölkerung	Bevölkerung	530	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|E-PX|E-NX|NN	0	_	I-1
+22	haben	haben	_	VAFIN	_	_	_	_	_	T538	haben	haben	531	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|E-FKONJ|VAFIN|VXFIN|VC	0	_	I-1
+23	und	und	_	KON	_	_	_	_	_	T539	und	und	532	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|KON	0	_	I-1
+24	mit	mit	_	APPR	_	_	_	_	_	T540	mit	mit	533	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|B-FKONJ|B-PX|B-MF|APPR	0	_	I-1
+25	ihr	ihr	_	PPOSAT	_	_	_	_	_	T541	ihr	ihr	534	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-PX|I-MF|B-NX|PPOSAT	0	_	I-1
+26	Freundschaften	Freundschaft	_	NN	_	_	_	_	_	T542	Freundschaften	Freundschaften	535	_	Freundschaf-ten 	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-PX|E-MF|E-NX|NN	0	_	I-1
+27	schließen	schließen	_	VVINF	_	_	_	_	_	T543	schließen	schließen	536	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|E-FKONJ|VVFIN|VXFIN|VC	0	_	I-1
+28	und	und	_	KON	_	_	_	_	_	T544	und	und	537	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|KON	0	_	I-1
+29	sie	sie	_	PPER	_	_	_	_	_	T545	sie	sie	538	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|B-FKONJ|PPER|NX|MF	0	_	I-1
+30	beschenken	beschenken	_	VVFIN	_	_	_	_	_	T546	beschenken	beschenken	539	_	_	0	0	I-s29	0	0	E-SIMPX|E-SIMPX|E-NF|E-FKOORD|E-FKONJ|VVFIN|VXFIN|VC	0	_	I-1
+31	(	(	_	$(	_	_	_	_	_	T547	(	(	540	_	_	0	0	I-s29	0	0	$(	0	_	I-1
+32	vgl.	vgl.	_	ADV	_	_	_	_	_	T548	vgl.	vgl.	541	_	_	0	0	I-s29	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+33	Z.	Z.	_	NE	_	_	_	_	_	T549	Z.	Z.	542	_	_	0	0	I-s29	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+34	18-23	@card@	_	CARD	_	_	_	_	_	T550	18-23	18-23	543	_	_	0	0	I-s29	0	0	E-NX|CARD|NX	0	_	I-1
+35	)	)	_	$(	_	_	_	_	_	T551	)	)	544	_	_	0	0	I-s29	0	0	$(	0	_	I-1
+36	.	.	_	$.	_	_	_	_	_	T552	.	.	545	_	_	0	0	E-s29	0	0	$.	0	_	E-1
+
+# sent_id = 30
+# text = Eine eindeutige Bewertung von der materialistischen Moderne und dem idealistischen, einfachen Leben durch den Autor ist in Zeile 40 beziehungsweise 44 zu finden.
+1	Eine	eine	_	ART	_	_	_	_	_	T553	Eine	Eine	546	_	_	0	0	B-s30	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	eindeutige	eindeutig	_	ADJA	_	_	_	_	_	T554	eindeutige	eindeutige	547	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-NX|ADJA|ADJX	0	_	I-1
+3	Bewertung	Bewertung	_	NN	_	_	_	_	_	T555	Bewertung	Bewertung	548	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+4	von	von	_	APPR	_	_	_	_	_	T556	von	von	549	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|B-PX|APPR	0	_	I-1
+5	der	die	_	ART	_	_	_	_	_	T557	der	der	550	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|B-NX|B-NX|ART	0	_	I-1
+6	materialistischen	materialistisch	_	ADJA	_	_	_	_	_	T558	materialistischen	materialistischen	551	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+7	Moderne	Moderne	_	NN	_	_	_	_	_	T559	Moderne	Moderne	552	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|I-NX|E-NX|NN	0	_	I-1
+8	und	und	_	KON	_	_	_	_	_	T560	und	und	553	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|I-NX|KON	0	_	I-1
+9	dem	die	_	ART	_	_	_	_	_	T561	dem	dem	554	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|I-NX|B-NX|B-NX|ART	0	_	I-1
+10	idealistischen	idealistisch	_	ADJA	_	_	_	_	_	T562	idealistischen	idealistischen	555	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|I-NX|I-NX|I-NX|B-ADJX|ADJA|ADJX	0	_	I-1
+11	,	,	_	$,	_	_	_	_	_	T563	,	,	556	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|I-NX|I-NX|I-NX|I-ADJX|$,	0	_	I-1
+12	einfachen	einfach	_	ADJA	_	_	_	_	_	T564	einfachen	einfachen	557	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|I-NX|I-NX|I-NX|E-ADJX|ADJA|ADJX	0	_	I-1
+13	Leben	Leben	_	NN	_	_	_	_	_	T565	Leben	Leben	558	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|I-NX|I-NX|E-NX|NN	0	_	I-1
+14	durch	durch	_	APPR	_	_	_	_	_	T566	durch	durch	559	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|I-NX|I-NX|B-PX|APPR	0	_	I-1
+15	den	die	_	ART	_	_	_	_	_	T567	den	den	560	_	_	0	0	I-s30	0	0	I-SIMPX|I-NX|I-VF|I-PX|I-NX|I-NX|I-PX|B-NX|ART	0	_	I-1
+16	Autor	Autor	_	NN	_	_	_	_	_	T568	Autor	Autor	561	_	_	0	0	I-s30	0	0	I-SIMPX|E-NX|E-VF|E-PX|E-NX|E-NX|E-PX|E-NX|NN	0	_	I-1
+17	ist	sein	_	VAFIN	_	_	_	_	_	T569	ist	ist	562	_	_	0	0	I-s30	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+18	in	in	_	APPR	_	_	_	_	_	T570	in	in	563	_	_	0	0	I-s30	0	0	I-SIMPX|B-MF|B-PX|APPR	0	_	I-1
+19	Zeile	Zeile	_	NN	_	_	_	_	_	T571	Zeile	Zeile	564	_	_	0	0	I-s30	0	0	I-SIMPX|I-MF|E-PX|NN|NX	0	_	I-1
+20	40	40	_	CARD	_	_	_	_	_	T572	40	40	565	_	_	0	0	I-s30	0	0	I-SIMPX|I-MF|B-NX|CARD|NX	0	_	I-1
+21	beziehungsweise	beziehungsweise	_	KON	_	_	_	_	_	T573	beziehungsweise	beziehungsweise	566	_	_	0	0	I-s30	0	0	I-SIMPX|I-MF|I-NX|KON	0	_	I-1
+22	44	44	_	CARD	_	_	_	_	_	T574	44	44	567	_	_	0	0	I-s30	0	0	I-SIMPX|E-MF|E-NX|CARD|NX	0	_	I-1
+23	zu	zu	_	PTKZU	_	_	_	_	_	T575	zu	zu	568	_	_	0	0	I-s30	0	0	I-SIMPX|B-VXINF|B-VC|PTKZU	0	_	I-1
+24	finden	finden	_	VVINF	_	_	_	_	_	T576	finden	finden	569	_	_	0	0	I-s30	0	0	E-SIMPX|E-VXINF|E-VC|VVINF	0	_	I-1
+25	.	.	_	$.	_	_	_	_	_	T577	.	.	570	_	_	0	0	E-s30	0	0	$.	0	_	E-1
+
+# sent_id = 31
+# text = In seiner Wohnung oder generell in der Stadt fühlt er sich nach Richards Tod nicht mehr wohl.
+1	In	in	_	APPR	_	_	_	_	_	T578	In	In	571	_	_	0	0	B-s31	0	0	B-SIMPX|B-PX|B-VF|B-PX|APPR	0	_	B-1
+2	seiner	sein	_	PPOSAT	_	_	_	_	_	T579	seiner	seiner	572	_	_	0	0	I-s31	0	0	I-SIMPX|I-PX|I-VF|I-PX|B-NX|PPOSAT	0	_	I-1
+3	Wohnung	Wohnung	_	NN	_	_	_	_	_	T580	Wohnung	Wohnung	573	_	_	0	0	I-s31	0	0	I-SIMPX|I-PX|I-VF|E-PX|E-NX|NN	0	_	I-1
+4	oder	oder	_	KON	_	_	_	_	_	T581	oder	oder	574	_	_	0	0	I-s31	0	0	I-SIMPX|I-PX|I-VF|KON	0	_	I-1
+5	generell	generell	_	ADJD	_	_	_	_	_	T582	generell	generell	575	_	_	0	0	I-s31	0	0	I-SIMPX|I-PX|I-VF|B-PX|ADJD|ADJX	0	_	I-1
+6	in	in	_	APPR	_	_	_	_	_	T583	in	in	576	_	_	0	0	I-s31	0	0	I-SIMPX|I-PX|I-VF|I-PX|APPR	0	_	I-1
+7	der	die	_	ART	_	_	_	_	_	T584	der	der	577	_	_	0	0	I-s31	0	0	I-SIMPX|I-PX|I-VF|I-PX|B-NX|ART	0	_	I-1
+8	Stadt	Stadt	_	NN	_	_	_	_	_	T585	Stadt	Stadt	578	_	_	0	0	I-s31	0	0	I-SIMPX|E-PX|E-VF|E-PX|E-NX|NN	0	_	I-1
+9	fühlt	fühlen	_	VVFIN	_	_	_	_	_	T586	fühlt	fühlt	579	_	_	0	0	I-s31	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+10	er	er	_	PPER	_	_	_	_	_	T587	er	er	580	_	_	0	0	I-s31	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+11	sich	sich	_	PRF	_	_	_	_	_	T588	sich	sich	581	_	_	0	0	I-s31	0	0	I-SIMPX|I-MF|PRF|NX	0	_	I-1
+12	nach	nach	_	APPR	_	_	_	_	_	T589	nach	nach	582	_	_	0	0	I-s31	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+13	Richards	Richard	_	NE	_	_	_	_	_	T590	Richards	Richards	583	_	_	0	0	I-s31	0	0	I-SIMPX|I-MF|I-PX|B-NX|ADJA|ADJX	0	_	I-1
+14	Tod	Tod	_	NN	_	_	_	_	_	T591	Tod	Tod	584	_	_	0	0	I-s31	0	0	I-SIMPX|I-MF|E-PX|E-NX|NN	0	_	I-1
+15	nicht	nicht	_	PTKNEG	_	_	_	_	_	T592	nicht	nicht	585	_	_	0	0	I-s31	0	0	I-SIMPX|I-MF|B-ADVX|PTKNEG|ADVX	0	_	I-1
+16	mehr	mehr	_	ADV	_	_	_	_	_	T593	mehr	mehr	586	_	_	0	0	I-s31	0	0	I-SIMPX|I-MF|E-ADVX|ADV|ADVX	0	_	I-1
+17	wohl	wohl	_	ADV	_	_	_	_	_	T594	wohl	wohl	587	_	_	0	0	I-s31	0	0	E-SIMPX|E-MF|ADV|ADVX	0	_	I-1
+18	.	.	_	$.	_	_	_	_	_	T595	.	.	588	_	_	0	0	E-s31	0	0	$.	0	_	E-1
+
+# sent_id = 32
+# text = In der Moderne durchlebt der Protagonist also nun schlechte Gefühle wie Trauer und Zorn.
+1	In	in	_	APPR	_	_	_	_	_	T596	In	In	589	_	_	0	0	B-s32	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	der	die	_	ART	_	_	_	_	_	T597	der	der	590	_	_	0	0	I-s32	0	0	I-SIMPX|I-PX|I-VF|B-NX|ART	0	_	I-1
+3	Moderne	Moderne	_	NN	_	_	_	_	_	T598	Moderne	Moderne	591	_	_	0	0	I-s32	0	0	I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+4	durchlebt	durchleben	_	VVFIN	_	_	_	_	_	T599	durchlebt	durchlebt	592	_	_	0	0	I-s32	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+5	der	die	_	ART	_	_	_	_	_	T600	der	der	593	_	_	0	0	I-s32	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+6	Protagonist	Protagonist	_	NN	_	_	_	_	_	T601	Protagonist	Protagonist	594	_	_	0	0	I-s32	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+7	also	also	_	ADV	_	_	_	_	_	T602	also	also	595	_	_	0	0	I-s32	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+8	nun	nun	_	ADV	_	_	_	_	_	T603	nun	nun	596	_	_	0	0	I-s32	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+9	schlechte	schlecht	_	ADJA	_	_	_	_	_	T604	schlechte	schlechte	597	_	_	0	0	I-s32	0	0	I-SIMPX|I-MF|B-NX|B-NX|ADJA|ADJX	0	_	I-1
+10	Gefühle	Gefühl	_	NN	_	_	_	_	_	T605	Gefühle	Gefühle	598	_	_	0	0	I-s32	0	0	I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+11	wie	wie	_	KOKOM	_	_	_	_	_	T606	wie	wie	599	_	_	0	0	I-s32	0	0	I-SIMPX|I-MF|I-NX|B-NX|KOKOM	0	_	I-1
+12	Trauer	Trauer	_	NN	_	_	_	_	_	T607	Trauer	Trauer	600	_	_	0	0	I-s32	0	0	I-SIMPX|I-MF|I-NX|I-NX|B-NX|NN|NX	0	_	I-1
+13	und	und	_	KON	_	_	_	_	_	T608	und	und	601	_	_	0	0	I-s32	0	0	I-SIMPX|I-MF|I-NX|I-NX|I-NX|KON	0	_	I-1
+14	Zorn	Zorn	_	NN	_	_	_	_	_	T609	Zorn	Zorn	602	_	_	0	0	I-s32	0	0	E-SIMPX|E-MF|E-NX|E-NX|E-NX|NN|NX	0	_	I-1
+15	.	.	_	$.	_	_	_	_	_	T610	.	.	603	_	_	0	0	E-s32	0	0	$.	0	_	E-1
+
+# sent_id = 33
+# text = Der Gegensatz, die freie Natur und das einfache Leben, haben in ihm nur Glücksgefühle hervorgerufen.
+1	Der	die	_	ART	_	_	_	_	_	T611	Der	Der	604	_	_	0	0	B-s33	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Gegensatz	Gegensatz	_	NN	_	_	_	_	_	T612	Gegensatz	Gegensatz	605	_	_	0	0	I-s33	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	,	,	_	$,	_	_	_	_	_	T613	,	,	606	_	_	0	0	I-s33	0	0	I-SIMPX|I-NX|I-VF|$,	0	_	I-1
+4	die	die	_	ART	_	_	_	_	_	T614	die	die	607	_	_	0	0	I-s33	0	0	I-SIMPX|I-NX|I-VF|B-NX|B-NX|ART	0	_	I-1
+5	freie	frei	_	ADJA	_	_	_	_	_	T615	freie	freie	608	_	_	0	0	I-s33	0	0	I-SIMPX|I-NX|I-VF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+6	Natur	Natur	_	NN	_	_	_	_	_	T616	Natur	Natur	609	_	_	0	0	I-s33	0	0	I-SIMPX|I-NX|I-VF|I-NX|E-NX|NN	0	_	I-1
+7	und	und	_	KON	_	_	_	_	_	T617	und	und	610	_	_	0	0	I-s33	0	0	I-SIMPX|I-NX|I-VF|I-NX|KON	0	_	I-1
+8	das	die	_	ART	_	_	_	_	_	T618	das	das	611	_	_	0	0	I-s33	0	0	I-SIMPX|I-NX|I-VF|I-NX|B-NX|ART	0	_	I-1
+9	einfache	einfach	_	ADJA	_	_	_	_	_	T619	einfache	einfache	612	_	_	0	0	I-s33	0	0	I-SIMPX|I-NX|I-VF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+10	Leben	Leben	_	NN	_	_	_	_	_	T620	Leben	Leben	613	_	_	0	0	I-s33	0	0	I-SIMPX|E-NX|E-VF|E-NX|E-NX|NN	0	_	I-1
+11	,	,	_	$,	_	_	_	_	_	T621	,	,	614	_	_	0	0	I-s33	0	0	I-SIMPX|$,	0	_	I-1
+12	haben	haben	_	VAFIN	_	_	_	_	_	T622	haben	haben	615	_	_	0	0	I-s33	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	haben/hat	I-1
+13	in	in	_	APPR	_	_	_	_	_	T623	in	in	616	_	_	0	0	I-s33	0	0	I-SIMPX|B-MF|B-PX|APPR	0	_	I-1
+14	ihm	er	_	PPER	_	_	_	_	_	T624	ihm	ihm	617	_	_	0	0	I-s33	0	0	I-SIMPX|I-MF|E-PX|PPER|NX	0	_	I-1
+15	nur	nur	_	ADV	_	_	_	_	_	T625	nur	nur	618	_	_	0	0	I-s33	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+16	Glücksgefühle	Glücksgefühl	_	NN	_	_	_	_	_	T626	glücksgefühle	Glücksgefühle	619	XXX	glücks-gefühle 	1	GKS	I-s33	0	0	I-SIMPX|E-MF|NN|NX	0	_	I-1
+17	hervorgerufen	hervorrufen	_	VVPP	_	_	_	_	_	T627	hervorgerufen	hervorgerufen	620	_	_	0	0	I-s33	0	0	E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+18	.	.	_	$.	_	_	_	_	_	T628	.	.	621	_	_	0	0	E-s33	0	0	$.	0	_	E-1
+
+# sent_id = 34
+# text = Mit der Bezeichnung seiner Jugend als kurze " Sommernacht " ( vgl. Z. 30 ) wird eindeutig herausgestellt, dass die Jugend schön, aber kurz ist.
+1	Mit	mit	_	APPR	_	_	_	_	_	T629	Mit	Mit	622	_	_	0	0	B-s34	0	0	B-SIMPX|B-VF|B-PX|APPR	0	_	B-0
+2	der	die	_	ART	_	_	_	_	_	T630	der	der	623	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|B-NX|B-NX|ART	0	_	I-0
+3	Bezeichnung	Bezeichnung	_	NN	_	_	_	_	_	T631	Bezeichnung	Bezeichnung	624	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|E-NX|NN	0	_	I-0
+4	seiner	sein	_	PPOSAT	_	_	_	_	_	T632	seiner	seiner	625	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|B-NX|B-NX|PPOSAT	0	_	I-0
+5	Jugend	Jugend	_	NN	_	_	_	_	_	T633	Jugend	Jugend	626	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|I-NX|E-NX|NN	0	_	I-0
+6	als	als	_	KOKOM	_	_	_	_	_	T634	als	als	627	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|I-NX|B-NX|B-NX|KOKOM	0	_	I-0
+7	kurze	kurz	_	ADJA	_	_	_	_	_	T635	kurze	kurze	628	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|I-NX|ADJX|ADJA	0	_	I-0
+8	"	"	_	$(	_	_	_	_	_	T636	_	"	_	_	_	1	PKT	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|I-NX|$[	0	_	I-0
+9	Sommernacht	Sommernacht	_	NN	_	_	_	_	_	T637	Sommernacht	Sommernacht	629	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|I-NX|NN	0	_	I-0
+10	"	"	_	$(	_	_	_	_	_	T638	_	"	_	_	_	1	PKT	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|E-NX|$[	0	_	I-0
+11	(	(	_	$(	_	_	_	_	_	T639	(	(	630	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|$[	0	_	I-0
+12	vgl.	vgl.	_	ADV	_	_	_	_	_	T640	vgl.	vgl.	631	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|B-NX|B-ENADD|B-NX|NE	0	_	I-0
+13	Z.	Z.	_	NE	_	_	_	_	_	T641	Z.	Z.	632	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|I-NX|E-ENADD|E-NX|NE	0	_	I-0
+14	30	30	_	CARD	_	_	_	_	_	T642	30	30	633	_	_	0	0	I-s34	0	0	I-SIMPX|I-VF|I-PX|I-NX|I-NX|I-NX|E-NX|NX|CARD	0	_	I-0
+15	)	)	_	$(	_	_	_	_	_	T643	)	)	634	_	_	0	0	I-s34	0	0	I-SIMPX|E-VF|E-PX|E-NX|E-NX|E-NX|$[	0	_	I-0
+16	wird	werden	_	VAFIN	_	_	_	_	_	T644	wird	wird	635	_	_	0	0	I-s34	0	0	I-SIMPX|LK|VXFIN|VAFIN	0	_	I-0
+17	eindeutig	eindeutig	_	ADJD	_	_	_	_	_	T645	eindeutig	eindeutig	636	_	_	0	0	I-s34	0	0	I-SIMPX|MF|ADJX|ADJD	0	_	I-0
+18	herausgestellt	herausstellen	_	VVPP	_	_	_	_	_	T646	herausgestellt	herausgestellt	637	_	_	0	0	I-s34	0	0	I-SIMPX|VC|VXINF|VVPP	0	_	I-0
+19	,	,	_	$,	_	_	_	_	_	T647	,	,	638	_	_	0	0	I-s34	0	0	I-SIMPX|$,	0	_	I-0
+20	dass	dass	_	KOUS	_	_	_	_	_	T648	dass	dass	639	_	_	0	0	I-s34	0	0	I-SIMPX|B-NF|B-SIMPX|C|KOUS	0	_	I-0
+21	die	die	_	ART	_	_	_	_	_	T649	die	die	640	_	_	0	0	I-s34	0	0	I-SIMPX|I-NF|I-SIMPX|B-FKOORD|B-FKONJ|B-MF|B-NX|ART	0	_	I-0
+22	Jugend	Jugend	_	NN	_	_	_	_	_	T650	Jugend	Jugend	641	_	_	0	0	I-s34	0	0	I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|E-MF|E-NX|NN	0	_	I-0
+23	schön	schön	_	ADJD	_	_	_	_	_	T651	schön	schön	642	_	_	0	0	I-s34	0	0	I-SIMPX|I-NF|I-SIMPX|I-FKOORD|E-FKONJ|VC|VXFIN|VVFIN	0	_	I-0
+24	,	,	_	$,	_	_	_	_	_	T652	,	,	643	_	_	0	0	I-s34	0	0	I-SIMPX|I-NF|I-SIMPX|I-FKOORD|$,	0	_	I-0
+25	aber	aber	_	ADV	_	_	_	_	_	T653	aber	aber	644	_	_	0	0	I-s34	0	0	I-SIMPX|I-NF|I-SIMPX|I-FKOORD|KON	0	_	I-0
+26	kurz	kurz	_	ADJD	_	_	_	_	_	T654	kurz	kurz	645	_	_	0	0	I-s34	0	0	I-SIMPX|I-NF|I-SIMPX|I-FKOORD|B-FKONJ|MF|ADJX|ADJD	0	_	I-0
+27	ist	sein	_	VAFIN	_	_	_	_	_	T655	ist	ist	646	_	_	0	0	I-s34	0	0	E-SIMPX|E-NF|E-SIMPX|E-FKOORD|E-FKONJ|VC|VXFIN|VAFIN	0	_	I-0
+28	.	.	_	$.	_	_	_	_	_	T656	.	.	647	_	_	0	0	E-s34	0	0	$.	0	_	E-0
+
+# sent_id = 35
+# text = Der Vergleich mit dem Licht, das durch den Wind erlischt, macht diese enorme Vergänglichkeit des Lebens sehr gut deutlich ( vgl. Z. 33 ).
+1	Der	die	_	ART	_	_	_	_	_	T657	Der	Der	648	_	_	0	0	B-s35	0	0	B-SIMPX|B-NX|B-VF|B-NX|B-NX|ART	0	_	B-1
+2	Vergleich	Vergleich	_	NN	_	_	_	_	_	T658	Vergleich	Vergleich	649	_	_	0	0	I-s35	0	0	I-SIMPX|I-NX|I-VF|I-NX|E-NX|NN	0	_	I-1
+3	mit	mit	_	APPR	_	_	_	_	_	T659	mit	mit	650	_	_	0	0	I-s35	0	0	I-SIMPX|I-NX|I-VF|I-NX|B-PX|APPR	0	_	I-1
+4	dem	die	_	ART	_	_	_	_	_	T660	dem	dem	651	_	_	0	0	I-s35	0	0	I-SIMPX|I-NX|I-VF|I-NX|I-PX|B-NX|ART	0	_	I-1
+5	Licht	Licht	_	NN	_	_	_	_	_	T661	Licht	Licht	652	_	_	0	0	I-s35	0	0	I-SIMPX|I-NX|I-VF|E-NX|E-PX|E-NX|NN	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T662	,	,	653	_	_	0	0	I-s35	0	0	I-SIMPX|I-NX|I-VF|$,	0	_	I-1
+7	das	die	_	PRELS	_	_	_	_	_	T663	dass	das	654	XXX	_	1	WORT	I-s35	0	0	I-SIMPX|I-NX|I-VF|B-R-SIMPX|PRELS|NX|C	0	_	I-1
+8	durch	durch	_	APPR	_	_	_	_	_	T664	durch	durch	655	_	_	0	0	I-s35	0	0	I-SIMPX|I-NX|I-VF|I-R-SIMPX|B-PX|B-MF|APPR	0	_	I-1
+9	den	die	_	ART	_	_	_	_	_	T665	den	den	656	_	_	0	0	I-s35	0	0	I-SIMPX|I-NX|I-VF|I-R-SIMPX|I-PX|I-MF|B-NX|ART	0	_	I-1
+10	Wind	Wind	_	NN	_	_	_	_	_	T666	Wind	Wind	657	_	_	0	0	I-s35	0	0	I-SIMPX|I-NX|I-VF|I-R-SIMPX|E-PX|E-MF|E-NX|NN	0	_	I-1
+11	erlischt	erlöschen	_	VVFIN	_	_	_	_	_	T667	erlischt	erlischt	658	_	_	0	0	I-s35	0	0	I-SIMPX|E-NX|E-VF|E-R-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+12	,	,	_	$,	_	_	_	_	_	T668	_	,	_	XXX	_	1	PKT	I-s35	0	0	I-SIMPX|$,	0	_	I-1
+13	macht	machen	_	VVFIN	_	_	_	_	_	T669	macht	macht	659	_	_	0	0	I-s35	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+14	diese	dies	_	PDAT	_	_	_	_	_	T670	diese	diese	660	_	_	0	0	I-s35	0	0	I-SIMPX|B-MF|B-NX|B-NX|PDAT	0	_	I-1
+15	enorme	enorm	_	ADJA	_	_	_	_	_	T671	enorme	enorme	661	_	_	0	0	I-s35	0	0	I-SIMPX|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+16	Vergänglichkeit	Vergänglichkeit	_	NN	_	_	_	_	_	T672	Vergänglichkeit	Vergänglichkeit	662	_	Vergänglich-keit 	0	0	I-s35	0	0	I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+17	des	die	_	ART	_	_	_	_	_	T673	des	des	663	_	_	0	0	I-s35	0	0	I-SIMPX|I-MF|I-NX|B-NX|ART	0	_	I-1
+18	Lebens	Leben	_	NN	_	_	_	_	_	T674	Lebens	Lebens	664	_	_	0	0	I-s35	0	0	I-SIMPX|I-MF|E-NX|E-NX|NN	0	_	I-1
+19	sehr	sehr	_	ADV	_	_	_	_	_	T675	sehr	sehr	665	_	_	0	0	I-s35	0	0	I-SIMPX|I-MF|B-ADJX|B-ADJX|ADV|ADVX	0	_	I-1
+20	gut	gut	_	ADJD	_	_	_	_	_	T676	gut	gut	666	_	_	0	0	I-s35	0	0	I-SIMPX|I-MF|I-ADJX|E-ADJX|ADJD	0	_	I-1
+21	deutlich	deutlich	_	ADJD	_	_	_	_	_	T677	deutlich	deutlich	667	_	_	0	0	I-s35	0	0	E-SIMPX|E-MF|E-ADJX|ADJD	0	_	I-1
+22	(	(	_	$(	_	_	_	_	_	T678	(	(	668	_	_	0	0	I-s35	0	0	$(	0	_	I-1
+23	vgl.	vgl.	_	ADV	_	_	_	_	_	T679	vgl.	vgl.	669	_	_	0	0	I-s35	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+24	Z.	Z.	_	NE	_	_	_	_	_	T680	Z.	Z.	670	_	_	0	0	I-s35	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+25	33	33	_	CARD	_	_	_	_	_	T681	33	33	671	_	_	0	0	I-s35	0	0	E-NX|CARD|NX	0	_	I-1
+26	)	)	_	$(	_	_	_	_	_	T682	)	)	672	_	_	0	0	I-s35	0	0	$(	0	_	I-1
+27	.	.	_	$.	_	_	_	_	_	T683	.	.	673	_	_	0	0	E-s35	0	0	$.	0	_	E-1
+
+# sent_id = 36
+# text = Zudem symbolisiert der Tod Richards auch die plötzliche Vergänglichkeit des Lebens ( vgl. Z. 33 ).
+1	Zudem	zudem	_	ADV	_	_	_	_	_	T684	Zudem	Zudem	674	_	_	0	0	B-s36	0	0	B-SIMPX|PROP|PX|VF	0	_	B-1
+2	symbolisiert	symbolisieren	_	VVFIN	_	_	_	_	_	T685	symbolisiert	symbolisiert	675	_	_	0	0	I-s36	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	der	die	_	ART	_	_	_	_	_	T686	der	der	676	_	_	0	0	I-s36	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+4	Tod	Tod	_	NN	_	_	_	_	_	T687	Tod	Tod	677	_	_	0	0	I-s36	0	0	I-SIMPX|I-MF|I-NX|B-NX|B-ENADD|NE	0	_	I-1
+5	Richards	Richard	_	NE	_	_	_	_	_	T688	Richards	Richards	678	_	_	0	0	I-s36	0	0	I-SIMPX|I-MF|E-NX|E-NX|E-ENADD|NE	0	_	I-1
+6	auch	auch	_	ADV	_	_	_	_	_	T689	auch	auch	679	_	_	0	0	I-s36	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+7	die	die	_	ART	_	_	_	_	_	T690	die	die	680	_	_	0	0	I-s36	0	0	I-SIMPX|I-MF|B-NX|B-NX|ART	0	_	I-1
+8	plötzliche	plötzlich	_	ADJA	_	_	_	_	_	T691	plötzliche	plötzliche	681	_	_	0	0	I-s36	0	0	I-SIMPX|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+9	Vergänglichkeit	Vergänglichkeit	_	NN	_	_	_	_	_	T692	Vergänglichkeit	Vergänglichkeit	682	_	_	0	0	I-s36	0	0	I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+10	des	die	_	ART	_	_	_	_	_	T693	des	des	683	_	_	0	0	I-s36	0	0	I-SIMPX|I-MF|I-NX|B-NX|ART	0	_	I-1
+11	Lebens	Leben	_	NN	_	_	_	_	_	T694	Lebens	Lebens	684	_	_	0	0	I-s36	0	0	E-SIMPX|E-MF|E-NX|E-NX|NN	0	_	I-1
+12	(	(	_	$(	_	_	_	_	_	T695	(	(	685	_	_	0	0	I-s36	0	0	$(	0	_	I-1
+13	vgl.	vgl.	_	ADV	_	_	_	_	_	T696	vgl.	vgl.	686	_	_	0	0	I-s36	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+14	Z.	Z.	_	NE	_	_	_	_	_	T697	Z.	Z.	687	_	_	0	0	I-s36	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+15	33	33	_	CARD	_	_	_	_	_	T698	33	33	688	_	_	0	0	I-s36	0	0	E-NX|CARD|NX	0	_	I-1
+16	)	)	_	$(	_	_	_	_	_	T699	)	)	689	_	_	0	0	I-s36	0	0	$(	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T700	.	.	690	_	_	0	0	E-s36	0	0	$.	0	_	E-1
+
+# sent_id = 37
+# text = Mit der Aussage, dass die Wochen " glänzend und beglückend rannen [ ...
+1	Mit	mit	_	APPR	_	_	_	_	_	T701	Mit	Mit	691	_	_	0	0	B-s37	0	0	B-SIMPX|B-VF|B-PX|APPR	0	_	B-1
+2	der	die	_	ART	_	_	_	_	_	T702	der	der	692	_	_	0	0	I-s37	0	0	I-SIMPX|I-VF|I-PX|B-NX|ART	0	_	I-1
+3	Aussage	Aussage	_	NN	_	_	_	_	_	T703	Aussage	Aussage	693	_	_	0	0	I-s37	0	0	I-SIMPX|I-VF|E-PX|E-NX|NN	0	_	I-1
+4	,	,	_	$,	_	_	_	_	_	T704	,	,	694	_	_	0	0	I-s37	0	0	I-SIMPX|I-VF|$,	0	_	I-1
+5	dass	dass	_	KOUS	_	_	_	_	_	T705	dass	dass	695	_	_	0	0	I-s37	0	0	I-SIMPX|I-VF|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+6	die	die	_	ART	_	_	_	_	_	T706	die	die	696	_	_	0	0	I-s37	0	0	I-SIMPX|I-VF|I-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+7	Wochen	Woche	_	NN	_	_	_	_	_	T707	Wochen	Wochen	697	_	_	0	0	I-s37	0	0	I-SIMPX|I-VF|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+8	"	"	_	$(	_	_	_	_	_	T708	"	"	698	_	_	0	0	I-s37	0	B-1	I-SIMPX|I-VF|I-SIMPX|I-NF|I-MF|$(	0	_	I-1
+9	glänzend	glänzend	_	ADJD	_	_	_	_	_	T709	Glänzend	glänzend	699	XXX	_	1	GKS	I-s37	0	I-1	I-SIMPX|I-VF|I-SIMPX|I-NF|I-MF|B-ADJX|ADJD|ADJX	0	_	I-1
+10	und	und	_	KON	_	_	_	_	_	T710	und	und	700	_	_	0	0	I-s37	0	I-1	I-SIMPX|I-VF|I-SIMPX|I-NF|I-MF|I-ADJX|KON	0	_	I-1
+11	beglückend	beglückend	_	ADJD	_	_	_	_	_	T711	beglückend	beglückend	701	_	_	0	0	I-s37	0	I-1	I-SIMPX|I-VF|I-SIMPX|I-NF|E-MF|E-ADJX|ADJD|ADJX	0	_	I-1
+12	rannen	rinnen	_	VVFIN	_	_	_	_	_	T712	rannen	rannen	702	_	_	0	0	I-s37	0	I-1	E-SIMPX|E-VF|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+13	[	[	_	$(	_	_	_	_	_	T713	[	[	703	_	_	0	0	I-s37	0	I-1	$(	0	_	I-1
+14	...	...	_	$.	_	_	_	_	_	T714	...	...	704	_	_	0	0	E-s37	0	I-1	$(	0	_	E-1
+
+# sent_id = 38
+# text = ] " ( vgl. Z. 16 ) verdeutlicht zum einen noch einmal die enorme Geschwindigkeit, in der das Leben an uns <B->vorüberzieht <E->vorüberzieht, zum anderen wird aber auch klar, dass das Leben schön ist.
+1	]	]	_	$(	_	_	_	_	_	T715	]	]	705	_	_	0	0	B-s38	0	I-1	$(	0	_	B-1
+2	"	"	_	$(	_	_	_	_	_	T716	"	"	706	_	_	0	0	I-s38	0	E-1	B-SIMPX|$(	0	_	I-1
+3	(	(	_	$(	_	_	_	_	_	T717	(	(	707	_	_	0	0	I-s38	0	0	I-SIMPX|B-NX|B-VF|$(	0	_	I-1
+4	vgl.	vgl.	_	ADV	_	_	_	_	_	T718	vgl.	vgl.	708	_	_	0	0	I-s38	0	0	I-SIMPX|I-NX|I-VF|CARD	0	_	I-1
+5	Z.	Z.	_	NE	_	_	_	_	_	T719	Z.	Z.	709	_	_	0	0	I-s38	0	0	I-SIMPX|I-NX|I-VF|B-NX|B-ENADD|NE|NX	0	_	I-1
+6	16	16	_	CARD	_	_	_	_	_	T720	16	16	710	_	_	0	0	I-s38	0	0	I-SIMPX|E-NX|E-VF|E-NX|E-ENADD|CARD|NX	0	_	I-1
+7	)	)	_	$(	_	_	_	_	_	T721	)	)	711	_	_	0	0	I-s38	0	0	I-SIMPX|$(	0	_	I-1
+8	verdeutlicht	verdeutlichen	_	VVFIN	_	_	_	_	_	T722	verdeutlicht	verdeutlicht	712	_	_	0	0	I-s38	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+9	zum	zu	_	APPRART	_	_	_	_	_	T724	zum	zum	713	_	_	0	0	I-s38	0	0	I-SIMPX|B-MF|B-PX|APPRART	0	_	I-1
+10	einen	eine	_	PIS	_	_	_	_	_	T725	Einen	einen	714	XXX	_	1	GKS	I-s38	0	0	I-SIMPX|I-MF|E-PX|PIS|NX	0	_	I-1
+11	noch	noch	_	ADV	_	_	_	_	_	T726	<B->nocheinmal	noch	715	XXX	_	B-1	B-GZS	I-s38	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+12	einmal	einmal	_	ADV	_	_	_	_	_	T727	<E->nocheinmal	einmal	_	XXX	_	E-1	E-GZS	I-s38	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+13	die	die	_	ART	_	_	_	_	_	T728	die	die	716	_	_	0	0	I-s38	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+14	enorme	enorm	_	ADJA	_	_	_	_	_	T729	enorme	enorme	717	_	_	0	0	I-s38	0	0	I-SIMPX|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+15	Geschwindigkeit	Geschwindigkeit	_	NN	_	_	_	_	_	T730	Geschwindigkeit	Geschwindigkeit	718	_	_	0	0	I-s38	0	0	I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+16	,	,	_	$,	_	_	_	_	_	T731	_	,	_	XXX	_	1	PKT	I-s38	0	0	I-SIMPX|$,	0	_	I-1
+17	in	in	_	APPR	_	_	_	_	_	T732	in	in	719	_	_	0	0	I-s38	0	0	I-SIMPX|B-R-SIMPX|B-NF|B-PX|B-C|APPR	0	_	I-1
+18	der	die	_	PRELS	_	_	_	_	_	T733	der	der	720	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-NF|E-PX|E-C|PRELS|NX	0	_	I-1
+19	das	die	_	ART	_	_	_	_	_	T734	das	das	721	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+20	Leben	Leben	_	NN	_	_	_	_	_	T735	Leben	Leben	722	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+21	an	an	_	APPR	_	_	_	_	_	T736	an	an	723	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+22	uns	wir	_	PPER	_	_	_	_	_	T737	uns	uns	724	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-NF|E-MF|E-PX|PPER|NX	0	_	I-1
+23	<B->vorüberzieht	<B->vorüberziehen	_	B-VVFIN	_	_	_	_	_	T738	vorüber	<B->vorüberzieht	725	XXX	_	B-1	B-GZS	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-NF|B-VVFIN|B-VXFIN|B-VC	0	_	I-1
+24	<E->vorüberzieht	<E->vorüberziehen	_	E-VVFIN	_	_	_	_	_	T739	zieht	<E->vorüberzieht	726	XXX	_	E-1	E-GZS	I-s38	0	0	I-SIMPX|I-R-SIMPX|E-NF|E-VVFIN|E-VXFIN|E-VC	0	_	I-1
+25	,	,	_	$,	_	_	_	_	_	T740	,	,	727	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|$,	0	_	I-1
+26	zum	zu	_	APPRART	_	_	_	_	_	T741	zum	zum	728	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|B-SIMPX|B-PX|B-VF|APPRART	0	_	I-1
+27	anderen	andere	_	PIS	_	_	_	_	_	T742	Anderen	anderen	729	XXX	_	1	GKS	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-SIMPX|E-PX|E-VF|PIS|NX	0	_	I-1
+28	wird	werden	_	VAFIN	_	_	_	_	_	T743	wird	wird	730	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+29	aber	aber	_	ADV	_	_	_	_	_	T744	aber	aber	731	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+30	auch	auch	_	ADV	_	_	_	_	_	T745	auch	auch	732	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+31	klar	klar	_	ADJD	_	_	_	_	_	T746	klar	klar	733	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+32	,	,	_	$,	_	_	_	_	_	T747	,	,	734	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-SIMPX|$,	0	_	I-1
+33	dass	dass	_	KOUS	_	_	_	_	_	T748	dass	dass	735	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+34	das	die	_	ART	_	_	_	_	_	T749	das	das	736	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+35	Leben	Leben	_	NN	_	_	_	_	_	T750	Leben	Leben	737	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+36	schön	schön	_	ADJD	_	_	_	_	_	T751	schön	schön	738	_	_	0	0	I-s38	0	0	I-SIMPX|I-R-SIMPX|I-SIMPX|I-SIMPX|I-NF|E-MF|VVPP|VXINF	0	_	I-1
+37	ist	sein	_	VAFIN	_	_	_	_	_	T752	ist	ist	739	_	_	0	0	I-s38	0	0	E-SIMPX|E-R-SIMPX|E-SIMPX|E-SIMPX|E-NF|VAFIN|VXFIN|VC	0	_	I-1
+38	.	.	_	$.	_	_	_	_	_	T753	.	.	740	_	_	0	0	E-s38	0	0	$.	0	_	E-1
+
+# sent_id = 39
+# text = Diese Schönheit des Lebens wird auch deutlich, als der Protagonist die Umgebung, in der er sich befindet, beschreibt.
+1	Diese	dies	_	PDAT	_	_	_	_	_	T754	Diese	Diese	741	_	_	0	0	B-s39	0	0	B-SIMPX|B-NX|B-VF|B-NX|PDAT	0	_	B-1
+2	Schönheit	Schönheit	_	NN	_	_	_	_	_	T755	Schönheit	Schönheit	742	_	_	0	0	I-s39	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	des	die	_	ART	_	_	_	_	_	T756	des	des	743	_	_	0	0	I-s39	0	0	I-SIMPX|I-NX|I-VF|B-NX|ART	0	_	I-1
+4	Lebens	Leben	_	NN	_	_	_	_	_	T757	Lebens	Lebens	744	_	_	0	0	I-s39	0	0	I-SIMPX|E-NX|E-VF|E-NX|NN	0	_	I-1
+5	wird	werden	_	VAFIN	_	_	_	_	_	T758	wird	wird	745	_	_	0	0	I-s39	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+6	auch	auch	_	ADV	_	_	_	_	_	T759	auch	auch	746	_	_	0	0	I-s39	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+7	deutlich	deutlich	_	ADJD	_	_	_	_	_	T760	deutlich	deutlich	747	_	_	0	0	I-s39	0	0	I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T761	,	,	748	_	_	0	0	I-s39	0	0	I-SIMPX|$,	0	_	I-1
+9	als	als	_	KOUS	_	_	_	_	_	T762	als	als	749	_	_	0	0	I-s39	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+10	der	die	_	ART	_	_	_	_	_	T763	der	der	750	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+11	Protagonist	Protagonist	_	NN	_	_	_	_	_	T764	Protagonist	Protagonist	751	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+12	die	die	_	ART	_	_	_	_	_	T765	die	die	752	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|B-NX|ART	0	_	I-1
+13	Umgebung	Umgebung	_	NN	_	_	_	_	_	T766	Umgebung	Umgebung	753	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|E-NX|NN	0	_	I-1
+14	,	,	_	$,	_	_	_	_	_	T767	,	,	754	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|$,	0	_	I-1
+15	in	in	_	APPR	_	_	_	_	_	T768	in	in	755	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|B-R-SIMPX|B-PX|B-C|APPR	0	_	I-1
+16	der	die	_	PRELS	_	_	_	_	_	T769	der	der	756	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|I-R-SIMPX|E-PX|E-C|PRELS|NX	0	_	I-1
+17	er	er	_	PPER	_	_	_	_	_	T770	er	er	757	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|I-R-SIMPX|B-MF|PPER|NX	0	_	I-1
+18	sich	sich	_	PRF	_	_	_	_	_	T771	sich	sich	758	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|I-R-SIMPX|E-MF|PRF|NX	0	_	I-1
+19	befindet	befinden	_	VVFIN	_	_	_	_	_	T772	befindet	befindet	759	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-NX|E-R-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+20	,	,	_	$,	_	_	_	_	_	T773	,	,	760	_	_	0	0	I-s39	0	0	I-SIMPX|I-SIMPX|I-NF|$,	0	_	I-1
+21	beschreibt	beschreiben	_	VVFIN	_	_	_	_	_	T774	beschreibt	beschreibt	761	_	_	0	0	I-s39	0	0	E-SIMPX|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+22	.	.	_	$.	_	_	_	_	_	T775	.	.	762	_	_	0	0	E-s39	0	0	$.	0	_	E-1
+
+# sent_id = 40
+# text = Aufgrund der einfachen Lebensweise, die Peter Camenzind in Italien kennengelernt hat, und die darauffolgende Kritik an der Moderne <EMPTY> sowie die Beschreibung seiner Jugend als kurze Sommernacht und der Tod seines Freundes bestätigen meine zuvor gestellte Interpretationshypothese.
+1	Aufgrund	aufgrund	_	APPR	_	_	_	_	_	T776	Aufgrund	Aufgrund	763	_	_	0	0	B-s40	0	0	B-SIMPX|B-PX|B-VF|APPR	0	B-eher: Die einfache Lebensweise	B-1
+2	der	die	_	ART	_	_	_	_	_	T777	der	der	764	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|B-NX|B-NX|B-NX|B-NX|ART	0	I-eher: Die einfache Lebensweise	I-1
+3	einfachen	einfach	_	ADJA	_	_	_	_	_	T778	einfachen	einfachen	765	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-NX|ADJA|ADJX	0	I-eher: Die einfache Lebensweise	I-1
+4	Lebensweise	Lebensweise	_	NN	_	_	_	_	_	T779	Lebensweise	Lebensweise	766	_	Lebens-weise 	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|E-NX|NN	0	E-eher: Die einfache Lebensweise	I-1
+5	,	,	_	$,	_	_	_	_	_	T780	,	,	767	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|$,	0	_	I-1
+6	die	die	_	PRELS	_	_	_	_	_	T781	die	die	768	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|B-R-SIMPX|PRELS|NX|C	0	_	I-1
+7	Peter	Peter	_	NE	_	_	_	_	_	T782	Peter	Peter	769	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-R-SIMPX|B-MF|B-NX|B-ENADD|NE	0	_	I-1
+8	Camenzind	Camenzind	_	NN	_	_	_	_	_	T783	Camenzind	Camenzind	770	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-R-SIMPX|I-MF|E-NX|E-ENADD|NE	0	_	I-1
+9	in	in	_	APPR	_	_	_	_	_	T784	in	in	771	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-R-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+10	Italien	Italien	_	NE	_	_	_	_	_	T785	Italien	Italien	772	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-R-SIMPX|E-MF|E-PX|NE|NX	0	_	I-1
+11	kennengelernt	kennenlernen	_	VVPP	_	_	_	_	_	T786	kennengelernt	kennengelernt	773	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-R-SIMPX|B-VC|VVPP|VXINF	0	_	I-1
+12	hat	haben	_	VAFIN	_	_	_	_	_	T787	hat	hat	774	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|E-NX|E-R-SIMPX|E-VC|VAFIN|VXFIN	0	_	I-1
+13	,	,	_	$,	_	_	_	_	_	T788	_	,	_	XXX	_	1	PKT	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|$,	0	_	I-1
+14	und	und	_	KON	_	_	_	_	_	T789	und	und	775	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|KON	0	_	I-1
+15	die	die	_	ART	_	_	_	_	_	T790	die	die	776	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|B-NX|B-NX|B-NX|ART	0	_	I-1
+16	darauffolgende	darauffolgend	_	ADJA	_	_	_	_	_	T791	darauffolgende	darauffolgende	777	_	darauffolgen-den 	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+17	Kritik	Kritik	_	NN	_	_	_	_	_	T792	Kritik	Kritik	778	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-NX|E-NX|NN	0	_	I-1
+18	an	an	_	APPR	_	_	_	_	_	T793	an	an	779	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-NX|B-PX|APPR	0	_	I-1
+19	der	die	_	ART	_	_	_	_	_	T794	der	der	780	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-NX|I-PX|B-NX|ART	0	_	I-1
+20	Moderne	Moderne	_	NN	_	_	_	_	_	T795	Moderne	Moderne	781	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|E-NX|E-PX|E-NX|NN	0	_	I-1
+21	<EMPTY>	_	_	_	_	_	_	_	_	T796	,	_	782	XXX	_	1	PKT	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX	0	_	I-1
+22	sowie	sowie	_	KON	_	_	_	_	_	T797	sowie	sowie	783	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|KON	0	_	I-1
+23	die	die	_	ART	_	_	_	_	_	T798	die	die	784	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|B-NX|B-NX|ART	0	_	I-1
+24	Beschreibung	Beschreibung	_	NN	_	_	_	_	_	T799	Beschreibung	Beschreibung	785	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-NX|E-NX|NN	0	_	I-1
+25	seiner	sein	_	PPOSAT	_	_	_	_	_	T800	seiner	seiner	786	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-NX|B-NX|B-NX|PPOSAT	0	_	I-1
+26	Jugend	Jugend	_	NN	_	_	_	_	_	T801	Jugend	Jugend	787	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-NX|I-NX|E-NX|NN	0	_	I-1
+27	als	als	_	KOKOM	_	_	_	_	_	T802	als	als	788	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-NX|I-NX|B-NX|KOKOM	0	_	I-1
+28	kurze	kurz	_	ADJA	_	_	_	_	_	T803	kurze	kurze	789	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-NX|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+29	Sommernacht	Sommernacht	_	NN	_	_	_	_	_	T804	Sommernacht	Sommernacht	790	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|E-NX|E-NX|E-NX|E-NX|E-NX|NN	0	_	I-1
+30	und	und	_	KON	_	_	_	_	_	T805	und	und	791	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|KON	0	_	I-1
+31	der	die	_	ART	_	_	_	_	_	T806	der	der	792	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|B-NX|B-NX|ART	0	_	I-1
+32	Tod	Tod	_	NN	_	_	_	_	_	T807	Tod	Tod	793	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|E-NX|NN	0	_	I-1
+33	seines	sein	_	PPOSAT	_	_	_	_	_	T808	seines	seines	794	_	_	0	0	I-s40	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|B-NX|PPOSAT	0	_	I-1
+34	Freundes	Freund	_	NN	_	_	_	_	_	T809	Freundes	Freundes	795	_	_	0	0	I-s40	0	0	I-SIMPX|E-PX|E-VF|E-NX|E-NX|E-NX|NN	0	_	I-1
+35	bestätigen	bestätigen	_	VVFIN	_	_	_	_	_	T810	bestätigen	bestätigen	796	_	_	0	0	I-s40	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+36	meine	mein	_	PPOSAT	_	_	_	_	_	T811	meine	meine	797	_	_	0	0	I-s40	0	0	I-SIMPX|B-NX|B-MF|PPOSAT	0	_	I-1
+37	zuvor	zuvor	_	ADV	_	_	_	_	_	T812	zuvor	zuvor	798	_	_	0	0	I-s40	0	0	I-SIMPX|I-NX|I-MF|B-ADJX|ADV|ADVX	0	_	I-1
+38	gestellte	gestellt	_	ADJA	_	_	_	_	_	T813	gestellte	gestellte	799	_	_	0	0	I-s40	0	0	I-SIMPX|I-NX|I-MF|E-ADJX|ADJA	0	_	I-1
+39	Interpretationshypothese	Interpretationshypothese	_	NN	_	_	_	_	_	T814	Interpretationshypothese	Interpretationshypothese	800	_	_	0	0	I-s40	0	0	E-SIMPX|E-NX|E-MF|NN	0	_	I-1
+40	.	.	_	$.	_	_	_	_	_	T815	.	.	801	_	_	0	0	E-s40	0	0	$.	0	_	E-1
+
+# sent_id = 41
+# text = 2 ) Das Buch " Faserland " von Christian Kracht weist einige Parallelen mit dem Romanauszug von Hermann Hesse auf.
+1	2	2	_	CARD	_	_	_	_	_	T816	2	2	802	_	_	0	0	B-s41	B-1	0	B-SIMPX|B-NX|B-NA|CARD|NX	0	_	B-1
+2	)	)	_	$(	_	_	_	_	_	T817	)	)	803	_	_	0	0	I-s41	E-1	0	I-SIMPX|I-NX|E-NA|$(	0	_	I-1
+3	Das	die	_	ART	_	_	_	_	_	T818	Das	Das	804	_	_	0	0	I-s41	0	0	I-SIMPX|I-NX|B-NX|B-VF|B-NX|B-NX|ART	0	_	I-1
+4	Buch	Buch	_	NN	_	_	_	_	_	T819	Buch	Buch	805	_	_	0	0	I-s41	0	0	I-SIMPX|I-NX|I-NX|I-VF|I-NX|E-NX|NN	0	_	I-1
+5	"	"	_	$(	_	_	_	_	_	T820	"	"	806	_	_	0	0	I-s41	0	0	I-SIMPX|I-NX|I-NX|I-VF|I-NX|$(	0	_	I-1
+6	Faserland	Faserland	_	NN	_	_	_	_	_	T821	Faserland	Faserland	807	_	_	0	0	I-s41	0	0	I-SIMPX|I-NX|I-NX|I-VF|I-NX|NE|NX	0	_	I-1
+7	"	"	_	$(	_	_	_	_	_	T822	"	"	808	_	_	0	0	I-s41	0	0	I-SIMPX|I-NX|I-NX|I-VF|E-NX|$(	0	_	I-1
+8	von	von	_	APPR	_	_	_	_	_	T823	von	von	809	_	_	0	0	I-s41	0	0	I-SIMPX|I-NX|I-NX|I-VF|B-PX|APPR	0	_	I-1
+9	Christian	Christian	_	NE	_	_	_	_	_	T824	Christian	Christian	810	_	_	0	0	I-s41	0	0	I-SIMPX|I-NX|I-NX|I-VF|I-PX|B-NX|B-ENADD|NE	0	_	I-1
+10	Kracht	Kracht	_	NN	_	_	_	_	_	T825	Kracht	Kracht	811	_	_	0	0	I-s41	0	0	I-SIMPX|E-NX|E-NX|E-VF|E-PX|E-NX|E-ENADD|NE	0	_	I-1
+11	weist	weisen	_	VVFIN	_	_	_	_	_	T826	weist	weist	812	_	_	0	0	I-s41	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+12	einige	einige	_	PIAT	_	_	_	_	_	T827	einige	einige	813	_	_	0	0	I-s41	0	0	I-SIMPX|B-MF|B-NX|PIAT	0	_	I-1
+13	Parallelen	Parallele	_	NN	_	_	_	_	_	T828	Paralleln	Parallelen	814	XXX	_	1	WORT	I-s41	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+14	mit	mit	_	APPR	_	_	_	_	_	T829	mit	mit	815	_	_	0	0	I-s41	0	0	I-SIMPX|I-MF|B-PX|APPR	0	eher: zu	I-1
+15	dem	die	_	ART	_	_	_	_	_	T830	dem	dem	816	_	_	0	0	I-s41	0	0	I-SIMPX|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+16	Romanauszug	Romanauszug	_	NN	_	_	_	_	_	T831	Romanauszug	Romanauszug	817	_	_	0	0	I-s41	0	0	I-SIMPX|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+17	von	von	_	APPR	_	_	_	_	_	T832	von	von	818	_	_	0	0	I-s41	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-PX|APPR	0	_	I-1
+18	Hermann	Hermann	_	NE	_	_	_	_	_	T833	Hermann	Hermann	819	_	_	0	0	I-s41	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-PX|B-NX|B-ENADD|NE	0	_	I-1
+19	Hesse	Hesse	_	NE	_	_	_	_	_	T834	Hesse	Hesse	820	_	_	0	0	I-s41	0	0	I-SIMPX|E-MF|E-PX|E-NX|E-PX|E-NX|E-ENADD|NE	0	_	I-1
+20	auf	auf	_	PTKVZ	_	_	_	_	_	T835	auf	auf	821	_	_	0	0	I-s41	0	0	E-SIMPX|PTKVZ|VC	0	_	I-1
+21	.	.	_	$.	_	_	_	_	_	T836	.	.	822	_	_	0	0	E-s41	0	0	$.	0	_	E-1
+
+# sent_id = 42
+# text = Dies veranlasst dazu, diese beiden Werke genauer zu untersuchen und zu vergleichen.
+1	Dies	dies	_	PDS	_	_	_	_	_	T837	Dies	Dies	823	_	_	0	0	B-s42	0	0	B-SIMPX|PDS|NX|VF	0	_	B-1
+2	veranlasst	veranlassen	_	VVFIN	_	_	_	_	_	T838	veranlasst	veranlasst	824	_	_	0	0	I-s42	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	dazu	dazu	_	PAV	_	_	_	_	_	T839	dazu	dazu	825	_	_	0	0	I-s42	0	0	I-SIMPX|PROP|PX|MF	0	_	I-1
+4	,	,	_	$,	_	_	_	_	_	T840	,	,	826	_	_	0	0	I-s42	0	0	I-SIMPX|$,	0	_	I-1
+5	diese	dies	_	PDAT	_	_	_	_	_	T841	diese	diese	827	_	_	0	0	I-s42	0	0	I-SIMPX|B-SIMPX|B-NF|B-MF|B-NX|PDAT	0	_	I-1
+6	beiden	beide	_	PIAT	_	_	_	_	_	T842	beiden	beiden	828	_	_	0	0	I-s42	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|PIDAT|ADJX	0	_	I-1
+7	Werke	Werk	_	NN	_	_	_	_	_	T843	Werke	Werke	829	_	_	0	0	I-s42	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+8	genauer	genau	_	ADJD	_	_	_	_	_	T844	genauer	genauer	830	_	_	0	0	I-s42	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|ADJD|ADJX	0	_	I-1
+9	zu	zu	_	PTKZU	_	_	_	_	_	T845	zu	zu	831	_	_	0	0	I-s42	0	0	I-SIMPX|I-SIMPX|I-NF|B-VXINF|B-VC|B-VXINF|PTKZU	0	_	I-1
+10	untersuchen	untersuchen	_	VVINF	_	_	_	_	_	T846	untersuchen	untersuchen	832	_	_	0	0	I-s42	0	0	I-SIMPX|I-SIMPX|I-NF|I-VXINF|I-VC|E-VXINF|VVINF	0	_	I-1
+11	und	und	_	KON	_	_	_	_	_	T847	und	und	833	_	_	0	0	I-s42	0	0	I-SIMPX|I-SIMPX|I-NF|I-VXINF|I-VC|KON	0	_	I-1
+12	zu	zu	_	PTKZU	_	_	_	_	_	T848	zu	zu	834	_	_	0	0	I-s42	0	0	I-SIMPX|I-SIMPX|I-NF|I-VXINF|I-VC|B-VXINF|PTKZU	0	_	I-1
+13	vergleichen	vergleichen	_	VVINF	_	_	_	_	_	T849	vergleichen	vergleichen	835	_	_	0	0	I-s42	0	0	E-SIMPX|E-SIMPX|E-NF|E-VXINF|E-VC|E-VXINF|VVINF	0	_	I-1
+14	.	.	_	$.	_	_	_	_	_	T850	.	.	836	_	_	0	0	E-s42	0	0	$.	0	_	E-1
+
+# sent_id = 43
+# text = Der Inhalt der Werke scheint einigermaßen identisch zu sein.
+1	Der	die	_	ART	_	_	_	_	_	T851	Der	Der	837	_	_	0	0	B-s43	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Inhalt	Inhalt	_	NN	_	_	_	_	_	T852	Inhalt	Inhalt	838	_	_	0	0	I-s43	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	der	die	_	ART	_	_	_	_	_	T853	der	der	839	_	_	0	0	I-s43	0	0	I-SIMPX|I-NX|I-VF|B-NX|ART	0	_	I-1
+4	Werke	Werk	_	NN	_	_	_	_	_	T854	Werke	Werke	840	_	_	0	0	I-s43	0	0	I-SIMPX|E-NX|E-VF|E-NX|NN	0	_	I-1
+5	scheint	scheinen	_	VVFIN	_	_	_	_	_	T855	scheint	scheint	841	_	_	0	0	I-s43	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+6	einigermaßen	einigermaßen	_	ADV	_	_	_	_	_	T856	einigermaßen	einigermaßen	842	_	_	0	0	I-s43	0	0	I-SIMPX|B-ADJX|B-MF|ADJD|ADJX	0	_	I-1
+7	identisch	identisch	_	ADJD	_	_	_	_	_	T857	identisch	identisch	843	_	_	0	0	I-s43	0	0	I-SIMPX|E-ADJX|E-MF|ADJD	0	_	I-1
+8	zu	zu	_	PTKZU	_	_	_	_	_	T858	zu	zu	844	_	_	0	0	I-s43	0	0	I-SIMPX|B-VXINF|B-VC|PTKZU	0	_	I-1
+9	sein	sein	_	VAINF	_	_	_	_	_	T859	sein	sein	845	_	_	0	0	I-s43	0	0	E-SIMPX|E-VXINF|E-VC|VAINF	0	_	I-1
+10	.	.	_	$.	_	_	_	_	_	T860	.	.	846	_	_	0	0	E-s43	0	0	$.	0	_	E-1
+
+# sent_id = 44
+# text = In " Faserland " und in dem Romanauszug geht es um eine Reise junger Menschen.
+1	In	in	_	APPR	_	_	_	_	_	T861	In	In	847	_	_	0	0	B-s44	0	0	B-SIMPX|B-PX|B-VF|B-PX|APPR	0	_	B-1
+2	"	"	_	$(	_	_	_	_	_	T862	"	"	848	_	_	0	0	I-s44	0	0	I-SIMPX|I-PX|I-VF|I-PX|$(	0	_	I-1
+3	Faserland	Faserland	_	NN	_	_	_	_	_	T863	Faserland	Faserland	849	_	_	0	0	I-s44	0	0	I-SIMPX|I-PX|I-VF|I-PX|NN|ENADD	0	_	I-1
+4	"	"	_	$(	_	_	_	_	_	T864	"	"	850	_	_	0	0	I-s44	0	0	I-SIMPX|I-PX|I-VF|E-PX|$(	0	_	I-1
+5	und	und	_	KON	_	_	_	_	_	T865	und	und	851	_	_	0	0	I-s44	0	0	I-SIMPX|I-PX|I-VF|KON	0	_	I-1
+6	in	in	_	APPR	_	_	_	_	_	T866	in	in	852	_	_	0	0	I-s44	0	0	I-SIMPX|I-PX|I-VF|B-PX|APPR	0	_	I-1
+7	dem	die	_	ART	_	_	_	_	_	T867	dem	dem	853	_	_	0	0	I-s44	0	0	I-SIMPX|I-PX|I-VF|I-PX|B-NX|ART	0	_	I-1
+8	Romanauszug	Romanauszug	_	NN	_	_	_	_	_	T868	Romanauszug	Romanauszug	854	_	_	0	0	I-s44	0	0	I-SIMPX|E-PX|E-VF|E-PX|E-NX|NN	0	_	I-1
+9	geht	gehen	_	VVFIN	_	_	_	_	_	T869	geht	geht	855	_	_	0	0	I-s44	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+10	es	es	_	PPER	_	_	_	_	_	T870	es	es	856	_	_	0	0	I-s44	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+11	um	um	_	APPR	_	_	_	_	_	T871	um	um	857	_	_	0	0	I-s44	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+12	eine	eine	_	ART	_	_	_	_	_	T872	eine	eine	858	_	_	0	0	I-s44	0	0	I-SIMPX|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+13	Reise	Reise	_	NN	_	_	_	_	_	T873	Reise	Reise	859	_	_	0	0	I-s44	0	0	I-SIMPX|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+14	junger	jung	_	ADJA	_	_	_	_	_	T874	junger	junger	860	_	_	0	0	I-s44	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-NX|ADJA|ADJX	0	_	I-1
+15	Menschen	Mensch	_	NN	_	_	_	_	_	T875	Menschen	Menschen	861	_	_	0	0	I-s44	0	0	E-SIMPX|E-MF|E-PX|E-NX|E-NX|NN	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T876	.	.	862	_	_	0	0	E-s44	0	0	$.	0	_	E-1
+
+# sent_id = 45
+# text = Der Protagonist in " Faserland " unternimmt diese Reise, um seinem Alltag zu entfliehen und alte Freunde zu treffen.
+1	Der	die	_	ART	_	_	_	_	_	T877	Der	Der	863	_	_	0	0	B-s45	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Protagonist	Protagonist	_	NN	_	_	_	_	_	T878	Protagonist	Protagonist	864	_	_	0	0	I-s45	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	in	in	_	APPR	_	_	_	_	_	T879	in	in	865	_	_	0	0	I-s45	0	0	I-SIMPX|I-NX|I-VF|B-PX|APPR	0	_	I-1
+4	"	"	_	$(	_	_	_	_	_	T880	"	"	866	_	_	0	0	I-s45	0	0	I-SIMPX|I-NX|I-VF|I-PX|$(	0	_	I-1
+5	Faserland	Faserland	_	NN	_	_	_	_	_	T881	Faserland	Faserland	867	_	_	0	0	I-s45	0	0	I-SIMPX|I-NX|I-VF|I-PX|NN|NX	0	_	I-1
+6	"	"	_	$(	_	_	_	_	_	T882	"	"	868	_	_	0	0	I-s45	0	0	I-SIMPX|E-NX|E-VF|E-PX|$(	0	_	I-1
+7	unternimmt	unternehmen	_	VVFIN	_	_	_	_	_	T883	unternimmt	unternimmt	869	_	_	0	0	I-s45	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+8	diese	dies	_	PDAT	_	_	_	_	_	T884	diese	diese	870	_	_	0	0	I-s45	0	0	I-SIMPX|B-NX|B-MF|PDAT	0	_	I-1
+9	Reise	Reise	_	NN	_	_	_	_	_	T885	Reise	Reise	871	_	_	0	0	I-s45	0	0	I-SIMPX|E-NX|E-MF|NN	0	_	I-1
+10	,	,	_	$,	_	_	_	_	_	T886	_	,	_	XXX	_	1	PKT	I-s45	0	0	I-SIMPX|$,	0	_	I-1
+11	um	um	_	KOUI	_	_	_	_	_	T887	um	um	872	_	_	0	0	I-s45	0	0	I-SIMPX|B-SIMPX|B-NF|B-SIMPX|B-PX|APPR|C	0	_	I-1
+12	seinem	sein	_	PPOSAT	_	_	_	_	_	T888	seinem	seinem	873	_	_	0	0	I-s45	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-PX|B-FKOORD|B-FKONJ|B-NX|B-MF|PPOSAT	0	_	I-1
+13	Alltag	Alltag	_	NN	_	_	_	_	_	T889	Alltag	Alltag	874	_	_	0	0	I-s45	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|E-PX|E-FKOORD|E-FKONJ|E-NX|E-MF|NN	0	_	I-1
+14	zu	zu	_	PTKZU	_	_	_	_	_	T890	zu	zu	875	_	_	0	0	I-s45	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-FKOORD|B-FKONJ|B-VXINF|B-VC|PTKZU	0	_	I-1
+15	entfliehen	entfliehen	_	VVINF	_	_	_	_	_	T891	entfliehen	entfliehen	876	_	_	0	0	I-s45	0	0	I-SIMPX|I-SIMPX|I-NF|E-SIMPX|E-FKOORD|E-FKONJ|E-VXINF|E-VC|VVINF	0	_	I-1
+16	und	und	_	KON	_	_	_	_	_	T892	und	und	877	_	_	0	0	I-s45	0	0	I-SIMPX|I-SIMPX|I-NF|B-FKOORD|KON	0	_	I-1
+17	alte	alt	_	ADJA	_	_	_	_	_	T893	alte	alte	878	_	_	0	0	I-s45	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|B-SIMPX|B-FKONJ|B-NX|B-MF|ADJA|ADJX	0	_	I-1
+18	Freunde	Freund	_	NN	_	_	_	_	_	T894	Freunde	Freunde	879	_	_	0	0	I-s45	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-SIMPX|I-FKONJ|E-NX|E-MF|NN	0	_	I-1
+19	zu	zu	_	PTKZU	_	_	_	_	_	T895	zu	zu	880	_	_	0	0	I-s45	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-SIMPX|I-FKONJ|B-VXINF|B-VC|PTKZU	0	_	I-1
+20	treffen	treffen	_	VVINF	_	_	_	_	_	T896	treffen	treffen	881	_	_	0	0	I-s45	0	0	E-SIMPX|E-SIMPX|E-NF|E-FKOORD|E-SIMPX|E-FKONJ|E-VXINF|E-VC|VVINF	0	_	I-1
+21	.	.	_	$.	_	_	_	_	_	T897	.	.	882	_	_	0	0	E-s45	0	0	$.	0	_	E-1
+
+# sent_id = 46
+# text = In Hesses Romanauszug macht es den Anschein, dass Camenzind und sein Freund auf Reisen sind, um entspannen zu können, ihre Ruhe zu haben und um zu versuchen, Gott <B->näherzukommen <I->näherzukommen <E->näherzukommen.
+1	In	in	_	APPR	_	_	_	_	_	T898	In	In	883	_	_	0	0	B-s46	0	0	B-SIMPX|B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	Hesses	Hesse	_	NE	_	_	_	_	_	T899	Hesses	Hesses	884	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-PX|I-VF|B-NX|NE	0	_	I-1
+3	Romanauszug	Romanauszug	_	NN	_	_	_	_	_	T900	Romanauszug	Romanauszug	885	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|E-PX|E-VF|E-NX|NE	0	_	I-1
+4	macht	machen	_	VVFIN	_	_	_	_	_	T901	macht	macht	886	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+5	es	es	_	PPER	_	_	_	_	_	T902	es	es	887	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+6	den	die	_	ART	_	_	_	_	_	T903	den	den	888	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+7	Anschein	Anschein	_	NN	_	_	_	_	_	T904	Anschein	Anschein	889	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T905	,	,	890	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|$,	0	_	I-1
+9	dass	dass	_	KOUS	_	_	_	_	_	T906	dass	dass	891	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|B-NF|B-SIMPX|KOUS|C	0	_	I-1
+10	Camenzind	Camenzind	_	NN	_	_	_	_	_	T907	Camenzind	Camenzind	892	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX|NE|NX	0	_	I-1
+11	und	und	_	KON	_	_	_	_	_	T908	und	und	893	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|KON	0	_	I-1
+12	sein	sein	_	PPOSAT	_	_	_	_	_	T909	sein	sein	894	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|B-NX|PPOSAT	0	_	I-1
+13	Freund	Freund	_	NN	_	_	_	_	_	T910	Freund	Freund	895	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|E-NX|E-NX|NN	0	_	I-1
+14	auf	auf	_	APPR	_	_	_	_	_	T911	auf	auf	896	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+15	Reisen	Reise|Reisen	_	NN	_	_	_	_	_	T912	Reise	Reisen	897	XXX	_	1	FLEX	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|E-MF|E-PX|NN|NX	0	_	I-1
+16	sind	sein	_	VAFIN	_	_	_	_	_	T913	sind	sind	898	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|VAFIN|VXFIN|VC	0	_	I-1
+17	,	,	_	$,	_	_	_	_	_	T914	_	,	_	XXX	_	1	PKT	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|$,	0	_	I-1
+18	um	um	_	KOUI	_	_	_	_	_	T915	um	um	899	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-NF|B-SIMPX|KOUI|C	0	_	I-1
+19	entspannen	entspannen	_	VVINF	_	_	_	_	_	T916	entspannen	entspannen	900	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|B-FKOORD|B-FKONJ|NN|NX|MF	0	_	I-1
+20	zu	zu	_	PTKZU	_	_	_	_	_	T917	zu	zu	901	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-FKOORD|I-FKONJ|B-VXINF|B-VC|PTKZU	0	_	I-1
+21	können	können	_	VMINF	_	_	_	_	_	T918	können	können	902	_	_	0	0	I-s46	0	0	I-SIMPX|E-SIMPX|E-NF|E-SIMPX|E-NF|E-SIMPX|E-FKOORD|E-FKONJ|E-VXINF|E-VC|VVINF	0	_	I-1
+22	,	,	_	$,	_	_	_	_	_	T919	,	,	903	_	_	0	0	I-s46	0	0	I-SIMPX|B-NF|B-NF|B-FKOORD|$,	0	_	I-1
+23	ihre	ihr	_	PPOSAT	_	_	_	_	_	T920	ihre	ihre	904	_	_	0	0	I-s46	0	0	I-SIMPX|I-NF|I-NF|I-FKOORD|B-SIMPX|B-FKONJ|B-NX|B-MF|PPOSAT	0	_	I-1
+24	Ruhe	Ruhe	_	NN	_	_	_	_	_	T921	Ruhe	Ruhe	905	_	_	0	0	I-s46	0	0	I-SIMPX|I-NF|I-NF|I-FKOORD|I-SIMPX|I-FKONJ|E-NX|E-MF|NN	0	_	I-1
+25	zu	zu	_	PTKZU	_	_	_	_	_	T922	zu	zu	906	_	_	0	0	I-s46	0	0	I-SIMPX|I-NF|I-NF|I-FKOORD|I-SIMPX|I-FKONJ|B-VXINF|B-VC|PTKZU	0	_	I-1
+26	haben	haben	_	VVINF	_	_	_	_	_	T923	haben	haben	907	_	_	0	0	I-s46	0	0	I-SIMPX|I-NF|I-NF|E-FKOORD|E-SIMPX|E-FKONJ|E-VXINF|E-VC|VAINF	0	_	I-1
+27	und	und	_	KON	_	_	_	_	_	T924	und	und	908	_	_	0	0	I-s46	0	0	I-SIMPX|I-NF|I-NF|KON	0	_	I-1
+28	um	um	_	KOUI	_	_	_	_	_	T925	um	um	909	_	_	0	0	I-s46	0	0	I-SIMPX|I-NF|I-NF|B-SIMPX|KOUI|C	0	_	I-1
+29	zu	zu	_	PTKZU	_	_	_	_	_	T926	zu	zu	910	_	_	0	0	I-s46	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|B-VXINF|B-VC|PTKZU	0	_	I-1
+30	versuchen	versuchen	_	VVINF	_	_	_	_	_	T927	versuchen	versuchen	911	_	_	0	0	I-s46	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|E-VXINF|E-VC|VVINF	0	_	I-1
+31	,	,	_	$,	_	_	_	_	_	T928	,	,	912	_	_	0	0	I-s46	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|$,	0	_	I-1
+32	Gott	Gott	_	NN	_	_	_	_	_	T929	Gott	Gott	913	_	_	0	0	I-s46	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|B-SIMPX|B-NF|NE|NX|MF	0	_	I-1
+33	<B->näherzukommen	<B->näherkommen	_	B-VVIZU	_	_	_	_	_	T930	näher	<B->näherzukommen	914	XXX	_	B-1	B-GZS	I-s46	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|I-SIMPX|I-NF|B-VVIZU|B-VXINF|B-VC	0	_	I-1
+34	<I->näherzukommen	<I->näherkommen	_	I-VVIZU	_	_	_	_	_	T931	zu	<I->näherzukommen	915	XXX	_	I-1	I-GZS	I-s46	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|I-SIMPX|I-NF|I-VVIZU|I-VXINF|I-VC	0	_	I-1
+35	<E->näherzukommen	<E->näherkommen	_	E-VVIZU	_	_	_	_	_	T932	kommen	<E->näherzukommen	916	XXX	_	E-1	E-GZS	I-s46	0	0	E-SIMPX|E-NF|E-NF|E-SIMPX|E-SIMPX|E-NF|E-VVIZU|E-VXINF|E-VC	0	_	I-1
+36	.	.	_	$.	_	_	_	_	_	T933	.	.	917	_	_	0	0	E-s46	0	0	$.	0	_	E-1
+
+# sent_id = 47
+# text = Dies wird vor allem durch ihre Pilgerfahrt deutlich ( vgl. Z. 5 ).
+1	Dies	dies	_	PDS	_	_	_	_	_	T934	Dies	Dies	918	_	_	0	0	B-s47	0	0	B-SIMPX|PDS|NX|VF	0	_	B-1
+2	wird	werden	_	VAFIN	_	_	_	_	_	T935	wird	wird	919	_	_	0	0	I-s47	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	vor	vor	_	APPR	_	_	_	_	_	T936	vor	vor	920	_	_	0	0	I-s47	0	0	I-SIMPX|B-MF|B-PX|APPR	0	_	I-1
+4	allem	alle	_	PIS	_	_	_	_	_	T937	allem	allem	921	_	_	0	0	I-s47	0	0	I-SIMPX|I-MF|E-PX|PIS|NX	0	_	I-1
+5	durch	durch	_	APPR	_	_	_	_	_	T938	durch	durch	922	_	_	0	0	I-s47	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+6	ihre	ihr	_	PPOSAT	_	_	_	_	_	T939	ihre	ihre	923	_	_	0	0	I-s47	0	0	I-SIMPX|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+7	Pilgerfahrt	Pilgerfahrt	_	NN	_	_	_	_	_	T940	Pilgerfahrt	Pilgerfahrt	924	_	_	0	0	I-s47	0	0	I-SIMPX|I-MF|E-PX|E-NX|NN	0	_	I-1
+8	deutlich	deutlich	_	ADJD	_	_	_	_	_	T941	deutlich	deutlich	925	_	_	0	0	I-s47	0	0	E-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+9	(	(	_	$(	_	_	_	_	_	T942	(	(	926	_	_	0	0	I-s47	0	0	$(	0	_	I-1
+10	vgl.	vgl.	_	ADV	_	_	_	_	_	T943	vgl.	vgl.	927	_	_	0	0	I-s47	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+11	Z.	Z.	_	NE	_	_	_	_	_	T944	Z.	Z.	928	_	_	0	0	I-s47	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+12	5	5	_	CARD	_	_	_	_	_	T945	5	5	929	_	_	0	0	I-s47	0	0	E-NX|CARD|NX	0	_	I-1
+13	)	)	_	$(	_	_	_	_	_	T946	)	)	930	_	_	0	0	I-s47	0	0	$(	0	_	I-1
+14	.	.	_	$.	_	_	_	_	_	T947	.	.	931	_	_	0	0	E-s47	0	0	$.	0	_	E-1
+
+# sent_id = 48
+# text = Während der Protagonist in " Faserland " von einem menschlichen Abgrund in den nächsten tappt und das materialistische Leben hoch lobt, was vor allem in seiner Vernarrtheit in seine Barbourjacke deutlich wird, lernen Peter und Richard das einfache idealistische Leben kennen und zu schätzen ( vgl. Z. 6 ).
+1	Während	während	_	KOUS	_	_	_	_	_	T948	Während	Während	932	_	_	0	0	B-s48	0	0	B-SIMPX|B-SIMPX|B-VF|ADV|ADVX|C	0	_	B-1
+2	der	die	_	ART	_	_	_	_	_	T949	der	der	933	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|B-FKOORD|B-FKONJ|B-MF|B-NX|B-NX|ART	0	_	I-1
+3	Protagonist	Protagonist	_	NN	_	_	_	_	_	T950	Protagonist	Protagonist	934	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|I-NX|E-NX|NN	0	_	I-1
+4	in	in	_	APPR	_	_	_	_	_	T951	in	in	935	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|I-NX|B-PX|APPR	0	_	I-1
+5	"	"	_	$(	_	_	_	_	_	T952	_	"	_	XXX	_	1	PKT	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|I-NX|I-PX|$(	0	_	I-1
+6	Faserland	Faserland	_	NN	_	_	_	_	_	T953	Faserland	Faserland	936	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|I-NX|I-PX|NN|NX	0	_	I-1
+7	"	"	_	$(	_	_	_	_	_	T954	_	"	_	XXX	_	1	PKT	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|E-NX|E-PX|$(	0	_	I-1
+8	von	von	_	APPR	_	_	_	_	_	T955	von	von	937	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|B-PX|APPR	0	_	I-1
+9	einem	eine	_	ART	_	_	_	_	_	T956	einem	einem	938	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|ART	0	_	I-1
+10	menschlichen	menschlich	_	ADJA	_	_	_	_	_	T957	menschlichen	menschlichen	939	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+11	Abgrund	Abgrund	_	NN	_	_	_	_	_	T958	Abgrund	Abgrund	940	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|E-PX|E-NX|NN	0	_	I-1
+12	in	in	_	APPR	_	_	_	_	_	T959	in	in	941	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|B-PX|APPR	0	_	I-1
+13	den	die	_	ART	_	_	_	_	_	T960	den	den	942	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|ART	0	_	I-1
+14	nächsten	nah	_	ADJA	_	_	_	_	_	T961	nächsten	nächsten	943	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|E-MF|E-PX|E-NX|NN	0	_	I-1
+15	tappt	tappen	_	VVFIN	_	_	_	_	_	T962	tappt	tappt	944	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|E-FKONJ|VVFIN|VXFIN|VC	0	_	I-1
+16	und	und	_	KON	_	_	_	_	_	T963	und	und	945	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|KON	0	_	I-1
+17	das	die	_	ART	_	_	_	_	_	T964	das	das	946	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|B-FKONJ|B-MF|B-NX|ART	0	_	I-1
+18	materialistische	materialistisch	_	ADJA	_	_	_	_	_	T965	materialistische	materialistische	947	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+19	Leben	Leben	_	NN	_	_	_	_	_	T966	Leben	Leben	948	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-MF|E-NX|NN	0	_	I-1
+20	hoch	hoch	_	ADJD	_	_	_	_	_	T967	hoch	hoch	949	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|E-MF|ADJD|ADJX	0	_	I-1
+21	lobt	loben	_	VVFIN	_	_	_	_	_	T968	lobt	lobt	950	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|VVFIN|VXFIN|VC	0	_	I-1
+22	,	,	_	$,	_	_	_	_	_	T969	,	,	951	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|$,	0	_	I-1
+23	was	was	_	PRELS	_	_	_	_	_	T970	was	was	952	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|B-SIMPX|B-NF|PWS|NX|C	0	_	I-1
+24	vor	vor	_	APPR	_	_	_	_	_	T971	<B->vorallem	vor	953	XXX	_	B-1	B-GZS	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|B-MF|B-PX|APPR	0	_	I-1
+25	allem	alle	_	PIS	_	_	_	_	_	T972	<E->vorallem	allem	_	XXX	_	E-1	E-GZS	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|I-MF|E-PX|PIS|NX	0	_	I-1
+26	in	in	_	APPR	_	_	_	_	_	T973	in	in	954	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+27	seiner	sein	_	PPOSAT	_	_	_	_	_	T974	seiner	seiner	955	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+28	Vernarrtheit	Vernarrtheit	_	NN	_	_	_	_	_	T975	Vernarrtheit	Vernarrtheit	956	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|I-MF|E-PX|E-NX|NN	0	_	I-1
+29	in	in	_	APPR	_	_	_	_	_	T976	in	in	957	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+30	seine	sein	_	PPOSAT	_	_	_	_	_	T977	seiner	seine	958	XXX	_	1	FLEX	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+31	Barbourjacke	Barbourjacke	_	NN	_	_	_	_	_	T978	Barbourjacke	Barbourjacke	959	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|I-MF|E-PX|E-NX|NN	0	_	I-1
+32	deutlich	deutlich	_	ADJD	_	_	_	_	_	T979	deutlich	deutlich	960	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-VF|I-FKOORD|I-FKONJ|I-SIMPX|I-NF|E-MF|ADJD|ADJX	0	_	I-1
+33	wird	werden	_	VAFIN	_	_	_	_	_	T980	wird	wird	961	_	_	0	0	I-s48	0	0	I-SIMPX|E-SIMPX|E-VF|E-FKOORD|E-FKONJ|E-SIMPX|E-NF|VAFIN|VXFIN|VC	0	_	I-1
+34	,	,	_	$,	_	_	_	_	_	T981	,	,	962	_	_	0	0	I-s48	0	0	I-SIMPX|$,	0	_	I-1
+35	lernen	lernen	_	VVFIN	_	_	_	_	_	T982	lernen	lernen	963	_	_	0	0	I-s48	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+36	Peter	Peter	_	NE	_	_	_	_	_	T983	Peter	Peter	964	_	_	0	0	I-s48	0	0	I-SIMPX|B-MF|B-NX|NE|NX	0	_	I-1
+37	und	und	_	KON	_	_	_	_	_	T984	und	und	965	_	_	0	0	I-s48	0	0	I-SIMPX|I-MF|I-NX|KON	0	_	I-1
+38	Richard	Richard	_	NE	_	_	_	_	_	T985	Richard	Richard	966	_	_	0	0	I-s48	0	0	I-SIMPX|I-MF|E-NX|NE|NX	0	_	I-1
+39	das	die	_	ART	_	_	_	_	_	T986	das	das	967	_	_	0	0	I-s48	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+40	einfache	einfach	_	ADJA	_	_	_	_	_	T987	einfache	einfache	968	_	_	0	0	I-s48	0	0	I-SIMPX|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+41	idealistische	idealistisch	_	ADJA	_	_	_	_	_	T988	idealistische	idealistische	969	_	_	0	0	I-s48	0	0	I-SIMPX|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+42	Leben	Leben	_	NN	_	_	_	_	_	T989	Leben	Leben	970	_	_	0	0	I-s48	0	0	I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+43	kennen	kennen	_	VVINF	_	_	_	_	_	T990	kennen	kennen	971	_	_	0	0	I-s48	0	0	I-SIMPX|B-VXINF|B-VC|VVINF|VXINF	0	_	I-1
+44	und	und	_	KON	_	_	_	_	_	T991	und	und	972	_	_	0	0	I-s48	0	0	I-SIMPX|I-VXINF|I-VC|KON	0	_	I-1
+45	zu	zu	_	PTKZU	_	_	_	_	_	T992	zu	zu	973	_	_	0	0	I-s48	0	0	I-SIMPX|I-VXINF|I-VC|B-VXINF|PTKZU	0	_	I-1
+46	schätzen	schätzen	_	VVINF	_	_	_	_	_	T993	schätzen	schätzen	974	_	_	0	0	I-s48	0	0	E-SIMPX|E-VXINF|E-VC|E-VXINF|VVINF	0	_	I-1
+47	(	(	_	$(	_	_	_	_	_	T994	(	(	975	_	_	0	0	I-s48	0	0	$(	0	_	I-1
+48	vgl.	vgl.	_	ADV	_	_	_	_	_	T995	vgl.	vgl.	976	_	_	0	0	I-s48	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+49	Z.	Z.	_	NE	_	_	_	_	_	T996	Z.	Z.	977	_	_	0	0	I-s48	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+50	6	6	_	CARD	_	_	_	_	_	T997	6	6	978	_	_	0	0	I-s48	0	0	E-NX|CARD|NX	0	_	I-1
+51	)	)	_	$(	_	_	_	_	_	T998	)	)	979	_	_	0	0	I-s48	0	0	$(	0	_	I-1
+52	.	.	_	$.	_	_	_	_	_	T999	.	.	980	_	_	0	0	E-s48	0	0	$.	0	_	E-1
+
+# sent_id = 49
+# text = Gleichzeitig distanzieren sie sich von der Moderne und dem Materialismus ( vgl. Z. 8-12 ).
+1	Gleichzeitig	gleichzeitig	_	ADJD	_	_	_	_	_	T1000	Gleichzeit	Gleichzeitig	981	XXX	_	1	WORT	B-s49	0	0	B-SIMPX|ADJD|ADJX|VF	0	_	B-1
+2	distanzieren	distanzieren	_	VVFIN	_	_	_	_	_	T1001	distanzieren	distanzieren	982	_	_	0	0	I-s49	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	sie	sie	_	PPER	_	_	_	_	_	T1002	sie	sie	983	_	_	0	0	I-s49	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+4	sich	sich	_	PRF	_	_	_	_	_	T1003	sich	sich	984	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|PRF|NX	0	_	I-1
+5	von	von	_	APPR	_	_	_	_	_	T1004	von	von	985	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+6	der	die	_	ART	_	_	_	_	_	T1005	der	der	986	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+7	Moderne	Moderne	_	NN	_	_	_	_	_	T1006	Moderne	Moderne	987	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+8	und	und	_	KON	_	_	_	_	_	T1007	und	und	988	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|I-PX|I-NX|KON	0	_	I-1
+9	dem	die	_	ART	_	_	_	_	_	T1008	dem	dem	989	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-NX|B-NX|ART	0	_	I-1
+10	Materialismus	Materialismus	_	NN	_	_	_	_	_	T1009	Materialismus	Materialismus	990	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|E-NX|NN	0	_	I-1
+11	(	(	_	$(	_	_	_	_	_	T1010	(	(	991	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|$(	0	_	I-1
+12	vgl.	vgl.	_	ADV	_	_	_	_	_	T1011	vgl.	vgl.	992	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|B-NX|B-NX|B-ENADD|NE	0	_	I-1
+13	Z.	Z.	_	NE	_	_	_	_	_	T1012	Z.	Z.	993	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|E-NX|E-ENADD|NE	0	_	I-1
+14	8-12	@card@	_	CARD	_	_	_	_	_	T1013	8-12	8-12	994	_	_	0	0	I-s49	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|E-NX|CARD|NX	0	_	I-1
+15	)	)	_	$(	_	_	_	_	_	T1014	)	)	995	_	_	0	0	I-s49	0	0	E-SIMPX|E-MF|E-PX|E-NX|E-NX|$(	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T1015	.	.	996	_	_	0	0	E-s49	0	0	$.	0	_	E-1
+
+# sent_id = 50
+# text = In " Faserland " ist der Protagonist sich beispielsweise bei Nigel unsicher, warum er ihn überhaupt mag.
+1	In	in	_	APPR	_	_	_	_	_	T1016	In	In	997	_	_	0	0	B-s50	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	"	"	_	$(	_	_	_	_	_	T1017	"	"	998	_	_	0	0	I-s50	0	0	I-SIMPX|I-PX|I-VF|$(	0	_	I-1
+3	Faserland	Faserland	_	NN	_	_	_	_	_	T1018	Faserland	Faserland	999	_	_	0	0	I-s50	0	0	I-SIMPX|I-PX|I-VF|NN|ENADD	0	_	I-1
+4	"	"	_	$(	_	_	_	_	_	T1019	"	"	1000	_	_	0	0	I-s50	0	0	I-SIMPX|E-PX|E-VF|$(	0	_	I-1
+5	ist	sein	_	VAFIN	_	_	_	_	_	T1020	ist	ist	1001	_	_	0	0	I-s50	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+6	der	die	_	ART	_	_	_	_	_	T1021	der	der	1002	_	_	0	0	I-s50	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+7	Protagonist	Protagonist	_	NN	_	_	_	_	_	T1022	Protagonist	Protagonist	1003	_	_	0	0	I-s50	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+8	sich	sich	_	PRF	_	_	_	_	_	T1023	sich	sich	1004	_	_	0	0	I-s50	0	0	I-SIMPX|I-MF|PRF|NX	0	_	I-1
+9	beispielsweise	beispielsweise	_	ADV	_	_	_	_	_	T1024	beispielsweise	beispielsweise	1005	_	_	0	0	I-s50	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+10	bei	bei	_	APPR	_	_	_	_	_	T1025	bei	bei	1006	_	_	0	0	I-s50	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+11	Nigel	Nigel	_	NE	_	_	_	_	_	T1026	Nigel	Nigel	1007	_	_	0	0	I-s50	0	0	I-SIMPX|I-MF|E-PX|NN|NX	0	_	I-1
+12	unsicher	unsicher	_	ADJD	_	_	_	_	_	T1027	unsicher	unsicher	1008	_	_	0	0	I-s50	0	0	I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+13	,	,	_	$,	_	_	_	_	_	T1028	,	,	1009	_	_	0	0	I-s50	0	0	I-SIMPX|$,	0	_	I-1
+14	warum	warum	_	PWAV	_	_	_	_	_	T1029	warum	warum	1010	_	_	0	0	I-s50	0	0	I-SIMPX|B-SIMPX|B-NF|PWAV|ADVX|C	0	_	I-1
+15	er	er	_	PPER	_	_	_	_	_	T1030	er	er	1011	_	_	0	0	I-s50	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+16	ihn	er	_	PPER	_	_	_	_	_	T1031	ihn	ihn	1012	_	_	0	0	I-s50	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|PPER|NX	0	_	I-1
+17	überhaupt	überhaupt	_	ADV	_	_	_	_	_	T1032	überhaupt	überhaupt	1013	_	_	0	0	I-s50	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|VVPP|VXINF	0	_	I-1
+18	mag	mögen	_	VMFIN	_	_	_	_	_	T1033	mag	mag	1014	_	_	0	0	I-s50	0	0	E-SIMPX|E-SIMPX|E-NF|VMFIN|VXFIN|*	0	_	I-1
+19	.	.	_	$.	_	_	_	_	_	T1034	.	.	1015	_	_	0	0	E-s50	0	0	$.	0	_	E-1
+
+# sent_id = 51
+# text = In dem Auszug von " Peter Camenzind " steht diese Frage überhaupt nicht im Raum.
+1	In	in	_	APPR	_	_	_	_	_	T1035	In	In	1016	_	_	0	0	B-s51	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	dem	die	_	ART	_	_	_	_	_	T1036	dem	dem	1017	_	_	0	0	I-s51	0	0	I-SIMPX|I-PX|I-VF|B-NX|B-NX|ART	0	_	I-1
+3	Auszug	Auszug	_	NN	_	_	_	_	_	T1037	Auszug	Auszug	1018	_	_	0	0	I-s51	0	0	I-SIMPX|I-PX|I-VF|I-NX|E-NX|NN	0	_	I-1
+4	von	von	_	APPR	_	_	_	_	_	T1038	von	von	1019	_	_	0	0	I-s51	0	0	I-SIMPX|I-PX|I-VF|I-NX|B-PX|APPR	0	_	I-1
+5	"	"	_	$(	_	_	_	_	_	T1039	"	"	1020	_	_	0	0	I-s51	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-PX|$(	0	_	I-1
+6	Peter	Peter	_	NE	_	_	_	_	_	T1040	Peter	Peter	1021	_	_	0	0	I-s51	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-PX|B-NX|B-ENADD|NE	0	_	I-1
+7	Camenzind	Camenzind	_	NE	_	_	_	_	_	T1041	Camenzind	Camenzind	1022	_	_	0	0	I-s51	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-PX|E-NX|E-ENADD|NE	0	_	I-1
+8	"	"	_	$(	_	_	_	_	_	T1042	"	"	1023	_	_	0	0	I-s51	0	0	I-SIMPX|E-PX|E-VF|E-NX|E-PX|$(	0	_	I-1
+9	steht	stehen	_	VVFIN	_	_	_	_	_	T1043	steht	steht	1024	_	_	0	0	I-s51	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+10	diese	dies	_	PDAT	_	_	_	_	_	T1044	diese	diese	1025	_	_	0	0	I-s51	0	0	I-SIMPX|B-MF|B-NX|PDAT	0	_	I-1
+11	Frage	Frage	_	NN	_	_	_	_	_	T1045	Frage	Frage	1026	_	_	0	0	I-s51	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+12	überhaupt	überhaupt	_	ADV	_	_	_	_	_	T1046	überhaupt	überhaupt	1027	_	_	0	0	I-s51	0	0	I-SIMPX|I-MF|ADJD|ADJX	0	_	I-1
+13	nicht	nicht	_	PTKNEG	_	_	_	_	_	T1047	nicht	nicht	1028	_	_	0	0	I-s51	0	0	I-SIMPX|I-MF|PTKNEG|ADVX	0	_	I-1
+14	im	in	_	APPRART	_	_	_	_	_	T1048	im	im	1029	_	_	0	0	I-s51	0	0	I-SIMPX|I-MF|B-PX|APPRART	0	_	I-1
+15	Raum	Raum	_	NN	_	_	_	_	_	T1049	Raum	Raum	1030	_	_	0	0	I-s51	0	0	E-SIMPX|E-MF|E-PX|NN|NX	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T1050	.	.	1031	_	_	0	0	E-s51	0	0	$.	0	_	E-1
+
+# sent_id = 52
+# text = Durch die gemeinsame Zeit wird die Bindung der beiden nur stärker ( vgl. Z. 26-28 ).
+1	Durch	durch	_	APPR	_	_	_	_	_	T1051	Durch	Durch	1032	_	_	0	0	B-s52	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	die	die	_	ART	_	_	_	_	_	T1052	die	die	1033	_	_	0	0	I-s52	0	0	I-SIMPX|I-PX|I-VF|B-NX|ART	0	_	I-1
+3	gemeinsame	gemeinsam	_	ADJA	_	_	_	_	_	T1053	gemeinsame	gemeinsame	1034	_	_	0	0	I-s52	0	0	I-SIMPX|I-PX|I-VF|I-NX|ADJA|ADJX	0	_	I-1
+4	Zeit	Zeit	_	NN	_	_	_	_	_	T1054	Zeit	Zeit	1035	_	_	0	0	I-s52	0	0	I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+5	wird	werden	_	VAFIN	_	_	_	_	_	T1055	wird	wird	1036	_	_	0	0	I-s52	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+6	die	die	_	ART	_	_	_	_	_	T1056	die	die	1037	_	_	0	0	I-s52	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+7	Bindung	Bindung	_	NN	_	_	_	_	_	T1057	Bindung	Bindung	1038	_	_	0	0	I-s52	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+8	der	die	_	ART	_	_	_	_	_	T1058	der	der	1039	_	_	0	0	I-s52	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+9	beiden	beide	_	PIAT	_	_	_	_	_	T1059	Beiden	beiden	1040	XXX	_	1	GKS	I-s52	0	0	I-SIMPX|I-MF|E-NX|PIS	0	_	I-1
+10	nur	nur	_	ADV	_	_	_	_	_	T1060	nur	nur	1041	_	_	0	0	I-s52	0	0	I-SIMPX|E-MF|ADV|ADVX	0	_	I-1
+11	stärker	stark	_	ADJD	_	_	_	_	_	T1061	stärker	stärker	1042	_	_	0	0	I-s52	0	0	E-SIMPX|PTKVZ|VC	0	_	I-1
+12	(	(	_	$(	_	_	_	_	_	T1062	(	(	1043	_	_	0	0	I-s52	0	0	$(	0	_	I-1
+13	vgl.	vgl.	_	ADV	_	_	_	_	_	T1063	vgl.	vgl.	1044	_	_	0	0	I-s52	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+14	Z.	Z.	_	NE	_	_	_	_	_	T1064	Z.	Z.	1045	_	_	0	0	I-s52	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+15	26-28	@card@	_	CARD	_	_	_	_	_	T1065	26-28	26-28	1046	_	_	0	0	I-s52	0	0	E-NX|CARD|NX	0	_	I-1
+16	)	)	_	$(	_	_	_	_	_	T1066	)	)	1047	_	_	0	0	I-s52	0	0	$(	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T1067	.	.	1048	_	_	0	0	E-s52	0	0	$.	0	_	E-1
+
+# sent_id = 53
+# text = Die Verschlossenheit des Protagonisten in " Faserland " führt dazu, dass er nicht einmal sich seinem damaligen Freund Alexander öffnet und ihn nicht einmal in der Bar anspricht, sondern ihm seine Barbourjacke klaut.
+1	Die	die	_	ART	_	_	_	_	_	T1068	Die	Die	1049	_	_	0	0	B-s53	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Verschlossenheit	Verschlossenheit	_	NN	_	_	_	_	_	T1069	Verschlossenheit	Verschlossenheit	1050	_	Verschlossen-heit 	0	0	I-s53	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	des	die	_	ART	_	_	_	_	_	T1070	des	des	1051	_	_	0	0	I-s53	0	0	I-SIMPX|I-NX|I-VF|B-NX|B-NX|ART	0	_	I-1
+4	Protagonisten	Protagonist	_	NN	_	_	_	_	_	T1071	Protagonisten	Protagonisten	1052	_	_	0	0	I-s53	0	0	I-SIMPX|I-NX|I-VF|I-NX|E-NX|NN	0	_	I-1
+5	in	in	_	APPR	_	_	_	_	_	T1072	in	in	1053	_	_	0	0	I-s53	0	0	I-SIMPX|I-NX|I-VF|I-NX|B-PX|APPR	0	_	I-1
+6	"	"	_	$(	_	_	_	_	_	T1073	"	"	1054	_	_	0	0	I-s53	0	0	I-SIMPX|I-NX|I-VF|I-NX|I-PX|$(	0	_	I-1
+7	Faserland	Faserland	_	NN	_	_	_	_	_	T1074	Faserland	Faserland	1055	_	_	0	0	I-s53	0	0	I-SIMPX|I-NX|I-VF|I-NX|I-PX|NN|NX	0	_	I-1
+8	"	"	_	$(	_	_	_	_	_	T1075	"	"	1056	_	_	0	0	I-s53	0	0	I-SIMPX|E-NX|E-VF|E-NX|E-PX|$(	0	_	I-1
+9	führt	führen	_	VVFIN	_	_	_	_	_	T1076	führt	führt	1057	_	_	0	0	I-s53	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+10	dazu	dazu	_	PAV	_	_	_	_	_	T1077	dazu	dazu	1058	_	_	0	0	I-s53	0	0	I-SIMPX|PROP|PX|MF	0	_	I-1
+11	,	,	_	$,	_	_	_	_	_	T1078	,	,	1059	_	_	0	0	I-s53	0	0	I-SIMPX|$,	0	_	I-1
+12	dass	dass	_	KOUS	_	_	_	_	_	T1079	dass	dass	1060	_	_	0	0	I-s53	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+13	er	er	_	PPER	_	_	_	_	_	T1080	er	er	1061	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|B-FKOORD|B-FKONJ|B-MF|PPER|NX	0	_	I-1
+14	nicht	nicht	_	PTKNEG	_	_	_	_	_	T1081	nicht	nicht	1062	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|PTKNEG|ADVX	0	_	I-1
+15	einmal	einmal	_	ADV	_	_	_	_	_	T1082	einmal	einmal	1063	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|ADV|ADVX	0	_	I-1
+16	sich	sich	_	PRF	_	_	_	_	_	T1083	sich	sich	1064	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|B-NX|PRF|NX	0	_	I-1
+17	seinem	sein	_	PPOSAT	_	_	_	_	_	T1084	seinem	seinem	1065	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|I-NX|B-NX|B-NX|PPOSAT	0	_	I-1
+18	damaligen	damalig	_	ADJA	_	_	_	_	_	T1085	damaligen	damaligen	1066	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+19	Freund	Freund	_	NE	_	_	_	_	_	T1086	Freund	Freund	1067	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|E-NX|NN	0	_	I-1
+20	Alexander	Alexander	_	NE	_	_	_	_	_	T1087	Alexander	Alexander	1068	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|E-NX|E-NX|NE|NX	0	_	I-1
+21	öffnet	öffnen	_	VVFIN	_	_	_	_	_	T1088	öffnet	öffnet	1069	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|E-FKONJ|VVFIN|VXFIN|VC	0	_	I-1
+22	und	und	_	KON	_	_	_	_	_	T1089	und	und	1070	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|KON	0	_	I-1
+23	ihn	er	_	PPER	_	_	_	_	_	T1090	ihn	ihn	1071	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|B-FKONJ|B-MF|PPER|NX	0	_	I-1
+24	nicht	nicht	_	PTKNEG	_	_	_	_	_	T1091	nicht	nicht	1072	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|PTKNEG|ADVX	0	_	I-1
+25	einmal	einmal	_	ADV	_	_	_	_	_	T1092	einmal	einmal	1073	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|ADV|ADVX	0	_	I-1
+26	in	in	_	APPR	_	_	_	_	_	T1093	in	in	1074	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|B-PX|APPR	0	_	I-1
+27	der	die	_	ART	_	_	_	_	_	T1094	der	der	1075	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|ART	0	_	I-1
+28	Bar	Bar	_	NN	_	_	_	_	_	T1095	Bar	Bar	1076	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|E-PX|E-NX|NN	0	_	I-1
+29	anspricht	ansprechen	_	VVFIN	_	_	_	_	_	T1096	anspricht	anspricht	1077	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|E-FKONJ|VVFIN|VXFIN|VC	0	_	I-1
+30	,	,	_	$,	_	_	_	_	_	T1097	,	,	1078	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|$,	0	_	I-1
+31	sondern	sondern	_	VVFIN	_	_	_	_	_	T1098	sondern	sondern	1079	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|KON	0	_	I-1
+32	ihm	er	_	PPER	_	_	_	_	_	T1099	ihm	ihm	1080	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|B-FKONJ|B-MF|PPER|NX	0	_	I-1
+33	seine	sein	_	PPOSAT	_	_	_	_	_	T1100	seine	seine	1081	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|B-NX|PPOSAT	0	_	I-1
+34	Barbourjacke	Barbourjacke	_	NN	_	_	_	_	_	T1101	Barbourjacke	Barbourjacke	1082	_	_	0	0	I-s53	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|E-NX|NN	0	_	I-1
+35	klaut	klauen	_	VVFIN	_	_	_	_	_	T1102	klaut	klaut	1083	_	_	0	0	I-s53	0	0	E-SIMPX|E-SIMPX|E-NF|E-FKOORD|E-FKONJ|VVFIN|VXFIN|VC	0	_	I-1
+36	.	.	_	$.	_	_	_	_	_	T1103	.	.	1084	_	_	0	0	E-s53	0	0	$.	0	_	E-1
+
+# sent_id = 54
+# text = Die Freunde in " Peter Camenzind " sind in der idealistischen Welt sehr offen und lernen neue Menschen kennen und schließen Freundschaften mit ihnen ( vgl. Z. 18-23 ).
+1	Die	die	_	ART	_	_	_	_	_	T1104	Die	Die	1085	_	_	0	0	B-s54	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Freunde	Freund	_	NN	_	_	_	_	_	T1105	Freunde	Freunde	1086	_	_	0	0	I-s54	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	in	in	_	APPR	_	_	_	_	_	T1106	in	in	1087	_	_	0	0	I-s54	0	0	I-SIMPX|I-NX|I-VF|B-PX|APPR	0	_	I-1
+4	"	"	_	$(	_	_	_	_	_	T1107	"	"	1088	_	_	0	0	I-s54	0	0	I-SIMPX|I-NX|I-VF|I-PX|$(	0	_	I-1
+5	Peter	Peter	_	NE	_	_	_	_	_	T1108	Peter	Peter	1089	_	_	0	0	I-s54	0	0	I-SIMPX|I-NX|I-VF|I-PX|B-NX|B-ENADD|NE	0	_	I-1
+6	Camenzind	Camenzind	_	NE	_	_	_	_	_	T1109	Camenzind	Camenzind	1090	_	_	0	0	I-s54	0	0	I-SIMPX|I-NX|I-VF|I-PX|E-NX|E-ENADD|NE	0	_	I-1
+7	"	"	_	$(	_	_	_	_	_	T1110	"	"	1091	_	_	0	0	I-s54	0	0	I-SIMPX|E-NX|E-VF|E-PX|$(	0	_	I-1
+8	sind	sein	_	VAFIN	_	_	_	_	_	T1111	sind	sind	1092	_	_	0	0	I-s54	0	0	I-SIMPX|B-FKOORD|B-FKONJ|VAFIN|VXFIN|LK	0	_	I-1
+9	in	in	_	APPR	_	_	_	_	_	T1112	in	in	1093	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-PX|APPR	0	_	I-1
+10	der	die	_	ART	_	_	_	_	_	T1113	der	der	1094	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|ART	0	_	I-1
+11	idealistischen	idealistisch	_	ADJA	_	_	_	_	_	T1114	idealistischen	idealistischen	1095	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+12	Welt	Welt	_	NN	_	_	_	_	_	T1115	Welt	Welt	1096	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|E-PX|E-NX|NN	0	_	I-1
+13	sehr	sehr	_	ADV	_	_	_	_	_	T1116	sehr	sehr	1097	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|ADV|ADVX	0	_	I-1
+14	offen	offen	_	ADJD	_	_	_	_	_	T1117	offen	offen	1098	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|E-FKONJ|E-MF|PTKVZ	0	_	I-1
+15	und	und	_	KON	_	_	_	_	_	T1118	und	und	1099	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+16	lernen	lernen	_	VVFIN	_	_	_	_	_	T1119	lernen	lernen	1100	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+17	neue	neu	_	ADJA	_	_	_	_	_	T1120	neue	neue	1101	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-NX|B-MF|ADJA|ADJX	0	_	I-1
+18	Menschen	Mensch	_	NN	_	_	_	_	_	T1121	Menschen	Menschen	1102	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|I-FKONJ|E-NX|E-MF|NN	0	_	I-1
+19	kennen	kennen	_	VVINF	_	_	_	_	_	T1122	kennen	kennen	1103	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|E-FKONJ|PTKVZ|VC	0	_	I-1
+20	und	und	_	KON	_	_	_	_	_	T1123	und	und	1104	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+21	schließen	schließen	_	VVFIN	_	_	_	_	_	T1124	schließen	schließen	1105	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+22	Freundschaften	Freundschaft	_	NN	_	_	_	_	_	T1125	Freundschaften	Freundschaften	1106	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|NN|NX	0	_	I-1
+23	mit	mit	_	APPR	_	_	_	_	_	T1126	mit	mit	1107	_	_	0	0	I-s54	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX|APPR	0	_	I-1
+24	ihnen	sie	_	PPER	_	_	_	_	_	T1127	ihnen	ihnen	1108	_	_	0	0	I-s54	0	0	E-SIMPX|E-FKOORD|E-FKONJ|E-MF|E-PX|PPER|NX	0	_	I-1
+25	(	(	_	$(	_	_	_	_	_	T1128	(	(	1109	_	_	0	0	I-s54	0	0	$(	0	_	I-1
+26	vgl.	vgl.	_	ADV	_	_	_	_	_	T1129	vgl.	vgl.	1110	_	_	0	0	I-s54	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+27	Z.	Z.	_	NE	_	_	_	_	_	T1130	Z.	Z.	1111	_	_	0	0	I-s54	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+28	18-23	@card@	_	CARD	_	_	_	_	_	T1131	18-23	18-23	1112	_	_	0	0	I-s54	0	0	E-NX|CARD|NX	0	_	I-1
+29	)	)	_	$(	_	_	_	_	_	T1132	)	)	1113	_	_	0	0	I-s54	0	0	$(	0	_	I-1
+30	.	.	_	$.	_	_	_	_	_	T1133	.	.	1114	_	_	0	0	E-s54	0	0	$.	0	_	E-1
+
+# sent_id = 55
+# text = Im letzten Freund, den der Protagonist in Krachts Roman trifft, sieht er auch einen ehrlichen Freund.
+1	Im	in	_	APPRART	_	_	_	_	_	T1134	Im	Im	1115	_	_	0	0	B-s55	0	0	B-SIMPX|B-PX|B-VF|B-PX|APPRART	0	_	B-1
+2	letzten	letzt	_	ADJA	_	_	_	_	_	T1135	letzten	letzten	1116	_	_	0	0	I-s55	0	0	I-SIMPX|I-PX|I-VF|I-PX|B-NX|ADJA|ADJX	0	_	I-1
+3	Freund	Freund	_	NN	_	_	_	_	_	T1136	Freund	Freund	1117	_	_	0	0	I-s55	0	0	I-SIMPX|I-PX|I-VF|E-PX|E-NX|NN	0	_	I-1
+4	,	,	_	$,	_	_	_	_	_	T1137	,	,	1118	_	_	0	0	I-s55	0	0	I-SIMPX|I-PX|I-VF|$,	0	_	I-1
+5	den	die	_	PRELS	_	_	_	_	_	T1138	den	den	1119	_	_	0	0	I-s55	0	0	I-SIMPX|I-PX|I-VF|B-R-SIMPX|PRELS|NX|C	0	_	I-1
+6	der	die	_	ART	_	_	_	_	_	T1139	der	der	1120	_	_	0	0	I-s55	0	0	I-SIMPX|I-PX|I-VF|I-R-SIMPX|B-MF|B-NX|ART	0	_	I-1
+7	Protagonist	Protagonist	_	NN	_	_	_	_	_	T1140	Protagonist	Protagonist	1121	_	_	0	0	I-s55	0	0	I-SIMPX|I-PX|I-VF|I-R-SIMPX|I-MF|E-NX|NN	0	_	I-1
+8	in	in	_	APPR	_	_	_	_	_	T1141	in	in	1122	_	_	0	0	I-s55	0	0	I-SIMPX|I-PX|I-VF|I-R-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+9	Krachts	Krachts	_	NN	_	_	_	_	_	T1142	Krachts	Krachts	1123	_	_	0	0	I-s55	0	0	I-SIMPX|I-PX|I-VF|I-R-SIMPX|I-MF|I-PX|B-NX|NE|NX	0	_	I-1
+10	Roman	Roman	_	NN	_	_	_	_	_	T1143	Roman	Roman	1124	_	_	0	0	I-s55	0	0	I-SIMPX|I-PX|I-VF|I-R-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+11	trifft	treffen	_	VVFIN	_	_	_	_	_	T1144	trifft	trifft	1125	_	_	0	0	I-s55	0	0	I-SIMPX|E-PX|E-VF|E-R-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+12	,	,	_	$,	_	_	_	_	_	T1145	,	,	1126	_	_	0	0	I-s55	0	0	I-SIMPX|$,	0	_	I-1
+13	sieht	sehen	_	VVFIN	_	_	_	_	_	T1146	sieht	sieht	1127	_	_	0	0	I-s55	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+14	er	er	_	PPER	_	_	_	_	_	T1147	er	er	1128	_	_	0	0	I-s55	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+15	auch	auch	_	ADV	_	_	_	_	_	T1148	auch	auch	1129	_	_	0	0	I-s55	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+16	einen	eine	_	ART	_	_	_	_	_	T1149	einen	einen	1130	_	_	0	0	I-s55	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+17	ehrlichen	ehrlich	_	ADJA	_	_	_	_	_	T1150	ehrlichen	ehrlichen	1131	_	_	0	0	I-s55	0	0	I-SIMPX|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+18	Freund	Freund	_	NN	_	_	_	_	_	T1151	Freund	Freund	1132	_	_	0	0	I-s55	0	0	E-SIMPX|E-MF|E-NX|NN	0	_	I-1
+19	.	.	_	$.	_	_	_	_	_	T1152	.	.	1133	_	_	0	0	E-s55	0	0	$.	0	_	E-1
+
+# sent_id = 56
+# text = Dieser stirbt, da er nach einem Partyexzess ertrinkt.
+1	Dieser	diese	_	PDS	_	_	_	_	_	T1153	Dieser	Dieser	1134	_	_	0	0	B-s56	0	0	B-SIMPX|PDS|NX|VF	0	_	B-1
+2	stirbt	sterben	_	VVFIN	_	_	_	_	_	T1154	stirbt	stirbt	1135	_	_	0	0	I-s56	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	,	,	_	$,	_	_	_	_	_	T1155	,	,	1136	_	_	0	0	I-s56	0	0	I-SIMPX|$,	0	_	I-1
+4	da	da	_	KOUS	_	_	_	_	_	T1156	da	da	1137	_	_	0	0	I-s56	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+5	er	er	_	PPER	_	_	_	_	_	T1157	er	er	1138	_	_	0	0	I-s56	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+6	nach	nach	_	APPR	_	_	_	_	_	T1158	nach	nach	1139	_	_	0	0	I-s56	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+7	einem	eine	_	ART	_	_	_	_	_	T1159	einem	einem	1140	_	_	0	0	I-s56	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-PX|B-NX|ART	0	_	I-1
+8	Partyexzess	Partyexzess	_	NN	_	_	_	_	_	T1160	Partyexess	Partyexzess	1141	XXX	_	1	WORT	I-s56	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-PX|E-NX|NN	0	_	I-1
+9	ertrinkt	ertrinken	_	VVFIN	_	_	_	_	_	T1161	ertrinkt	ertrinkt	1142	_	_	0	0	I-s56	0	0	E-SIMPX|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+10	.	.	_	$.	_	_	_	_	_	T1162	.	.	1143	_	_	0	0	E-s56	0	0	$.	0	_	E-1
+
+# sent_id = 57
+# text = In beiden Romanen erfahren die Protagonisten erst später von dem Tod ihrer Freunde.
+1	In	in	_	APPR	_	_	_	_	_	T1163	In	In	1144	_	_	0	0	B-s57	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	beiden	beide	_	PIAT	_	_	_	_	_	T1164	beiden	beiden	1145	_	_	0	0	I-s57	0	0	I-SIMPX|I-PX|I-VF|B-NX|PIDAT	0	_	I-1
+3	Romanen	Roman	_	NN	_	_	_	_	_	T1165	Romanen	Romanen	1146	_	_	0	0	I-s57	0	0	I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+4	erfahren	erfahren	_	VVFIN	_	_	_	_	_	T1166	erfahren	erfahren	1147	_	_	0	0	I-s57	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+5	die	die	_	ART	_	_	_	_	_	T1167	die	die	1148	_	_	0	0	I-s57	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+6	Protagonisten	Protagonist	_	NN	_	_	_	_	_	T1168	Protagonisten	Protagonisten	1149	_	_	0	0	I-s57	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+7	erst	erst	_	ADV	_	_	_	_	_	T1169	erst	erst	1150	_	_	0	0	I-s57	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+8	später	spät	_	ADJD	_	_	_	_	_	T1170	später	später	1151	_	_	0	0	I-s57	0	0	I-SIMPX|I-MF|ADJD|ADJX	0	_	I-1
+9	von	von	_	APPR	_	_	_	_	_	T1171	von	von	1152	_	_	0	0	I-s57	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+10	dem	die	_	ART	_	_	_	_	_	T1172	dem	dem	1153	_	_	0	0	I-s57	0	0	I-SIMPX|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+11	Tod	Tod	_	NN	_	_	_	_	_	T1173	Tod	Tod	1154	_	_	0	0	I-s57	0	0	I-SIMPX|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+12	ihrer	ihr	_	PPOSAT	_	_	_	_	_	T1174	ihrer	ihrer	1155	_	_	0	0	I-s57	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-NX|PPOSAT	0	_	I-1
+13	Freunde	Freund	_	NN	_	_	_	_	_	T1175	Freunde	Freunde	1156	_	_	0	0	I-s57	0	0	E-SIMPX|E-MF|E-PX|E-NX|E-NX|NN	0	_	I-1
+14	.	.	_	$.	_	_	_	_	_	T1176	.	.	1157	_	_	0	0	E-s57	0	0	$.	0	_	E-1
+
+# sent_id = 58
+# text = Der Protagonist in " Faserland " bricht nach dem Tod aus seiner materialistischen Welt aus und besucht einen Friedhof, also einen idealistischen Ort, um die Grabstätte eines berühmten Schriftstellers zu besuchen.
+1	Der	die	_	ART	_	_	_	_	_	T1177	Der	Der	1158	_	_	0	0	B-s58	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Protagonist	Protagonist	_	NN	_	_	_	_	_	T1178	Protagonist	Protagonist	1159	_	_	0	0	I-s58	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	in	in	_	APPR	_	_	_	_	_	T1179	in	in	1160	_	_	0	0	I-s58	0	0	I-SIMPX|I-NX|I-VF|B-PX|APPR	0	_	I-1
+4	"	"	_	$(	_	_	_	_	_	T1180	"	"	1161	_	_	0	0	I-s58	0	0	I-SIMPX|I-NX|I-VF|I-PX|$(	0	_	I-1
+5	Faserland	Faserland	_	NN	_	_	_	_	_	T1181	Faserland	Faserland	1162	_	_	0	0	I-s58	0	0	I-SIMPX|I-NX|I-VF|I-PX|NN|NX	0	_	I-1
+6	"	"	_	$(	_	_	_	_	_	T1182	"	"	1163	_	_	0	0	I-s58	0	0	I-SIMPX|E-NX|E-VF|E-PX|$(	0	_	I-1
+7	bricht	brechen	_	VVFIN	_	_	_	_	_	T1183	bricht	bricht	1164	_	_	0	0	I-s58	0	0	I-SIMPX|B-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+8	nach	nach	_	APPR	_	_	_	_	_	T1184	nach	nach	1165	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-PX|APPR	0	_	I-1
+9	dem	die	_	ART	_	_	_	_	_	T1185	dem	dem	1166	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|ART	0	_	I-1
+10	Tod	Tod	_	NN	_	_	_	_	_	T1186	Tod	Tod	1167	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|E-PX|E-NX|NN	0	_	I-1
+11	aus	aus	_	APPR	_	_	_	_	_	T1187	aus	aus	1168	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX|APPR	0	_	I-1
+12	seiner	sein	_	PPOSAT	_	_	_	_	_	T1188	seiner	seiner	1169	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+13	materialistischen	materialistisch	_	ADJA	_	_	_	_	_	T1189	materialistischen	materialistischen	1170	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+14	Welt	Welt	_	NN	_	_	_	_	_	T1190	Welt	Welt	1171	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|E-MF|E-PX|E-NX|NN	0	_	I-1
+15	aus	aus	_	PTKVZ	_	_	_	_	_	T1191	aus	aus	1172	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|E-FKONJ|PTKVZ|VC	0	_	I-1
+16	und	und	_	KON	_	_	_	_	_	T1192	und	und	1173	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+17	besucht	besuchen	_	VVFIN	_	_	_	_	_	T1193	besucht	besucht	1174	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+18	einen	eine	_	ART	_	_	_	_	_	T1194	einen	einen	1175	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-NX|ART	0	_	I-1
+19	Friedhof	Friedhof	_	NN	_	_	_	_	_	T1195	Friedhof	Friedhof	1176	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|E-NX|NN	0	_	I-1
+20	,	,	_	$,	_	_	_	_	_	T1196	,	,	1177	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|$,	0	_	I-1
+21	also	also	_	ADV	_	_	_	_	_	T1197	also	also	1178	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|ADV|ADVX	0	_	I-1
+22	einen	eine	_	ART	_	_	_	_	_	T1198	einen	einen	1179	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-NX|B-NX|ART	0	_	I-1
+23	idealistischen	idealistisch	_	ADJA	_	_	_	_	_	T1199	idealistischen	idealistischen	1180	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+24	Ort	Ort	_	NN	_	_	_	_	_	T1200	Ort	Ort	1181	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|E-MF|E-NX|E-NX|NN	0	_	I-1
+25	,	,	_	$,	_	_	_	_	_	T1201	,	,	1182	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-NX|$,	0	_	I-1
+26	um	um	_	KOUI	_	_	_	_	_	T1202	um	um	1183	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-NX|B-SIMPX|B-NF|KOUI|C	0	_	I-1
+27	die	die	_	ART	_	_	_	_	_	T1203	die	die	1184	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-NX|I-SIMPX|I-NF|B-NX|B-MF|B-NX|ART	0	_	I-1
+28	Grabstätte	Grabstätte	_	NN	_	_	_	_	_	T1204	Grabstätte	Grabstätte	1185	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-NX|I-SIMPX|I-NF|I-NX|I-MF|E-NX|NN	0	_	I-1
+29	eines	eine	_	ART	_	_	_	_	_	T1205	eines	eines	1186	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-NX|I-SIMPX|I-NF|I-NX|I-MF|B-NX|ART	0	_	I-1
+30	berühmten	berühmt	_	ADJA	_	_	_	_	_	T1206	berühmten	berühmten	1187	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-NX|I-SIMPX|I-NF|I-NX|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+31	Schriftstellers	Schriftsteller	_	NN	_	_	_	_	_	T1207	Schriftstellers	Schriftstellers	1188	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-NX|I-SIMPX|I-NF|E-NX|E-MF|E-NX|NN	0	_	I-1
+32	zu	zu	_	PTKZU	_	_	_	_	_	T1208	zu	zu	1189	_	_	0	0	I-s58	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-NX|I-SIMPX|I-NF|B-VXINF|B-VC|PTKZU	0	_	I-1
+33	besuchen	besuchen	_	VVINF	_	_	_	_	_	T1209	besuchen	besuchen	1190	_	_	0	0	I-s58	0	0	E-SIMPX|E-FKOORD|E-FKONJ|E-NX|E-SIMPX|E-NF|E-VXINF|E-VC|VVINF	0	_	I-1
+34	.	.	_	$.	_	_	_	_	_	T1210	.	.	1191	_	_	0	0	E-s58	0	0	$.	0	_	E-1
+
+# sent_id = 59
+# text = Er fährt letzten Endes mit einem Boot in die Mitte eines Sees und ertränkt sich dort höchstwahrscheinlich.
+1	Er	er	_	PPER	_	_	_	_	_	T1211	Er	Er	1192	_	_	0	0	B-s59	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	fährt	fahren	_	VVFIN	_	_	_	_	_	T1212	fährt	fährt	1193	_	_	0	0	I-s59	0	0	I-SIMPX|B-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+3	letzten	letzt	_	ADJA	_	_	_	_	_	T1213	<B->letztenendes	letzten	1194	XXX	_	B-1	B-GZS	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-NX|B-NX|ADJA|ADJX	0	_	I-1
+4	Endes	Ende	_	NN	_	_	_	_	_	T1214	<E->letztenendes	Endes	_	XXX	_	E-1	E-GZS	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|E-NX|NN	0	_	I-1
+5	mit	mit	_	APPR	_	_	_	_	_	T1215	mit	mit	1195	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|B-PX|APPR	0	_	I-1
+6	einem	eine	_	ART	_	_	_	_	_	T1216	einem	einem	1196	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-PX|B-NX|ART	0	_	I-1
+7	Boot	Boot	_	NN	_	_	_	_	_	T1217	Boot	Boot	1197	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|E-NX|E-PX|E-NX|NN	0	_	I-1
+8	in	in	_	APPR	_	_	_	_	_	T1218	in	in	1198	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX|APPR	0	_	I-1
+9	die	die	_	ART	_	_	_	_	_	T1219	die	die	1199	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+10	Mitte	Mitte	_	NN	_	_	_	_	_	T1220	Mitte	Mitte	1200	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+11	eines	eine	_	ART	_	_	_	_	_	T1221	eines	eines	1201	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|B-NX|ART	0	_	I-1
+12	Sees	See	_	NN	_	_	_	_	_	T1222	Sees	Sees	1202	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|E-FKONJ|E-MF|E-PX|E-NX|E-NX|NN	0	_	I-1
+13	und	und	_	KON	_	_	_	_	_	T1223	und	und	1203	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+14	ertränkt	ertränken	_	VVFIN	_	_	_	_	_	T1224	ertränkt	ertränkt	1204	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+15	sich	sich	_	PRF	_	_	_	_	_	T1225	sich	sich	1205	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|B-MF|PRF|NX	0	_	I-1
+16	dort	dort	_	ADV	_	_	_	_	_	T1226	dort	dort	1206	_	_	0	0	I-s59	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|ADV|ADVX	0	_	I-1
+17	höchstwahrscheinlich	höchstwahrscheinlich	_	ADJD	_	_	_	_	_	T1227	höchstwahrscheinlich	höchstwahrscheinlich	1207	_	_	0	0	I-s59	0	0	E-SIMPX|E-FKOORD|E-FKONJ|E-MF|ADJD|ADJX	0	_	I-1
+18	.	.	_	$.	_	_	_	_	_	T1228	.	.	1208	_	_	0	0	E-s59	0	0	$.	0	_	E-1
+
+# sent_id = 60
+# text = Peter Camenzind fühlt sich ohne seinen Freund in der materialistischen Moderne gefangen und orientierungslos ( vgl. Z. 44-49 ) ( vgl. Z. 54 ).
+1	Peter	Peter	_	NE	_	_	_	_	_	T1229	Peter	Peter	1209	_	_	0	0	B-s60	0	0	B-SIMPX|B-NX|B-VF|NE	0	_	B-1
+2	Camenzind	Camenzind	_	NE	_	_	_	_	_	T1230	Camenzind	Camenzind	1210	_	_	0	0	I-s60	0	0	I-SIMPX|E-NX|E-VF|NE	0	_	I-1
+3	fühlt	fühlen	_	VVFIN	_	_	_	_	_	T1231	fühlt	fühlt	1211	_	_	0	0	I-s60	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	sich	sich	_	PRF	_	_	_	_	_	T1232	sich	sich	1212	_	_	0	0	I-s60	0	0	I-SIMPX|B-MF|PRF|NX	0	_	I-1
+5	ohne	ohne	_	APPR	_	_	_	_	_	T1233	ohne	ohne	1213	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+6	seinen	sein	_	PPOSAT	_	_	_	_	_	T1234	seinen	seinen	1214	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+7	Freund	Freund	_	NN	_	_	_	_	_	T1235	Freund	Freund	1215	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|E-PX|E-NX|NN	0	_	I-1
+8	in	in	_	APPR	_	_	_	_	_	T1236	in	in	1216	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+9	der	die	_	ART	_	_	_	_	_	T1237	der	der	1217	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+10	materialistischen	materialistisch	_	ADJA	_	_	_	_	_	T1238	materialistischen	materialistischen	1218	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+11	Moderne	Moderne	_	NN	_	_	_	_	_	T1239	Moderne	Moderne	1219	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|E-PX|E-NX|NN	0	_	I-1
+12	gefangen	gefangen	_	PTKVZ	_	_	_	_	_	T1240	gefangen	gefangen	1220	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|VVPP|VXINF	0	_	I-1
+13	und	und	_	KON	_	_	_	_	_	T1241	und	und	1221	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|KON	0	_	I-1
+14	orientierungslos	orientierungslos	_	ADJD	_	_	_	_	_	T1242	orientierungslos	orientierungslos	1222	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|B-NX|B-NX|NN|NX	0	_	I-1
+15	(	(	_	$(	_	_	_	_	_	T1243	(	(	1223	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-NX|I-NX|$(	0	_	I-1
+16	vgl.	vgl.	_	ADV	_	_	_	_	_	T1244	vgl.	vgl.	1224	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-NX|I-NX|B-NX|B-NX|B-ENADD|NE	0	_	I-1
+17	Z.	Z.	_	NE	_	_	_	_	_	T1245	Z.	Z.	1225	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-NX|I-NX|I-NX|E-NX|E-ENADD|NE	0	_	I-1
+18	44-49	@card@	_	CARD	_	_	_	_	_	T1246	44-49	44-49	1226	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-NX|I-NX|E-NX|CARD|NX	0	_	I-1
+19	)	)	_	$(	_	_	_	_	_	T1247	)	)	1227	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-NX|E-NX|$(	0	_	I-1
+20	(	(	_	$(	_	_	_	_	_	T1248	(	(	1228	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-NX|$(	0	_	I-1
+21	vgl.	vgl.	_	ADV	_	_	_	_	_	T1249	vgl.	vgl.	1229	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-NX|B-NX|B-NX|B-ENADD|NE	0	_	I-1
+22	Z.	Z.	_	NE	_	_	_	_	_	T1250	Z.	Z.	1230	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-NX|I-NX|E-NX|E-ENADD|NE	0	_	I-1
+23	54	54	_	CARD	_	_	_	_	_	T1251	54	54	1231	_	_	0	0	I-s60	0	0	I-SIMPX|I-MF|I-NX|E-NX|CARD|NX	0	_	I-1
+24	)	)	_	$(	_	_	_	_	_	T1252	)	)	1232	_	_	0	0	I-s60	0	0	E-SIMPX|E-MF|E-NX|$(	0	_	I-1
+25	.	.	_	$.	_	_	_	_	_	T1253	.	.	1233	_	_	0	0	E-s60	0	0	$.	0	_	E-1
+
+# sent_id = 61
+# text = In beiden Romanen ist ein personaler Ich-Erzähler vorhanden, wobei der Protagonist in Hesses Romanauszug nur seine Vergangenheit beschreibt.
+1	In	in	_	APPR	_	_	_	_	_	T1254	In	In	1234	_	_	0	0	B-s61	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	beiden	beide	_	PIAT	_	_	_	_	_	T1255	beiden	beiden	1235	_	_	0	0	I-s61	0	0	I-SIMPX|I-PX|I-VF|B-NX|PIDAT	0	_	I-1
+3	Romanen	Roman	_	NN	_	_	_	_	_	T1256	Romanen	Romanen	1236	_	_	0	0	I-s61	0	0	I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+4	ist	sein	_	VAFIN	_	_	_	_	_	T1257	ist	ist	1237	_	_	0	0	I-s61	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+5	ein	eine	_	ART	_	_	_	_	_	T1258	ein	ein	1238	_	_	0	0	I-s61	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+6	personaler	personal	_	ADJA	_	_	_	_	_	T1259	personaler	personaler	1239	_	_	0	0	I-s61	0	0	I-SIMPX|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+7	Ich-Erzähler	Ich-Erzähler	_	NN	_	_	_	_	_	T1260	Ich-Erzähler	Ich-Erzähler	1240	_	_	0	0	I-s61	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+8	vorhanden	vorhanden	_	ADJD	_	_	_	_	_	T1261	vorhanden	vorhanden	1241	_	_	0	0	I-s61	0	0	I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+9	,	,	_	$,	_	_	_	_	_	T1262	,	,	1242	_	_	0	0	I-s61	0	0	I-SIMPX|$,	0	_	I-1
+10	wobei	wobei	_	PWAV	_	_	_	_	_	T1263	wobei	wobei	1243	_	_	0	0	I-s61	0	0	I-SIMPX|B-SIMPX|B-NF|PWAV|ADVX|C	0	_	I-1
+11	der	die	_	ART	_	_	_	_	_	T1264	der	der	1244	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+12	Protagonist	Protagonist	_	NN	_	_	_	_	_	T1265	Protagonist	Protagonist	1245	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+13	in	in	_	APPR	_	_	_	_	_	T1266	in	in	1246	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+14	Hesses	Hesse	_	NE	_	_	_	_	_	T1267	Hesses	Hesses	1247	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-PX|B-NX|NE	0	_	I-1
+15	Romanauszug	Romanauszug	_	NN	_	_	_	_	_	T1268	Romanauszug	Romanauszug	1248	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-PX|E-NX|NE	0	_	I-1
+16	nur	nur	_	ADV	_	_	_	_	_	T1269	nur	nur	1249	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|ADV|ADVX	0	_	I-1
+17	seine	sein	_	PPOSAT	_	_	_	_	_	T1270	Seine	seine	1250	XXX	_	1	GKS	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|PPOSAT	0	_	I-1
+18	Vergangenheit	Vergangenheit	_	NN	_	_	_	_	_	T1271	Vergangenheit	Vergangenheit	1251	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-NX|NN	0	_	I-1
+19	beschreibt	beschreiben	_	VVFIN	_	_	_	_	_	T1272	beschreibt	beschreibt	1252	_	_	0	0	I-s61	0	0	E-SIMPX|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+20	.	.	_	$.	_	_	_	_	_	T1273	.	.	1253	_	_	0	0	E-s61	0	0	$.	0	_	E-1
+
+# sent_id = 62
+# text = Der Protagonist in " Faserland " konfrontiert einen meist nur mit der gegenwärtigen Situation.
+1	Der	die	_	ART	_	_	_	_	_	T1274	Der	Der	1254	_	_	0	0	B-s62	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Protagonist	Protagonist	_	NN	_	_	_	_	_	T1275	Protagonist	Protagonist	1255	_	_	0	0	I-s62	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	in	in	_	APPR	_	_	_	_	_	T1276	in	in	1256	_	_	0	0	I-s62	0	0	I-SIMPX|I-NX|I-VF|B-PX|APPR	0	_	I-1
+4	"	"	_	$(	_	_	_	_	_	T1277	"	"	1257	_	_	0	0	I-s62	0	0	I-SIMPX|I-NX|I-VF|I-PX|$(	0	_	I-1
+5	Faserland	Faserland	_	NN	_	_	_	_	_	T1278	Faserland	Faserland	1258	_	_	0	0	I-s62	0	0	I-SIMPX|I-NX|I-VF|I-PX|NN|NX	0	_	I-1
+6	"	"	_	$(	_	_	_	_	_	T1279	"	"	1259	_	_	0	0	I-s62	0	0	I-SIMPX|E-NX|E-VF|E-PX|$(	0	_	I-1
+7	konfrontiert	konfrontieren	_	VVFIN	_	_	_	_	_	T1280	konfrontiert	konfrontiert	1260	_	_	0	0	I-s62	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+8	einen	eine	_	ART	_	_	_	_	_	T1281	einen	einen	1261	_	_	0	0	I-s62	0	0	I-SIMPX|B-MF|PIS|NX	0	_	I-1
+9	meist	meist	_	ADV	_	_	_	_	_	T1282	meist	meist	1262	_	_	0	0	I-s62	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+10	nur	nur	_	ADV	_	_	_	_	_	T1283	nur	nur	1263	_	_	0	0	I-s62	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+11	mit	mit	_	APPR	_	_	_	_	_	T1284	mit	mit	1264	_	_	0	0	I-s62	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+12	der	die	_	ART	_	_	_	_	_	T1285	der	der	1265	_	_	0	0	I-s62	0	0	I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+13	gegenwärtigen	gegenwärtig	_	ADJA	_	_	_	_	_	T1286	gegenwärtigen	gegenwärtigen	1266	_	_	0	0	I-s62	0	0	I-SIMPX|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+14	Situation	Situation	_	NN	_	_	_	_	_	T1287	Situation	Situation	1267	_	_	0	0	I-s62	0	0	E-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+15	.	.	_	$.	_	_	_	_	_	T1288	.	.	1268	_	_	0	0	E-s62	0	0	$.	0	_	E-1
+
+# sent_id = 63
+# text = Ab und zu, aber nicht häufig, erzählt er aus seiner Kindheit.
+1	Ab	ab	_	PTKVZ	_	_	_	_	_	T1289	Ab	Ab	1269	_	_	0	0	B-s63	0	0	B-SIMPX|B-ADJX|B-VF|B-ADVX|B-ADVX|ADV|ADVX	0	_	B-1
+2	und	und	_	KON	_	_	_	_	_	T1290	und	und	1270	_	_	0	0	I-s63	0	0	I-SIMPX|I-ADJX|I-VF|I-ADVX|I-ADVX|KON	0	_	I-1
+3	zu	zu	_	PTKA	_	_	_	_	_	T1291	zu	zu	1271	_	_	0	0	I-s63	0	0	I-SIMPX|I-ADJX|I-VF|I-ADVX|E-ADVX|ADV|ADVX	0	_	I-1
+4	,	,	_	$,	_	_	_	_	_	T1292	,	,	1272	_	_	0	0	I-s63	0	0	I-SIMPX|I-ADJX|I-VF|I-ADVX|$,	0	_	I-1
+5	aber	aber	_	ADV	_	_	_	_	_	T1293	aber	aber	1273	_	_	0	0	I-s63	0	0	I-SIMPX|I-ADJX|I-VF|I-ADVX|KON	0	_	I-1
+6	nicht	nicht	_	PTKNEG	_	_	_	_	_	T1294	nicht	nicht	1274	_	_	0	0	I-s63	0	0	I-SIMPX|I-ADJX|I-VF|E-ADVX|PTKNEG	0	_	I-1
+7	häufig	häufig	_	ADJD	_	_	_	_	_	T1295	häufig	häufig	1275	_	_	0	0	I-s63	0	0	I-SIMPX|E-ADJX|E-VF|ADJD|ADJX	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T1296	,	,	1276	_	_	0	0	I-s63	0	0	I-SIMPX|$,	0	_	I-1
+9	erzählt	erzählen	_	VVFIN	_	_	_	_	_	T1297	erzählt	erzählt	1277	_	_	0	0	I-s63	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+10	er	er	_	PPER	_	_	_	_	_	T1298	er	er	1278	_	_	0	0	I-s63	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+11	aus	aus	_	APPR	_	_	_	_	_	T1299	aus	aus	1279	_	_	0	0	I-s63	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+12	seiner	sein	_	PPOSAT	_	_	_	_	_	T1300	seiner	seiner	1280	_	_	0	0	I-s63	0	0	I-SIMPX|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+13	Kindheit	Kindheit	_	NN	_	_	_	_	_	T1301	Kindheit	Kindheit	1281	_	_	0	0	I-s63	0	0	E-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+14	.	.	_	$.	_	_	_	_	_	T1302	.	.	1282	_	_	0	0	E-s63	0	0	$.	0	_	E-1
+
+# sent_id = 64
+# text = Dabei benutzt dieser Umgangs- oder sogar Fäkalsprache.
+1	Dabei	dabei	_	PAV	_	_	_	_	_	T1303	Dabei	Dabei	1283	_	_	0	0	B-s64	0	0	B-SIMPX|PROP|PX|VF	0	_	B-1
+2	benutzt	benutzen	_	VVFIN	_	_	_	_	_	T1304	benutzt	benutzt	1284	_	_	0	0	I-s64	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	dieser	dies	_	PDAT	_	_	_	_	_	T1305	dieser	dieser	1285	_	_	0	0	I-s64	0	0	I-SIMPX|B-MF|PDS|NX	0	_	I-1
+4	Umgangs-	Umgangs-	_	TRUNC	_	_	_	_	_	T1306	Umgangs-	Umgangs-	1286	_	_	0	0	I-s64	0	0	I-SIMPX|I-MF|B-NX|NN|NX	0	_	I-1
+5	oder	oder	_	KON	_	_	_	_	_	T1307	oder	oder	1287	_	_	0	0	I-s64	0	0	I-SIMPX|I-MF|I-NX|KON	0	_	I-1
+6	sogar	sogar	_	ADV	_	_	_	_	_	T1308	sogar	sogar	1288	_	_	0	0	I-s64	0	0	I-SIMPX|I-MF|I-NX|B-NX|ADV|ADVX	0	_	I-1
+7	Fäkalsprache	Fäkalsprache	_	NN	_	_	_	_	_	T1309	Fäkalsprache	Fäkalsprache	1289	_	_	0	0	I-s64	0	0	E-SIMPX|E-MF|E-NX|E-NX|NN	0	_	I-1
+8	.	.	_	$.	_	_	_	_	_	T1310	.	.	1290	_	_	0	0	E-s64	0	0	$.	0	_	E-1
+
+# sent_id = 65
+# text = Die Sprache in " Peter Camenzind " ist sehr förmlich.
+1	Die	die	_	ART	_	_	_	_	_	T1311	Die	Die	1291	_	_	0	0	B-s65	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Sprache	Sprache	_	NN	_	_	_	_	_	T1312	Sprache	Sprache	1292	_	_	0	0	I-s65	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	in	in	_	APPR	_	_	_	_	_	T1313	in	in	1293	_	_	0	0	I-s65	0	0	I-SIMPX|I-NX|I-VF|B-PX|APPR	0	_	I-1
+4	"	"	_	$(	_	_	_	_	_	T1314	"	"	1294	_	_	0	0	I-s65	0	0	I-SIMPX|I-NX|I-VF|I-PX|$(	0	_	I-1
+5	Peter	Peter	_	NE	_	_	_	_	_	T1315	Peter	Peter	1295	_	_	0	0	I-s65	0	0	I-SIMPX|I-NX|I-VF|I-PX|B-NX|B-ENADD|NE	0	_	I-1
+6	Camenzind	Camenzind	_	NE	_	_	_	_	_	T1316	Camenzind	Camenzind	1296	_	_	0	0	I-s65	0	0	I-SIMPX|I-NX|I-VF|I-PX|E-NX|E-ENADD|NE	0	_	I-1
+7	"	"	_	$(	_	_	_	_	_	T1317	"	"	1297	_	_	0	0	I-s65	0	0	I-SIMPX|E-NX|E-VF|E-PX|$(	0	_	I-1
+8	ist	sein	_	VAFIN	_	_	_	_	_	T1318	ist	ist	1298	_	_	0	0	I-s65	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+9	sehr	sehr	_	ADV	_	_	_	_	_	T1319	sehr	sehr	1299	_	_	0	0	I-s65	0	0	I-SIMPX|B-ADJX|B-MF|ADV|ADVX	0	_	I-1
+10	förmlich	förmlich	_	ADJD	_	_	_	_	_	T1320	förmlich	förmlich	1300	_	_	0	0	I-s65	0	0	E-SIMPX|E-ADJX|E-MF|ADJD	0	_	I-1
+11	.	.	_	$.	_	_	_	_	_	T1321	.	.	1301	_	_	0	0	E-s65	0	0	$.	0	_	E-1
+
+# sent_id = 66
+# text = Meist erscheint der Sprachgebrauch sogar gebunden.
+1	Meist	meist	_	ADV	_	_	_	_	_	T1322	Meist	Meist	1302	_	_	0	0	B-s66	0	0	B-SIMPX|ADV|ADVX|VF	0	_	B-1
+2	erscheint	erscheinen	_	VVFIN	_	_	_	_	_	T1323	erscheint	erscheint	1303	_	_	0	0	I-s66	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	der	die	_	ART	_	_	_	_	_	T1324	der	der	1304	_	_	0	0	I-s66	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+4	Sprachgebrauch	Sprachgebrauch	_	NN	_	_	_	_	_	T1325	Sprachgebrauch	Sprachgebrauch	1305	_	_	0	0	I-s66	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+5	sogar	sogar	_	ADV	_	_	_	_	_	T1326	sogar	sogar	1306	_	_	0	0	I-s66	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+6	gebunden	binden	_	VVPP	_	_	_	_	_	T1327	gebunden	gebunden	1307	_	_	0	0	I-s66	0	0	E-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+7	.	.	_	$.	_	_	_	_	_	T1328	.	.	1308	_	_	0	0	E-s66	0	0	$.	0	_	E-1
+
+# sent_id = 67
+# text = Der Autor benutzt Metaphern ( vgl. Z. 2 ) und Vergleiche ( vgl. Z. 33 ).
+1	Der	die	_	ART	_	_	_	_	_	T1329	Der	Der	1309	_	_	0	0	B-s67	0	0	B-SIMPX|B-NX|B-VF|ART	0	_	B-1
+2	Autor	Autor	_	NN	_	_	_	_	_	T1330	Autor	Autor	1310	_	_	0	0	I-s67	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	benutzt	benutzen	_	VVFIN	_	_	_	_	_	T1331	benutzt	benutzt	1311	_	_	0	0	I-s67	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	Metaphern	Metapher	_	NN	_	_	_	_	_	T1332	Metaphern	Metaphern	1312	_	_	0	0	I-s67	0	0	I-SIMPX|B-NX|B-MF|B-NX|B-NX|NN|NX	0	_	I-1
+5	(	(	_	$(	_	_	_	_	_	T1333	(	(	1313	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|I-NX|I-NX|$(	0	_	I-1
+6	vgl.	vgl.	_	ADV	_	_	_	_	_	T1334	vgl.	vgl.	1314	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|I-NX|I-NX|B-NX|B-NX|B-ENADD|NE	0	_	I-1
+7	Z.	Z.	_	NE	_	_	_	_	_	T1335	Z.	Z.	1315	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|I-NX|I-NX|I-NX|E-NX|E-ENADD|NE	0	_	I-1
+8	2	2	_	CARD	_	_	_	_	_	T1336	2	2	1316	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|I-NX|I-NX|E-NX|CARD|NX	0	_	I-1
+9	)	)	_	$(	_	_	_	_	_	T1337	)	)	1317	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|I-NX|E-NX|$(	0	_	I-1
+10	und	und	_	KON	_	_	_	_	_	T1338	und	und	1318	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|I-NX|KON	0	_	I-1
+11	Vergleiche	Vergleich	_	NN	_	_	_	_	_	T1339	Vergleiche	Vergleiche	1319	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|E-NX|NN|NX	0	_	I-1
+12	(	(	_	$(	_	_	_	_	_	T1340	(	(	1320	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|$(	0	_	I-1
+13	vgl.	vgl.	_	ADV	_	_	_	_	_	T1341	vgl.	vgl.	1321	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|B-NX|B-NX|B-ENADD|NE	0	_	I-1
+14	Z.	Z.	_	NE	_	_	_	_	_	T1342	Z.	Z.	1322	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|I-NX|E-NX|E-ENADD|NE	0	_	I-1
+15	33	33	_	CARD	_	_	_	_	_	T1343	33	33	1323	_	_	0	0	I-s67	0	0	I-SIMPX|I-NX|I-MF|E-NX|CARD|NX	0	_	I-1
+16	)	)	_	$(	_	_	_	_	_	T1344	)	)	1324	_	_	0	0	I-s67	0	0	E-SIMPX|E-NX|E-MF|$(	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T1345	.	.	1325	_	_	0	0	E-s67	0	0	$.	0	_	E-1
+
+# sent_id = 68
+# text = Die Sätze im Roman " Faserland " sind meist parataktisch aufgebaut.
+1	Die	die	_	ART	_	_	_	_	_	T1346	Die	Die	1326	_	_	0	0	B-s68	0	0	B-SIMPX|B-NX|B-VF|B-NX|B-NX|ART	0	_	B-1
+2	Sätze	Satz	_	NN	_	_	_	_	_	T1347	Sätze	Sätze	1327	_	_	0	0	I-s68	0	0	I-SIMPX|I-NX|I-VF|I-NX|E-NX|NN	0	_	I-1
+3	im	in	_	APPRART	_	_	_	_	_	T1348	im	im	1328	_	_	0	0	I-s68	0	0	I-SIMPX|I-NX|I-VF|I-NX|B-PX|APPRART	0	_	I-1
+4	Roman	Roman	_	NN	_	_	_	_	_	T1349	Roman	Roman	1329	_	_	0	0	I-s68	0	0	I-SIMPX|I-NX|I-VF|E-NX|E-PX|NN|NX	0	_	I-1
+5	"	"	_	$(	_	_	_	_	_	T1350	"	"	1330	_	_	0	0	I-s68	0	0	I-SIMPX|I-NX|I-VF|$(	0	_	I-1
+6	Faserland	Faserland	_	NN	_	_	_	_	_	T1351	Faserland	Faserland	1331	_	_	0	0	I-s68	0	0	I-SIMPX|I-NX|I-VF|NN	0	_	I-1
+7	"	"	_	$(	_	_	_	_	_	T1352	"	"	1332	_	_	0	0	I-s68	0	0	I-SIMPX|E-NX|E-VF|$(	0	_	I-1
+8	sind	sein	_	VAFIN	_	_	_	_	_	T1353	sind	sind	1333	_	_	0	0	I-s68	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+9	meist	meist	_	ADV	_	_	_	_	_	T1354	meist	meist	1334	_	_	0	0	I-s68	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+10	parataktisch	parataktisch	_	ADJD	_	_	_	_	_	T1355	parataktisch	parataktisch	1335	_	_	0	0	I-s68	0	0	I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+11	aufgebaut	aufbauen	_	VVPP	_	_	_	_	_	T1356	aufgebaut	aufgebaut	1336	_	_	0	0	I-s68	0	0	E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+12	.	.	_	$.	_	_	_	_	_	T1357	.	.	1337	_	_	0	0	E-s68	0	0	$.	0	_	E-1
+
+# sent_id = 69
+# text = Es gibt teilweise auch Ellipsen.
+1	Es	es	_	PPER	_	_	_	_	_	T1358	Es	Es	1338	_	_	0	0	B-s69	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	gibt	geben	_	VVFIN	_	_	_	_	_	T1359	gibt	gibt	1339	_	_	0	0	I-s69	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	teilweise	teilweise	_	ADV	_	_	_	_	_	T1360	teilweise	teilweise	1340	_	_	0	0	I-s69	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+4	auch	auch	_	ADV	_	_	_	_	_	T1361	auch	auch	1341	_	_	0	0	I-s69	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+5	Ellipsen	Ellipse	_	NN	_	_	_	_	_	T1362	Elypsen	Ellipsen	1342	XXX	_	1	WORT	I-s69	0	0	E-SIMPX|E-MF|NN|NX	0	_	I-1
+6	.	.	_	$.	_	_	_	_	_	T1363	.	.	1343	_	_	0	0	E-s69	0	0	$.	0	_	E-1
+
+# sent_id = 70
+# text = Dieser parataktische Satzbau ist im Romanausschnitt von Hermann Hesse nur einmal zu finden ( vgl. Z. 43 ).
+1	Dieser	dies	_	PDAT	_	_	_	_	_	T1364	Dieser	Dieser	1344	_	_	0	0	B-s70	0	0	B-SIMPX|B-NX|B-VF|PDAT	0	_	B-1
+2	parataktische	parataktisch	_	ADJA	_	_	_	_	_	T1365	parataktische	parataktische	1345	_	_	0	0	I-s70	0	0	I-SIMPX|I-NX|I-VF|ADJA|ADJX	0	_	I-1
+3	Satzbau	Satzbau	_	NN	_	_	_	_	_	T1366	Satzbau	Satzbau	1346	_	_	0	0	I-s70	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+4	ist	sein	_	VAFIN	_	_	_	_	_	T1367	ist	ist	1347	_	_	0	0	I-s70	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+5	im	in	_	APPRART	_	_	_	_	_	T1368	im	im	1348	_	_	0	0	I-s70	0	0	I-SIMPX|B-MF|B-PX|APPRART	0	_	I-1
+6	Romanausschnitt	Romanausschnitt	_	NN	_	_	_	_	_	T1369	Romanausschnitt	Romanausschnitt	1349	_	_	0	0	I-s70	0	0	I-SIMPX|I-MF|I-PX|B-NX|NN|NX	0	_	I-1
+7	von	von	_	APPR	_	_	_	_	_	T1370	von	von	1350	_	_	0	0	I-s70	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-PX|APPR	0	_	I-1
+8	Hermann	Hermann	_	NE	_	_	_	_	_	T1371	Hermann	Hermann	1351	_	_	0	0	I-s70	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-PX|B-NX|B-ENADD|NE	0	_	I-1
+9	Hesse	Hesse	_	NE	_	_	_	_	_	T1372	Hesse	Hesse	1352	_	_	0	0	I-s70	0	0	I-SIMPX|I-MF|E-PX|E-NX|E-PX|E-NX|E-ENADD|NE	0	_	I-1
+10	nur	nur	_	ADV	_	_	_	_	_	T1373	nur	nur	1353	_	_	0	0	I-s70	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+11	einmal	einmal	_	ADV	_	_	_	_	_	T1374	einmal	einmal	1354	_	_	0	0	I-s70	0	0	I-SIMPX|E-MF|ADV|ADVX	0	_	I-1
+12	zu	zu	_	PTKZU	_	_	_	_	_	T1375	zu	zu	1355	_	_	0	0	I-s70	0	0	I-SIMPX|B-VXINF|B-VC|PTKZU	0	_	I-1
+13	finden	finden	_	VVINF	_	_	_	_	_	T1376	finden	finden	1356	_	_	0	0	I-s70	0	0	E-SIMPX|E-VXINF|E-VC|VVINF	0	_	I-1
+14	(	(	_	$(	_	_	_	_	_	T1377	(	(	1357	_	_	0	0	I-s70	0	0	$(	0	_	I-1
+15	vgl.	vgl.	_	ADV	_	_	_	_	_	T1378	vgl.	vgl.	1358	_	_	0	0	I-s70	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+16	Z.	Z.	_	NE	_	_	_	_	_	T1379	Z.	Z.	1359	_	_	0	0	I-s70	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+17	43	43	_	CARD	_	_	_	_	_	T1380	43	43	1360	_	_	0	0	I-s70	0	0	E-NX|CARD|NX	0	_	I-1
+18	)	)	_	$(	_	_	_	_	_	T1381	)	)	1361	_	_	0	0	I-s70	0	0	$(	0	_	I-1
+19	.	.	_	$.	_	_	_	_	_	T1382	.	.	1362	_	_	0	0	E-s70	0	0	$.	0	_	E-1
+
+# sent_id = 71
+# text = Die Protagonisten der beiden Romane sind von Grund auf verschieden.
+1	Die	die	_	ART	_	_	_	_	_	T1383	Die	Die	1363	_	_	0	0	B-s71	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Protagonisten	Protagonist	_	NN	_	_	_	_	_	T1384	Protagonisten	Protagonisten	1364	_	_	0	0	I-s71	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	der	die	_	ART	_	_	_	_	_	T1385	der	der	1365	_	_	0	0	I-s71	0	0	I-SIMPX|I-NX|I-VF|B-NX|ART	0	_	I-1
+4	beiden	beide	_	PIAT	_	_	_	_	_	T1386	beiden	beiden	1366	_	_	0	0	I-s71	0	0	I-SIMPX|I-NX|I-VF|I-NX|PIDAT|ADJX	0	_	I-1
+5	Romane	Roman	_	NN	_	_	_	_	_	T1387	Romane	Romane	1367	_	_	0	0	I-s71	0	0	I-SIMPX|E-NX|E-VF|E-NX|NN	0	_	I-1
+6	sind	sein	_	VAFIN	_	_	_	_	_	T1388	sind	sind	1368	_	_	0	0	I-s71	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+7	von	von	_	APPR	_	_	_	_	_	T1389	von	von	1369	_	_	0	0	I-s71	0	0	I-SIMPX|B-MF|B-PX|APPR	0	_	I-1
+8	Grund	Grund	_	NN	_	_	_	_	_	T1390	<B->grundauf	Grund	1370	XXX	_	B-1	B-GZS	I-s71	0	0	I-SIMPX|I-MF|E-PX|NN|NX	0	B-möglicherweise GKS	I-1
+9	auf	auf	_	PTKVZ	_	_	_	_	_	T1391	<E->grundauf	auf	_	_	_	E-1	E-GZS	I-s71	0	0	I-SIMPX|I-MF|B-PX|APPR	0	E-möglicherweise GKS	I-1
+10	verschieden	verscheiden	_	VVPP	_	_	_	_	_	T1392	verschieden	verschieden	1371	_	_	0	0	I-s71	0	0	E-SIMPX|E-MF|E-PX|NN|NX	0	_	I-1
+11	.	.	_	$.	_	_	_	_	_	T1393	.	.	1372	_	_	0	0	E-s71	0	0	$.	0	_	E-1
+
+# sent_id = 72
+# text = Peter Camenzind hat studiert und somit schon etwas in seinem Lebenslauf erreicht ( vgl. Einleitung ).
+1	Peter	Peter	_	NE	_	_	_	_	_	T1394	Peter	Peter	1373	_	_	0	0	B-s72	0	0	B-SIMPX|B-NX|B-VF|NE	0	_	B-1
+2	Camenzind	Camenzind	_	NE	_	_	_	_	_	T1395	Camenzind	Camenzind	1374	_	_	0	0	I-s72	0	0	I-SIMPX|E-NX|E-VF|NE	0	_	I-1
+3	hat	haben	_	VAFIN	_	_	_	_	_	T1396	hat	hat	1375	_	_	0	0	I-s72	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+4	studiert	studieren	_	VVPP	_	_	_	_	_	T1397	studiert	studiert	1376	_	_	0	0	I-s72	0	0	I-SIMPX|B-FKOORD|VVPP|VXINF|VC	0	_	I-1
+5	und	und	_	KON	_	_	_	_	_	T1398	und	und	1377	_	_	0	0	I-s72	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+6	somit	somit	_	ADV	_	_	_	_	_	T1399	somit	somit	1378	_	_	0	0	I-s72	0	0	I-SIMPX|I-FKOORD|B-FKONJ|B-MF|ADV|ADVX	0	_	I-1
+7	schon	schon	_	ADV	_	_	_	_	_	T1400	schon	schon	1379	_	_	0	0	I-s72	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|ADV|ADVX	0	_	I-1
+8	etwas	etwas	_	ADV	_	_	_	_	_	T1401	etwas	etwas	1380	_	_	0	0	I-s72	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|PIS|NX	0	_	I-1
+9	in	in	_	APPR	_	_	_	_	_	T1402	in	in	1381	_	_	0	0	I-s72	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX|APPR	0	_	I-1
+10	seinem	sein	_	PPOSAT	_	_	_	_	_	T1403	seinem	seinem	1382	_	_	0	0	I-s72	0	0	I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+11	Lebenslauf	Lebenslauf	_	NN	_	_	_	_	_	T1404	Lebenslauf	Lebenslauf	1383	_	_	0	0	I-s72	0	0	I-SIMPX|I-FKOORD|I-FKONJ|E-MF|E-PX|E-NX|NN	0	_	I-1
+12	erreicht	erreichen	_	VVPP	_	_	_	_	_	T1405	erreicht	erreicht	1384	_	_	0	0	I-s72	0	0	E-SIMPX|E-FKOORD|E-FKONJ|VVPP|VXINF|VC	0	_	I-1
+13	(	(	_	$(	_	_	_	_	_	T1406	(	(	1385	_	_	0	0	I-s72	0	0	$(	0	_	I-1
+14	vgl.	vgl.	_	ADV	_	_	_	_	_	T1407	vgl.	vgl.	1386	_	_	0	0	I-s72	0	0	B-NX|ADJA|ADJX	0	_	I-1
+15	Einleitung	Einleitung	_	NN	_	_	_	_	_	T1408	Einleitung	Einleitung	1387	_	_	0	0	I-s72	0	0	E-NX|NN	0	_	I-1
+16	)	)	_	$(	_	_	_	_	_	T1409	)	)	1388	_	_	0	0	I-s72	0	0	$(	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T1410	.	.	1389	_	_	0	0	E-s72	0	0	$.	0	_	E-1
+
+# sent_id = 73
+# text = Hingegen ist der Protagonist in Krachts Roman ein reicher Sohn, der noch nichts Großartiges mit seinem Leben angestellt hat.
+1	Hingegen	hingegen	_	ADV	_	_	_	_	_	T1411	Hingegen	Hingegen	1390	_	_	0	0	B-s73	0	0	B-SIMPX|ADV|ADVX|VF	0	_	B-1
+2	ist	sein	_	VAFIN	_	_	_	_	_	T1412	ist	ist	1391	_	_	0	0	I-s73	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	der	die	_	ART	_	_	_	_	_	T1413	der	der	1392	_	_	0	0	I-s73	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+4	Protagonist	Protagonist	_	NN	_	_	_	_	_	T1414	Protagonist	Protagonist	1393	_	_	0	0	I-s73	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+5	in	in	_	APPR	_	_	_	_	_	T1415	in	in	1394	_	_	0	0	I-s73	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+6	Krachts	Krachts	_	NN	_	_	_	_	_	T1416	Krachts	Krachts	1395	_	_	0	0	I-s73	0	0	I-SIMPX|I-MF|I-PX|B-NX|NE|NX	0	_	I-1
+7	Roman	Roman	_	NN	_	_	_	_	_	T1417	Roman	Roman	1396	_	_	0	0	I-s73	0	0	I-SIMPX|I-MF|E-PX|E-NX|NN	0	_	I-1
+8	ein	eine	_	ART	_	_	_	_	_	T1418	ein	ein	1397	_	_	0	0	I-s73	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+9	reicher	reich	_	ADJA	_	_	_	_	_	T1419	reicher	reicher	1398	_	_	0	0	I-s73	0	0	I-SIMPX|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+10	Sohn	Sohn	_	NN	_	_	_	_	_	T1420	Sohn	Sohn	1399	_	_	0	0	I-s73	0	0	I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+11	,	,	_	$,	_	_	_	_	_	T1421	,	,	1400	_	_	0	0	I-s73	0	0	I-SIMPX|$,	0	_	I-1
+12	der	die	_	PRELS	_	_	_	_	_	T1422	der	der	1401	_	_	0	0	I-s73	0	0	I-SIMPX|B-R-SIMPX|B-NF|PRELS|NX|C	0	_	I-1
+13	noch	noch	_	ADV	_	_	_	_	_	T1423	noch	noch	1402	_	_	0	0	I-s73	0	0	I-SIMPX|I-R-SIMPX|I-NF|B-MF|B-NX|ADV|ADVX	0	_	I-1
+14	nichts	nichts	_	PIAT	_	_	_	_	_	T1424	nichts	nichts	1403	_	_	0	0	I-s73	0	0	I-SIMPX|I-R-SIMPX|I-NF|I-MF|E-NX|PIS	0	_	I-1
+15	Großartiges	Großartige	_	NN	_	_	_	_	_	T1425	großartiges	Großartiges	1404	XXX	_	1	GKS	I-s73	0	0	I-SIMPX|I-R-SIMPX|I-NF|I-MF|B-NX|NN|NX	0	_	I-1
+16	mit	mit	_	APPR	_	_	_	_	_	T1426	mit	mit	1405	_	_	0	0	I-s73	0	0	I-SIMPX|I-R-SIMPX|I-NF|I-MF|I-NX|B-PX|APPR	0	_	I-1
+17	seinem	sein	_	PPOSAT	_	_	_	_	_	T1427	seinem	seinem	1406	_	_	0	0	I-s73	0	0	I-SIMPX|I-R-SIMPX|I-NF|I-MF|I-NX|I-PX|B-NX|PPOSAT	0	_	I-1
+18	Leben	Leben	_	NN	_	_	_	_	_	T1428	Leben	Leben	1407	_	_	0	0	I-s73	0	0	I-SIMPX|I-R-SIMPX|I-NF|E-MF|E-NX|E-PX|E-NX|NN	0	_	I-1
+19	angestellt	anstellen	_	VVPP	_	_	_	_	_	T1429	angestellt	angestellt	1408	_	_	0	0	I-s73	0	0	I-SIMPX|I-R-SIMPX|I-NF|B-VC|VVPP|VXINF	0	_	I-1
+20	hat	haben	_	VAFIN	_	_	_	_	_	T1430	hat	hat	1409	_	_	0	0	I-s73	0	0	E-SIMPX|E-R-SIMPX|E-NF|E-VC|VAFIN|VXFIN	0	_	I-1
+21	.	.	_	$.	_	_	_	_	_	T1431	.	.	1410	_	_	0	0	E-s73	0	0	$.	0	_	E-1
+
+# sent_id = 74
+# text = Er wurde sogar von dem Saleminternat verwiesen.
+1	Er	er	_	PPER	_	_	_	_	_	T1432	Er	Er	1411	_	_	0	0	B-s74	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	wurde	werden	_	VAFIN	_	_	_	_	_	T1433	wurde	wurde	1412	_	_	0	0	I-s74	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	sogar	sogar	_	ADV	_	_	_	_	_	T1434	sogar	sogar	1413	_	_	0	0	I-s74	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+4	von	von	_	APPR	_	_	_	_	_	T1435	von	von	1414	_	_	0	0	I-s74	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+5	dem	die	_	ART	_	_	_	_	_	T1436	dem	dem	1415	_	_	0	0	I-s74	0	0	I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+6	Saleminternat	Saleminternat	_	NN	_	_	_	_	_	T1437	Saleminternat	Saleminternat	1416	_	_	0	0	I-s74	0	0	I-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+7	verwiesen	verweisen	_	VVPP	_	_	_	_	_	T1438	verwiesen	verwiesen	1417	_	_	0	0	I-s74	0	0	E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+8	.	.	_	$.	_	_	_	_	_	T1439	.	.	1418	_	_	0	0	E-s74	0	0	$.	0	_	E-1
+
+# sent_id = 75
+# text = Da seine Eltern solch einen materialistischen Lebensstil geführt haben wie er, wurde er vernachlässigt.
+1	Da	da	_	ADV	_	_	_	_	_	T1440	Da	Da	1419	_	_	0	0	B-s75	0	0	B-SIMPX|B-SIMPX|B-VF|KOUS|C	0	_	B-1
+2	seine	sein	_	PPOSAT	_	_	_	_	_	T1441	seine	seine	1420	_	_	0	0	I-s75	0	0	I-SIMPX|I-SIMPX|I-VF|B-MF|B-NX|PPOSAT	0	_	I-1
+3	Eltern	Eltern	_	NN	_	_	_	_	_	T1442	Eltern	Eltern	1421	_	_	0	0	I-s75	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|E-NX|NN	0	_	I-1
+4	solch	solche	_	PIAT	_	_	_	_	_	T1443	solch	solch	1422	_	_	0	0	I-s75	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|B-NX|PIDAT	0	_	I-1
+5	einen	eine	_	ART	_	_	_	_	_	T1444	ein	einen	1423	XXX	_	1	FLEX	I-s75	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-NX|ART	0	_	I-1
+6	materialistischen	materialistisch	_	ADJA	_	_	_	_	_	T1445	materialistischen	materialistischen	1424	_	_	0	0	I-s75	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+7	Lebensstil	Lebensstil	_	NN	_	_	_	_	_	T1446	Lebensstil	Lebensstil	1425	_	_	0	0	I-s75	0	0	I-SIMPX|I-SIMPX|I-VF|E-MF|E-NX|NN	0	_	I-1
+8	geführt	führen	_	VVPP	_	_	_	_	_	T1447	geführt	geführt	1426	_	_	0	0	I-s75	0	0	I-SIMPX|I-SIMPX|I-VF|B-VC|VVPP|VXINF	0	_	I-1
+9	haben	haben	_	VAINF	_	_	_	_	_	T1448	haben	haben	1427	_	_	0	0	I-s75	0	0	I-SIMPX|I-SIMPX|I-VF|E-VC|VAFIN|VXFIN	0	_	I-1
+10	wie	wie	_	KOKOM	_	_	_	_	_	T1449	wie	wie	1428	_	_	0	0	I-s75	0	0	I-SIMPX|I-SIMPX|I-VF|B-NX|B-NF|KOKOM	0	_	I-1
+11	er	er	_	PPER	_	_	_	_	_	T1450	er	er	1429	_	_	0	0	I-s75	0	0	I-SIMPX|E-SIMPX|E-VF|E-NX|E-NF|PPER	0	_	I-1
+12	,	,	_	$,	_	_	_	_	_	T1451	,	,	1430	_	_	0	0	I-s75	0	0	I-SIMPX|$,	0	_	I-1
+13	wurde	werden	_	VAFIN	_	_	_	_	_	T1452	wurde	wurde	1431	_	_	0	0	I-s75	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+14	er	er	_	PPER	_	_	_	_	_	T1453	er	er	1432	_	_	0	0	I-s75	0	0	I-SIMPX|PPER|NX|MF	0	_	I-1
+15	vernachlässigt	vernachlässigen	_	VVPP	_	_	_	_	_	T1454	vernachlässigt	vernachlässigt	1433	_	_	0	0	I-s75	0	0	E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T1455	.	.	1434	_	_	0	0	E-s75	0	0	$.	0	_	E-1
+
+# sent_id = 76
+# text = Diese Vernachlässigung hatte zur Folge, dass er verschlossen ist und keine Bindung eingehen kann.
+1	Diese	dies	_	PDAT	_	_	_	_	_	T1456	Diese	Diese	1435	_	_	0	0	B-s76	0	0	B-SIMPX|B-NX|B-VF|PDAT	0	_	B-1
+2	Vernachlässigung	Vernachlässigung	_	NN	_	_	_	_	_	T1457	Vernachlässigung	Vernachlässigung	1436	_	_	0	0	I-s76	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	hatte	haben	_	VAFIN	_	_	_	_	_	T1458	hatte	hatte	1437	_	_	0	0	I-s76	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+4	zur	zu	_	APPRART	_	_	_	_	_	T1459	zur	zur	1438	_	_	0	0	I-s76	0	0	I-SIMPX|B-PX|B-MF|APPRART	0	_	I-1
+5	Folge	Folge	_	NN	_	_	_	_	_	T1460	Folge	Folge	1439	_	_	0	0	I-s76	0	0	I-SIMPX|E-PX|E-MF|NN|NX	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T1461	,	,	1440	_	_	0	0	I-s76	0	0	I-SIMPX|$,	0	_	I-1
+7	dass	dass	_	KOUS	_	_	_	_	_	T1462	dass	dass	1441	_	_	0	0	I-s76	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+8	er	er	_	PPER	_	_	_	_	_	T1463	er	er	1442	_	_	0	0	I-s76	0	0	I-SIMPX|I-SIMPX|I-NF|B-FKOORD|B-FKONJ|PPER|NX|MF	0	_	I-1
+9	verschlossen	verschließen	_	VVPP	_	_	_	_	_	T1464	verschlossen	verschlossen	1443	_	_	0	0	I-s76	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|B-VC|VVPP|VXINF	0	_	I-1
+10	ist	sein	_	VAFIN	_	_	_	_	_	T1465	ist	ist	1444	_	_	0	0	I-s76	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|E-FKONJ|E-VC|VAFIN|VXFIN	0	_	I-1
+11	und	und	_	KON	_	_	_	_	_	T1466	und	und	1445	_	_	0	0	I-s76	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|KON	0	_	I-1
+12	keine	keine	_	PIAT	_	_	_	_	_	T1467	keine	keine	1446	_	_	0	0	I-s76	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|B-FKONJ|B-NX|B-MF|PIAT	0	_	I-1
+13	Bindung	Bindung	_	NN	_	_	_	_	_	T1468	Bindung	Bindung	1447	_	_	0	0	I-s76	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-NX|E-MF|NN	0	_	I-1
+14	eingehen	eingehen	_	VVINF	_	_	_	_	_	T1469	eingehen	eingehen	1448	_	_	0	0	I-s76	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|B-VC|VVINF|VXINF	0	_	I-1
+15	kann	können	_	VMFIN	_	_	_	_	_	T1470	kann	kann	1449	_	_	0	0	I-s76	0	0	E-SIMPX|E-SIMPX|E-NF|E-FKOORD|E-FKONJ|E-VC|VMFIN|VXFIN	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T1471	.	.	1450	_	_	0	0	E-s76	0	0	$.	0	_	E-1
+
+# sent_id = 77
+# text = Camenzind hingegen ist sehr offen für neue Menschen und neue Kulturen <EMPTY> ( vgl. Z. 18-23 ).
+1	Camenzind	Camenzind	_	NN	_	_	_	_	_	T1472	Camenzind	Camenzind	1451	_	_	0	0	B-s77	0	0	B-SIMPX|B-ADVX|B-VF|ADV|ADVX	0	_	B-1
+2	hingegen	hingegen	_	ADV	_	_	_	_	_	T1473	hingegen	hingegen	1452	_	_	0	0	I-s77	0	0	I-SIMPX|E-ADVX|E-VF|ADV|ADVX	0	_	I-1
+3	ist	sein	_	VAFIN	_	_	_	_	_	T1474	ist	ist	1453	_	_	0	0	I-s77	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+4	sehr	sehr	_	ADV	_	_	_	_	_	T1475	sehr	sehr	1454	_	_	0	0	I-s77	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+5	offen	offen	_	ADJD	_	_	_	_	_	T1476	offen	offen	1455	_	_	0	0	I-s77	0	0	I-SIMPX|I-MF|B-ADJX|B-ADJX|ADJD|ADJX	0	_	I-1
+6	für	für	_	APPR	_	_	_	_	_	T1477	für	für	1456	_	_	0	0	I-s77	0	0	I-SIMPX|I-MF|I-ADJX|E-ADJX|ADJD	0	_	I-1
+7	neue	neu	_	ADJA	_	_	_	_	_	T1478	neue	neue	1457	_	_	0	0	I-s77	0	0	I-SIMPX|I-MF|I-ADJX|B-NX|B-NX|ADJA|ADJX	0	_	I-1
+8	Menschen	Mensch	_	NN	_	_	_	_	_	T1479	Menschen	Menschen	1458	_	_	0	0	I-s77	0	0	I-SIMPX|I-MF|I-ADJX|I-NX|E-NX|NN	0	_	I-1
+9	und	und	_	KON	_	_	_	_	_	T1480	und	und	1459	_	_	0	0	I-s77	0	0	I-SIMPX|I-MF|I-ADJX|I-NX|KON	0	_	I-1
+10	neue	neu	_	ADJA	_	_	_	_	_	T1481	neue	neue	1460	_	_	0	0	I-s77	0	0	I-SIMPX|I-MF|I-ADJX|I-NX|B-NX|ADJA|ADJX	0	_	I-1
+11	Kulturen	Kultur	_	NN	_	_	_	_	_	T1482	Kulturen	Kulturen	1461	_	_	0	0	I-s77	0	0	E-SIMPX|E-MF|E-ADJX|E-NX|E-NX|NN	0	_	I-1
+12	<EMPTY>	_	_	_	_	_	_	_	_	T1483	.	_	1462	XXX	_	1	PKT	I-s77	0	0	_	0	_	I-1
+13	(	(	_	$(	_	_	_	_	_	T1484	(	(	1463	_	_	0	0	I-s77	0	0	$(	0	_	I-1
+14	vgl.	vgl.	_	ADV	_	_	_	_	_	T1485	vgl.	vgl.	1464	_	_	0	0	I-s77	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+15	Z.	Z.	_	NE	_	_	_	_	_	T1486	Z.	Z.	1465	_	_	0	0	I-s77	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+16	18-23	@card@	_	CARD	_	_	_	_	_	T1487	18-23	18-23	1466	_	_	0	0	I-s77	0	0	E-NX|CARD|NX	0	_	I-1
+17	)	)	_	$(	_	_	_	_	_	T1488	)	)	1467	_	_	0	0	I-s77	0	0	$(	0	_	I-1
+18	.	.	_	$.	_	_	_	_	_	T1489	.	.	1468	_	_	0	0	E-s77	0	0	$.	0	_	E-1
+
+# sent_id = 78
+# text = Er verabscheut auch das Moderne und somit auch den Materialismus ( vgl. Z. 8-9 ).
+1	Er	er	_	PPER	_	_	_	_	_	T1490	Er	Er	1469	_	_	0	0	B-s78	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	verabscheut	verabscheuen	_	VVFIN	_	_	_	_	_	T1491	verabscheut	verabscheut	1470	_	_	0	0	I-s78	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	auch	auch	_	ADV	_	_	_	_	_	T1492	auch	auch	1471	_	_	0	0	I-s78	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+4	das	die	_	ART	_	_	_	_	_	T1493	das	das	1472	_	_	0	0	I-s78	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+5	Moderne	Moderne	_	NN	_	_	_	_	_	T1494	moderne	Moderne	1473	XXX	_	1	GKS	I-s78	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+6	und	und	_	KON	_	_	_	_	_	T1495	und	und	1474	_	_	0	0	I-s78	0	0	I-SIMPX|I-MF|KON	0	_	I-1
+7	somit	somit	_	ADV	_	_	_	_	_	T1496	somit	somit	1475	_	_	0	0	I-s78	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+8	auch	auch	_	ADV	_	_	_	_	_	T1497	auch	auch	1476	_	_	0	0	I-s78	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+9	den	die	_	ART	_	_	_	_	_	T1498	den	den	1477	_	_	0	0	I-s78	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+10	Materialismus	Materialismus	_	NN	_	_	_	_	_	T1499	Materialismus	Materialismus	1478	_	_	0	0	I-s78	0	0	E-SIMPX|E-MF|E-NX|NN	0	_	I-1
+11	(	(	_	$(	_	_	_	_	_	T1500	(	(	1479	_	_	0	0	I-s78	0	0	$(	0	_	I-1
+12	vgl.	vgl.	_	ADV	_	_	_	_	_	T1501	vgl.	vgl.	1480	_	_	0	0	I-s78	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+13	Z.	Z.	_	NE	_	_	_	_	_	T1502	Z.	Z.	1481	_	_	0	0	I-s78	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+14	8-9	@card@	_	CARD	_	_	_	_	_	T1503	8-9	8-9	1482	_	_	0	0	I-s78	0	0	E-NX|CARD|NX	0	_	I-1
+15	)	)	_	$(	_	_	_	_	_	T1504	)	)	1483	_	_	0	0	I-s78	0	0	$(	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T1505	.	.	1484	_	_	0	0	E-s78	0	0	$.	0	_	E-1
+
+# sent_id = 79
+# text = Seine idealistische Lebensart wird auch durch seine Pilgerfahrt und dem damit verbundenen Glauben an Gott deutlich ( vgl. Z. 5-6 ).
+1	Seine	sein	_	PPOSAT	_	_	_	_	_	T1506	Seine	Seine	1485	_	_	0	0	B-s79	0	0	B-SIMPX|B-NX|B-VF|PPOSAT	0	_	B-1
+2	idealistische	idealistisch	_	ADJA	_	_	_	_	_	T1507	idealistische	idealistische	1486	_	_	0	0	I-s79	0	0	I-SIMPX|I-NX|I-VF|ADJA|ADJX	0	_	I-1
+3	Lebensart	Lebensart	_	NN	_	_	_	_	_	T1508	Lebensart	Lebensart	1487	_	_	0	0	I-s79	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+4	wird	werden	_	VAFIN	_	_	_	_	_	T1509	wird	wird	1488	_	_	0	0	I-s79	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+5	auch	auch	_	ADV	_	_	_	_	_	T1510	auch	auch	1489	_	_	0	0	I-s79	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+6	durch	durch	_	APPR	_	_	_	_	_	T1511	durch	durch	1490	_	_	0	0	I-s79	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+7	seine	sein	_	PPOSAT	_	_	_	_	_	T1512	seine	seine	1491	_	_	0	0	I-s79	0	0	I-SIMPX|I-MF|I-PX|B-NX|B-NX|PPOSAT	0	_	I-1
+8	Pilgerfahrt	Pilgerfahrt	_	NN	_	_	_	_	_	T1513	Pilgerfahrt	Pilgerfahrt	1492	_	_	0	0	I-s79	0	0	I-SIMPX|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+9	und	und	_	KON	_	_	_	_	_	T1514	und	und	1493	_	_	0	0	I-s79	0	0	I-SIMPX|I-MF|I-PX|I-NX|KON	0	_	I-1
+10	dem	die	_	ART	_	_	_	_	_	T1515	der	den	1494	XXX	_	1	FLEX	I-s79	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-NX|B-NX|ART	0	_	I-1
+11	damit	damit	_	PAV	_	_	_	_	_	T1516	damit	damit	1495	_	_	0	0	I-s79	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|B-ADJX|PROP|PX	0	_	I-1
+12	verbundenen	verbunden	_	ADJA	_	_	_	_	_	T1517	verbundene	verbundenen	1496	XXX	_	1	FLEX	I-s79	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|E-ADJX|ADJA	0	_	I-1
+13	Glauben	Glaube	_	NN	_	_	_	_	_	T1518	Glaube	Glauben	1497	XXX	_	1	FLEX	I-s79	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|E-NX|NN	0	_	I-1
+14	an	an	_	APPR	_	_	_	_	_	T1519	an	an	1498	_	_	0	0	I-s79	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|B-PX|APPR	0	_	I-1
+15	Gott	Gott	_	NN	_	_	_	_	_	T1520	Gott	Gott	1499	_	_	0	0	I-s79	0	0	I-SIMPX|I-MF|E-PX|E-NX|E-NX|E-PX|NE|NX	0	_	I-1
+16	deutlich	deutlich	_	ADJD	_	_	_	_	_	T1521	deutlich	deutlich	1500	_	_	0	0	I-s79	0	0	E-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+17	(	(	_	$(	_	_	_	_	_	T1522	(	(	1501	_	_	0	0	I-s79	0	0	$(	0	_	I-1
+18	vgl.	vgl.	_	ADV	_	_	_	_	_	T1523	vgl.	vgl.	1502	_	_	0	0	I-s79	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+19	Z.	Z.	_	NE	_	_	_	_	_	T1524	Z.	Z.	1503	_	_	0	0	I-s79	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+20	5-6	@card@	_	CARD	_	_	_	_	_	T1525	5-6	5-6	1504	_	_	0	0	I-s79	0	0	E-NX|CARD|NX	0	_	I-1
+21	)	)	_	$(	_	_	_	_	_	T1526	)	)	1505	_	_	0	0	I-s79	0	0	$(	0	_	I-1
+22	.	.	_	$.	_	_	_	_	_	T1527	.	.	1506	_	_	0	0	E-s79	0	0	$.	0	_	E-1
+
+# sent_id = 80
+# text = Er lernt das idealistische Leben kennen und schätzen ( vgl. Z. 6 ).
+1	Er	er	_	PPER	_	_	_	_	_	T1528	Er	Er	1507	_	_	0	0	B-s80	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	lernt	lernen	_	VVFIN	_	_	_	_	_	T1529	lernt	lernt	1508	_	_	0	0	I-s80	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	das	die	_	ART	_	_	_	_	_	T1530	das	das	1509	_	_	0	0	I-s80	0	0	I-SIMPX|B-NX|B-MF|ART	0	_	I-1
+4	idealistische	idealistisch	_	ADJA	_	_	_	_	_	T1531	idealistische	idealistische	1510	_	_	0	0	I-s80	0	0	I-SIMPX|I-NX|I-MF|ADJA|ADJX	0	_	I-1
+5	Leben	Leben	_	NN	_	_	_	_	_	T1532	Leben	Leben	1511	_	_	0	0	I-s80	0	0	I-SIMPX|E-NX|E-MF|NN	0	_	I-1
+6	kennen	kennen	_	VVINF	_	_	_	_	_	T1533	kennen	kennen	1512	_	_	0	0	I-s80	0	0	I-SIMPX|B-VC|PTKVZ	0	_	I-1
+7	und	und	_	KON	_	_	_	_	_	T1534	und	und	1513	_	_	0	0	I-s80	0	0	I-SIMPX|I-VC|KON	0	_	I-1
+8	schätzen	schätzen	_	VVINF	_	_	_	_	_	T1535	schätzen	schätzen	1514	_	_	0	0	I-s80	0	0	E-SIMPX|E-VC|VVFIN|VXFIN	0	_	I-1
+9	(	(	_	$(	_	_	_	_	_	T1536	(	(	1515	_	_	0	0	I-s80	0	0	$(	0	_	I-1
+10	vgl.	vgl.	_	ADV	_	_	_	_	_	T1537	vgl.	vgl.	1516	_	_	0	0	I-s80	0	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+11	Z.	Z.	_	NE	_	_	_	_	_	T1538	Z.	Z.	1517	_	_	0	0	I-s80	0	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+12	6	6	_	CARD	_	_	_	_	_	T1539	6	6	1518	_	_	0	0	I-s80	0	0	E-NX|CARD|NX	0	_	I-1
+13	)	)	_	$(	_	_	_	_	_	T1540	)	)	1519	_	_	0	0	I-s80	0	0	$(	0	_	I-1
+14	.	.	_	$.	_	_	_	_	_	T1541	.	.	1520	_	_	0	0	E-s80	0	0	$.	0	_	E-1
+
+# sent_id = 81
+# text = Obwohl beide Protagonisten trinken, kann man nicht sagen, dass Peter materialistisch ist, da der Alkohol nicht den Mittelpunkt in seinem Leben bildet.
+1	Obwohl	obwohl	_	KOUS	_	_	_	_	_	T1542	Obwohl	Obwohl	1521	_	_	0	0	B-s81	0	0	B-SIMPX|B-SIMPX|B-VF|KOUS|C	0	_	B-1
+2	beide	beide	_	PIAT	_	_	_	_	_	T1543	beide	beide	1522	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-VF|B-NX|B-MF|PIDAT	0	_	I-1
+3	Protagonisten	Protagonist	_	NN	_	_	_	_	_	T1544	Protagonisten	Protagonisten	1523	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-VF|E-NX|E-MF|NN	0	_	I-1
+4	trinken	trinken	_	VVINF	_	_	_	_	_	T1545	trinken	trinken	1524	_	_	0	0	I-s81	0	0	I-SIMPX|E-SIMPX|E-VF|VVFIN|VXFIN|VC	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T1546	_	,	_	XXX	_	1	PKT	I-s81	0	0	I-SIMPX|$,	0	_	I-1
+6	kann	können	_	VMFIN	_	_	_	_	_	T1547	kann	kann	1525	_	_	0	0	I-s81	0	0	I-SIMPX|VMFIN|VXFIN|LK	0	_	I-1
+7	man	man	_	PIS	_	_	_	_	_	T1548	man	man	1526	_	_	0	0	I-s81	0	0	I-SIMPX|B-MF|PIS|NX	0	_	I-1
+8	nicht	nicht	_	PTKNEG	_	_	_	_	_	T1549	nicht	nicht	1527	_	_	0	0	I-s81	0	0	I-SIMPX|E-MF|PTKNEG|ADVX	0	_	I-1
+9	sagen	sagen	_	VVINF	_	_	_	_	_	T1550	sagen	sagen	1528	_	_	0	0	I-s81	0	0	I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+10	,	,	_	$,	_	_	_	_	_	T1551	,	,	1529	_	_	0	0	I-s81	0	0	I-SIMPX|$,	0	_	I-1
+11	dass	dass	_	KOUS	_	_	_	_	_	T1552	dass	dass	1530	_	_	0	0	I-s81	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+12	Peter	Peter	_	NE	_	_	_	_	_	T1553	Peter	Peter	1531	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|B-NX|B-MF|NE	0	_	I-1
+13	materialistisch	materialistisch	_	ADJD	_	_	_	_	_	T1554	materialistisch	materialistisch	1532	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|E-NX|E-MF|NE	0	_	I-1
+14	ist	sein	_	VAFIN	_	_	_	_	_	T1555	ist	ist	1533	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|VAFIN|VXFIN|VC	0	_	I-1
+15	,	,	_	$,	_	_	_	_	_	T1556	,	,	1534	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|$,	0	_	I-1
+16	da	da	_	KOUS	_	_	_	_	_	T1557	da	da	1535	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+17	der	die	_	ART	_	_	_	_	_	T1558	der	der	1536	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+18	Alkohol	Alkohol	_	NN	_	_	_	_	_	T1559	Alkohol	Alkohol	1537	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+19	nicht	nicht	_	PTKNEG	_	_	_	_	_	T1560	nicht	nicht	1538	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-MF|PTKNEG|ADVX	0	_	I-1
+20	den	die	_	ART	_	_	_	_	_	T1561	den	den	1539	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-MF|B-NX|B-NX|ART	0	_	I-1
+21	Mittelpunkt	Mittelpunkt	_	NN	_	_	_	_	_	T1562	Mittelpunkt	Mittelpunkt	1540	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-MF|I-NX|E-NX|NN	0	_	I-1
+22	in	in	_	APPR	_	_	_	_	_	T1563	in	in	1541	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-MF|I-NX|B-PX|APPR	0	_	I-1
+23	seinem	sein	_	PPOSAT	_	_	_	_	_	T1564	seinem	seinem	1542	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-MF|I-NX|I-PX|B-NX|PPOSAT	0	_	I-1
+24	Leben	Leben	_	NN	_	_	_	_	_	T1565	Leben	Leben	1543	_	_	0	0	I-s81	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|E-MF|E-NX|E-PX|E-NX|NN	0	_	I-1
+25	bildet	bilden	_	VVFIN	_	_	_	_	_	T1566	bildet	bildet	1544	_	_	0	0	I-s81	0	0	E-SIMPX|E-SIMPX|E-NF|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+26	.	.	_	$.	_	_	_	_	_	T1567	.	.	1545	_	_	0	0	E-s81	0	0	$.	0	_	E-1
+
+# sent_id = 82
+# text = Krachts Protagonist macht aber Partys und Drogen zu seinen wichtigsten Lebensaufgaben.
+1	Krachts	Krachts	_	NN	_	_	_	_	_	T1568	Krachts	Krachts	1546	_	_	0	0	B-s82	0	0	B-SIMPX|B-NX|B-VF|NE	0	_	B-1
+2	Protagonist	Protagonist	_	NN	_	_	_	_	_	T1569	Protagonist	Protagonist	1547	_	_	0	0	I-s82	0	0	I-SIMPX|E-NX|E-VF|NE	0	_	I-1
+3	macht	machen	_	VVFIN	_	_	_	_	_	T1570	macht	macht	1548	_	_	0	0	I-s82	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	aber	aber	_	ADV	_	_	_	_	_	T1571	aber	aber	1549	_	_	0	0	I-s82	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+5	Partys	Party	_	NN	_	_	_	_	_	T1572	Partys	Partys	1550	_	_	0	0	I-s82	0	0	I-SIMPX|I-MF|B-NX|B-NX|NN|NX	0	_	I-1
+6	und	und	_	KON	_	_	_	_	_	T1573	und	und	1551	_	_	0	0	I-s82	0	0	I-SIMPX|I-MF|I-NX|I-NX|KON	0	_	I-1
+7	Drogen	Droge	_	NN	_	_	_	_	_	T1574	Drogen	Drogen	1552	_	_	0	0	I-s82	0	0	I-SIMPX|I-MF|I-NX|E-NX|NN|NX	0	_	I-1
+8	zu	zu	_	APPR	_	_	_	_	_	T1575	zu	zu	1553	_	_	0	0	I-s82	0	0	I-SIMPX|I-MF|I-NX|B-PX|APPR	0	_	I-1
+9	seinen	sein	_	PPOSAT	_	_	_	_	_	T1576	seinen	seinen	1554	_	_	0	0	I-s82	0	0	I-SIMPX|I-MF|I-NX|I-PX|B-NX|PPOSAT	0	_	I-1
+10	wichtigsten	wichtig	_	ADJA	_	_	_	_	_	T1577	wichtigsten	wichtigsten	1555	_	_	0	0	I-s82	0	0	I-SIMPX|I-MF|I-NX|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+11	Lebensaufgaben	Lebensaufgabe	_	NN	_	_	_	_	_	T1578	Lebensaufgaben	Lebensaufgaben	1556	_	Lebens-aufgaben 	0	0	I-s82	0	0	E-SIMPX|E-MF|E-NX|E-PX|E-NX|NN	0	_	I-1
+12	.	.	_	$.	_	_	_	_	_	T1579	.	.	1557	_	_	0	0	E-s82	0	0	$.	0	_	E-1
+
+# sent_id = 83
+# text = Der Antiheld in " Faserland " flieht letzten Endes mit Partys und Drogen aus seinem Alltag.
+1	Der	die	_	ART	_	_	_	_	_	T1580	Der	Der	1558	_	_	0	0	B-s83	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Antiheld	Antiheld	_	NN	_	_	_	_	_	T1581	Antiheld	Antiheld	1559	_	_	0	0	I-s83	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	in	in	_	APPR	_	_	_	_	_	T1582	in	in	1560	_	_	0	0	I-s83	0	0	I-SIMPX|I-NX|I-VF|B-PX|APPR	0	_	I-1
+4	"	"	_	$(	_	_	_	_	_	T1583	"	"	1561	_	_	0	0	I-s83	0	0	I-SIMPX|I-NX|I-VF|I-PX|$(	0	_	I-1
+5	Faserland	Faserland	_	NN	_	_	_	_	_	T1584	Faserland	Faserland	1562	_	_	0	0	I-s83	0	0	I-SIMPX|I-NX|I-VF|I-PX|NN|NX	0	_	I-1
+6	"	"	_	$(	_	_	_	_	_	T1585	"	"	1563	_	_	0	0	I-s83	0	0	I-SIMPX|E-NX|E-VF|E-PX|$(	0	_	I-1
+7	flieht	fliehen	_	VVFIN	_	_	_	_	_	T1586	flieht	flieht	1564	_	_	0	0	I-s83	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+8	letzten	letzt	_	ADJA	_	_	_	_	_	T1587	<B->letztenendes	letzten	1565	XXX	_	B-1	B-GZS	I-s83	0	0	I-SIMPX|B-MF|B-NX|ADJA|ADJX	0	_	I-1
+9	Endes	Ende	_	NN	_	_	_	_	_	T1588	<E->letztenendes	Endes	_	XXX	_	E-1	E-GZS	I-s83	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+10	mit	mit	_	APPR	_	_	_	_	_	T1589	mit	mit	1566	_	_	0	0	I-s83	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+11	Partys	Party	_	NN	_	_	_	_	_	T1590	Partys	Partys	1567	_	_	0	0	I-s83	0	0	I-SIMPX|I-MF|I-PX|B-NX|NN|NX	0	_	I-1
+12	und	und	_	KON	_	_	_	_	_	T1591	und	und	1568	_	_	0	0	I-s83	0	0	I-SIMPX|I-MF|I-PX|I-NX|KON	0	_	I-1
+13	Drogen	Droge	_	NN	_	_	_	_	_	T1592	Drogen	Drogen	1569	_	_	0	0	I-s83	0	0	I-SIMPX|I-MF|E-PX|E-NX|NN|NX	0	_	I-1
+14	aus	aus	_	APPR	_	_	_	_	_	T1593	aus	aus	1570	_	_	0	0	I-s83	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+15	seinem	sein	_	PPOSAT	_	_	_	_	_	T1594	seinem	seinem	1571	_	_	0	0	I-s83	0	0	I-SIMPX|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+16	Alltag	Alltag	_	NN	_	_	_	_	_	T1595	Alltag	Alltag	1572	_	_	0	0	I-s83	0	0	E-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T1596	.	.	1573	_	_	0	0	E-s83	0	0	$.	0	_	E-1
+
+# sent_id = 84
+# text = Der Protagonist in Hesses Roman nutzt die Freiheit der Natur und des idealistischen Lebens, um aus seinem Alltag zu entfliehen.
+1	Der	die	_	ART	_	_	_	_	_	T1597	Der	Der	1574	_	_	0	0	B-s84	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Protagonist	Protagonist	_	NN	_	_	_	_	_	T1598	Protagonist	Protagonist	1575	_	_	0	0	I-s84	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	in	in	_	APPR	_	_	_	_	_	T1599	in	in	1576	_	_	0	0	I-s84	0	0	I-SIMPX|I-NX|I-VF|B-PX|APPR	0	_	I-1
+4	Hesses	Hesse	_	NE	_	_	_	_	_	T1600	Hesses	Hesses	1577	_	_	0	0	I-s84	0	0	I-SIMPX|I-NX|I-VF|I-PX|B-NX|NE|NX	0	_	I-1
+5	Roman	Roman	_	NN	_	_	_	_	_	T1601	Roman	Roman	1578	_	_	0	0	I-s84	0	0	I-SIMPX|E-NX|E-VF|E-PX|E-NX|NN	0	_	I-1
+6	nutzt	nutzen	_	VVFIN	_	_	_	_	_	T1602	nutzt	nutzt	1579	_	_	0	0	I-s84	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+7	die	die	_	ART	_	_	_	_	_	T1603	die	die	1580	_	_	0	0	I-s84	0	0	I-SIMPX|B-NX|B-MF|B-NX|ART	0	_	I-1
+8	Freiheit	Freiheit	_	NN	_	_	_	_	_	T1604	Freiheit	Freiheit	1581	_	_	0	0	I-s84	0	0	I-SIMPX|I-NX|I-MF|E-NX|NN	0	_	I-1
+9	der	die	_	ART	_	_	_	_	_	T1605	der	der	1582	_	_	0	0	I-s84	0	0	I-SIMPX|I-NX|I-MF|B-NX|B-NX|ART	0	_	I-1
+10	Natur	Natur	_	NN	_	_	_	_	_	T1606	Natur	Natur	1583	_	_	0	0	I-s84	0	0	I-SIMPX|I-NX|I-MF|I-NX|E-NX|NN	0	_	I-1
+11	und	und	_	KON	_	_	_	_	_	T1607	und	und	1584	_	_	0	0	I-s84	0	0	I-SIMPX|I-NX|I-MF|I-NX|KON	0	_	I-1
+12	des	die	_	ART	_	_	_	_	_	T1608	des	des	1585	_	_	0	0	I-s84	0	0	I-SIMPX|I-NX|I-MF|I-NX|B-NX|ART	0	_	I-1
+13	idealistischen	idealistisch	_	ADJA	_	_	_	_	_	T1609	idealistischen	idealistischen	1586	_	_	0	0	I-s84	0	0	I-SIMPX|I-NX|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+14	Lebens	Leben	_	NN	_	_	_	_	_	T1610	Lebens	Lebens	1587	_	_	0	0	I-s84	0	0	I-SIMPX|E-NX|E-MF|E-NX|E-NX|NN	0	_	I-1
+15	,	,	_	$,	_	_	_	_	_	T1611	_	,	_	XXX	_	1	PKT	I-s84	0	0	I-SIMPX|$,	0	_	I-1
+16	um	um	_	KOUI	_	_	_	_	_	T1612	um	um	1588	_	_	0	0	I-s84	0	0	I-SIMPX|B-SIMPX|B-NF|KOUI|C	0	_	I-1
+17	aus	aus	_	APPR	_	_	_	_	_	T1613	aus	aus	1589	_	_	0	0	I-s84	0	0	I-SIMPX|I-SIMPX|I-NF|B-PX|B-MF|APPR	0	_	I-1
+18	seinem	sein	_	PPOSAT	_	_	_	_	_	T1614	seinem	seinem	1590	_	_	0	0	I-s84	0	0	I-SIMPX|I-SIMPX|I-NF|I-PX|I-MF|B-NX|PPOSAT	0	_	I-1
+19	Alltag	Alltag	_	NN	_	_	_	_	_	T1615	Alltag	Alltag	1591	_	_	0	0	I-s84	0	0	I-SIMPX|I-SIMPX|I-NF|E-PX|E-MF|E-NX|NN	0	_	I-1
+20	zu	zu	_	PTKZU	_	_	_	_	_	T1616	zu	zu	1592	_	_	0	0	I-s84	0	0	I-SIMPX|I-SIMPX|I-NF|B-VXINF|B-VC|PTKZU	0	_	I-1
+21	entfliehen	entfliehen	_	VVINF	_	_	_	_	_	T1617	entfliehen	entfliehen	1593	_	_	0	0	I-s84	0	0	E-SIMPX|E-SIMPX|E-NF|E-VXINF|E-VC|VVINF	0	_	I-1
+22	.	.	_	$.	_	_	_	_	_	T1618	.	.	1594	_	_	0	0	E-s84	0	0	$.	0	_	E-1
+
+# sent_id = 85
+# text = Im ersten Moment scheinen die Romane ähnlich, doch bei genauerer Betrachtung fallen die Unterschiede deutlich auf.
+1	Im	in	_	APPRART	_	_	_	_	_	T1619	Im	Im	1595	_	_	0	0	B-s85	0	0	B-SIMPX|B-SIMPX|B-PX|B-VF|APPRART	0	_	B-1
+2	ersten	erst	_	ADJA	_	_	_	_	_	T1620	ersten	ersten	1596	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|I-PX|I-VF|B-NX|ADJA|ADJX	0	_	I-1
+3	Moment	Moment	_	NN	_	_	_	_	_	T1621	Moment	Moment	1597	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+4	scheinen	scheinen	_	VVFIN	_	_	_	_	_	T1622	scheinen	scheinen	1598	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+5	die	die	_	ART	_	_	_	_	_	T1623	die	die	1599	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+6	Romane	Roman	_	NN	_	_	_	_	_	T1624	Romane	Romane	1600	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+7	ähnlich	ähnlich	_	ADJD	_	_	_	_	_	T1625	ähnlich	ähnlich	1601	_	_	0	0	I-s85	0	0	I-SIMPX|E-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T1626	,	,	1602	_	_	0	0	I-s85	0	0	I-SIMPX|$,	0	_	I-1
+9	doch	doch	_	KON	_	_	_	_	_	T1627	doch	doch	1603	_	_	0	0	I-s85	0	0	I-SIMPX|KON	0	_	I-1
+10	bei	bei	_	APPR	_	_	_	_	_	T1628	bei	bei	1604	_	_	0	0	I-s85	0	0	I-SIMPX|B-SIMPX|B-PX|B-VF|APPR	0	_	I-1
+11	genauerer	genau	_	ADJA	_	_	_	_	_	T1629	genauerer	genauerer	1605	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|I-PX|I-VF|B-NX|ADJA|ADJX	0	_	I-1
+12	Betrachtung	Betrachtung	_	NN	_	_	_	_	_	T1630	Betrachtung	Betrachtung	1606	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+13	fallen	fallen	_	VVFIN	_	_	_	_	_	T1631	fallen	fallen	1607	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+14	die	die	_	ART	_	_	_	_	_	T1632	die	die	1608	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+15	Unterschiede	Unterschied	_	NN	_	_	_	_	_	T1633	Unterschiede	Unterschiede	1609	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+16	deutlich	deutlich	_	ADJD	_	_	_	_	_	T1634	deutlich	deutlich	1610	_	_	0	0	I-s85	0	0	I-SIMPX|I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+17	auf	auf	_	PTKVZ	_	_	_	_	_	T1635	auf	auf	1611	_	_	0	0	I-s85	0	0	E-SIMPX|E-SIMPX|PTKVZ|VC	0	_	I-1
+18	.	.	_	$.	_	_	_	_	_	T1636	.	.	1612	_	_	0	0	E-s85	0	0	$.	0	_	E-1

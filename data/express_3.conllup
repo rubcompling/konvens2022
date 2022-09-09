@@ -1,0 +1,599 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PTBLabel TREE
+# sent_id = 1
+# PTBstring = (:--(PSEUDO:--(PX:--(PX:--(APPRART:-- Im)(NX:--(NN:-- Radio)))($,:-- ,)(PX:--(PX:--(APPR:-- in)(NX:--(ART:-- der)(NN:-- Fernsehwerbung)))($,:-- ,)(PX:--(APPR:-- auf)(NX:--(PIDAT:-- allen)(NN:-- Kanälen)))))($.:-- .)))
+1	Im	_	_	APPRART	_	_	_	_	_	--	B-PSEUDO|B-PX|B-PX
+2	Radio	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-PX|I-PX|B-NX
+3	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-PX
+4	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-PX|B-PX|B-PX
+5	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-PX|I-PX|I-PX|B-NX
+6	Fernsehwerbung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-PX|I-PX|I-PX|I-NX
+7	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-PX|I-PX
+8	auf	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-PX|I-PX|B-PX
+9	allen	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-PX|I-PX|I-PX|B-NX
+10	Kanälen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-PX|I-PX|I-PX|I-NX
+11	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 2
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADJX:--(ADJD:-- Überall)))(FKOORD:--(FKONJ:--(LK:--(VXFIN:--(VVFIN:-- läuft)))(MF:--(NX:--(PDS:-- dieses))(NX:--(ART:-- eine)(NN:-- Lied))))($,:-- ,)(FKONJ:--(MF:--(PX:--(APPRART:-- zur)(NX:--(NN:-- Zeit)))(PX:--(APPRART:-- zum)(NX:--(NN:-- Beispiel))))(VC:--(VXINF:--(VVPP:-- ``)))(FX:--(FM:-- Cover)(FM:-- Me))(MF:--(PX:--(APPR:-- In)(NX:--(ADJX:--(ADJA:-- Sunshine))(NN:-- '')))(PX:--(APPR:-- von)(NX:--(NX:--(NE:-- Pink))(KON:-- und)(NX:--(NX:--(PPOSAT:-- ihrer)(NN:-- Tochter))(NX:--(NE:-- Willow)))))))))($.:-- .)))
+1	Überall	_	_	ADJD	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADJX
+2	läuft	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-FKOORD|B-FKONJ|B-LK|B-VXFIN
+3	dieses	_	_	PDS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-NX
+4	eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-NX
+5	Lied	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD
+7	zur	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|B-FKONJ|B-MF|B-PX
+8	Zeit	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX
+9	zum	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX
+10	Beispiel	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX
+11	``	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-VC|B-VXINF
+12	Cover	_	_	FM	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-FX
+13	Me	_	_	FM	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-FX
+14	In	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-PX
+15	Sunshine	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|B-ADJX
+16	''	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX
+17	von	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX
+18	Pink	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|B-NX
+19	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX
+20	ihrer	_	_	PPOSAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|B-NX|B-NX
+21	Tochter	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|I-NX|I-NX
+22	Willow	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|I-NX|B-NX
+23	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 3
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(SIMPX:--(VF:--(NX:--(PPER:-- Es)))(LK:--(VXFIN:--(VVFIN:-- stürmt)))(MF:--(PX:--(APPR:-- an)(NX:--(NX:--(ART:-- der)(NN:-- Spitze))(NX:--(ART:-- der)(NN:-- Hitparaden)))))))($,:-- ,)(LK:--(VXFIN:--(VVFIN:-- heißt)))(MF:--(NX:--(PPER:-- es))(ADVX:--(ADV:-- dann))))($.:-- .)))
+1	Es	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-SIMPX|B-VF|B-NX
+2	stürmt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|B-LK|B-VXFIN
+3	an	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|B-MF|B-PX
+4	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-PX|B-NX|B-NX
+5	Spitze	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+6	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-PX|I-NX|B-NX
+7	Hitparaden	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+8	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+9	heißt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+10	es	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+11	dann	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+12	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 4
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(KOORD:--(KON:-- Und))(C:--(KOUS:-- das))(MF:--(ADVX:--(ADV:-- schon))(PX:--(APPR:-- seit)(NX:--(NN:-- Wochen)))))($.:-- !)))
+1	Und	_	_	KON	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-KOORD
+2	das	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-C
+3	schon	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+4	seit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+5	Wochen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX
+6	!	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 5
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(ART:-- Der)(NN:-- Song)))(LK:--(VXFIN:--(VAFIN:-- sei)))(FKOORD:--(FKONJ:--(MF:--(ADJX:--(ADJD:-- total)))(VC:--(VXINF:--(VVPP:-- angesagt))))(KON:-- und)(MF:--(NX:--(ART:-- ein)(ADJX:--(ADJA:-- riesiger))(NN:-- Erfolg)))))($.:-- .)))
+1	Der	_	_	ART	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	Song	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+3	sei	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+4	total	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-FKOORD|B-FKONJ|B-MF|B-ADJX
+5	angesagt	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-VC|B-VXINF
+6	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD
+7	ein	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|B-MF|B-NX
+8	riesiger	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-MF|I-NX|B-ADJX
+9	Erfolg	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-MF|I-NX
+10	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 6
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(LK:--(VXFIN:--(VVFIN:-- Stellt)))(MF:--(NX:--(PRF:-- sich))(ADVX:--(ADV:-- nur))(NX:--(ART:-- die)(NN:-- Frage))))($.:-- :)(SIMPX:--(VF:--(NX:--(PWS:-- Wer)))(LK:--(VXFIN:--(VVFIN:-- entscheidet)))(MF:--(ADVX:--(ADV:-- über))(NX:--(PDAT:-- diese)(NN:-- Hitparaden))))($.:-- ?)(SIMPX:--(VF:--(NX:--(PWS:-- Was)))(LK:--(VXFIN:--(VAFIN:-- wird)))(MF:--(NX:--(ART:-- ein)(NN:-- Hit))))($.:-- ?)(SIMPX:--(VF:--(NX:--(PPER:-- Wir)))(LK:--(VXFIN:--(VVFIN:-- entscheiden)))($,:-- ,)(NF:--(SIMPX:--(C:--(NX:--(PWS:-- was)))(MF:--(PX:--(APPR:-- in)))(VC:--(VXFIN:--(VAFIN:-- ist))))))($.:-- .)))
+1	Stellt	_	_	VVFIN	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-LK|B-VXFIN
+2	sich	_	_	PRF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+3	nur	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+4	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+5	Frage	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+6	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+7	Wer	_	_	PWS	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX
+8	entscheidet	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+9	über	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+10	diese	_	_	PDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+11	Hitparaden	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+12	?	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+13	Was	_	_	PWS	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX
+14	wird	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+15	ein	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+16	Hit	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+17	?	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+18	Wir	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX
+19	entscheiden	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+20	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+21	was	_	_	PWS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C|B-NX
+22	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-PX
+23	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+24	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 7
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NX:--(NN:-- Hitparaden))(KON:-- oder)(NX:--(NN:-- Charts))))(LK:--(VXFIN:--(VAFIN:-- sind)))(MF:--(NX:--(NN:-- Ranglisten)))($,:-- ,)(NF:--(RSIMPX:--(C:--(NX:--(PRELS:-- die)))(VC:--(VXINF:--(VVINF:-- abbilden))(VXFIN:--(VMFIN:-- sollen)))($,:-- ,)(NF:--(SIMPX:--(C:--(NX:--(PWS:-- was)))(MF:--(NX:--(ART:-- die)(NN:-- Leute))(ADVX:--(ADVX:--(ADV:-- besonders))(ADV:-- gern)))(VC:--(VXFIN:--(VVFIN:-- mögen))))))))($.:-- .)))
+1	Hitparaden	_	_	NN	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX|B-NX
+2	oder	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX
+3	Charts	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|B-NX
+4	sind	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+5	Ranglisten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+7	die	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-RSIMPX|B-C|B-NX
+8	abbilden	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-VC|B-VXINF
+9	sollen	_	_	VMFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-VC|B-VXFIN
+10	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX
+11	was	_	_	PWS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-NF|B-SIMPX|B-C|B-NX
+12	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-SIMPX|B-MF|B-NX
+13	Leute	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-SIMPX|I-MF|I-NX
+14	besonders	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-SIMPX|I-MF|B-ADVX|B-ADVX
+15	gern	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-SIMPX|I-MF|I-ADVX
+16	mögen	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+17	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 8
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(PX:--(PROP:-- Dabei)))(LK:--(VXFIN:--(VVFIN:-- gibt)))(MF:--(NX:--(PPER:-- es))(ADVX:--(ADV:-- gleich))(NX:--(PIAT:-- mehrere)(NN:-- Musik-Hitparaden))))($.:-- .)))
+1	Dabei	_	_	PROP	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-PX
+2	gibt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	es	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	gleich	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+5	mehrere	_	_	PIAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+6	Musik-Hitparaden	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+7	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 9
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(SIMPX:--(VF:--(NX:--(ART:-- Die)(PIS:-- einen)))(LK:--(VXFIN:--(VVFIN:-- bilden)))(MF:--(NX:--(ART:-- die)(ADJX:--(ADJA:-- beliebtesten))(NN:-- Musikalben)))(VC:--(PTKVZ:-- ab)))($,:-- ,)(SIMPX:--(VF:--(NX:--(PIS:-- andere)))(MF:--(NX:--(ART:-- die)(ADJX:--(ADJA:-- angesagten))(NN:-- Songs)))))($.:-- .)))
+1	Die	_	_	ART	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-SIMPX|B-VF|B-NX
+2	einen	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-NX
+3	bilden	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+4	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+5	beliebtesten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|B-ADJX
+6	Musikalben	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX
+7	ab	_	_	PTKVZ	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-VC
+8	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+9	andere	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-NX
+10	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+11	angesagten	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|B-ADJX
+12	Songs	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX
+13	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 10
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(SIMPX:--(VF:--(NX:--(PIAT:-- Manche)(NN:-- Charts)))(LK:--(VXFIN:--(VVFIN:-- zeigen)))(MF:--(NX:--(NX:--(ART:-- den)(NN:-- Musikgeschmack))(NX:--(ART:-- der)(NN:-- Leute)))(PX:--(APPR:-- in)(NX:--(NE:-- Deutschland)))))($,:-- ,)(SIMPX:--(VF:--(ADJX:--(NX:--(PIS:-- andere))(ADVX:--(ADV:-- etwa))(PX:--(APPR:-- aus)(NX:--(ART:-- dem)(NN:-- Land)))(ADJD:-- USA.GfK)))(LK:--(VXFIN:--(VVFIN:-- ermittelt)))(MF:--(NX:--(NX:--(ART:-- die)(NN:-- ChartsIn))(NX:--(NE:-- Deutschland)))))(LK:--(VXFIN:--(VVFIN:-- ermittelt)))(MF:--(NX:--(NX:--(ART:-- das)(NN:-- Unternehmen))(NX:--(NE:-- GfK)(NE:-- Entertainment)))(NX:--(PIDAT:-- jede)(NN:-- Woche))(NX:--(ART:-- die)(ADJX:--(ADJA:-- offiziellen))(NN:-- Charts))))($.:-- .)))
+1	Manche	_	_	PIAT	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-SIMPX|B-VF|B-NX
+2	Charts	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-NX
+3	zeigen	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+4	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX|B-NX
+5	Musikgeschmack	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|I-NX
+6	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|B-NX
+7	Leute	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|I-NX
+8	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-PX
+9	Deutschland	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX
+10	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+11	andere	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-ADJX|B-NX
+12	etwa	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-ADJX|B-ADVX
+13	aus	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-ADJX|B-PX
+14	dem	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-ADJX|I-PX|B-NX
+15	Land	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-ADJX|I-PX|I-NX
+16	USA.GfK	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-ADJX
+17	ermittelt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+18	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX|B-NX
+19	ChartsIn	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|I-NX
+20	Deutschland	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-NX|B-NX
+21	ermittelt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+22	das	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX|B-NX
+23	Unternehmen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+24	GfK	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX
+25	Entertainment	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+26	jede	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+27	Woche	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+28	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+29	offiziellen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-ADJX
+30	Charts	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+31	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 11
+# PTBstring = (:--(PSEUDO:--(NX:--(NX:--(NN:-- Fachmann))(NX:--(ENADD:--(NX:--(NE:-- Hans)(NE:-- Schmucker)))(PX:--(APPR:-- von)(NX:--(ART:-- der)(NN:-- GfK)))))($.:-- :)($[:-- ``)(SIMPX:--(VF:--(NX:--(PPER:-- Wir)))(LK:--(VXFIN:--(VVFIN:-- erhalten)))(MF:--(ADJX:--(ADJD:-- regelmäßig))(ADJX:--(PX:--(APPR:-- von)(NX:--(ADVX:--(ADV:-- knapp))(ADJX:--(CARD:-- 2800))(NN:-- Händlern)))(NX:--(NN:-- Auskunft))(ADJD:-- darüber)))($,:-- ,)(NF:--(RSIMPX:--(C:--(NX:--(PRELS:-- welche)))(MF:--(NX:--(NX:--(NN:-- CDs))(KON:-- und)(NX:--(NN:-- Schallplatten))))(VC:--(VXINF:--(VVPP:-- verkauft))(VXFIN:--(VAFIN:-- wurden))))))($.:-- .)($[:-- '')))
+1	Fachmann	_	_	NN	_	_	_	_	_	--	B-PSEUDO|B-NX|B-NX
+2	Hans	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-NX|B-NX|B-ENADD|B-NX
+3	Schmucker	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-ENADD|I-NX
+4	von	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|B-PX
+5	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-PX|B-NX
+6	GfK	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-PX|I-NX
+7	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+8	``	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+9	Wir	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX
+10	erhalten	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+11	regelmäßig	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADJX
+12	von	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX|B-PX
+13	knapp	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-ADJX|I-PX|B-NX|B-ADVX
+14	2800	_	_	CARD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-ADJX|I-PX|I-NX|B-ADJX
+15	Händlern	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-ADJX|I-PX|I-NX
+16	Auskunft	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-ADJX|B-NX
+17	darüber	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-ADJX
+18	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+19	welche	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-RSIMPX|B-C|B-NX
+20	CDs	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-MF|B-NX|B-NX
+21	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX
+22	Schallplatten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|B-NX
+23	verkauft	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-VC|B-VXINF
+24	wurden	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-VC|B-VXFIN
+25	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+26	''	_	_	$[	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 12
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(PX:--(APPR:-- Unter)(NX:--(PDAT:-- diesen)(NN:-- Geschäften))))(LK:--(VXFIN:--(VAFIN:-- sind)))(MF:--(NX:--(KON:-- sowohl)(NX:--(ADJX:--(ADJA:-- große))(NN:-- Elektronikmärkte))(KON:-- als)(ADVX:--(ADV:-- auch))(NX:--(ADJX:--(ADJA:-- kleinere))(NN:-- Musikläden.Rapper))))(VC:--(VXINF:--(VVINF:-- liegen)))(SIMPX:--(VF:--(ADJX:--(ADVX:--(ADV:-- meist))(ADJD:-- vornBestimmt)))(LK:--(VXFIN:--(VAFIN:-- habt)))(MF:--(NX:--(PPER:-- ihr))(ADVX:--(ADV:-- schon))(PX:--(APPR:-- von)(NX:--(ENADD:--(NX:--(NE:-- Shirin)(NE:-- David)))($,:-- ,)(NX:--(ADJX:--(CARD:-- 187))(NN:-- Strassenbande))($,:-- ,)(NX:--(NE:-- Sido))(KON:-- oder)(ENADD:--(NX:--(NE:-- Capital)(NE:-- Bra))))))(VC:--(VXINF:--(VVPP:-- gehört)))))($.:-- .)))
+1	Unter	_	_	APPR	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-PX
+2	diesen	_	_	PDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|B-NX
+3	Geschäften	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX
+4	sind	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+5	sowohl	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+6	große	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX|B-ADJX
+7	Elektronikmärkte	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+8	als	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+9	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-ADVX
+10	kleinere	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX|B-ADJX
+11	Musikläden.Rapper	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-NX
+12	liegen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+13	meist	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-ADJX|B-ADVX
+14	vornBestimmt	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-ADJX
+15	habt	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+16	ihr	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+17	schon	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-ADVX
+18	von	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-PX
+19	Shirin	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX|B-ENADD|B-NX
+20	David	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|I-ENADD|I-NX
+21	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX
+22	187	_	_	CARD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|B-NX|B-ADJX
+23	Strassenbande	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|I-NX
+24	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX
+25	Sido	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|B-NX
+26	oder	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX
+27	Capital	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|B-ENADD|B-NX
+28	Bra	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|I-ENADD|I-NX
+29	gehört	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-VC|B-VXINF
+30	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 13
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(PX:--(ADVX:--(ADVX:--(ADV:-- Ganz))(ADV:-- oben))(APPR:-- in)(NX:--(ART:-- den)(ADJX:--(ADJA:-- deutschen))(NN:-- Single-Charts))))(LK:--(VXFIN:--(VVFIN:-- finden)))(MF:--(NX:--(PRF:-- sich))(NX:--(ADJX:--(ADJD:-- häufig))(NN:-- Hip-Hop-Künstler))))($.:-- .)))
+1	Ganz	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-PX|B-ADVX|B-ADVX
+2	oben	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-ADVX
+3	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX
+4	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|B-NX
+5	deutschen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|B-ADJX
+6	Single-Charts	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX
+7	finden	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+8	sich	_	_	PRF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+9	häufig	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX|B-ADJX
+10	Hip-Hop-Künstler	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+11	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 14
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(LK:--(VXFIN:--(VVFIN:-- Heißt)))(MF:--(NX:--(PDS:-- das)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(MF:--(NX:--(PPER:-- wir))(PX:--(APPR:-- in)(NX:--(NE:-- Deutschland)))(ADJX:--(PTKA:-- am)(ADJD:-- liebsten))(NX:--(NN:-- Hip-Hop)))(VC:--(VXFIN:--(VVFIN:-- hören))))))($.:-- ?)))
+1	Heißt	_	_	VVFIN	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-LK|B-VXFIN
+2	das	_	_	PDS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+3	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+4	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+5	wir	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+6	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX
+7	Deutschland	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX
+8	am	_	_	PTKA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-ADJX
+9	liebsten	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-ADJX
+10	Hip-Hop	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX
+11	hören	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+12	?	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 15
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Natürlich)))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(NX:--(ART:-- die)(NN:-- Musikrichtung))(ADJX:--(ADJD:-- beliebt))))($.:-- .)))
+1	Natürlich	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	Musikrichtung	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+5	beliebt	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX
+6	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 16
+# PTBstring = (:--(PSEUDO:--(NX:--(KON:-- Sowohl)(NX:--(NX:--(NX:--(ART:-- der)(NN:-- Hip-Hop))(PX:--(APPR:-- aus)(NX:--(ART:-- den)(NE:-- USA))))(KON:-- und)(NX:--(NX:--(NN:-- Großbritannien))(PX:--(APPR:-- mit)(NX:--(ADJX:--(ADJA:-- englischen))(NN:-- Texten)))))(NX:--(KOKOM:-- als)(NX:--(ADVX:--(ADV:-- auch))(NN:-- Hip-Hop))(PX:--(APPR:-- mit)(NX:--(ADJX:--(ADJA:-- deutschen))(NN:-- Texten)))))($.:-- .)))
+1	Sowohl	_	_	KON	_	_	_	_	_	--	B-PSEUDO|B-NX
+2	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-NX|B-NX|B-NX|B-NX
+3	Hip-Hop	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX|I-NX
+4	aus	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX|B-PX
+5	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX|I-PX|B-NX
+6	USA	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX|I-PX|I-NX
+7	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX
+8	Großbritannien	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|B-NX|B-NX
+9	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX|B-PX
+10	englischen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX|I-PX|B-NX|B-ADJX
+11	Texten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX|I-PX|I-NX
+12	als	_	_	KOKOM	_	_	_	_	_	--	I-PSEUDO|I-NX|B-NX
+13	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|B-NX|B-ADVX
+14	Hip-Hop	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-NX
+15	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|B-PX
+16	deutschen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-PX|B-NX|B-ADJX
+17	Texten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-NX|I-NX|I-PX|I-NX
+18	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 17
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Allerdings)))(LK:--(VXFIN:--(VVFIN:-- gibt)))(MF:--(NX:--(PPER:-- es))(ADVX:--(ADV:-- noch))(NX:--(ART:-- einen)(ADJX:--(ADJA:-- weiteren))(NN:-- Grund)))($,:-- ,)(NF:--(SIMPX:--(C:--(ADVX:--(PWAV:-- warum)))(MF:--(NX:--(NN:-- Hip-Hop))(NX:--(ADVX:--(ADV:-- so))(PIS:-- viel))(PX:--(APPR:-- in)(NX:--(ART:-- den)(NN:-- Charts))))(VC:--(VXINF:--(VVPP:-- vertreten))(VXFIN:--(VAFIN:-- ist))))))($.:-- :)(SIMPX:--(VF:--(NX:--(NN:-- Rapper)))(FKOORD:--(FKONJ:--(LK:--(VXFIN:--(VVFIN:-- bringen)))(MF:--(ADJX:--(ADJD:-- enorm))(NX:--(PIDAT:-- viele)(NN:-- Songs)))(VC:--(PTKVZ:-- raus)))(KON:-- und)(FKONJ:--(LK:--(VXFIN:--(VVFIN:-- landen)))(MF:--(PX:--(APPRART:-- im)(NX:--(NN:-- Vergleich)))(NX:--(ADJX:--(ADVX:--(ADVX:--(ADV:-- auch))(SIMPX:--(VF:--(PX:--(ADVX:--(ADV:-- häufiger))(APPR:-- in)(NX:--(ART:-- den)(ADJX:--(ADJA:-- offiziellen))(ADJX:--(ADJA:-- deutschen))(NN:-- Charts.Karaoke))))(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(NX:--(ADJX:--(ADJA:-- inSeine))(NN:-- Lieblingssongs))(ADVX:--(ADV:-- selbst)))(VC:--(VXINF:--(PTKZU:-- zu)(VVINF:-- singen))(VXFIN:--(VVFIN:-- macht)))))(ADJX:--(ADJA:-- riesigen)))(NN:-- Spaß))))))($.:-- .)))
+1	Allerdings	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	gibt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	es	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	noch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+5	einen	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+6	weiteren	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-ADJX
+7	Grund	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+8	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+9	warum	_	_	PWAV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C|B-ADVX
+10	Hip-Hop	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX
+11	so	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX|B-ADVX
+12	viel	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+13	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX
+14	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX
+15	Charts	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX
+16	vertreten	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXINF
+17	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-VC|B-VXFIN
+18	:	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+19	Rapper	_	_	NN	_	_	_	_	_	--	I-PSEUDO|B-SIMPX|B-VF|B-NX
+20	bringen	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-FKOORD|B-FKONJ|B-LK|B-VXFIN
+21	enorm	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-ADJX
+22	viele	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-NX
+23	Songs	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX
+24	raus	_	_	PTKVZ	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-VC
+25	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD
+26	landen	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|B-FKONJ|B-LK|B-VXFIN
+27	im	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-PX
+28	Vergleich	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX
+29	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-NX|B-ADJX|B-ADVX|B-ADVX
+30	häufiger	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|B-SIMPX|B-VF|B-PX|B-ADVX
+31	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|I-VF|I-PX
+32	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|I-VF|I-PX|B-NX
+33	offiziellen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|I-VF|I-PX|I-NX|B-ADJX
+34	deutschen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|I-VF|I-PX|I-NX|B-ADJX
+35	Charts.Karaoke	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|I-VF|I-PX|I-NX
+36	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|B-LK|B-VXFIN
+37	inSeine	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|B-MF|B-NX|B-ADJX
+38	Lieblingssongs	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|I-MF|I-NX
+39	selbst	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|I-MF|B-ADVX
+40	zu	_	_	PTKZU	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|B-VC|B-VXINF
+41	singen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|I-VC|I-VXINF
+42	macht	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|I-ADVX|I-SIMPX|I-VC|B-VXFIN
+43	riesigen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-ADJX|B-ADJX
+44	Spaß	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX
+45	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 18
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PDS:-- Das)))(LK:--(VXFIN:--(VVFIN:-- nennt)))(MF:--(NX:--(PIS:-- man))(NX:--(NN:-- Karaoke))))($.:-- .)))
+1	Das	_	_	PDS	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	nennt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	man	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	Karaoke	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+5	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 19
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Karaoke)))(FKOORD:--(FKONJ:--(LK:--(VXFIN:--(VAFIN:-- wurde)))(MF:--(ADVX:--(ADV:-- zuerst))(PX:--(APPR:-- in)(NX:--(NX:--(ART:-- den)(ADJX:--(ADJA:-- frühen))(NN:-- 1970er-Jahren))(PX:--(APPR:-- in)(NX:--(NE:-- Japan))))))(VC:--(VXINF:--(VVPP:-- betrieben))))(KON:-- und)(FKONJ:--(LK:--(VXFIN:--(VAFIN:-- ist)))(MF:--(ADVX:--(ADV:-- auch))(PX:--(APPR:-- bei)(NX:--(PPER:-- uns)))(ADJX:--(ADJD:-- beliebt))))))($.:-- .)))
+1	Karaoke	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	wurde	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-FKOORD|B-FKONJ|B-LK|B-VXFIN
+3	zuerst	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-ADVX
+4	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX
+5	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX|B-NX
+6	frühen	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|I-NX|B-ADJX
+7	1970er-Jahren	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|I-NX
+8	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|B-PX
+9	Japan	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX|I-PX|B-NX
+10	betrieben	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-VC|B-VXINF
+11	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD
+12	ist	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|B-FKONJ|B-LK|B-VXFIN
+13	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-ADVX
+14	bei	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX
+15	uns	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX
+16	beliebt	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-ADJX
+17	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 20
+# PTBstring = (:--(PSEUDO:--(PX:--(APPR:-- Vor)(NX:--(PIS:-- allem)))(PX:--(APPR:-- seit)(NX:--(ADVX:--(ADV:-- etwa))(NX:--(NX:--(NN:-- Anfang))(NX:--(CARD:-- 2000)))($[:-- -)(PX:--(APPR:-- durch)(NX:--(NN:-- Castingshows)))))($.:-- .)))
+1	Vor	_	_	APPR	_	_	_	_	_	--	B-PSEUDO|B-PX
+2	allem	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-PX|B-NX
+3	seit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|B-PX
+4	etwa	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-PX|B-NX|B-ADVX
+5	Anfang	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-PX|I-NX|B-NX|B-NX
+6	2000	_	_	CARD	_	_	_	_	_	--	I-PSEUDO|I-PX|I-NX|I-NX|B-NX
+7	-	_	_	$[	_	_	_	_	_	--	I-PSEUDO|I-PX|I-NX
+8	durch	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-PX|I-NX|B-PX
+9	Castingshows	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-PX|I-NX|I-PX|B-NX
+10	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 21
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Mittlerweile)))(LK:--(VXFIN:--(VVFIN:-- gibt)))(MF:--(NX:--(PPER:-- 's))(ADVX:--(ADV:-- auch))(NX:--(NN:-- Apps)))($,:-- ,)(NF:--(RSIMPX:--(C:--(NX:--(PRELS:-- die)))(MF:--(NX:--(NX:--(ART:-- die)(NX:--(NX:--(NN:-- Texte))(KON:-- und)(NX:--(NN:-- Musik))))(NX:--(NX:--(ART:-- der)(NN:-- Songs))(NX:--(XY:-- vorgeben.Hitparade)))))(FKOORD:--(FKONJ:--(LK:--(VXFIN:--(VAFIN:-- war)))(MF:--(PX:--(NX:--(ART:-- der)(NN:-- HitJe))(APPO:-- häufiger))(NX:--(NX:--(ART:-- ein)(NN:-- Lied))(PX:--(APPR:-- in)(NX:--(ART:-- einer)(NN:-- Woche)))))(VC:--(VXINF:--(VVPP:-- gekauft))))(KON:-- oder)(VC:--(VXINF:--(VVPP:-- gestreamt))(VXFIN:--(VAFIN:-- wurde)))))))($,:-- ,)(KON:-- desto)(SIMPX:--(VF:--(ADVX:--(ADVX:--(ADV:-- weiter))(ADV:-- oben)))(LK:--(VXFIN:--(VVFIN:-- landet)))(MF:--(NX:--(PPER:-- es))(PX:--(APPR:-- auf)(NX:--(ART:-- der)(NN:-- Rangliste))))))($.:-- .)))
+1	Mittlerweile	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-SIMPX|B-VF|B-ADVX
+2	gibt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+3	's	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+4	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-ADVX
+5	Apps	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-NX
+6	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX
+7	die	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-NF|B-RSIMPX|B-C|B-NX
+8	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|B-MF|B-NX|B-NX
+9	Texte	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|I-NX|B-NX|B-NX
+10	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|I-NX|I-NX
+11	Musik	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|I-NX|I-NX|B-NX
+12	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|B-NX|B-NX
+13	Songs	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|I-NX|I-NX
+14	vorgeben.Hitparade	_	_	XY	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-NX|I-NX|B-NX
+15	war	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|B-FKOORD|B-FKONJ|B-LK|B-VXFIN
+16	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|I-FKONJ|B-MF|B-PX|B-NX
+17	HitJe	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX
+18	häufiger	_	_	APPO	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX
+19	ein	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|I-FKONJ|I-MF|B-NX|B-NX
+20	Lied	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-NX
+21	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|B-PX
+22	einer	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-PX|B-NX
+23	Woche	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|I-FKONJ|I-MF|I-NX|I-PX|I-NX
+24	gekauft	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|I-FKONJ|B-VC|B-VXINF
+25	oder	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD
+26	gestreamt	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|B-VC|B-VXINF
+27	wurde	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-FKOORD|I-VC|B-VXFIN
+28	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+29	desto	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+30	weiter	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-VF|B-ADVX|B-ADVX
+31	oben	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-VF|I-ADVX
+32	landet	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-LK|B-VXFIN
+33	es	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-MF|B-NX
+34	auf	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|B-PX
+35	der	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX
+36	Rangliste	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX
+37	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 22
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(PX:--(APPR:-- In)(NX:--(ART:-- den)(ADJX:--(ADJX:--(ADJA:-- 70er))(KON:-- und)(ADJX:--(ADJA:-- 80er)))(NN:-- Jahren))))(LK:--(VXFIN:--(VMFIN:-- konnte)))(MF:--(NX:--(PIS:-- man))(PX:--(PROP:-- davon)))(VC:--(VXINF:--(VVINF:-- ausgehen)))($,:-- ,)(NF:--(SIMPX:--(C:--(KOUS:-- dass))(MF:--(NX:--(NX:--(PIDAT:-- jeder)(NN:-- Sänger))($,:-- ,)(RSIMPX:--(C:--(NX:--(PRELS:-- der)))(MF:--(NX:--(PPER:-- es))(PX:--(APPR:-- in)(NX:--(ART:-- die)(NN:-- ZDF-Hitparade))))(VC:--(VXFIN:--(VVFIN:-- schaffte)))))($,:-- ,)(ADJX:--(ADJD:-- garantiert))(NX:--(ART:-- einen)(NN:-- Hit)))(VC:--(VXFIN:--(VVFIN:-- landete))))))($.:-- .)))
+1	In	_	_	APPR	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-PX
+2	den	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|B-NX
+3	70er	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|B-ADJX|B-ADJX
+4	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ADJX
+5	80er	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX|I-ADJX|B-ADJX
+6	Jahren	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-PX|I-NX
+7	konnte	_	_	VMFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+8	man	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+9	davon	_	_	PROP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+10	ausgehen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+11	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+12	dass	_	_	KOUS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-SIMPX|B-C
+13	jeder	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-MF|B-NX|B-NX
+14	Sänger	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-NX
+15	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+16	der	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|B-RSIMPX|B-C|B-NX
+17	es	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-RSIMPX|B-MF|B-NX
+18	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-RSIMPX|I-MF|B-PX
+19	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-RSIMPX|I-MF|I-PX|B-NX
+20	ZDF-Hitparade	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-RSIMPX|I-MF|I-PX|I-NX
+21	schaffte	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX|I-RSIMPX|B-VC|B-VXFIN
+22	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF
+23	garantiert	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-ADJX
+24	einen	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX
+25	Hit	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|I-MF|I-NX
+26	landete	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-SIMPX|B-VC|B-VXFIN
+27	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 23
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(PARORD:--(KON:-- Denn))(VF:--(NX:--(NX:--(NX:--(ART:-- die)(NN:-- Musikshow))(PX:--(APPR:-- mit)(ENADD:--(NX:--(NE:-- Dieter)(NE:-- Thomas)))))(NX:--(NE:-- Heck))))(LK:--(VXFIN:--(VVFIN:-- guckten)))(MF:--(ADVX:--(ADV:-- damals))(NX:--(NX:--(NN:-- Millionen))(NX:--(NE:-- Fans.Nur)))(NX:--(ART:-- eine)(NN:-- RichtlinieSind))(NX:--(ART:-- die)(NN:-- Lieder)))($,:-- ,)(SIMPX:--(LK:--(VXFIN:--(VVFIN:-- für)))(NF:--(RSIMPX:--(C:--(NX:--(PRELS:-- die)))(MF:--(ADJX:--(PTKA:-- am)(ADJD:-- meisten))(NX:--(NN:-- Geld)))(VC:--(VXINF:--(VVPP:-- bezahlt))(VXFIN:--(VAFIN:-- wurde)))($,:-- ,)(NF:--(ADVX:--(ADV:-- auch))(NX:--(NX:--(ART:-- die)(NN:-- Lieder))($,:-- ,)(RSIMPX:--(C:--(NX:--(PRELS:-- die)))(MF:--(NX:--(PPER:-- wir))(ADJX:--(PTKA:-- am)(ADJD:-- liebsten)))(VC:--(VXFIN:--(VVFIN:-- hören))))))))))($.:-- ?)))
+1	Denn	_	_	KON	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-PARORD
+2	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VF|B-NX|B-NX|B-NX
+3	Musikshow	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|I-NX
+4	mit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|B-PX
+5	Dieter	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|I-PX|B-ENADD|B-NX
+6	Thomas	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX|I-PX|I-ENADD|I-NX
+7	Heck	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|B-NX
+8	guckten	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+9	damals	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+10	Millionen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX|B-NX
+11	Fans.Nur	_	_	NE	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-NX
+12	eine	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+13	RichtlinieSind	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+14	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+15	Lieder	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+16	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+17	für	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-SIMPX|B-LK|B-VXFIN
+18	die	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|B-NF|B-RSIMPX|B-C|B-NX
+19	am	_	_	PTKA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|B-MF|B-ADJX
+20	meisten	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|I-ADJX
+21	Geld	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-MF|B-NX
+22	bezahlt	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|B-VC|B-VXINF
+23	wurde	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-VC|B-VXFIN
+24	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX
+25	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|B-NF|B-ADVX
+26	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-NF|B-NX|B-NX
+27	Lieder	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-NX|I-NX
+28	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-NX
+29	die	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-NX|B-RSIMPX|B-C|B-NX
+30	wir	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-NX|I-RSIMPX|B-MF|B-NX
+31	am	_	_	PTKA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-NX|I-RSIMPX|I-MF|B-ADJX
+32	liebsten	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-NX|I-RSIMPX|I-MF|I-ADJX
+33	hören	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-SIMPX|I-NF|I-RSIMPX|I-NF|I-NX|I-RSIMPX|B-VC|B-VXFIN
+34	?	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 24
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Darüber)))(LK:--(VXFIN:--(VMFIN:-- kann)))(MF:--(NX:--(PIS:-- man))(ADJX:--(ADJD:-- natürlich)))(VC:--(VXINF:--(VVINF:-- streiten))))($.:-- .)))
+1	Darüber	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	kann	_	_	VMFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	man	_	_	PIS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+4	natürlich	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX
+5	streiten	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+6	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 25
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(ADVX:--(ADV:-- Schließlich)))(LK:--(VXFIN:--(VVFIN:-- können)))(MF:--(NX:--(NX:--(PDS:-- diejenigen))($,:-- ,)(RSIMPX:--(C:--(NX:--(PRELS:-- die)))(MF:--(NX:--(NN:-- Musik)))(VC:--(VXFIN:--(VVFIN:-- kaufen)))))($,:-- ,)(ADVX:--(PTKNEG:-- nicht))(ADJX:--(ADJD:-- stellvertretend))(PX:--(APPR:-- für)(NX:--(PIDAT:-- alle)(NN:-- Leute))))(VC:--(VXINF:--(VVINF:-- stehen)))($,:-- ,)(NF:--(RSIMPX:--(C:--(NX:--(PRELS:-- die)))(MF:--(ADJX:--(ADJD:-- überhaupt))(NX:--(NN:-- Musik)))(VC:--(VXFIN:--(VVFIN:-- hören))))))($.:-- .)))
+1	Schließlich	_	_	ADV	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-ADVX
+2	können	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	diejenigen	_	_	PDS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX|B-NX
+4	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+5	die	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-RSIMPX|B-C|B-NX
+6	Musik	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-RSIMPX|B-MF|B-NX
+7	kaufen	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-RSIMPX|B-VC|B-VXFIN
+8	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF
+9	nicht	_	_	PTKNEG	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+10	stellvertretend	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX
+11	für	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+12	alle	_	_	PIDAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX
+13	Leute	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+14	stehen	_	_	VVINF	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+15	,	_	_	$,	_	_	_	_	_	--	I-PSEUDO|I-SIMPX
+16	die	_	_	PRELS	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-NF|B-RSIMPX|B-C|B-NX
+17	überhaupt	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-MF|B-ADJX
+18	Musik	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|I-MF|B-NX
+19	hören	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-NF|I-RSIMPX|B-VC|B-VXFIN
+20	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 26
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NX:--(ART:-- Einen)(NN:-- Einblick))(PX:--(APPR:-- in)(NX:--(ART:-- die)(ADJX:--(ADJX:--(ADJD:-- aktuell))(ADJA:-- angesagte))(NN:-- Musik)))))(LK:--(VXFIN:--(VVFIN:-- liefern)))(MF:--(NX:--(ART:-- die)(NN:-- Charts))(ADJX:--(ADVX:--(ADV:-- ganz))(ADJD:-- sicher))))($.:-- .)))
+1	Einen	_	_	ART	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX|B-NX
+2	Einblick	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-NX
+3	in	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|B-PX
+4	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-PX|B-NX
+5	aktuell	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-PX|I-NX|B-ADJX|B-ADJX
+6	angesagte	_	_	ADJA	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-PX|I-NX|I-ADJX
+7	Musik	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-VF|I-NX|I-PX|I-NX
+8	liefern	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+9	die	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-NX
+10	Charts	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+11	ganz	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADJX|B-ADVX
+12	sicher	_	_	ADJD	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-ADJX
+13	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 27
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(NN:-- Streamen)))(LK:--(VXFIN:--(VVFIN:-- zählt)))(MF:--(ADVX:--(ADV:-- auch))(NX:--(NN:-- Musik)))(LK:--(VXFIN:--(VAFIN:-- wird)))(MF:--(ADVX:--(ADV:-- ja))(ADVX:--(PTKNEG:-- nicht))(ADVX:--(ADV:-- nur))(NX:--(KOKOM:-- als)(NN:-- CD)))(VC:--(VXINF:--(VVPP:-- gekauft))))($.:-- .)))
+1	Streamen	_	_	NN	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	zählt	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+4	Musik	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+5	wird	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+6	ja	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-ADVX
+7	nicht	_	_	PTKNEG	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+8	nur	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+9	als	_	_	KOKOM	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX
+10	CD	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX
+11	gekauft	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+12	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 28
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(NX:--(PPER:-- Wir)))(FKOORD:--(FKONJ:--(LK:--(VXFIN:--(VVFIN:-- spielen)))(MF:--(NX:--(PPER:-- sie))(ADVX:--(ADV:-- auch))(PX:--(APPR:-- aus)(NX:--(ART:-- dem)(NN:-- Internet))))(VC:--(PTKVZ:-- ab)))(KON:-- und)(FKONJ:--(LK:--(VXFIN:--(VVFIN:-- laden)))(MF:--(NX:--(PPER:-- sie))(PX:--(APPR:-- von)(NX:--(NN:-- Plattformen))))(VC:--(PTKVZ:-- herunter)))))($.:-- .)))
+1	Wir	_	_	PPER	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-NX
+2	spielen	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-FKOORD|B-FKONJ|B-LK|B-VXFIN
+3	sie	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-NX
+4	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-ADVX
+5	aus	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX
+6	dem	_	_	ART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX
+7	Internet	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|I-NX
+8	ab	_	_	PTKVZ	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-VC
+9	und	_	_	KON	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD
+10	laden	_	_	VVFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|B-FKONJ|B-LK|B-VXFIN
+11	sie	_	_	PPER	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-MF|B-NX
+12	von	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|B-PX
+13	Plattformen	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|I-MF|I-PX|B-NX
+14	herunter	_	_	PTKVZ	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-FKOORD|I-FKONJ|B-VC
+15	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO
+
+# sent_id = 29
+# PTBstring = (:--(PSEUDO:--(SIMPX:--(VF:--(PX:--(PROP:-- Deshalb)))(LK:--(VXFIN:--(VAFIN:-- werden)))(MF:--(PX:--(APPR:-- seit)(NX:--(PIAT:-- einigen)(NN:-- Jahren)))(ADVX:--(ADV:-- zusätzlich))(ADVX:--(ADV:-- auch))(NX:--(NX:--(NN:-- Daten))(PX:--(APPR:-- von)(NX:--(NN:-- Streaming-Diensten))))(PX:--(APPRART:-- im)(NX:--(NN:-- Internet))))(VC:--(VXINF:--(VVPP:-- einberechnet))))($.:-- .)))
+1	Deshalb	_	_	PROP	_	_	_	_	_	--	B-PSEUDO|B-SIMPX|B-VF|B-PX
+2	werden	_	_	VAFIN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-LK|B-VXFIN
+3	seit	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-MF|B-PX
+4	einigen	_	_	PIAT	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX
+5	Jahren	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|I-NX
+6	zusätzlich	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+7	auch	_	_	ADV	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-ADVX
+8	Daten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-NX|B-NX
+9	von	_	_	APPR	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|B-PX
+10	Streaming-Diensten	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-NX|I-PX|B-NX
+11	im	_	_	APPRART	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|B-PX
+12	Internet	_	_	NN	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|I-MF|I-PX|B-NX
+13	einberechnet	_	_	VVPP	_	_	_	_	_	--	I-PSEUDO|I-SIMPX|B-VC|B-VXINF
+14	.	_	_	$.	_	_	_	_	_	--	I-PSEUDO

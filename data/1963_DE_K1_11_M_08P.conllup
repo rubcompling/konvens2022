@@ -1,0 +1,1483 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC TimelineID IST IST_ZIEL IST_INDEX IST_NORMAL_DIFF ZEILENTRENNUNG FEHLER FEHLERKATEGORIE SENT UEBERSCHRIFT ZITAT SYNTAX UNEINDEUTIG KOMMENTAR WEBANNO
+# sent_id = 1
+# text = Klasse G13 Reifeprüfung 1963 Deutscher Prüfungsaufsatz
+1	Klasse	Klasse	_	NN	_	_	_	_	_	T1	Klasse	Klasse	1	_	_	0	0	B-s1	B-1	0	NN|NX	0	_	B-1
+2	G13	G13	_	NE	_	_	_	_	_	T2	G13	G13	2	_	_	0	0	I-s1	I-1	0	B-NX|B-NX|B-ENADD|NE	0	_	I-1
+3	Reifeprüfung	Reifeprüfung	_	NN	_	_	_	_	_	T3	Reifeprüfung	Reifeprüfung	3	_	_	0	0	I-s1	I-1	0	I-NX|E-NX|E-ENADD|NE	0	_	I-1
+4	1963	1963	_	CARD	_	_	_	_	_	T4	1963	1963	4	_	_	0	0	I-s1	I-1	0	E-NX|CARD|NX	0	_	I-1
+5	Deutscher	deutsch	_	ADJA	_	_	_	_	_	T5	Deutscher	Deutscher	5	_	_	0	0	I-s1	I-1	0	B-NX|ADJA|ADJX	0	_	I-1
+6	Prüfungsaufsatz	Prüfungsaufsatz	_	NN	_	_	_	_	_	T6	Prüfungsaufsatz	Prüfungsaufsatz	6	_	_	0	0	E-s1	E-1	0	E-NX|NN	0	_	E-1
+
+# sent_id = 2
+# text = In dem Drama " Des Teufels General " von Carl Zuckmayer verteidigt der Ingenieur Oderbruch, der Sabotage betreibt, sein Handeln mit den Worten: " Wenn Deutschland in diesem Krieg siegt - dann ist es verloren. "
+1	In	in	_	APPR	_	_	_	_	_	T7	In	In	7	_	_	0	0	B-s2	B-1	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	dem	die	_	ART	_	_	_	_	_	T8	dem	dem	8	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-PX|I-VF|B-NX|B-NX|B-NX|ART	0	_	I-1
+3	Drama	Drama	_	NN	_	_	_	_	_	T9	Drama	Drama	9	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|E-NX|NN	0	_	I-1
+4	"	"	_	$(	_	_	_	_	_	T10	"	"	10	_	_	0	0	I-s2	I-1	B-1	I-SIMPX|I-PX|I-VF|I-NX|I-NX|$(	0	_	I-1
+5	Des	Des	_	NN	_	_	_	_	_	T11	Des	Des	11	_	_	0	0	I-s2	I-1	I-1	I-SIMPX|I-PX|I-VF|I-NX|I-NX|B-NX|B-ENADD|B-NX|ART	0	_	I-1
+6	Teufels	Teufel	_	NN	_	_	_	_	_	T12	Teufels	Teufels	12	_	_	0	0	I-s2	I-1	I-1	I-SIMPX|I-PX|I-VF|I-NX|I-NX|I-NX|I-ENADD|E-NX|NN	0	_	I-1
+7	General	General	_	NN	_	_	_	_	_	T13	General	General	13	_	_	0	0	I-s2	I-1	I-1	I-SIMPX|I-PX|I-VF|I-NX|I-NX|E-NX|E-ENADD|NN|NX	0	_	I-1
+8	"	"	_	$(	_	_	_	_	_	T14	"	"	14	_	_	0	0	I-s2	I-1	E-1	I-SIMPX|I-PX|I-VF|I-NX|E-NX|$(	0	_	I-1
+9	von	von	_	APPR	_	_	_	_	_	T15	von	von	15	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-PX|I-VF|I-NX|B-PX|APPR	0	_	I-1
+10	Carl	Carl	_	NE	_	_	_	_	_	T16	Carl	Carl	16	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-PX|I-VF|I-NX|I-PX|B-NX|B-ENADD|NE	0	_	I-1
+11	Zuckmayer	Zuckmayer	_	NE	_	_	_	_	_	T17	Zuckmayer	Zuckmayer	17	_	_	0	0	I-s2	I-1	0	I-SIMPX|E-PX|E-VF|E-NX|E-PX|E-NX|E-ENADD|NE	0	_	I-1
+12	verteidigt	verteidigen	_	VVFIN	_	_	_	_	_	T18	verteidigt	verteidigt	18	_	_	0	0	I-s2	I-1	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+13	der	die	_	ART	_	_	_	_	_	T19	der	der	19	_	_	0	0	I-s2	I-1	0	I-SIMPX|B-MF|B-MF|B-NX|B-NX|B-NX|ART	0	_	I-1
+14	Ingenieur	Ingenieur	_	NN	_	_	_	_	_	T20	Ingenieur	Ingenieur	20	_	Inge-nieur	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|I-NX|I-NX|E-NX|NN	0	_	I-1
+15	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T21	Oderbruch	Oderbruch	21	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|I-NX|E-NX|NE|NX	0	_	I-1
+16	,	,	_	$,	_	_	_	_	_	T22	,	,	22	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|I-NX|$,	0	_	I-1
+17	der	die	_	ART	_	_	_	_	_	T23	der	der	23	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|I-NX|B-R-SIMPX|PRELS|NX|C	0	_	I-1
+18	Sabotage	Sabotage	_	NN	_	_	_	_	_	T24	Sabotage	Sabotage	24	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|I-NX|I-R-SIMPX|NN|NX|MF	0	_	I-1
+19	betreibt	betreiben	_	VVFIN	_	_	_	_	_	T25	betreibt	betreibt	25	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|E-NX|E-R-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+20	,	,	_	$,	_	_	_	_	_	T26	,	,	26	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|$,	0	_	I-1
+21	sein	sein	_	PPOSAT	_	_	_	_	_	T27	sein	sein	27	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|B-NX|PPOSAT	0	_	I-1
+22	Handeln	Handeln	_	NN	_	_	_	_	_	T28	Handeln	Handeln	28	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|E-NX|NN	0	_	I-1
+23	mit	mit	_	APPR	_	_	_	_	_	T29	mit	mit	29	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|B-PX|APPR	0	_	I-1
+24	den	die	_	ART	_	_	_	_	_	T30	den	den	30	_	_	0	0	I-s2	I-1	0	I-SIMPX|I-MF|I-MF|I-PX|B-NX|ART	0	_	I-1
+25	Worten	Wort	_	NN	_	_	_	_	_	T31	Worten	Worten	31	_	_	0	0	I-s2	I-1	0	E-SIMPX|E-MF|E-MF|E-PX|E-NX|NN	0	_	I-1
+26	:	:	_	$.	_	_	_	_	_	T32	:	:	32	_	_	0	0	I-s2	I-1	0	B-MF|$.	0	_	I-1
+27	"	"	_	$(	_	_	_	_	_	T33	"	"	33	_	_	0	0	I-s2	I-1	B-1	I-MF|$(	0	_	I-1
+28	Wenn	wenn	_	KOUS	_	_	_	_	_	T34	Wenn	Wenn	34	_	_	0	0	I-s2	I-1	I-1	I-MF|B-SIMPX|B-SIMPX|B-LV|KOUS|C	0	_	I-1
+29	Deutschland	Deutschland	_	NE	_	_	_	_	_	T35	Deutschland	Deutschland	35	_	Deutsch-land	0	0	I-s2	I-1	I-1	I-MF|I-SIMPX|I-SIMPX|I-LV|B-MF|NE|NX	0	_	I-1
+30	in	in	_	APPR	_	_	_	_	_	T36	in	in	36	_	_	0	0	I-s2	I-1	I-1	I-MF|I-SIMPX|I-SIMPX|I-LV|I-MF|B-PX|APPR	0	_	I-1
+31	diesem	dies	_	PDAT	_	_	_	_	_	T37	diesem	diesem	37	_	_	0	0	I-s2	I-1	I-1	I-MF|I-SIMPX|I-SIMPX|I-LV|I-MF|I-PX|B-NX|PDAT	0	_	I-1
+32	Krieg	Krieg	_	NN	_	_	_	_	_	T38	Krieg	Krieg	38	_	_	0	0	I-s2	I-1	I-1	I-MF|I-SIMPX|I-SIMPX|I-LV|E-MF|E-PX|E-NX|NN	0	_	I-1
+33	siegt	siegen	_	VVFIN	_	_	_	_	_	T39	siegt	siegt	39	_	_	0	0	I-s2	I-1	I-1	I-MF|I-SIMPX|E-SIMPX|E-LV|VVFIN|VXFIN|VC	0	_	I-1
+34	-	-	_	$(	_	_	_	_	_	T40	-	-	40	_	_	0	0	I-s2	I-1	I-1	I-MF|I-SIMPX|$(	0	_	I-1
+35	dann	dann	_	ADV	_	_	_	_	_	T41	dann	dann	41	_	_	0	0	I-s2	I-1	I-1	I-MF|I-SIMPX|ADV|ADVX|VF	0	_	I-1
+36	ist	sein	_	VAFIN	_	_	_	_	_	T42	ist	ist	42	_	_	0	0	I-s2	I-1	I-1	I-MF|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+37	es	es	_	PPER	_	_	_	_	_	T43	es	es	43	_	_	0	0	I-s2	I-1	I-1	I-MF|I-SIMPX|PPER|NX|MF	0	_	I-1
+38	verloren	verlieren	_	VVPP	_	_	_	_	_	T44	verloren	verloren	44	_	_	0	0	I-s2	I-1	I-1	I-MF|E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+39	.	.	_	$.	_	_	_	_	_	T45	.	.	45	_	_	0	0	I-s2	I-1	I-1	I-MF|$.	0	_	I-1
+40	"	"	_	$(	_	_	_	_	_	T46	"	"	46	_	_	0	0	E-s2	I-1	E-1	E-MF|$(	0	_	E-1
+
+# sent_id = 3
+# text = - Nehmen Sie Stellung!
+1	-	-	_	$(	_	_	_	_	_	T47	-	-	47	_	_	0	0	B-s3	I-1	0	B-SIMPX|ADV|ADVX	0	_	B-1
+2	Nehmen	nehmen	_	VVFIN	_	_	_	_	_	T48	Nehmen	Nehmen	48	_	_	0	0	I-s3	I-1	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	Sie	Sie|sie	_	PPER	_	_	_	_	_	T49	Sie	Sie	49	_	_	0	0	I-s3	I-1	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+4	Stellung	Stellung	_	NN	_	_	_	_	_	T50	Stellung	Stellung	50	_	_	0	0	I-s3	I-1	0	E-SIMPX|E-MF|NN|NX	0	_	I-1
+5	!	!	_	$.	_	_	_	_	_	T51	!	!	51	_	_	0	0	E-s3	E-1	0	$.	0	_	E-1
+
+# sent_id = 4
+# text = Gliederung: A,
+1	Gliederung	Gliederung	_	NN	_	_	_	_	_	T52	Gliederung	Gliederung	52	_	_	0	0	B-s4	B-1	0	NN|NX	0	_	B-1
+2	:	:	_	$.	_	_	_	_	_	T53	:	:	53	_	_	0	0	I-s4	E-1	0	$.	0	_	I-1
+3	A,	A,	_	NE	_	_	_	_	_	T54	A,	A,	54	_	_	0	0	E-s4	0	0	NE|NX	0	_	E-1
+
+# sent_id = 5
+# text = Darf man Freunde und unbekannte Menschen um der Freiheit willen untergehen lassen?
+1	Darf	dürfen	_	VVFIN	_	_	_	_	_	T55	Darf	Darf	55	_	_	0	0	B-s5	0	0	B-SIMPX|VMFIN|VXFIN|LK	0	_	B-1
+2	man	man	_	PIS	_	_	_	_	_	T56	man	man	56	_	_	0	0	I-s5	0	0	I-SIMPX|B-MF|PIS|NX	0	_	I-1
+3	Freunde	Freund	_	NN	_	_	_	_	_	T57	Freunde	Freunde	57	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|B-NX|NN|NX	0	_	I-1
+4	und	und	_	KON	_	_	_	_	_	T58	und	und	58	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|I-NX|KON	0	_	I-1
+5	unbekannte	unbekannt	_	ADJA	_	_	_	_	_	T59	unbekannte	unbekannte	59	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|I-NX|B-NX|ADJA|ADJX	0	_	I-1
+6	Menschen	Mensch	_	NN	_	_	_	_	_	T60	Menschen	Menschen	60	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|E-NX|E-NX|NN	0	_	I-1
+7	um	um	_	APPR	_	_	_	_	_	T61	um	um	61	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+8	der	die	_	ART	_	_	_	_	_	T62	der	der	62	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+9	Freiheit	Freiheit	_	NN	_	_	_	_	_	T63	Freiheit	Freiheit	63	_	_	0	0	I-s5	0	0	I-SIMPX|I-MF|I-PX|E-NX|NN	0	_	I-1
+10	willen	willen	_	APPO	_	_	_	_	_	T64	willen	willen	64	_	_	0	0	I-s5	0	0	I-SIMPX|E-MF|E-PX|APZR	0	_	I-1
+11	untergehen	untergehen	_	VVINF	_	_	_	_	_	T65	untergehen	untergehen	65	_	unter-gehen	0	0	I-s5	0	0	I-SIMPX|B-VC|VVINF|VXINF	0	_	I-1
+12	lassen	lassen	_	VVINF	_	_	_	_	_	T66	lassen	lassen	66	_	_	0	0	I-s5	0	0	E-SIMPX|E-VC|VVINF|VXINF	0	_	I-1
+13	?	?	_	$.	_	_	_	_	_	T67	?	?	67	_	_	0	0	E-s5	0	0	$.	0	_	E-1
+
+# sent_id = 6
+# text = B, Oderbruch rechtfertigt sich, indem er sagt: I, " Es gibt keine Unterjochung, die nicht Befreiung wäre - für unser Volk. " II, " Doch eines Tages habe ich mich geschämt, dass ich ein Deutscher bin. " III, " Es geht um die Seele. "
+1	B,	B,	_	NE	_	_	_	_	_	T68	B,	B,	68	_	_	0	0	s6	0	0	_	0	_	0
+2	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T69	Oderbruch	Oderbruch	69	_	_	0	0	B-s7	0	0	B-SIMPX|B-SIMPX|ADV|ADVX|VF	0	_	B-1
+3	rechtfertigt	rechtfertigen	_	VVFIN	_	_	_	_	_	T70	rechtfertigt	rechtfertigt	70	_	_	0	0	I-s7	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	sich	sich	_	PRF	_	_	_	_	_	T71	sich	sich	71	_	_	0	0	I-s7	0	0	I-SIMPX|I-SIMPX|PRF|NX|MF	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T72	,	,	72	_	_	0	0	I-s7	0	0	I-SIMPX|I-SIMPX|$,	0	_	I-1
+6	indem	indem	_	KOUS	_	_	_	_	_	T73	indem	indem	73	_	_	0	0	I-s7	0	0	I-SIMPX|I-SIMPX|B-NF|B-SIMPX|KOUS|C	0	_	I-1
+7	er	er	_	PPER	_	_	_	_	_	T74	er	er	74	_	_	0	0	I-s7	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|PPER|NX|MF	0	_	I-1
+8	sagt	sagen	_	VVFIN	_	_	_	_	_	T75	sagt	sagt	75	_	_	0	0	I-s7	0	0	I-SIMPX|E-SIMPX|E-NF|E-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+9	:	:	_	$.	_	_	_	_	_	T76	:	:	76	_	_	0	0	I-s7	0	0	I-SIMPX|B-NF|$.	0	_	I-1
+10	I,	I,	_	NE	_	_	_	_	_	T77	I,	I,	77	_	_	0	0	I-s7	0	0	I-SIMPX|I-NF|ITJ|DM	0	_	I-1
+11	"	"	_	$(	_	_	_	_	_	T78	"	"	78	_	_	0	0	I-s7	0	B-1	I-SIMPX|I-NF|$(	0	_	I-1
+12	Es	es	_	PPER	_	_	_	_	_	T79	Es	Es	79	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|B-SIMPX|PPER|NX|VF	0	_	I-1
+13	gibt	geben	_	VVFIN	_	_	_	_	_	T80	gibt	gibt	80	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+14	keine	keine	_	PIAT	_	_	_	_	_	T81	keine	keine	81	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|B-NX|B-MF|PIAT	0	_	I-1
+15	Unterjochung	Unterjochung	_	NN	_	_	_	_	_	T82	Unterjochung	Unterjochung	82	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|E-NX|E-MF|NN	0	_	I-1
+16	,	,	_	$,	_	_	_	_	_	T83	,	,	83	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|$,	0	_	I-1
+17	die	die	_	PRELS	_	_	_	_	_	T84	die	die	84	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|B-R-SIMPX|B-NF|PRELS|NX|C	0	_	I-1
+18	nicht	nicht	_	PTKNEG	_	_	_	_	_	T85	nicht	nicht	85	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|I-R-SIMPX|I-NF|B-MF|PTKNEG|ADVX	0	_	I-1
+19	Befreiung	Befreiung	_	NN	_	_	_	_	_	T86	Befreiung	Befreiung	86	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|I-R-SIMPX|I-NF|E-MF|NN|NX	0	_	I-1
+20	wäre	sein	_	VAFIN	_	_	_	_	_	T87	wäre	wäre	87	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|E-SIMPX|E-R-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+21	-	-	_	$(	_	_	_	_	_	T88	-	-	88	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|B-NF|$(	0	_	I-1
+22	für	für	_	APPR	_	_	_	_	_	T89	für	für	89	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-NF|B-PX|APPR	0	_	I-1
+23	unser	unser	_	PPOSAT	_	_	_	_	_	T90	unser	unser	90	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-NF|I-PX|B-NX|PPOSAT	0	_	I-1
+24	Volk	Volk	_	NN	_	_	_	_	_	T91	Volk	Volk	91	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|E-NF|E-PX|E-NX|NN	0	_	I-1
+25	.	.	_	$.	_	_	_	_	_	T92	.	.	92	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|$.	0	_	I-1
+26	"	"	_	$(	_	_	_	_	_	T93	"	"	93	_	_	0	0	I-s7	0	E-1	I-SIMPX|I-NF|$(	0	_	I-1
+27	II,	II,	_	NE	_	_	_	_	_	T94	II,	II,	94	_	_	0	0	I-s7	0	0	I-SIMPX|I-NF|NN|NX	0	_	I-1
+28	"	"	_	$(	_	_	_	_	_	T95	"	"	95	_	_	0	0	I-s7	0	B-1	I-SIMPX|I-NF|$(	0	_	I-1
+29	Doch	doch	_	KON	_	_	_	_	_	T96	Doch	Doch	96	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|B-SIMPX|KON|KOORD	0	_	I-1
+30	eines	eine	_	ART	_	_	_	_	_	T97	eines	eines	97	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|B-NX|B-VF|ART	0	_	I-1
+31	Tages	Tag	_	NN	_	_	_	_	_	T98	Tages	Tages	98	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+32	habe	haben	_	VAFIN	_	_	_	_	_	T99	habe	habe	99	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+33	ich	ich	_	PPER	_	_	_	_	_	T100	ich	ich	100	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+34	mich	ich	_	PRF	_	_	_	_	_	T101	mich	mich	101	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|E-MF|PRF|NX	0	_	I-1
+35	geschämt	schämen	_	VVPP	_	_	_	_	_	T102	geschämt	geschämt	102	_	ge-schämt	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|VVPP|VXINF|VC	0	_	I-1
+36	,	,	_	$,	_	_	_	_	_	T103	,	,	103	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|$,	0	_	I-1
+37	dass	dass	_	KOUS	_	_	_	_	_	T104	daß	daß	104	XXX	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+38	ich	ich	_	PPER	_	_	_	_	_	T105	ich	ich	105	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+39	ein	eine	_	ART	_	_	_	_	_	T106	ein	ein	106	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|ART	0	_	I-1
+40	Deutscher	Deutsche	_	NN	_	_	_	_	_	T107	Deutscher	Deutscher	107	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-NF|E-MF|E-NX|NN	0	_	I-1
+41	bin	sein	_	VAFIN	_	_	_	_	_	T108	bin	bin	108	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|E-SIMPX|E-SIMPX|E-NF|VAFIN|VXFIN|VC	0	_	I-1
+42	.	.	_	$.	_	_	_	_	_	T109	.	.	109	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|$.	0	_	I-1
+43	"	"	_	$(	_	_	_	_	_	T110	"	"	110	_	_	0	0	I-s7	0	E-1	I-SIMPX|I-NF|$(	0	_	I-1
+44	III,	III,	_	NE	_	_	_	_	_	T111	III,	III,	111	_	_	0	0	I-s7	0	0	I-SIMPX|I-NF|NN|NX	0	_	I-1
+45	"	"	_	$(	_	_	_	_	_	T112	"	"	112	_	_	0	0	I-s7	0	B-1	I-SIMPX|I-NF|$(	0	_	I-1
+46	Es	es	_	PPER	_	_	_	_	_	T113	Es	Es	113	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|B-SIMPX|PPER|NX|VF	0	_	I-1
+47	geht	gehen	_	VVFIN	_	_	_	_	_	T114	geht	geht	114	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+48	um	um	_	APPR	_	_	_	_	_	T115	um	um	115	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|B-PX|B-MF|APPR	0	_	I-1
+49	die	die	_	ART	_	_	_	_	_	T116	die	die	116	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|I-SIMPX|I-PX|I-MF|B-NX|ART	0	_	I-1
+50	Seele	Seele	_	NN	_	_	_	_	_	T117	Seele	Seele	117	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|E-SIMPX|E-PX|E-MF|E-NX|NN	0	_	I-1
+51	.	.	_	$.	_	_	_	_	_	T118	.	.	118	_	_	0	0	I-s7	0	I-1	I-SIMPX|I-NF|$.	0	_	I-1
+52	"	"	_	$(	_	_	_	_	_	T119	"	"	119	_	_	0	0	E-s7	0	E-1	E-SIMPX|E-NF|$(	0	_	E-1
+
+# sent_id = 7
+# text = C, Würdigung des Widerstandes. Ausführung:
+1	C,	C,	_	NN	_	_	_	_	_	T120	C,	C,	120	_	_	0	0	B-s8	0	0	B-NX|B-NX|B-NX|ADJA|ADJX	0	_	B-1
+2	Würdigung	Würdigung	_	NN	_	_	_	_	_	T121	Würdigung	Würdigung	121	_	_	0	0	I-s8	0	0	I-NX|I-NX|E-NX|NN	0	_	I-1
+3	des	die	_	ART	_	_	_	_	_	T122	des	des	122	_	_	0	0	I-s8	0	0	I-NX|I-NX|B-NX|ART	0	_	I-1
+4	Widerstandes	Widerstand	_	NN	_	_	_	_	_	T123	Widerstandes	Widerstandes	123	_	_	0	0	I-s8	0	0	I-NX|E-NX|E-NX|NN	0	_	I-1
+5	.	.	_	$.	_	_	_	_	_	T124	.	.	124	_	_	0	0	I-s8	0	0	I-NX|$.	0	_	I-1
+6	Ausführung	Ausführung	_	NN	_	_	_	_	_	T125	Ausführung	Ausführung	125	_	_	0	0	I-s8	B-1	0	E-NX|NN|NX	0	_	I-1
+7	:	:	_	$.	_	_	_	_	_	T126	:	:	126	_	_	0	0	E-s8	E-1	0	$.	0	_	E-1
+
+# sent_id = 8
+# text = Der Chefingenieur der technischen Abnahme bei der Luftwaffe, Oderbruch, ist Widerstandskämpfer.
+1	Der	die	_	ART	_	_	_	_	_	T127	Der	Der	127	_	_	0	0	B-s9	0	0	B-SIMPX|B-NX|B-VF|B-NX|B-NX|B-NX|ART	0	_	B-1
+2	Chefingenieur	Chefingenieur	_	NN	_	_	_	_	_	T128	Chefingenieur	Chefingenieur	128	_	_	0	0	I-s9	0	0	I-SIMPX|I-NX|I-VF|I-NX|I-NX|E-NX|NN	0	_	I-1
+3	der	die	_	ART	_	_	_	_	_	T129	der	der	129	_	_	0	0	I-s9	0	0	I-SIMPX|I-NX|I-VF|I-NX|I-NX|B-NX|ART	0	_	I-1
+4	technischen	technisch	_	ADJA	_	_	_	_	_	T130	technischen	technischen	130	_	_	0	0	I-s9	0	0	I-SIMPX|I-NX|I-VF|I-NX|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+5	Abnahme	Abnahme	_	NN	_	_	_	_	_	T131	Abnahme	Abnahme	131	_	Abnah-me	0	0	I-s9	0	0	I-SIMPX|I-NX|I-VF|I-NX|E-NX|E-NX|NN	0	_	I-1
+6	bei	bei	_	APPR	_	_	_	_	_	T132	bei	bei	132	_	_	0	0	I-s9	0	0	I-SIMPX|I-NX|I-VF|I-NX|B-PX|APPR	0	_	I-1
+7	der	die	_	ART	_	_	_	_	_	T133	der	der	133	_	_	0	0	I-s9	0	0	I-SIMPX|I-NX|I-VF|I-NX|I-PX|B-NX|ART	0	_	I-1
+8	Luftwaffe	Luftwaffe	_	NN	_	_	_	_	_	T134	Luftwaffe	Luftwaffe	134	_	_	0	0	I-s9	0	0	I-SIMPX|I-NX|I-VF|E-NX|E-PX|E-NX|NN	0	_	I-1
+9	,	,	_	$,	_	_	_	_	_	T135	,	,	135	_	_	0	0	I-s9	0	0	I-SIMPX|I-NX|I-VF|$,	0	_	I-1
+10	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T136	Oderbruch	Oderbruch	136	_	_	0	0	I-s9	0	0	I-SIMPX|E-NX|E-VF|NN|NX	0	_	I-1
+11	,	,	_	$,	_	_	_	_	_	T137	,	,	137	_	_	0	0	I-s9	0	0	I-SIMPX|$,	0	_	I-1
+12	ist	sein	_	VAFIN	_	_	_	_	_	T138	ist	ist	138	_	_	0	0	I-s9	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+13	Widerstandskämpfer	Widerstandskämpfer	_	NN	_	_	_	_	_	T139	Widerstandskämpfer	Widerstandskämpfer	139	_	Wi-derstandskämpfer	0	0	I-s9	0	0	E-SIMPX|NE|NX|MF	0	_	I-1
+14	.	.	_	$.	_	_	_	_	_	T140	.	.	140	_	_	0	0	E-s9	0	0	$.	0	_	E-1
+
+# sent_id = 9
+# text = Er hat sich zu einer indirekten Bekämpfung des Regimes entschlossen.
+1	Er	er	_	PPER	_	_	_	_	_	T141	Er	Er	141	_	_	0	0	B-s10	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	hat	haben	_	VAFIN	_	_	_	_	_	T142	hat	hat	142	_	_	0	0	I-s10	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	sich	sich	_	PRF	_	_	_	_	_	T143	sich	sich	143	_	_	0	0	I-s10	0	0	I-SIMPX|B-MF|PRF|NX	0	_	I-1
+4	zu	zu	_	APPR	_	_	_	_	_	T144	zu	zu	144	_	_	0	0	I-s10	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+5	einer	eine	_	ART	_	_	_	_	_	T145	einer	einer	145	_	_	0	0	I-s10	0	0	I-SIMPX|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+6	indirekten	indirekt	_	ADJA	_	_	_	_	_	T146	indirekten	indirekten	146	_	_	0	0	I-s10	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+7	Bekämpfung	Bekämpfung	_	NN	_	_	_	_	_	T147	Bekämpfung	Bekämpfung	147	_	_	0	0	I-s10	0	0	I-SIMPX|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+8	des	die	_	ART	_	_	_	_	_	T148	des	des	148	_	_	0	0	I-s10	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-NX|ART	0	_	I-1
+9	Regimes	Regime	_	NN	_	_	_	_	_	T149	Regimes	Regimes	149	_	_	0	0	I-s10	0	0	I-SIMPX|E-MF|E-PX|E-NX|E-NX|NN	0	_	I-1
+10	entschlossen	entschließen	_	VVPP	_	_	_	_	_	T150	entschlossen	entschlossen	150	_	ent-schlossen	0	0	I-s10	0	0	E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+11	.	.	_	$.	_	_	_	_	_	T151	.	.	151	_	_	0	0	E-s10	0	0	$.	0	_	E-1
+
+# sent_id = 10
+# text = In einige Maschinen konstruiert er bewusst Fehler, <B->sodass <E->sodass sie früher oder später abstürzen müssen, obwohl er nicht weiß, wer die defekten Maschinen fliegen wird.
+1	In	in	_	APPR	_	_	_	_	_	T152	In	In	152	_	_	0	0	B-s11	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	einige	einige	_	PIAT	_	_	_	_	_	T153	einige	einige	153	_	_	0	0	I-s11	0	0	I-SIMPX|I-PX|I-VF|B-NX|PIAT	0	_	I-1
+3	Maschinen	Maschine	_	NN	_	_	_	_	_	T154	Maschinen	Maschinen	154	_	_	0	0	I-s11	0	0	I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+4	konstruiert	konstruieren	_	VVFIN	_	_	_	_	_	T155	konstruiert	konstruiert	155	_	konstru-iert	0	0	I-s11	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+5	er	er	_	PPER	_	_	_	_	_	T156	er	er	156	_	_	0	0	I-s11	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+6	bewusst	bewusst	_	ADJD	_	_	_	_	_	T157	bewußt	bewußt	157	XXX	_	0	0	I-s11	0	0	I-SIMPX|I-MF|ADJD|ADJX	0	_	I-1
+7	Fehler	Fehler	_	NN	_	_	_	_	_	T158	Fehler	Fehler	158	_	_	0	0	I-s11	0	0	I-SIMPX|E-MF|NN|NX	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T159	,	,	159	_	_	0	0	I-s11	0	0	I-SIMPX|$,	0	_	I-1
+9	<B->sodass	<B->sodass	_	B-KOUS	_	_	_	_	_	T160	so	so	160	XXX	_	0	0	I-s11	0	0	I-SIMPX|B-VVFIN|B-VXFIN|B-C	0	_	I-1
+10	<E->sodass	<E->sodass	_	E-KOUS	_	_	_	_	_	T161	daß	daß	161	XXX	_	0	0	I-s11	0	0	I-SIMPX|E-VVFIN|E-VXFIN|E-C	0	_	I-1
+11	sie	sie	_	PPER	_	_	_	_	_	T162	sie	sie	162	_	_	0	0	I-s11	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+12	früher	früh	_	ADJD	_	_	_	_	_	T163	früher	früher	163	_	_	0	0	I-s11	0	0	I-SIMPX|I-MF|B-NX|B-ADJX|ADJD|ADJX	0	_	I-1
+13	oder	oder	_	KON	_	_	_	_	_	T164	oder	oder	164	_	_	0	0	I-s11	0	0	I-SIMPX|I-MF|I-NX|I-ADJX|KON	0	_	I-1
+14	später	spät	_	ADJD	_	_	_	_	_	T165	später	später	165	_	_	0	0	I-s11	0	0	I-SIMPX|E-MF|E-NX|E-ADJX|ADJX|ADJD|ADJX	0	_	I-1
+15	abstürzen	abstürzen	_	VVINF	_	_	_	_	_	T166	abstürzen	abstürzen	166	_	_	0	0	I-s11	0	0	I-SIMPX|B-NX|ADJX|ADJX|VC|ADJD	0	_	I-1
+16	müssen	müssen	_	VMINF	_	_	_	_	_	T167	müssen	müssen	167	_	_	0	0	I-s11	0	0	I-SIMPX|E-NX|VC|NN	0	_	I-1
+17	,	,	_	$,	_	_	_	_	_	T168	,	,	168	_	_	0	0	I-s11	0	0	I-SIMPX|$,	0	_	I-1
+18	obwohl	obwohl	_	KOUS	_	_	_	_	_	T169	obwohl	obwohl	169	_	_	0	0	I-s11	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+19	er	er	_	PPER	_	_	_	_	_	T170	er	er	170	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+20	nicht	nicht	_	PTKNEG	_	_	_	_	_	T171	nicht	nicht	171	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|PTKNEG|ADVX	0	_	I-1
+21	weiß	wissen	_	VVFIN	_	_	_	_	_	T172	weiß	weiß	172	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|VVFIN|VXFIN|VC	0	_	I-1
+22	,	,	_	$,	_	_	_	_	_	T173	,	,	173	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|$,	0	_	I-1
+23	wer	wer	_	PWS	_	_	_	_	_	T174	wer	wer	174	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|B-SIMPX|B-NF|PWS|NX|C	0	_	I-1
+24	die	die	_	ART	_	_	_	_	_	T175	die	die	175	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|B-NX|B-MF|ART	0	_	I-1
+25	defekten	defekt	_	ADJA	_	_	_	_	_	T176	defekten	defekten	176	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-NX|I-MF|ADJA|ADJX	0	_	I-1
+26	Maschinen	Maschine	_	NN	_	_	_	_	_	T177	Maschinen	Maschinen	177	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|E-NX|E-MF|NN	0	_	I-1
+27	fliegen	fliegen	_	VVINF	_	_	_	_	_	T178	fliegen	fliegen	178	_	_	0	0	I-s11	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|B-VC|VVINF|VXINF	0	_	I-1
+28	wird	werden	_	VAFIN	_	_	_	_	_	T179	wird	wird	179	_	_	0	0	I-s11	0	0	E-SIMPX|E-SIMPX|E-NF|E-SIMPX|E-NF|E-VC|VAFIN|VXFIN	0	_	I-1
+29	.	.	_	$.	_	_	_	_	_	T180	.	.	180	_	_	0	0	E-s11	0	0	$.	0	_	E-1
+
+# sent_id = 11
+# text = Es kann ein Familienvater sein, ein Student, der einzige Sohn einer Mutter, ein Freund oder ein Unbekannter.
+1	Es	es	_	PPER	_	_	_	_	_	T181	Es	Es	181	_	_	0	0	B-s12	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	kann	können	_	VMFIN	_	_	_	_	_	T182	kann	kann	182	_	_	0	0	I-s12	0	0	I-SIMPX|VMFIN|VXFIN|LK	0	_	I-1
+3	ein	eine	_	ART	_	_	_	_	_	T183	ein	ein	183	_	_	0	0	I-s12	0	0	I-SIMPX|B-NX|B-MF|ART	0	_	I-1
+4	Familienvater	Familienvater	_	NN	_	_	_	_	_	T184	Familienvater	Familienvater	184	_	_	0	0	I-s12	0	0	I-SIMPX|E-NX|E-MF|NN	0	_	I-1
+5	sein	sein	_	VAINF	_	_	_	_	_	T185	sein	sein	185	_	_	0	0	I-s12	0	0	I-SIMPX|VAINF|VXINF|VC	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T186	,	,	186	_	_	0	0	I-s12	0	0	I-SIMPX|$,	0	_	I-1
+7	ein	eine	_	ART	_	_	_	_	_	T187	ein	ein	187	_	_	0	0	I-s12	0	0	I-SIMPX|B-NX|B-NF|B-NX|ART	0	_	I-1
+8	Student	Student	_	NN	_	_	_	_	_	T188	Student	Student	188	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|E-NX|NN	0	_	I-1
+9	,	,	_	$,	_	_	_	_	_	T189	,	,	189	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|$,	0	_	I-1
+10	der	die	_	ART	_	_	_	_	_	T190	der	der	190	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|B-NX|B-NX|ART	0	_	I-1
+11	einzige	einzig	_	ADJA	_	_	_	_	_	T191	einzige	einzige	191	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+12	Sohn	Sohn	_	NN	_	_	_	_	_	T192	Sohn	Sohn	192	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|I-NX|E-NX|NN	0	_	I-1
+13	einer	eine	_	ART	_	_	_	_	_	T193	einer	einer	193	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|I-NX|B-NX|ART	0	_	I-1
+14	Mutter	Mutter	_	NN	_	_	_	_	_	T194	Mutter	Mutter	194	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|E-NX|E-NX|NN	0	_	I-1
+15	,	,	_	$,	_	_	_	_	_	T195	,	,	195	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|$,	0	_	I-1
+16	ein	eine	_	ART	_	_	_	_	_	T196	ein	ein	196	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|B-NX|B-NX|ART	0	_	I-1
+17	Freund	Freund	_	NN	_	_	_	_	_	T197	Freund	Freund	197	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|I-NX|E-NX|NN	0	_	I-1
+18	oder	oder	_	KON	_	_	_	_	_	T198	oder	oder	198	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|I-NX|KON	0	_	I-1
+19	ein	eine	_	ART	_	_	_	_	_	T199	ein	ein	199	_	_	0	0	I-s12	0	0	I-SIMPX|I-NX|I-NF|I-NX|B-NX|ART	0	_	I-1
+20	Unbekannter	Unbekannte	_	NN	_	_	_	_	_	T200	Unbekannter	Unbekannter	200	_	_	0	0	I-s12	0	0	E-SIMPX|E-NX|E-NF|E-NX|E-NX|NN	0	_	I-1
+21	.	.	_	$.	_	_	_	_	_	T201	.	.	201	_	_	0	0	E-s12	0	0	$.	0	_	E-1
+
+# sent_id = 12
+# text = Als Oderbruch seinen Vorgesetzten, General Harras, über die bewussten Fehlkonstruktionen in Kenntnis setzt, fragt dieser ihn: " Und warum trefft ihr uns - aus dem Dunkel, aus dem Hinterhalt?
+1	Als	als	_	KOKOM	_	_	_	_	_	T202	Als	Als	202	_	_	0	0	B-s13	0	0	B-SIMPX|B-SIMPX|B-NX|B-VF|B-NX|KOKOM	0	_	B-1
+2	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T203	Oderbruch	Oderbruch	203	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|I-NX|NN|NX	0	_	I-1
+3	seinen	sein	_	PPOSAT	_	_	_	_	_	T204	seinem	seinen	204	XXX	_	1	FLEX	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|I-NX|B-NX|PPOSAT	0	_	I-1
+4	Vorgesetzten	Vorgesetzte	_	NN	_	_	_	_	_	T205	Vorgesetzten	Vorgesetzten	205	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|E-NX|E-NX|NN	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T206	,	,	206	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|$,	0	_	I-1
+6	General	General	_	NN	_	_	_	_	_	T207	General	General	207	_	Ge-neral	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|B-NX|B-NX|NN|NX	0	_	I-1
+7	Harras	Harras	_	NE	_	_	_	_	_	T208	Harras	Harras	208	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|I-NX|E-NX|NE|NX	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T209	,	,	209	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|I-NX|$,	0	_	I-1
+9	über	über	_	APPR	_	_	_	_	_	T210	über	über	210	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|I-NX|B-R-SIMPX|PRELS|NX|C	0	_	I-1
+10	die	die	_	ART	_	_	_	_	_	T211	die	die	211	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|I-NX|I-R-SIMPX|B-MF|B-NX|ART	0	_	I-1
+11	bewussten	bewusst	_	ADJA	_	_	_	_	_	T212	bewußten	bewußten	212	XXX	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|I-NX|I-R-SIMPX|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+12	Fehlkonstruktionen	Fehlkonstruktion	_	NN	_	_	_	_	_	T213	Fehlkonstruktionen	Fehlkonstruktionen	213	_	Fehl-konstruktionen	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|I-NX|I-R-SIMPX|I-MF|E-NX|NN	0	_	I-1
+13	in	in	_	APPR	_	_	_	_	_	T214	in	in	214	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|I-NX|I-R-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+14	Kenntnis	Kenntnis	_	NN	_	_	_	_	_	T215	Kenntnis	Kenntnis	215	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|I-NX|I-VF|I-NX|I-R-SIMPX|E-MF|E-PX|NN|NX	0	_	I-1
+15	setzt	setzen	_	VVFIN	_	_	_	_	_	T216	setzt	setzt	216	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|E-NX|E-VF|E-NX|E-R-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+16	,	,	_	$,	_	_	_	_	_	T217	,	,	217	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|$,	0	_	I-1
+17	fragt	fragen	_	VVFIN	_	_	_	_	_	T218	fragt	fragt	218	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+18	dieser	dies	_	PDAT	_	_	_	_	_	T219	dieser	dieser	219	_	_	0	0	I-s13	0	0	I-SIMPX|I-SIMPX|B-MF|PDS|NX	0	_	I-1
+19	ihn	er	_	PPER	_	_	_	_	_	T220	ihn	ihn	220	_	_	0	0	I-s13	0	0	I-SIMPX|E-SIMPX|E-MF|PPER|NX	0	_	I-1
+20	:	:	_	$.	_	_	_	_	_	T221	:	:	221	_	_	0	0	I-s13	0	0	I-SIMPX|B-NF|$.	0	_	I-1
+21	"	"	_	$(	_	_	_	_	_	T222	"	"	222	_	_	0	0	I-s13	0	B-1	I-SIMPX|I-NF|$(	0	_	I-1
+22	Und	und	_	KON	_	_	_	_	_	T223	Und	Und	223	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|B-SIMPX|KON|KOORD	0	_	I-1
+23	warum	warum	_	PWAV	_	_	_	_	_	T224	warum	warum	224	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|I-SIMPX|PWAV|PX|VF	0	_	I-1
+24	trefft	treffen	_	VVFIN	_	_	_	_	_	T225	trefft	trefft	225	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+25	ihr	ihr	_	PPER	_	_	_	_	_	T226	ihr	ihr	226	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+26	uns	wir	_	PRF	_	_	_	_	_	T227	uns	uns	227	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|E-SIMPX|E-MF|PRF|NX	0	_	I-1
+27	-	-	_	$(	_	_	_	_	_	T228	-	-	228	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|B-MF|$(	0	_	I-1
+28	aus	aus	_	APPR	_	_	_	_	_	T229	aus	aus	229	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|I-MF|B-PX|B-PX|APPR	0	_	I-1
+29	dem	die	_	ART	_	_	_	_	_	T230	dem	dem	230	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|I-MF|I-PX|I-PX|B-NX|ART	0	_	I-1
+30	Dunkel	Dunkel	_	NN	_	_	_	_	_	T231	Dunkel	Dunkel	231	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|I-MF|I-PX|E-PX|E-NX|NN	0	_	I-1
+31	,	,	_	$,	_	_	_	_	_	T232	,	,	232	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|I-MF|I-PX|$,	0	_	I-1
+32	aus	aus	_	APPR	_	_	_	_	_	T233	aus	aus	233	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|I-MF|I-PX|B-PX|APPR	0	_	I-1
+33	dem	die	_	ART	_	_	_	_	_	T234	dem	dem	234	_	_	0	0	I-s13	0	I-1	I-SIMPX|I-NF|I-MF|I-PX|I-PX|B-NX|ART	0	_	I-1
+34	Hinterhalt	Hinterhalt	_	NN	_	_	_	_	_	T235	Hinterhalt	Hinterhalt	235	_	Hinter-halt	0	0	I-s13	0	I-1	I-SIMPX|I-NF|E-MF|E-PX|E-PX|E-NX|NN	0	_	I-1
+35	?	?	_	$.	_	_	_	_	_	T236	?	?	236	_	_	0	0	E-s13	0	I-1	E-SIMPX|E-NF|$.	0	_	E-1
+
+# sent_id = 13
+# text = Warum trefft ihr uns anstatt des Feindes? "
+1	Warum	warum	_	PWAV	_	_	_	_	_	T237	Warum	Warum	237	_	_	0	0	B-s14	0	I-1	B-SIMPX|PWAV|PX|VF	0	_	B-1
+2	trefft	treffen	_	VVFIN	_	_	_	_	_	T238	trefft	trefft	238	_	_	0	0	I-s14	0	I-1	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	ihr	ihr	_	PPER	_	_	_	_	_	T239	ihr	ihr	239	_	_	0	0	I-s14	0	I-1	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+4	uns	wir	_	PRF	_	_	_	_	_	T240	uns	uns	240	_	_	0	0	I-s14	0	I-1	I-SIMPX|I-MF|PRF|NX	0	_	I-1
+5	anstatt	anstatt	_	APPR	_	_	_	_	_	T241	anstatt	anstatt	241	_	_	0	0	I-s14	0	I-1	I-SIMPX|I-MF|B-NX|NN|NX	0	_	I-1
+6	des	die	_	ART	_	_	_	_	_	T242	des	des	242	_	_	0	0	I-s14	0	I-1	I-SIMPX|I-MF|I-NX|B-NX|ART	0	_	I-1
+7	Feindes	Feind	_	NN	_	_	_	_	_	T243	Feindes	Feindes	243	_	_	0	0	I-s14	0	I-1	E-SIMPX|E-MF|E-NX|E-NX|NN	0	_	I-1
+8	?	?	_	$.	_	_	_	_	_	T244	?	?	244	_	_	0	0	I-s14	0	I-1	$.	0	_	I-1
+9	"	"	_	$(	_	_	_	_	_	T245	"	"	245	_	_	0	0	E-s14	0	E-1	$(	0	_	E-1
+
+# sent_id = 14
+# text = Der Chefingenieur antwortet: <EMPTY> Mit einer starken Luftwaffe kann Hitler den Krieg gewinnen, die Luftwaffe seid ihr.
+1	Der	die	_	ART	_	_	_	_	_	T246	Der	Der	246	_	_	0	0	B-s15	0	0	B-SIMPX|B-NX|B-VF|ART	0	_	B-1
+2	Chefingenieur	Chefingenieur	_	NN	_	_	_	_	_	T247	Chefingenieur	Chefingenieur	247	_	_	0	0	I-s15	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	antwortet	antworten	_	VVFIN	_	_	_	_	_	T248	antwortet	antwortet	248	_	ant-wortet	0	0	I-s15	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	:	:	_	$.	_	_	_	_	_	T249	:	:	249	_	_	0	0	I-s15	0	0	I-SIMPX|$.	0	_	I-1
+5	<EMPTY>	_	_	_	_	_	_	_	_	T250	"	_	250	XXX	_	1	PKT	I-s15	0	0	I-SIMPX	0	_	I-1
+6	Mit	mit	_	APPR	_	_	_	_	_	T251	Mit	Mit	251	_	_	0	0	I-s15	0	0	I-SIMPX|B-SIMPX|B-NF|B-SIMPX|B-PX|B-VF|APPR	0	_	I-1
+7	einer	eine	_	ART	_	_	_	_	_	T252	einer	einer	252	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-PX|I-VF|B-NX|ART	0	_	I-1
+8	starken	stark	_	ADJA	_	_	_	_	_	T253	starken	starken	253	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-PX|I-VF|I-NX|ADJA|ADJX	0	_	I-1
+9	Luftwaffe	Luftwaffe	_	NN	_	_	_	_	_	T254	Luftwaffe	Luftwaffe	254	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+10	kann	können	_	VMFIN	_	_	_	_	_	T255	kann	kann	255	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|VMFIN|VXFIN|LK	0	_	I-1
+11	Hitler	Hitler	_	NE	_	_	_	_	_	T256	Hitler	Hitler	256	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-MF|NE|NX	0	_	I-1
+12	den	die	_	ART	_	_	_	_	_	T257	den	den	257	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+13	Krieg	Krieg	_	NN	_	_	_	_	_	T258	Krieg	Krieg	258	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+14	gewinnen	gewinnen	_	VVINF	_	_	_	_	_	T259	gewinnen	gewinnen	259	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|E-SIMPX|VVINF|VXINF|VC	0	_	I-1
+15	,	,	_	$,	_	_	_	_	_	T260	,	,	260	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|$,	0	_	I-1
+16	die	die	_	ART	_	_	_	_	_	T261	die	die	261	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|B-SIMPX|B-NX|B-VF|ART	0	_	I-1
+17	Luftwaffe	Luftwaffe	_	NN	_	_	_	_	_	T262	Luftwaffe	Luftwaffe	262	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+18	seid	sein	_	VAFIN	_	_	_	_	_	T263	seid	seid	263	_	_	0	0	I-s15	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+19	ihr	ihr	_	PPER	_	_	_	_	_	T264	ihr	ihr	264	_	_	0	0	I-s15	0	0	E-SIMPX|E-SIMPX|E-NF|E-SIMPX|PPER|NX|MF	0	_	I-1
+20	.	.	_	$.	_	_	_	_	_	T265	.	.	265	_	_	0	0	E-s15	0	0	$.	0	_	E-1
+
+# sent_id = 15
+# text = Wenn Deutschland aber in diesem Kriege siegt, ist es verloren.
+1	Wenn	wenn	_	KOUS	_	_	_	_	_	T266	Wenn	Wenn	266	_	_	0	0	B-s16	0	0	B-SIMPX|B-SIMPX|B-VF|KOUS|C	0	_	B-1
+2	Deutschland	Deutschland	_	NE	_	_	_	_	_	T267	Deutschland	Deutschland	267	_	_	0	0	I-s16	0	0	I-SIMPX|I-SIMPX|I-VF|B-MF|NE|NX	0	_	I-1
+3	aber	aber	_	ADV	_	_	_	_	_	T268	aber	aber	268	_	_	0	0	I-s16	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|ADV|ADVX	0	_	I-1
+4	in	in	_	APPR	_	_	_	_	_	T269	in	in	269	_	_	0	0	I-s16	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|B-PX|APPR	0	_	I-1
+5	diesem	dies	_	PDAT	_	_	_	_	_	T270	diesem	diesem	270	_	_	0	0	I-s16	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-PX|B-NX|PDAT	0	_	I-1
+6	Kriege	Krieg	_	NN	_	_	_	_	_	T271	Kriege	Kriege	271	_	_	0	0	I-s16	0	0	I-SIMPX|I-SIMPX|I-VF|E-MF|E-PX|E-NX|NN	0	_	I-1
+7	siegt	siegen	_	VVFIN	_	_	_	_	_	T272	siegt	siegt	272	_	_	0	0	I-s16	0	0	I-SIMPX|E-SIMPX|E-VF|VVFIN|VXFIN|VC	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T273	,	,	273	_	_	0	0	I-s16	0	0	I-SIMPX|$,	0	_	I-1
+9	ist	sein	_	VAFIN	_	_	_	_	_	T274	ist	ist	274	_	_	0	0	I-s16	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+10	es	es	_	PPER	_	_	_	_	_	T275	es	es	275	_	_	0	0	I-s16	0	0	I-SIMPX|PPER|NX|MF	0	_	I-1
+11	verloren	verlieren	_	VVPP	_	_	_	_	_	T276	verloren	verloren	276	_	ver-loren	0	0	I-s16	0	0	E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+12	.	.	_	$.	_	_	_	_	_	T277	.	.	277	_	_	0	0	E-s16	0	0	$.	0	_	E-1
+
+# sent_id = 16
+# text = Also müssen Maschinen abstürzen, um die Luftwaffe zu schwächen, auch wenn Freunde wie Eilers dabei sterben.
+1	Also	also	_	ADV	_	_	_	_	_	T278	Also	Also	278	_	_	0	0	B-s17	0	0	B-SIMPX|ADV|ADVX|VF	0	_	B-1
+2	müssen	müssen	_	VMFIN	_	_	_	_	_	T279	müssen	müssen	279	_	_	0	0	I-s17	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	Maschinen	Maschine	_	NN	_	_	_	_	_	T280	Maschinen	Maschinen	280	_	_	0	0	I-s17	0	0	I-SIMPX|NN|NX|MF	0	_	I-1
+4	abstürzen	abstürzen	_	VVINF	_	_	_	_	_	T281	abstürzen	abstürzen	281	_	ab-stürzen	0	0	I-s17	0	0	I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T282	,	,	282	_	_	0	0	I-s17	0	0	I-SIMPX|$,	0	_	I-1
+6	um	um	_	KOUI	_	_	_	_	_	T283	um	um	283	_	_	0	0	I-s17	0	0	I-SIMPX|B-SIMPX|B-NF|KOUI|C	0	_	I-1
+7	die	die	_	ART	_	_	_	_	_	T284	die	die	284	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|B-NX|B-MF|ART	0	_	I-1
+8	Luftwaffe	Luftwaffe	_	NN	_	_	_	_	_	T285	Luftwaffe	Luftwaffe	285	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|E-NX|E-MF|NN	0	_	I-1
+9	zu	zu	_	PTKZU	_	_	_	_	_	T286	zu	zu	286	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|B-VXINF|B-VC|PTKZU	0	_	I-1
+10	schwächen	schwächen	_	VVINF	_	_	_	_	_	T287	schwächen	schwächen	287	_	schwä-chen	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|E-VXINF|E-VC|VVINF	0	_	I-1
+11	,	,	_	$,	_	_	_	_	_	T288	,	,	288	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|$,	0	_	I-1
+12	auch	auch	_	ADV	_	_	_	_	_	T289	auch	auch	289	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|B-ADVX|B-NF|ADV|ADVX	0	_	I-1
+13	wenn	wenn	_	KOUS	_	_	_	_	_	T290	wenn	wenn	290	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|I-ADVX|I-NF|B-SIMPX|KOUS|C	0	_	I-1
+14	Freunde	Freund	_	NN	_	_	_	_	_	T291	Freunde	Freunde	291	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|I-ADVX|I-NF|I-SIMPX|B-MF|B-NX|NN|NX	0	_	I-1
+15	wie	wie	_	KOKOM	_	_	_	_	_	T292	wie	wie	292	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|I-ADVX|I-NF|I-SIMPX|I-MF|I-NX|B-NX|KOKOM	0	_	I-1
+16	Eilers	Eilers	_	NE	_	_	_	_	_	T293	Eilers	Eilers	293	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|I-ADVX|I-NF|I-SIMPX|I-MF|E-NX|E-NX|NN	0	_	I-1
+17	dabei	dabei	_	PAV	_	_	_	_	_	T294	dabei	dabei	294	_	_	0	0	I-s17	0	0	I-SIMPX|I-SIMPX|I-NF|I-ADVX|I-NF|I-SIMPX|E-MF|PROP|PX	0	_	I-1
+18	sterben	sterben	_	VVINF	_	_	_	_	_	T295	sterben	sterben	295	_	_	0	0	I-s17	0	0	E-SIMPX|E-SIMPX|E-NF|E-ADVX|E-NF|E-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+19	.	.	_	$.	_	_	_	_	_	T296	.	.	296	_	_	0	0	E-s17	0	0	$.	0	_	E-1
+
+# sent_id = 17
+# text = Es ist nicht Aufgabe dieses Aufsatzes, über Einsatz des Lebens für die Freiheit zu sprechen.
+1	Es	es	_	PPER	_	_	_	_	_	T297	Es	Es	297	_	_	0	0	B-s18	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	ist	sein	_	VAFIN	_	_	_	_	_	T298	ist	ist	298	_	_	0	0	I-s18	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	nicht	nicht	_	PTKNEG	_	_	_	_	_	T299	nicht	nicht	299	_	_	0	0	I-s18	0	0	I-SIMPX|B-MF|PTKNEG|ADVX	0	_	I-1
+4	Aufgabe	Aufgabe	_	NN	_	_	_	_	_	T300	Aufgabe	Aufgabe	300	_	_	0	0	I-s18	0	0	I-SIMPX|I-MF|B-NX|NN|NX	0	_	I-1
+5	dieses	dies	_	PDAT	_	_	_	_	_	T301	dieses	dieses	301	_	_	0	0	I-s18	0	0	I-SIMPX|I-MF|I-NX|B-NX|PDAT	0	_	I-1
+6	Aufsatzes	Aufsatz	_	NN	_	_	_	_	_	T302	Aufsatzes	Aufsatzes	302	_	_	0	0	I-s18	0	0	I-SIMPX|E-MF|E-NX|E-NX|NN	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T303	,	,	303	_	_	0	0	I-s18	0	0	I-SIMPX|$,	0	_	I-1
+8	über	über	_	APPR	_	_	_	_	_	T304	über	über	304	_	_	0	0	I-s18	0	0	I-SIMPX|B-SIMPX|B-NF|B-MF|B-NX|B-NX|ADJA|ADJX	0	_	I-1
+9	Einsatz	Einsatz	_	NN	_	_	_	_	_	T305	Einsatz	Einsatz	305	_	_	0	0	I-s18	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|E-NX|NN	0	_	I-1
+10	des	die	_	ART	_	_	_	_	_	T306	des	des	306	_	_	0	0	I-s18	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|B-NX|ART	0	_	I-1
+11	Lebens	Leben	_	NN	_	_	_	_	_	T307	Lebens	Lebens	307	_	_	0	0	I-s18	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|E-NX|NN	0	_	I-1
+12	für	für	_	APPR	_	_	_	_	_	T308	für	für	308	_	_	0	0	I-s18	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+13	die	die	_	ART	_	_	_	_	_	T309	die	die	309	_	_	0	0	I-s18	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-PX|B-NX|ART	0	_	I-1
+14	Freiheit	Freiheit	_	NN	_	_	_	_	_	T310	Freiheit	Freiheit	310	_	_	0	0	I-s18	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-PX|E-NX|NN	0	_	I-1
+15	zu	zu	_	PTKZU	_	_	_	_	_	T311	zu	zu	311	_	_	0	0	I-s18	0	0	I-SIMPX|I-SIMPX|I-NF|B-VXINF|B-VC|PTKZU	0	_	I-1
+16	sprechen	sprechen	_	VVINF	_	_	_	_	_	T312	sprechen	sprechen	312	_	_	0	0	I-s18	0	0	E-SIMPX|E-SIMPX|E-NF|E-VXINF|E-VC|VVINF	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T313	.	.	313	_	_	0	0	E-s18	0	0	$.	0	_	E-1
+
+# sent_id = 18
+# text = Ich möchte aber niemals den vorherzusehenden Tod eines Menschen verantworten, auch für die Freiheit nicht.
+1	Ich	ich	_	PPER	_	_	_	_	_	T314	Ich	Ich	314	_	_	0	0	B-s19	0	0	B-SIMPX|B-SIMPX|PPER|NX|VF	0	_	B-1
+2	möchte	mögen	_	VMFIN	_	_	_	_	_	T315	möchte	möchte	315	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	aber	aber	_	ADV	_	_	_	_	_	T316	aber	aber	316	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+4	niemals	niemals	_	ADV	_	_	_	_	_	T317	niemals	niemals	317	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+5	den	die	_	ART	_	_	_	_	_	T318	den	den	318	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|I-MF|B-NX|B-NX|ART	0	_	I-1
+6	vorherzusehenden	vorherzusehenden	_	ADJA	_	_	_	_	_	T319	vorherzusehenden	vorherzusehenden	319	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+7	Tod	Tod	_	NN	_	_	_	_	_	T320	Tod	Tod	320	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+8	eines	eine	_	ART	_	_	_	_	_	T321	eines	eines	321	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|I-MF|I-NX|B-NX|ART	0	_	I-1
+9	Menschen	Mensch	_	NN	_	_	_	_	_	T322	Menschen	Menschen	322	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|E-MF|E-NX|E-NX|NN	0	_	I-1
+10	verantworten	verantworten	_	VVINF	_	_	_	_	_	T323	verantworten	verantworten	323	_	_	0	0	I-s19	0	0	I-SIMPX|E-SIMPX|VVINF|VXINF|VC	0	_	I-1
+11	,	,	_	$,	_	_	_	_	_	T324	,	,	324	_	_	0	0	I-s19	0	0	I-SIMPX|$,	0	_	I-1
+12	auch	auch	_	ADV	_	_	_	_	_	T325	auch	auch	325	_	_	0	0	I-s19	0	0	I-SIMPX|B-SIMPX|ADV|ADVX|VF	0	_	I-1
+13	für	für	_	APPR	_	_	_	_	_	T326	für	für	326	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+14	die	die	_	ART	_	_	_	_	_	T327	die	die	327	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+15	Freiheit	Freiheit	_	NN	_	_	_	_	_	T328	Freiheit	Freiheit	328	_	_	0	0	I-s19	0	0	I-SIMPX|I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+16	nicht	nicht	_	PTKNEG	_	_	_	_	_	T329	nicht	nicht	329	_	_	0	0	I-s19	0	0	E-SIMPX|E-SIMPX|E-MF|PTKNEG|ADVX	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T330	.	.	330	_	_	0	0	E-s19	0	0	$.	0	_	E-1
+
+# sent_id = 19
+# text = Wenn die Sabotage Oderbruchs aufgedeckt wird, muss er sterben, aber er weiß, wofür er stirbt.
+1	Wenn	wenn	_	KOUS	_	_	_	_	_	T331	Wenn	Wenn	331	_	_	0	0	B-s20	0	0	B-SIMPX|B-SIMPX|B-VF|KOUS|C	0	_	B-1
+2	die	die	_	ART	_	_	_	_	_	T332	die	die	332	_	_	0	0	I-s20	0	0	I-SIMPX|I-SIMPX|I-VF|B-MF|B-NX|ART	0	_	I-1
+3	Sabotage	Sabotage	_	NN	_	_	_	_	_	T333	Sabotage	Sabotage	333	_	_	0	0	I-s20	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|E-NX|NN	0	_	I-1
+4	Oderbruchs	Oderbruch	_	NN	_	_	_	_	_	T334	Oderbruchs	Oderbruchs	334	_	Oder-bruchs	0	0	I-s20	0	0	I-SIMPX|I-SIMPX|I-VF|E-MF|NN|NX	0	_	I-1
+5	aufgedeckt	aufdecken	_	VVPP	_	_	_	_	_	T335	aufgedeckt	aufgedeckt	335	_	_	0	0	I-s20	0	0	I-SIMPX|I-SIMPX|I-VF|B-VC|VVPP|VXINF	0	_	I-1
+6	wird	werden	_	VAFIN	_	_	_	_	_	T336	wird	wird	336	_	_	0	0	I-s20	0	0	I-SIMPX|E-SIMPX|E-VF|E-VC|VAFIN|VXFIN	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T337	,	,	337	_	_	0	0	I-s20	0	0	I-SIMPX|$,	0	_	I-1
+8	muss	müssen	_	VMFIN	_	_	_	_	_	T338	muß	muß	338	XXX	_	0	0	I-s20	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+9	er	er	_	PPER	_	_	_	_	_	T339	er	er	339	_	_	0	0	I-s20	0	0	I-SIMPX|PPER|NX|MF	0	_	I-1
+10	sterben	sterben	_	VVINF	_	_	_	_	_	T340	sterben	sterben	340	_	_	0	0	I-s20	0	0	I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+11	,	,	_	$,	_	_	_	_	_	T341	,	,	341	_	_	0	0	I-s20	0	0	I-SIMPX|$,	0	_	I-1
+12	aber	aber	_	KON	_	_	_	_	_	T342	aber	aber	342	_	_	0	0	I-s20	0	0	I-SIMPX|KON	0	_	I-1
+13	er	er	_	PPER	_	_	_	_	_	T343	er	er	343	_	_	0	0	I-s20	0	0	I-SIMPX|PPER|NX|VF	0	_	I-1
+14	weiß	wissen	_	VVFIN	_	_	_	_	_	T344	weiß	weiß	344	_	_	0	0	I-s20	0	0	I-SIMPX|VVPP|VXINF|LK	0	_	I-1
+15	,	,	_	$,	_	_	_	_	_	T345	,	,	345	_	_	0	0	I-s20	0	0	I-SIMPX|$,	0	_	I-1
+16	wofür	wofür	_	PWAV	_	_	_	_	_	T346	wofür	wofür	346	_	_	0	0	I-s20	0	0	I-SIMPX|B-R-SIMPX|B-NF|PWAV|ADVX|C	0	_	I-1
+17	er	er	_	PPER	_	_	_	_	_	T347	er	er	347	_	_	0	0	I-s20	0	0	I-SIMPX|I-R-SIMPX|I-NF|PPER|NX|MF	0	_	I-1
+18	stirbt	sterben	_	VVFIN	_	_	_	_	_	T348	stirbt	stirbt	348	_	_	0	0	I-s20	0	0	E-SIMPX|E-R-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+19	.	.	_	$.	_	_	_	_	_	T349	.	.	349	_	_	0	0	E-s20	0	0	$.	0	_	E-1
+
+# sent_id = 20
+# text = Die Flieger wissen es nicht, sie waren vielleicht bereit, für ein ganz anderes Ziel zu sterben, nämlich für den Sieg.
+1	Die	die	_	ART	_	_	_	_	_	T350	Die	Die	350	_	_	0	0	B-s21	0	0	B-SIMPX|B-SIMPX|B-NX|B-VF|ART	0	_	B-1
+2	Flieger	Flieger	_	NN	_	_	_	_	_	T351	Flieger	Flieger	351	_	Flie-ger	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	wissen	wissen	_	VVFIN	_	_	_	_	_	T352	wissen	wissen	352	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	es	es	_	PPER	_	_	_	_	_	T353	es	es	353	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	T354	nicht	nicht	354	_	_	0	0	I-s21	0	0	I-SIMPX|E-SIMPX|E-MF|PTKNEG|ADVX	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T355	,	,	355	_	_	0	0	I-s21	0	0	I-SIMPX|$,	0	_	I-1
+7	sie	sie	_	PPER	_	_	_	_	_	T356	sie	sie	356	_	_	0	0	I-s21	0	0	I-SIMPX|B-SIMPX|B-SIMPX|PPER|NX|VF	0	_	I-1
+8	waren	sein	_	VAFIN	_	_	_	_	_	T357	waren	waren	357	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+9	vielleicht	vielleicht	_	ADV	_	_	_	_	_	T358	vielleicht	vielleicht	358	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+10	bereit	bereit	_	ADJD	_	_	_	_	_	T359	bereit	bereit	359	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|E-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+11	,	,	_	$,	_	_	_	_	_	T360	,	,	360	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|$,	0	_	I-1
+12	für	für	_	APPR	_	_	_	_	_	T361	für	für	361	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|B-SIMPX|B-PX|B-MF|APPR	0	_	I-1
+13	ein	eine	_	ART	_	_	_	_	_	T362	ein	ein	362	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-PX|I-MF|B-NX|ART	0	_	I-1
+14	ganz	ganz	_	ADV	_	_	_	_	_	T363	ganz	ganz	363	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-PX|I-MF|I-NX|B-ADJX|ADV|ADVX	0	_	I-1
+15	anderes	andere	_	PIAT	_	_	_	_	_	T364	anderes	anderes	364	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-PX|I-MF|I-NX|E-ADJX|ADJA	0	_	I-1
+16	Ziel	Ziel	_	NN	_	_	_	_	_	T365	Ziel	Ziel	365	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|I-SIMPX|E-PX|E-MF|E-NX|NN	0	_	I-1
+17	zu	zu	_	PTKZU	_	_	_	_	_	T366	zu	zu	366	_	_	0	0	I-s21	0	0	I-SIMPX|I-SIMPX|I-SIMPX|B-VXINF|B-VC|PTKZU	0	_	I-1
+18	sterben	sterben	_	VVINF	_	_	_	_	_	T367	sterben	sterben	367	_	ster-ben	0	0	I-s21	0	0	I-SIMPX|E-SIMPX|E-SIMPX|E-VXINF|E-VC|VVINF	0	_	I-1
+19	,	,	_	$,	_	_	_	_	_	T368	,	,	368	_	_	0	0	I-s21	0	0	I-SIMPX|$,	0	_	I-1
+20	nämlich	nämlich	_	ADV	_	_	_	_	_	T369	nämlich	nämlich	369	_	_	0	0	I-s21	0	0	I-SIMPX|B-NF|ADJD|ADJX	0	_	I-1
+21	für	für	_	APPR	_	_	_	_	_	T370	für	für	370	_	_	0	0	I-s21	0	0	I-SIMPX|I-NF|VVFIN|VXFIN	0	_	I-1
+22	den	die	_	ART	_	_	_	_	_	T371	den	den	371	_	_	0	0	I-s21	0	0	I-SIMPX|I-NF|B-NX|ART	0	_	I-1
+23	Sieg	Sieg	_	NN	_	_	_	_	_	T372	Sieg	Sieg	372	_	_	0	0	I-s21	0	0	E-SIMPX|E-NF|E-NX|NN	0	_	I-1
+24	.	.	_	$.	_	_	_	_	_	T373	.	.	373	_	_	0	0	E-s21	0	0	$.	0	_	E-1
+
+# sent_id = 21
+# text = Oderbruch aber schickte sie in den Tod für die Freiheit.
+1	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T374	Oderbruch	Oderbruch	374	_	_	0	0	B-s22	0	0	B-SIMPX|B-ADJX|B-VF|ADJD|ADJX	0	_	B-1
+2	aber	aber	_	ADV	_	_	_	_	_	T375	aber	aber	375	_	_	0	0	I-s22	0	0	I-SIMPX|E-ADJX|E-VF|ADV|ADVX	0	_	I-1
+3	schickte	schicken	_	VVFIN	_	_	_	_	_	T376	schickte	schickte	376	_	_	0	0	I-s22	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	sie	sie	_	PPER	_	_	_	_	_	T377	sie	sie	377	_	_	0	0	I-s22	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+5	in	in	_	APPR	_	_	_	_	_	T378	in	in	378	_	_	0	0	I-s22	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+6	den	die	_	ART	_	_	_	_	_	T379	den	den	379	_	_	0	0	I-s22	0	0	I-SIMPX|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+7	Tod	Tod	_	NN	_	_	_	_	_	T380	Tod	Tod	380	_	_	0	0	I-s22	0	0	I-SIMPX|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+8	für	für	_	APPR	_	_	_	_	_	T381	für	für	381	_	_	0	0	I-s22	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-PX|APPR	0	_	I-1
+9	die	die	_	ART	_	_	_	_	_	T382	die	die	382	_	_	0	0	I-s22	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-PX|B-NX|ART	0	_	I-1
+10	Freiheit	Freiheit	_	NN	_	_	_	_	_	T383	Freiheit	Freiheit	383	_	Frei-heit	0	0	I-s22	0	0	E-SIMPX|E-MF|E-PX|E-NX|E-PX|E-NX|NN	0	_	I-1
+11	.	.	_	$.	_	_	_	_	_	T384	.	.	384	_	_	0	0	E-s22	0	0	$.	0	_	E-1
+
+# sent_id = 22
+# text = Ein Mann wie Oderbruch wird auch andere Gründe <EMPTY> als nur den in der Einleitung zitierten Themasatz " Wenn Deutschland siegt, ist es verloren " gehabt haben, wenn er Freunde und Unbekannte abstürzen ließ.
+1	Ein	eine	_	ART	_	_	_	_	_	T385	Ein	Ein	385	_	_	0	0	B-s23	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Mann	Mann	_	NN	_	_	_	_	_	T386	Mann	Mann	386	_	_	0	0	I-s23	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	wie	wie	_	KOKOM	_	_	_	_	_	T387	wie	wie	387	_	_	0	0	I-s23	0	0	I-SIMPX|I-NX|I-VF|B-NX|KOKOM	0	_	I-1
+4	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T388	Oderbruch	Oderbruch	388	_	_	0	0	I-s23	0	0	I-SIMPX|E-NX|E-VF|E-NX|NN	0	_	I-1
+5	wird	werden	_	VAFIN	_	_	_	_	_	T389	wird	wird	389	_	_	0	0	I-s23	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+6	auch	auch	_	ADV	_	_	_	_	_	T390	auch	auch	390	_	_	0	0	I-s23	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+7	andere	andere	_	PIAT	_	_	_	_	_	T391	andere	andere	391	_	_	0	0	I-s23	0	0	I-SIMPX|I-MF|B-NX|B-NX|ADJA|ADJX	0	_	I-1
+8	Gründe	Grund	_	NN	_	_	_	_	_	T392	Gründe	Gründe	392	_	_	0	0	I-s23	0	0	I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+9	<EMPTY>	_	_	_	_	_	_	_	_	T393	,	_	393	XXX	_	1	PKT	I-s23	0	0	I-SIMPX|I-MF|I-NX	0	_	I-1
+10	als	als	_	KOKOM	_	_	_	_	_	T394	als	als	394	_	_	0	0	I-s23	0	0	I-SIMPX|I-MF|I-NX|B-ADVX|KOKOM	0	_	I-1
+11	nur	nur	_	ADV	_	_	_	_	_	T395	nur	nur	395	_	_	0	0	I-s23	0	0	I-SIMPX|I-MF|E-NX|E-ADVX|ADV	0	_	I-1
+12	den	die	_	ART	_	_	_	_	_	T396	den	den	396	_	_	0	0	I-s23	0	0	I-SIMPX|I-MF|B-NX|B-NX|ART	0	_	I-1
+13	in	in	_	APPR	_	_	_	_	_	T397	in	in	397	_	_	0	0	I-s23	0	0	I-SIMPX|I-MF|I-NX|I-NX|B-ADJX|B-PX|APPR	0	_	I-1
+14	der	die	_	ART	_	_	_	_	_	T398	der	der	398	_	_	0	0	I-s23	0	0	I-SIMPX|I-MF|I-NX|I-NX|I-ADJX|I-PX|B-NX|ART	0	_	I-1
+15	Einleitung	Einleitung	_	NN	_	_	_	_	_	T399	Einleitung	Einleitung	399	_	Ein-leitung	0	0	I-s23	0	0	I-SIMPX|I-MF|I-NX|I-NX|I-ADJX|E-PX|E-NX|NN	0	_	I-1
+16	zitierten	zitiert	_	ADJA	_	_	_	_	_	T400	zitierten	zitierten	400	_	_	0	0	I-s23	0	0	I-SIMPX|I-MF|I-NX|I-NX|E-ADJX|ADJA	0	_	I-1
+17	Themasatz	Themasatz	_	NN	_	_	_	_	_	T401	Themasatz	Themasatz	401	_	_	0	0	I-s23	0	0	I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+18	"	"	_	$(	_	_	_	_	_	T402	"	"	402	_	_	0	0	I-s23	0	B-1	I-SIMPX|I-MF|I-NX|$(	0	_	I-1
+19	Wenn	wenn	_	KOUS	_	_	_	_	_	T403	Wenn	Wenn	403	_	_	0	0	I-s23	0	I-1	I-SIMPX|I-MF|I-NX|B-SIMPX|B-SIMPX|B-VF|KOUS|C	0	_	I-1
+20	Deutschland	Deutschland	_	NE	_	_	_	_	_	T404	Deutschland	Deutschland	404	_	_	0	0	I-s23	0	I-1	I-SIMPX|I-MF|I-NX|I-SIMPX|I-SIMPX|I-VF|NE|NX|MF	0	_	I-1
+21	siegt	siegen	_	VVFIN	_	_	_	_	_	T405	siegt	siegt	405	_	_	0	0	I-s23	0	I-1	I-SIMPX|I-MF|I-NX|I-SIMPX|E-SIMPX|E-VF|VVFIN|VXFIN|VC	0	_	I-1
+22	,	,	_	$,	_	_	_	_	_	T406	,	,	406	_	_	0	0	I-s23	0	I-1	I-SIMPX|I-MF|I-NX|I-SIMPX|$,	0	_	I-1
+23	ist	sein	_	VAFIN	_	_	_	_	_	T407	ist	ist	407	_	_	0	0	I-s23	0	I-1	I-SIMPX|I-MF|I-NX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+24	es	es	_	PPER	_	_	_	_	_	T408	es	es	408	_	_	0	0	I-s23	0	I-1	I-SIMPX|I-MF|I-NX|I-SIMPX|PPER|NX|MF	0	_	I-1
+25	verloren	verloren	_	ADJD	_	_	_	_	_	T409	verloren	verloren	409	_	_	0	0	I-s23	0	I-1	I-SIMPX|I-MF|I-NX|E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+26	"	"	_	$(	_	_	_	_	_	T410	"	"	410	_	_	0	0	I-s23	0	E-1	I-SIMPX|E-MF|E-NX|$(	0	_	I-1
+27	gehabt	haben	_	VAPP	_	_	_	_	_	T411	gehabt	gehabt	411	_	_	0	0	I-s23	0	0	I-SIMPX|B-VC|VAPP|VXINF	0	_	I-1
+28	haben	haben	_	VAFIN	_	_	_	_	_	T412	haben	haben	412	_	_	0	0	I-s23	0	0	I-SIMPX|E-VC|VAINF|VXINF	0	_	I-1
+29	,	,	_	$,	_	_	_	_	_	T413	,	,	413	_	_	0	0	I-s23	0	0	I-SIMPX|$,	0	_	I-1
+30	wenn	wenn	_	KOUS	_	_	_	_	_	T414	wenn	wenn	414	_	_	0	0	I-s23	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+31	er	er	_	PPER	_	_	_	_	_	T415	er	er	415	_	_	0	0	I-s23	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+32	Freunde	Freund	_	NN	_	_	_	_	_	T416	Freunde	Freunde	416	_	_	0	0	I-s23	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|NN|NX	0	_	I-1
+33	und	und	_	KON	_	_	_	_	_	T417	und	und	417	_	_	0	0	I-s23	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|KON	0	_	I-1
+34	Unbekannte	Unbekannte	_	NN	_	_	_	_	_	T418	Unbekannte	Unbekannte	418	_	Unbekann-te	0	0	I-s23	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-NX|NN|NX	0	_	I-1
+35	abstürzen	abstürzen	_	VVINF	_	_	_	_	_	T419	abstürzen	abstürzen	419	_	_	0	0	I-s23	0	0	I-SIMPX|I-SIMPX|I-NF|B-VC|VVINF|VXINF	0	_	I-1
+36	ließ	lassen	_	VVFIN	_	_	_	_	_	T420	ließ	ließ	420	_	_	0	0	I-s23	0	0	E-SIMPX|E-SIMPX|E-NF|E-VC|VVFIN|VXFIN	0	_	I-1
+37	.	.	_	$.	_	_	_	_	_	T421	.	.	421	_	_	0	0	E-s23	0	0	$.	0	_	E-1
+
+# sent_id = 23
+# text = Nach einem Sieg Hitlers war der Nationalsozialismus in Deutschland nicht mehr zu stürzen.
+1	Nach	nach	_	APPR	_	_	_	_	_	T422	Nach	Nach	422	_	_	0	0	B-s24	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	einem	eine	_	ART	_	_	_	_	_	T423	einem	einem	423	_	_	0	0	I-s24	0	0	I-SIMPX|I-PX|I-VF|B-NX|B-NX|ART	0	_	I-1
+3	Sieg	Sieg	_	NN	_	_	_	_	_	T424	Sieg	Sieg	424	_	_	0	0	I-s24	0	0	I-SIMPX|I-PX|I-VF|I-NX|E-NX|NN	0	_	I-1
+4	Hitlers	Hitler	_	NE	_	_	_	_	_	T425	Hitlers	Hitlers	425	_	Hit-lers	0	0	I-s24	0	0	I-SIMPX|E-PX|E-VF|E-NX|NE|NX	0	_	I-1
+5	war	sein	_	VAFIN	_	_	_	_	_	T426	war	war	426	_	_	0	0	I-s24	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+6	der	die	_	ART	_	_	_	_	_	T427	der	der	427	_	_	0	0	I-s24	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+7	Nationalsozialismus	Nationalsozialismus	_	NN	_	_	_	_	_	T428	Nationalsozialismus	Nationalsozialismus	428	_	_	0	0	I-s24	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+8	in	in	_	APPR	_	_	_	_	_	T429	in	in	429	_	_	0	0	I-s24	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+9	Deutschland	Deutschland	_	NE	_	_	_	_	_	T430	Deutschland	Deutschland	430	_	_	0	0	I-s24	0	0	I-SIMPX|I-MF|E-PX|NE|NX	0	_	I-1
+10	nicht	nicht	_	PTKNEG	_	_	_	_	_	T431	nicht	nicht	431	_	_	0	0	I-s24	0	0	I-SIMPX|I-MF|B-ADVX|PTKNEG|ADVX	0	_	I-1
+11	mehr	mehr	_	ADV	_	_	_	_	_	T432	mehr	mehr	432	_	_	0	0	I-s24	0	0	I-SIMPX|E-MF|E-ADVX|ADV|ADVX	0	_	I-1
+12	zu	zu	_	PTKZU	_	_	_	_	_	T433	zu	zu	433	_	_	0	0	I-s24	0	0	I-SIMPX|B-VXINF|B-VC|PTKZU	0	_	I-1
+13	stürzen	stürzen	_	VVINF	_	_	_	_	_	T434	stürzen	stürzen	434	_	_	0	0	I-s24	0	0	E-SIMPX|E-VXINF|E-VC|VVINF	0	_	I-1
+14	.	.	_	$.	_	_	_	_	_	T435	.	.	435	_	_	0	0	E-s24	0	0	$.	0	_	E-1
+
+# sent_id = 24
+# text = Deutschland würde Europa beherrschen.
+1	Deutschland	Deutschland	_	NE	_	_	_	_	_	T436	Deutschland	Deutschland	436	_	_	0	0	B-s25	0	0	B-SIMPX|NE|NX|VF	0	_	B-1
+2	würde	werden	_	VAFIN	_	_	_	_	_	T437	würde	würde	437	_	_	0	0	I-s25	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	Europa	Europa	_	NE	_	_	_	_	_	T438	Europa	Europa	438	_	_	0	0	I-s25	0	0	I-SIMPX|NE|NX|MF	0	_	I-1
+4	beherrschen	beherrschen	_	VVINF	_	_	_	_	_	T439	beherrschen	beherrschen	439	_	beherr-schen	0	0	I-s25	0	0	E-SIMPX|VVINF|VXINF|VC	0	_	I-1
+5	.	.	_	$.	_	_	_	_	_	T440	.	.	440	_	_	0	0	E-s25	0	0	$.	0	_	E-1
+
+# sent_id = 25
+# text = Die Werte des christlichen Abendlandes würden mit Füßen getreten.
+1	Die	die	_	ART	_	_	_	_	_	T441	Die	Die	441	_	_	0	0	B-s26	0	0	B-SIMPX|B-NX|B-VF|B-NX|ART	0	_	B-1
+2	Werte	Wert	_	NN	_	_	_	_	_	T442	Werte	Werte	442	_	_	0	0	I-s26	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN	0	_	I-1
+3	des	die	_	ART	_	_	_	_	_	T443	des	des	443	_	_	0	0	I-s26	0	0	I-SIMPX|I-NX|I-VF|B-NX|ART	0	_	I-1
+4	christlichen	christlich	_	ADJA	_	_	_	_	_	T444	christlichen	christlichen	444	_	_	0	0	I-s26	0	0	I-SIMPX|I-NX|I-VF|I-NX|ADJA|ADJX	0	_	I-1
+5	Abendlandes	Abendland	_	NN	_	_	_	_	_	T445	Abendlandes	Abendlandes	445	_	Abend-landes	0	0	I-s26	0	0	I-SIMPX|E-NX|E-VF|E-NX|NN	0	_	I-1
+6	würden	werden	_	VAFIN	_	_	_	_	_	T446	würden	würden	446	_	_	0	0	I-s26	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+7	mit	mit	_	APPR	_	_	_	_	_	T447	mit	mit	447	_	_	0	0	I-s26	0	0	I-SIMPX|B-PX|B-MF|APPR	0	_	I-1
+8	Füßen	Fuß	_	NN	_	_	_	_	_	T448	Füßen	Füßen	448	_	_	0	0	I-s26	0	0	I-SIMPX|E-PX|E-MF|NN|NX	0	_	I-1
+9	getreten	treten	_	VVPP	_	_	_	_	_	T449	getreten	getreten	449	_	_	0	0	I-s26	0	0	E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+10	.	.	_	$.	_	_	_	_	_	T450	.	.	450	_	_	0	0	E-s26	0	0	$.	0	_	E-1
+
+# sent_id = 26
+# text = Religionsgemeinschaften aller Art würden zerstört werden, Europa würde in die Barbarei zurückfallen.
+1	Religionsgemeinschaften	Religionsgemeinschaft	_	NN	_	_	_	_	_	T451	Religionsgemeinschaften	Religionsgemeinschaften	451	_	_	0	0	B-s27	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	aller	alle	_	PIAT	_	_	_	_	_	T452	aller	aller	452	_	_	0	0	I-s27	0	0	I-SIMPX|I-PX|I-VF|B-NX|PIDAT	0	_	I-1
+3	Art	Art	_	NN	_	_	_	_	_	T453	Art	Art	453	_	_	0	0	I-s27	0	0	I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+4	würden	werden	_	VAFIN	_	_	_	_	_	T454	würden	würden	454	_	wür-den	0	0	I-s27	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+5	zerstört	zerstören	_	VVPP	_	_	_	_	_	T455	zerstört	zerstört	455	_	_	0	0	I-s27	0	0	I-SIMPX|B-VC|VVPP|VXINF	0	_	I-1
+6	werden	werden	_	VAINF	_	_	_	_	_	T456	werden	werden	456	_	_	0	0	I-s27	0	0	I-SIMPX|E-VC|VAINF|VXINF	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T457	,	,	457	_	_	0	0	I-s27	0	0	I-SIMPX|$,	0	_	I-1
+8	Europa	Europa	_	NE	_	_	_	_	_	T458	Europa	Europa	458	_	_	0	0	I-s27	0	0	I-SIMPX|B-SIMPX|NE|NX|VF	0	_	I-1
+9	würde	werden	_	VAFIN	_	_	_	_	_	T459	würde	würde	459	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|ADV|ADVX|LK	0	_	I-1
+10	in	in	_	APPR	_	_	_	_	_	T460	in	in	460	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|B-PX|B-MF|APPR	0	_	I-1
+11	die	die	_	ART	_	_	_	_	_	T461	die	die	461	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|I-PX|I-MF|B-NX|ART	0	_	I-1
+12	Barbarei	Barbarei	_	NN	_	_	_	_	_	T462	Barbarei	Barbarei	462	_	_	0	0	I-s27	0	0	I-SIMPX|I-SIMPX|E-PX|E-MF|E-NX|NN	0	_	I-1
+13	zurückfallen	zurückfallen	_	VVINF	_	_	_	_	_	T463	zurückfallen	zurückfallen	463	_	_	0	0	I-s27	0	0	E-SIMPX|E-SIMPX|VVIZU|VXINF|VC	0	_	I-1
+14	.	.	_	$.	_	_	_	_	_	T464	.	.	464	_	_	0	0	E-s27	0	0	$.	0	_	E-1
+
+# sent_id = 27
+# text = Dies alles wird Oderbruch sich vor Augen geführt haben <EMPTY> und dann kam er zu dem unumstößlichen Entschluss: " Ich muss mithelfen, dass Deutschland in diesem Kriege unterliegt. "
+1	Dies	dies	_	PDS	_	_	_	_	_	T465	Dies	Dies	465	_	_	0	0	B-s28	0	0	B-SIMPX|B-SIMPX|B-SIMPX|B-NX|B-VF|PDS|NX	0	_	B-1
+2	alles	alle	_	PIS	_	_	_	_	_	T466	alles	alles	466	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|E-NX|E-VF|PIS|NX	0	_	I-1
+3	wird	werden	_	VAFIN	_	_	_	_	_	T467	wird	wird	467	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+4	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T468	Oderbruch	Oderbruch	468	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|B-MF|NE|NX	0	_	I-1
+5	sich	sich	_	PRF	_	_	_	_	_	T469	sich	sich	469	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-MF|PRF|NX	0	_	I-1
+6	vor	vor	_	APPR	_	_	_	_	_	T470	vor	vor	470	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+7	Augen	Auge	_	NN	_	_	_	_	_	T471	Augen	Augen	471	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|E-MF|E-PX|NN|NX	0	_	I-1
+8	geführt	führen	_	VVPP	_	_	_	_	_	T472	gegeführt	geführt	472	XXX	ge-geführt	1	WORT	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|B-VC|VVPP|VXINF	0	_	I-1
+9	haben	haben	_	VAFIN	_	_	_	_	_	T473	haben	haben	473	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|E-SIMPX|E-VC|VAINF|VXINF	0	_	I-1
+10	<EMPTY>	_	_	_	_	_	_	_	_	T474	,	,	474	XXX	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX	0	_	I-1
+11	und	und	_	KON	_	_	_	_	_	T475	und	und	475	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|KON	0	_	I-1
+12	dann	dann	_	ADV	_	_	_	_	_	T476	dann	dann	476	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|B-SIMPX|ADV|ADVX|VF	0	_	I-1
+13	kam	kommen	_	VVFIN	_	_	_	_	_	T477	kam	kam	477	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+14	er	er	_	PPER	_	_	_	_	_	T478	er	er	478	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+15	zu	zu	_	APPR	_	_	_	_	_	T479	zu	zu	479	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+16	dem	die	_	ART	_	_	_	_	_	T480	dem	dem	480	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+17	unumstößlichen	unumstößlich	_	ADJA	_	_	_	_	_	T481	unumstößlichen	unumstößlichen	481	_	_	0	0	I-s28	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+18	Entschluss	Entschluss	_	NN	_	_	_	_	_	T482	Entschluß	Entschluß	482	XXX	_	0	0	I-s28	0	0	I-SIMPX|E-SIMPX|E-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+19	:	:	_	$.	_	_	_	_	_	T483	:	:	483	_	_	0	0	I-s28	0	0	I-SIMPX|$.	0	_	I-1
+20	"	"	_	$(	_	_	_	_	_	T484	"	"	484	_	_	0	0	I-s28	0	B-1	I-SIMPX|$(	0	_	I-1
+21	Ich	ich	_	PPER	_	_	_	_	_	T485	Ich	Ich	485	_	_	0	0	I-s28	0	I-1	I-SIMPX|B-NF|B-SIMPX|PPER|NX|VF	0	_	I-1
+22	muss	müssen	_	VMFIN	_	_	_	_	_	T486	muß	muß	486	XXX	_	0	0	I-s28	0	I-1	I-SIMPX|I-NF|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+23	mithelfen	mithelfen	_	VVINF	_	_	_	_	_	T487	mithelfen	mithelfen	487	_	_	0	0	I-s28	0	I-1	I-SIMPX|I-NF|I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+24	,	,	_	$,	_	_	_	_	_	T488	,	,	488	_	_	0	0	I-s28	0	I-1	I-SIMPX|I-NF|I-SIMPX|$,	0	_	I-1
+25	dass	dass	_	KOUS	_	_	_	_	_	T489	daß	daß	489	XXX	_	0	0	I-s28	0	I-1	I-SIMPX|I-NF|I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+26	Deutschland	Deutschland	_	NE	_	_	_	_	_	T490	Deutschland	Deutschland	490	_	_	0	0	I-s28	0	I-1	I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-NF|B-MF|NE|NX	0	_	I-1
+27	in	in	_	APPR	_	_	_	_	_	T491	in	in	491	_	_	0	0	I-s28	0	I-1	I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+28	diesem	dies	_	PDAT	_	_	_	_	_	T492	diesem	diesem	492	_	_	0	0	I-s28	0	I-1	I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-NF|I-MF|I-PX|B-NX|PDAT	0	_	I-1
+29	Kriege	Krieg	_	NN	_	_	_	_	_	T493	Kriege	Kriege	493	_	_	0	0	I-s28	0	I-1	I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-NF|E-MF|E-PX|E-NX|NN	0	_	I-1
+30	unterliegt	unterliegen	_	VVFIN	_	_	_	_	_	T494	unterliegt	unterliegt	494	_	_	0	0	I-s28	0	I-1	I-SIMPX|I-NF|E-SIMPX|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+31	.	.	_	$.	_	_	_	_	_	T495	.	.	495	_	_	0	0	I-s28	0	I-1	I-SIMPX|I-NF|$.	0	_	I-1
+32	"	"	_	$(	_	_	_	_	_	T496	"	"	496	_	_	0	0	E-s28	0	E-1	E-SIMPX|E-NF|$(	0	_	E-1
+
+# sent_id = 28
+# text = Als General Harras ihm einmal vorwirft, dass Niederlage Fremdherrschaft und neue Unterjochung bedeutet, sagt Oderbruch ihm, dass jede Unterjochung für Deutschland Befreiung ist.
+1	Als	als	_	KOKOM	_	_	_	_	_	T497	Als	Als	497	_	_	0	0	B-s29	0	0	B-SIMPX|B-VF|KOUS|C	0	_	B-1
+2	General	General	_	NN	_	_	_	_	_	T498	General	General	498	_	_	0	0	I-s29	0	0	I-SIMPX|I-VF|B-MF|B-NX|NN|NX	0	_	I-1
+3	Harras	Harras	_	NE	_	_	_	_	_	T499	Harras	Harras	499	_	Har-ras	0	0	I-s29	0	0	I-SIMPX|I-VF|I-MF|E-NX|NE|NX	0	_	I-1
+4	ihm	er	_	PPER	_	_	_	_	_	T500	ihm	ihm	500	_	_	0	0	I-s29	0	0	I-SIMPX|I-VF|I-MF|PPER|NX	0	_	I-1
+5	einmal	einmal	_	ADV	_	_	_	_	_	T501	einmal	einmal	501	_	_	0	0	I-s29	0	0	I-SIMPX|I-VF|E-MF|ADV|ADVX	0	_	I-1
+6	vorwirft	vorwerfen	_	VVFIN	_	_	_	_	_	T502	vorwirft	vorwirft	502	_	_	0	0	I-s29	0	0	I-SIMPX|I-VF|VVFIN|VXFIN|VC	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T503	,	,	503	_	_	0	0	I-s29	0	0	I-SIMPX|I-VF|$,	0	_	I-1
+8	dass	dass	_	KOUS	_	_	_	_	_	T504	daß	daß	504	XXX	_	0	0	I-s29	0	0	I-SIMPX|I-VF|B-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+9	Niederlage	Niederlage	_	NN	_	_	_	_	_	T505	Niederlage	Niederlage	505	_	Nieder-lage	0	0	I-s29	0	0	I-SIMPX|I-VF|I-SIMPX|I-SIMPX|I-NF|B-MF|NN|NX	0	_	I-1
+10	Fremdherrschaft	Fremdherrschaft	_	NN	_	_	_	_	_	T506	Fremdherrschaft	Fremdherrschaft	506	_	_	0	0	I-s29	0	0	I-SIMPX|I-VF|I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|NN|NX	0	_	I-1
+11	und	und	_	KON	_	_	_	_	_	T507	und	und	507	_	_	0	0	I-s29	0	0	I-SIMPX|I-VF|I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|KON	0	_	I-1
+12	neue	neu	_	ADJA	_	_	_	_	_	T508	neue	neue	508	_	_	0	0	I-s29	0	0	I-SIMPX|I-VF|I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|B-NX|ADJA|ADJX	0	_	I-1
+13	Unterjochung	Unterjochung	_	NN	_	_	_	_	_	T509	Unterjochung	Unterjochung	509	_	Unter-jochung	0	0	I-s29	0	0	I-SIMPX|I-VF|I-SIMPX|I-SIMPX|I-NF|E-MF|E-NX|E-NX|NN	0	_	I-1
+14	bedeutet	bedeuten	_	VVFIN	_	_	_	_	_	T510	bedeuten	bedeutet	510	XXX	_	1	FLEX	I-s29	0	0	I-SIMPX|E-VF|E-SIMPX|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+15	,	,	_	$,	_	_	_	_	_	T511	,	,	511	_	_	0	0	I-s29	0	0	I-SIMPX|B-SIMPX|$,	0	_	I-1
+16	sagt	sagen	_	VVFIN	_	_	_	_	_	T512	sagt	sagt	512	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+17	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T513	Oderbruch	Oderbruch	513	_	Oder-bruch	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|B-MF|NE|NX	0	_	I-1
+18	ihm	er	_	PPER	_	_	_	_	_	T514	ihm	ihm	514	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|E-MF|PPER|NX	0	_	I-1
+19	,	,	_	$,	_	_	_	_	_	T515	,	,	515	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|$,	0	_	I-1
+20	dass	dass	_	KOUS	_	_	_	_	_	T516	daß	daß	516	XXX	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+21	jede	jede	_	PIAT	_	_	_	_	_	T517	jede	jede	517	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|PIDAT	0	_	I-1
+22	Unterjochung	Unterjochung	_	NN	_	_	_	_	_	T518	Unterjochung	Unterjochung	518	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+23	für	für	_	APPR	_	_	_	_	_	T519	für	für	519	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+24	Deutschland	Deutschland	_	NE	_	_	_	_	_	T520	Deutschland	Deutschland	520	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|E-PX|NE|NX	0	_	I-1
+25	Befreiung	Befreiung	_	NN	_	_	_	_	_	T521	Befreiung	Befreiung	521	_	_	0	0	I-s29	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|E-MF|NN|NX	0	_	I-1
+26	ist	sein	_	VAFIN	_	_	_	_	_	T522	ist	ist	522	_	_	0	0	I-s29	0	0	E-SIMPX|E-SIMPX|E-SIMPX|E-NF|VAFIN|VXFIN|VC	0	_	I-1
+27	.	.	_	$.	_	_	_	_	_	T523	.	.	523	_	_	0	0	E-s29	0	0	$.	0	_	E-1
+
+# sent_id = 29
+# text = Dem Ingenieur ist eine Kapitulation unter härtesten Bedingungen lieber als ein Sieg.
+1	Dem	die	_	ART	_	_	_	_	_	T524	Dem	Dem	524	_	_	0	0	B-s30	0	0	B-SIMPX|B-NX|B-VF|ART	0	_	B-1
+2	Ingenieur	Ingenieur	_	NN	_	_	_	_	_	T525	Ingenieur	Ingenieur	525	_	_	0	0	I-s30	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	ist	sein	_	VAFIN	_	_	_	_	_	T526	ist	ist	526	_	_	0	0	I-s30	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+4	eine	eine	_	ART	_	_	_	_	_	T527	eine	eine	527	_	_	0	0	I-s30	0	0	I-SIMPX|B-MF|B-NX|ART	0	_	I-1
+5	Kapitulation	Kapitulation	_	NN	_	_	_	_	_	T528	Kapitulation	Kapitulation	528	_	_	0	0	I-s30	0	0	I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+6	unter	unter	_	APPR	_	_	_	_	_	T529	unter	unter	529	_	un-ter	0	0	I-s30	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+7	härtesten	hart	_	ADJA	_	_	_	_	_	T530	härtesten	härtesten	530	_	_	0	0	I-s30	0	0	I-SIMPX|I-MF|I-PX|B-NX|ADJA|ADJX	0	_	I-1
+8	Bedingungen	Bedingung	_	NN	_	_	_	_	_	T531	Bedingungen	Bedingungen	531	_	_	0	0	I-s30	0	0	I-SIMPX|I-MF|E-PX|E-NX|NN	0	_	I-1
+9	lieber	lieb	_	ADJD	_	_	_	_	_	T532	lieber	lieber	532	_	_	0	0	I-s30	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+10	als	als	_	KOKOM	_	_	_	_	_	T533	als	als	533	_	_	0	0	I-s30	0	0	I-SIMPX|I-MF|B-NX|KOKOM	0	_	I-1
+11	ein	eine	_	ART	_	_	_	_	_	T534	ein	ein	534	_	_	0	0	I-s30	0	0	I-SIMPX|I-MF|I-NX|ART	0	_	I-1
+12	Sieg	Sieg	_	NN	_	_	_	_	_	T535	Sieg	Sieg	535	_	_	0	0	I-s30	0	0	E-SIMPX|E-MF|E-NX|NN	0	_	I-1
+13	.	.	_	$.	_	_	_	_	_	T536	.	.	536	_	_	0	0	E-s30	0	0	$.	0	_	E-1
+
+# sent_id = 30
+# text = Deutschland wird vielleicht nicht wiederauferstehen, die Deutschen aber werden wieder Menschen sein und auch so leben dürfen.
+1	Deutschland	Deutschland	_	NE	_	_	_	_	_	T537	Deutschland	Deutschland	537	_	_	0	0	B-s31	0	0	B-SIMPX|NE|NX|VF	0	_	B-1
+2	wird	werden	_	VAFIN	_	_	_	_	_	T538	wird	wird	538	_	_	0	0	I-s31	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	vielleicht	vielleicht	_	ADV	_	_	_	_	_	T539	vielleicht	vielleicht	539	_	_	0	0	I-s31	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	T540	nicht	nicht	540	_	_	0	0	I-s31	0	0	I-SIMPX|E-MF|PTKNEG|ADVX	0	_	I-1
+5	wiederauferstehen	wiederauferstehen	_	VVINF	_	_	_	_	_	T541	wiederauferstehen	wiederauferstehen	541	_	_	0	0	I-s31	0	0	I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T542	,	,	542	_	_	0	0	I-s31	0	0	I-SIMPX|$,	0	_	I-1
+7	die	die	_	ART	_	_	_	_	_	T543	die	die	543	_	_	0	0	I-s31	0	0	I-SIMPX|B-SIMPX|B-NF|B-NX|B-VF|B-NX|ART	0	_	I-1
+8	Deutschen	Deutsche	_	NN	_	_	_	_	_	T544	Deutschen	Deutschen	544	_	_	0	0	I-s31	0	0	I-SIMPX|I-SIMPX|I-NF|I-NX|I-VF|E-NX|NN	0	_	I-1
+9	aber	aber	_	ADV	_	_	_	_	_	T545	aber	aber	545	_	_	0	0	I-s31	0	0	I-SIMPX|I-SIMPX|I-NF|E-NX|E-VF|ADV|ADVX	0	_	I-1
+10	werden	werden	_	VAFIN	_	_	_	_	_	T546	werden	werden	546	_	_	0	0	I-s31	0	0	I-SIMPX|I-SIMPX|I-NF|VAFIN|VXFIN|LK	0	_	I-1
+11	wieder	wieder	_	ADV	_	_	_	_	_	T547	wieder	wieder	547	_	_	0	0	I-s31	0	0	I-SIMPX|I-SIMPX|I-NF|B-FKOORD|B-FKONJ|B-MF|ADV|ADVX	0	_	I-1
+12	Menschen	Mensch	_	NN	_	_	_	_	_	T548	Menschen	Menschen	548	_	_	0	0	I-s31	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|NN|NX	0	_	I-1
+13	sein	sein	_	VAINF	_	_	_	_	_	T549	sein	sein	549	_	_	0	0	I-s31	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|E-FKONJ|VAINF|VXINF|VC	0	_	I-1
+14	und	und	_	KON	_	_	_	_	_	T550	und	und	550	_	_	0	0	I-s31	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|KON	0	_	I-1
+15	auch	auch	_	ADV	_	_	_	_	_	T551	auch	auch	551	_	_	0	0	I-s31	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|B-FKONJ|B-MF|ADV|ADVX	0	_	I-1
+16	so	so	_	ADV	_	_	_	_	_	T552	so	so	552	_	_	0	0	I-s31	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|ADV|ADVX	0	_	I-1
+17	leben	leben	_	VVINF	_	_	_	_	_	T553	leben	leben	553	_	_	0	0	I-s31	0	0	I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|B-VC|VVINF|VXINF	0	_	I-1
+18	dürfen	dürfen	_	VMINF	_	_	_	_	_	T554	dürfen	dürfen	554	_	_	0	0	I-s31	0	0	E-SIMPX|E-SIMPX|E-NF|E-FKOORD|E-FKONJ|E-VC|VVFIN|VXFIN	0	_	I-1
+19	.	.	_	$.	_	_	_	_	_	T555	.	.	555	_	_	0	0	E-s31	0	0	$.	0	_	E-1
+
+# sent_id = 31
+# text = Als die Frau des abgestürzten Obersten Eilers mit General Harras spricht, sagt er ihr, dass alle Menschen, die eine große Ordnung umstürzen, sich eine Form des Lebens vorstellen, die ihnen besser scheint <EMPTY> als die, die sie zerstören.
+1	Als	als	_	KOUS	_	_	_	_	_	T556	Als	Als	556	_	_	0	0	B-s32	0	0	B-SIMPX|B-SIMPX|B-VF|KOUS|C	0	_	B-1
+2	die	die	_	ART	_	_	_	_	_	T557	die	die	557	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-VF|B-MF|B-NX|B-NX|ART	0	_	I-1
+3	Frau	Frau	_	NN	_	_	_	_	_	T558	Frau	Frau	558	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-NX|E-NX|NN	0	_	I-1
+4	des	die	_	ART	_	_	_	_	_	T559	des	des	559	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-NX|B-NX|ART	0	_	I-1
+5	abgestürzten	abgestürzt	_	ADJA	_	_	_	_	_	T560	abgestürzten	abgestürzten	560	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+6	Obersten	Oberst|Oberste	_	NN	_	_	_	_	_	T561	Oberst	Obersten	561	XXX	_	1	FLEX	I-s32	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-NX|I-NX|ADJA|ADJX	0	alternativ: Obersts	I-1
+7	Eilers	Eilers	_	NE	_	_	_	_	_	T562	Eilers	Eilers	562	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|E-NX|E-NX|NN	0	_	I-1
+8	mit	mit	_	APPR	_	_	_	_	_	T563	mit	mit	563	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|B-PX|APPR	0	_	I-1
+9	General	General	_	NN	_	_	_	_	_	T564	General	General	564	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-PX|B-NX|NN|NX	0	_	I-1
+10	Harras	Harras	_	NE	_	_	_	_	_	T565	Harras	Harras	565	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-VF|E-MF|E-PX|E-NX|NE|NX	0	_	I-1
+11	spricht	sprechen	_	VVFIN	_	_	_	_	_	T566	spricht	spricht	566	_	_	0	0	I-s32	0	0	I-SIMPX|E-SIMPX|E-VF|VVFIN|VXFIN|VC	0	_	I-1
+12	,	,	_	$,	_	_	_	_	_	T567	,	,	567	_	_	0	0	I-s32	0	0	I-SIMPX|$,	0	_	I-1
+13	sagt	sagen	_	VVFIN	_	_	_	_	_	T568	sagt	sagt	568	_	_	0	0	I-s32	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+14	er	er	_	PPER	_	_	_	_	_	T569	er	er	569	_	_	0	0	I-s32	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+15	ihr	ihr	_	PPER	_	_	_	_	_	T570	ihr	ihr	570	_	_	0	0	I-s32	0	0	I-SIMPX|E-MF|PPER|NX	0	_	I-1
+16	,	,	_	$,	_	_	_	_	_	T571	,	,	571	_	_	0	0	I-s32	0	0	I-SIMPX|$,	0	_	I-1
+17	dass	dass	_	KOUS	_	_	_	_	_	T572	daß	daß	572	XXX	_	0	0	I-s32	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+18	alle	alle	_	PIAT	_	_	_	_	_	T573	alle	alle	573	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|B-NX|PIDAT	0	_	I-1
+19	Menschen	Mensch	_	NN	_	_	_	_	_	T574	Menschen	Menschen	574	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|E-NX|NN	0	_	I-1
+20	,	,	_	$,	_	_	_	_	_	T575	,	,	575	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|$,	0	_	I-1
+21	die	die	_	PRELS	_	_	_	_	_	T576	die	die	576	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|B-R-SIMPX|PRELS|NX|C	0	_	I-1
+22	eine	eine	_	ART	_	_	_	_	_	T577	eine	eine	577	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|I-R-SIMPX|B-NX|B-MF|ART	0	_	I-1
+23	große	groß	_	ADJA	_	_	_	_	_	T578	große	große	578	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|I-R-SIMPX|I-NX|I-MF|ADJA|ADJX	0	_	I-1
+24	Ordnung	Ordnung	_	NN	_	_	_	_	_	T579	Ordnung	Ordnung	579	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|I-R-SIMPX|E-NX|E-MF|NN	0	_	I-1
+25	umstürzen	umstürzen	_	VVINF	_	_	_	_	_	T580	umstürzen	umstürzen	580	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|E-R-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+26	,	,	_	$,	_	_	_	_	_	T581	,	,	581	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|$,	0	_	I-1
+27	sich	sich	_	PRF	_	_	_	_	_	T582	sich	sich	582	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|PRF|NX	0	_	I-1
+28	eine	eine	_	ART	_	_	_	_	_	T583	eine	eine	583	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|B-NX|ART	0	_	I-1
+29	Form	Form	_	NN	_	_	_	_	_	T584	Form	Form	584	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|E-NX|NN	0	_	I-1
+30	des	die	_	ART	_	_	_	_	_	T585	des	des	585	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|B-NX|ART	0	_	I-1
+31	Lebens	Leben	_	NN	_	_	_	_	_	T586	Lebens	Lebens	586	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-NX|E-NX|NN	0	_	I-1
+32	vorstellen	vorstellen	_	VVINF	_	_	_	_	_	T587	vorstellen	vorstellen	587	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|VVFIN|VXFIN|VC	0	_	I-1
+33	,	,	_	$,	_	_	_	_	_	T588	,	,	588	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|$,	0	_	I-1
+34	die	die	_	PRELS	_	_	_	_	_	T589	die	die	589	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|B-R-SIMPX|B-NF|PRELS|NX|C	0	_	I-1
+35	ihnen	sie	_	PPER	_	_	_	_	_	T590	ihnen	ihnen	590	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-R-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+36	besser	gut	_	ADJD	_	_	_	_	_	T591	besser	besser	591	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-R-SIMPX|I-NF|E-MF|VVINF|VXINF	0	_	I-1
+37	scheint	scheinen	_	VVFIN	_	_	_	_	_	T592	scheint	scheint	592	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-R-SIMPX|I-NF|VVFIN|VXFIN|VC	1	_	I-1
+38	<EMPTY>	_	_	_	_	_	_	_	_	T593	,	_	593	XXX	_	1	PKT	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-R-SIMPX|I-NF	0	_	I-1
+39	als	als	_	KOKOM	_	_	_	_	_	T594	als	als	594	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-R-SIMPX|I-NF|B-NX|B-NF|KOKOM	0	_	I-1
+40	die	die	_	PDS	_	_	_	_	_	T595	die	die	595	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-R-SIMPX|I-NF|I-NX|I-NF|PRELS|NX	0	_	I-1
+41	,	,	_	$,	_	_	_	_	_	T596	,	,	596	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-R-SIMPX|I-NF|I-NX|I-NF|$,	0	_	I-1
+42	die	die	_	PRELS	_	_	_	_	_	T597	die	die	597	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-R-SIMPX|I-NF|I-NX|I-NF|B-R-SIMPX|PRELS|NX|C	0	_	I-1
+43	sie	sie	_	PPER	_	_	_	_	_	T598	sie	sie	598	_	_	0	0	I-s32	0	0	I-SIMPX|I-SIMPX|I-NF|I-R-SIMPX|I-NF|I-NX|I-NF|I-R-SIMPX|PPER|NX|MF	0	_	I-1
+44	zerstören	zerstören	_	VVFIN	_	_	_	_	_	T599	zerstören	zerstören	599	_	_	0	0	I-s32	0	0	E-SIMPX|E-SIMPX|E-NF|E-R-SIMPX|E-NF|E-NX|E-NF|E-R-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+45	.	.	_	$.	_	_	_	_	_	T600	.	.	600	_	_	0	0	E-s32	0	0	$.	0	_	E-1
+
+# sent_id = 32
+# text = Oderbruch lebt nun in einer Ordnung, die den Menschen verachtet.
+1	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T601	Oderbruch	Oderbruch	601	_	_	0	0	B-s33	0	0	B-SIMPX|ADJD|ADJX|VF	0	_	B-1
+2	lebt	leben	_	VVFIN	_	_	_	_	_	T602	lebt	lebt	602	_	_	0	0	I-s33	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	nun	nun	_	ADV	_	_	_	_	_	T603	nun	nun	603	_	_	0	0	I-s33	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+4	in	in	_	APPR	_	_	_	_	_	T604	in	in	604	_	_	0	0	I-s33	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+5	einer	eine	_	ART	_	_	_	_	_	T605	einer	einer	605	_	_	0	0	I-s33	0	0	I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+6	Ordnung	Ordnung	_	NN	_	_	_	_	_	T606	Ordnung	Ordnung	606	_	_	0	0	I-s33	0	0	I-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T607	,	,	607	_	_	0	0	I-s33	0	0	I-SIMPX|$,	0	_	I-1
+8	die	die	_	PRELS	_	_	_	_	_	T608	die	die	608	_	_	0	0	I-s33	0	0	I-SIMPX|B-R-SIMPX|B-NF|PRELS|NX|C	0	_	I-1
+9	den	die	_	ART	_	_	_	_	_	T609	den	den	609	_	_	0	0	I-s33	0	0	I-SIMPX|I-R-SIMPX|I-NF|B-NX|B-MF|ART	0	_	I-1
+10	Menschen	Mensch	_	NN	_	_	_	_	_	T610	Menschen	Menschen	610	_	Men-schen	0	0	I-s33	0	0	I-SIMPX|I-R-SIMPX|I-NF|E-NX|E-MF|NN	0	_	I-1
+11	verachtet	verachten	_	VVPP	_	_	_	_	_	T611	verachtet	verachtet	611	_	_	0	0	I-s33	0	0	E-SIMPX|E-R-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+12	.	.	_	$.	_	_	_	_	_	T612	.	.	612	_	_	0	0	E-s33	0	0	$.	0	_	E-1
+
+# sent_id = 33
+# text = Deshalb kämpft er für eine andere.
+1	Deshalb	deshalb	_	PAV	_	_	_	_	_	T613	Deshalb	Deshalb	613	_	_	0	0	B-s34	0	0	B-SIMPX|PROP|PX|VF	0	_	B-1
+2	kämpft	kämpfen	_	VVFIN	_	_	_	_	_	T614	kämpft	kämpft	614	_	_	0	0	I-s34	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	er	er	_	PPER	_	_	_	_	_	T615	er	er	615	_	_	0	0	I-s34	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+4	für	für	_	APPR	_	_	_	_	_	T616	für	für	616	_	_	0	0	I-s34	0	0	I-SIMPX|I-MF|B-NX|ADV|ADVX	0	_	I-1
+5	eine	eine	_	ART	_	_	_	_	_	T617	eine	eine	617	_	_	0	0	I-s34	0	0	I-SIMPX|I-MF|I-NX|ART	0	_	I-1
+6	andere	andere	_	PIS	_	_	_	_	_	T618	andere	andere	618	_	_	0	0	I-s34	0	0	E-SIMPX|E-MF|E-NX|PIS	0	_	I-1
+7	.	.	_	$.	_	_	_	_	_	T619	.	.	619	_	_	0	0	E-s34	0	0	$.	0	_	E-1
+
+# sent_id = 34
+# text = Er weiß, dass seine Mittel hart sind, aber das Ziel scheint unendlich wertvoll.
+1	Er	er	_	PPER	_	_	_	_	_	T620	Er	Er	620	_	_	0	0	B-s35	0	0	B-SIMPX|B-SIMPX|PPER|NX|VF	0	_	B-1
+2	weiß	wissen	_	VVFIN	_	_	_	_	_	T621	weiß	weiß	621	_	_	0	0	I-s35	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	,	,	_	$,	_	_	_	_	_	T622	,	,	622	_	_	0	0	I-s35	0	0	I-SIMPX|I-SIMPX|$,	0	_	I-1
+4	dass	dass	_	KOUS	_	_	_	_	_	T623	daß	daß	623	XXX	_	0	0	I-s35	0	0	I-SIMPX|I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+5	seine	sein	_	PPOSAT	_	_	_	_	_	T624	seine	seine	624	_	_	0	0	I-s35	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|PPOSAT	0	_	I-1
+6	Mittel	Mittel	_	NN	_	_	_	_	_	T625	Mittel	Mittel	625	_	_	0	0	I-s35	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+7	hart	hart	_	ADJD	_	_	_	_	_	T626	hart	hart	626	_	_	0	0	I-s35	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|E-MF|ADJD|ADJX	0	_	I-1
+8	sind	sein	_	VAFIN	_	_	_	_	_	T627	sind	sind	627	_	_	0	0	I-s35	0	0	I-SIMPX|E-SIMPX|E-SIMPX|E-NF|VAFIN|VXFIN|VC	0	_	I-1
+9	,	,	_	$,	_	_	_	_	_	T628	,	,	628	_	_	0	0	I-s35	0	0	I-SIMPX|$,	0	_	I-1
+10	aber	aber	_	KON	_	_	_	_	_	T629	aber	aber	629	_	_	0	0	I-s35	0	0	I-SIMPX|KON	0	_	I-1
+11	das	die	_	ART	_	_	_	_	_	T630	das	das	630	_	_	0	0	I-s35	0	0	I-SIMPX|B-SIMPX|B-NX|B-VF|ART	0	_	I-1
+12	Ziel	Ziel	_	NN	_	_	_	_	_	T631	Ziel	Ziel	631	_	_	0	0	I-s35	0	0	I-SIMPX|I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+13	scheint	scheinen	_	VVFIN	_	_	_	_	_	T632	scheint	scheint	632	_	_	0	0	I-s35	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+14	unendlich	unendlich	_	ADJD	_	_	_	_	_	T633	unendlich	unendlich	633	_	un-endlich	0	0	I-s35	0	0	I-SIMPX|I-SIMPX|B-ADJX|B-MF|ADJD|ADJX	0	_	I-1
+15	wertvoll	wertvoll	_	ADJD	_	_	_	_	_	T634	wertvoll	wertvoll	634	_	_	0	0	I-s35	0	0	E-SIMPX|E-SIMPX|E-ADJX|E-MF|ADJD	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T635	.	.	635	_	_	0	0	E-s35	0	0	$.	0	_	E-1
+
+# sent_id = 35
+# text = Oderbruch ist sich auch darüber im Klaren, dass dadurch, dass er hundert oder mehr Maschinen abstürzen lässt, der Krieg noch nicht verloren ist, aber er will unter Einsatz seines Lebens an einer neuen Ordnung mitarbeiten, auch wenn es Blut und Tränen anderer Menschen kostet.
+1	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T636	Oderbruch	Oderbruch	636	_	_	0	0	B-s36	0	0	B-SIMPX|B-SIMPX|ADV|ADVX|VF	0	_	B-1
+2	ist	sein	_	VAFIN	_	_	_	_	_	T637	ist	ist	637	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	sich	sich	_	PRF	_	_	_	_	_	T638	sich	sich	638	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|B-MF|PRF|NX	0	_	I-1
+4	auch	auch	_	ADV	_	_	_	_	_	T639	auch	auch	639	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+5	darüber	darüber	_	PAV	_	_	_	_	_	T640	darüber	darüber	640	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-MF|ADJD|ADJX	0	_	I-1
+6	im	in	_	APPRART	_	_	_	_	_	T641	im	im	641	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-MF|B-PX|APPRART	0	_	I-1
+7	Klaren	Klare	_	NN	_	_	_	_	_	T642	Klaren	klaren	642	_	_	1	GKS	I-s36	0	0	I-SIMPX|I-SIMPX|E-MF|E-PX|NN|NX	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T643	,	,	643	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|$,	0	_	I-1
+9	dass	dass	_	KOUS	_	_	_	_	_	T644	daß	daß	644	XXX	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+10	dadurch	dadurch	_	PAV	_	_	_	_	_	T645	dadurch	dadurch	645	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|B-MF|PROP|PX	0	_	I-1
+11	,	,	_	$,	_	_	_	_	_	T646	,	,	646	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|$,	0	_	I-1
+12	dass	dass	_	KOUS	_	_	_	_	_	T647	daß	daß	647	XXX	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|B-SIMPX|KOUS|C	0	_	I-1
+13	er	er	_	PPER	_	_	_	_	_	T648	er	er	648	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+14	hundert	hundert	_	CARD	_	_	_	_	_	T649	hundert	hundert	649	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|I-SIMPX|I-MF|B-ADJX|B-NX|B-ADJX|CARD|ADJX	0	_	I-1
+15	oder	oder	_	KON	_	_	_	_	_	T650	oder	oder	650	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|I-SIMPX|I-MF|I-ADJX|I-NX|I-ADJX|KON	0	_	I-1
+16	mehr	mehr	_	PIAT	_	_	_	_	_	T651	mehr	mehr	651	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|I-SIMPX|I-MF|I-ADJX|I-NX|E-ADJX|ADV|ADVX|ADJX	0	_	I-1
+17	Maschinen	Maschine	_	NN	_	_	_	_	_	T652	Maschinen	Maschinen	652	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|I-SIMPX|I-MF|I-ADJX|E-NX|NN	0	_	I-1
+18	abstürzen	abstürzen	_	VVINF	_	_	_	_	_	T653	abstürzen	abstürzen	653	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|I-SIMPX|E-MF|E-ADJX|ADJD	0	_	I-1
+19	lässt	lassen	_	VVFIN	_	_	_	_	_	T654	läßt	läßt	654	XXX	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|E-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+20	,	,	_	$,	_	_	_	_	_	T655	,	,	655	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|$,	0	_	I-1
+21	der	die	_	ART	_	_	_	_	_	T656	der	der	656	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|ART	0	_	I-1
+22	Krieg	Krieg	_	NN	_	_	_	_	_	T657	Krieg	Krieg	657	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+23	noch	noch	_	ADV	_	_	_	_	_	T658	noch	noch	658	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-MF|B-ADVX|ADV|ADVX	0	_	I-1
+24	nicht	nicht	_	PTKNEG	_	_	_	_	_	T659	nicht	nicht	659	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|E-MF|E-ADVX|PTKNEG	0	_	I-1
+25	verloren	verlieren	_	VVPP	_	_	_	_	_	T660	verloren	verloren	660	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|B-VC|VVPP|VXINF	0	_	I-1
+26	ist	sein	_	VAFIN	_	_	_	_	_	T661	ist	ist	661	_	_	0	0	I-s36	0	0	I-SIMPX|E-SIMPX|E-SIMPX|E-NF|E-VC|VAFIN|VXFIN	0	_	I-1
+27	,	,	_	$,	_	_	_	_	_	T662	,	,	662	_	_	0	0	I-s36	0	0	I-SIMPX|$,	0	_	I-1
+28	aber	aber	_	KON	_	_	_	_	_	T663	aber	aber	663	_	_	0	0	I-s36	0	0	I-SIMPX|KON	0	_	I-1
+29	er	er	_	PPER	_	_	_	_	_	T664	er	er	664	_	_	0	0	I-s36	0	0	I-SIMPX|B-SIMPX|PPER|NX|VF	0	_	I-1
+30	will	wollen	_	VMFIN	_	_	_	_	_	T665	will	will	665	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|VMFIN|VXFIN|LK	0	_	I-1
+31	unter	unter	_	APPR	_	_	_	_	_	T666	unter	unter	666	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|B-MF|B-PX|APPR	0	_	I-1
+32	Einsatz	Einsatz	_	NN	_	_	_	_	_	T667	Einsatz	Einsatz	667	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX|NN|NX	0	_	I-1
+33	seines	sein	_	PPOSAT	_	_	_	_	_	T668	seines	seines	668	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|B-NX|PPOSAT	0	_	I-1
+34	Lebens	Leben	_	NN	_	_	_	_	_	T669	Lebens	Lebens	669	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-MF|E-PX|E-NX|E-NX|NN	0	_	I-1
+35	an	an	_	APPR	_	_	_	_	_	T670	an	an	670	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+36	einer	eine	_	ART	_	_	_	_	_	T671	einer	einer	671	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+37	neuen	neu	_	ADJA	_	_	_	_	_	T672	neuen	neuen	672	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|ADJA|ADJX	0	_	I-1
+38	Ordnung	Ordnung	_	NN	_	_	_	_	_	T673	Ordnung	Ordnung	673	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+39	mitarbeiten	mitarbeiten	_	VVINF	_	_	_	_	_	T674	mitarbeiten	mitarbeiten	674	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+40	,	,	_	$,	_	_	_	_	_	T675	,	,	675	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|$,	0	_	I-1
+41	auch	auch	_	ADV	_	_	_	_	_	T676	auch	auch	676	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|B-ADVX|B-NF|ADV|ADVX	0	_	I-1
+42	wenn	wenn	_	KOUS	_	_	_	_	_	T677	wenn	wenn	677	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-ADVX|I-NF|B-SIMPX|KOUS|C	0	_	I-1
+43	es	es	_	PPER	_	_	_	_	_	T678	es	es	678	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-ADVX|I-NF|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+44	Blut	Blut	_	NN	_	_	_	_	_	T679	Blut	Blut	679	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-ADVX|I-NF|I-SIMPX|I-MF|B-NX|B-NX|NN|NX	0	_	I-1
+45	und	und	_	KON	_	_	_	_	_	T680	und	und	680	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-ADVX|I-NF|I-SIMPX|I-MF|I-NX|I-NX|KON	0	_	I-1
+46	Tränen	Träne|Tränen	_	NN	_	_	_	_	_	T681	Tränen	Tränen	681	_	Trä-nen	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-ADVX|I-NF|I-SIMPX|I-MF|I-NX|E-NX|NN|NX	0	_	I-1
+47	anderer	andere	_	PIAT	_	_	_	_	_	T682	anderer	anderer	682	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-ADVX|I-NF|I-SIMPX|I-MF|I-NX|B-NX|ADJA|ADJX	0	_	I-1
+48	Menschen	Mensch	_	NN	_	_	_	_	_	T683	Menschen	Menschen	683	_	_	0	0	I-s36	0	0	I-SIMPX|I-SIMPX|I-ADVX|I-NF|I-SIMPX|E-MF|E-NX|E-NX|NN	0	_	I-1
+49	kostet	kosten	_	VVFIN	_	_	_	_	_	T684	kostet	kostet	684	_	_	0	0	I-s36	0	0	E-SIMPX|E-SIMPX|E-ADVX|E-NF|E-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+50	.	.	_	$.	_	_	_	_	_	T685	.	.	685	_	_	0	0	E-s36	0	0	$.	0	_	E-1
+
+# sent_id = 36
+# text = Er muss aber auch mitarbeiten, weil er innerlich dazu getrieben wird.
+1	Er	er	_	PPER	_	_	_	_	_	T686	Er	Er	686	_	_	0	0	B-s37	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	muss	müssen	_	VMFIN	_	_	_	_	_	T687	muß	muß	687	XXX	_	0	0	I-s37	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	aber	aber	_	ADV	_	_	_	_	_	T688	aber	aber	688	_	_	0	0	I-s37	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+4	auch	auch	_	ADV	_	_	_	_	_	T689	auch	auch	689	_	_	0	0	I-s37	0	0	I-SIMPX|E-MF|ADV|ADVX	0	_	I-1
+5	mitarbeiten	mitarbeiten	_	VVINF	_	_	_	_	_	T690	mitarbeiten	mitarbeiten	690	_	_	0	0	I-s37	0	0	I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T691	,	,	691	_	_	0	0	I-s37	0	0	I-SIMPX|$,	0	_	I-1
+7	weil	weil	_	KOUS	_	_	_	_	_	T692	weil	weil	692	_	_	0	0	I-s37	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+8	er	er	_	PPER	_	_	_	_	_	T693	er	er	693	_	_	0	0	I-s37	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+9	innerlich	innerlich	_	ADJD	_	_	_	_	_	T694	innerlich	innerlich	694	_	_	0	0	I-s37	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|ADJD|ADJX	0	_	I-1
+10	dazu	dazu	_	PAV	_	_	_	_	_	T695	dazu	dazu	695	_	_	0	0	I-s37	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|PROP|PX	0	_	I-1
+11	getrieben	treiben	_	VVPP	_	_	_	_	_	T696	getrieben	getrieben	696	_	_	0	0	I-s37	0	0	I-SIMPX|I-SIMPX|I-NF|B-VC|VVPP|VXINF	0	_	I-1
+12	wird	werden	_	VAFIN	_	_	_	_	_	T697	wird	wird	697	_	_	0	0	I-s37	0	0	E-SIMPX|E-SIMPX|E-NF|E-VC|VAFIN|VXFIN	0	_	I-1
+13	.	.	_	$.	_	_	_	_	_	T698	.	.	698	_	_	0	0	E-s37	0	0	$.	0	_	E-1
+
+# sent_id = 37
+# text = Die Scham kam über ihn, weil er ein Deutscher war, weil sein Land einen ungerechten Krieg führte, weil Hitler dem Ausland alles versprochen, aber nichts gehalten hatte.
+1	Die	die	_	ART	_	_	_	_	_	T699	Die	Die	699	_	_	0	0	B-s38	0	0	B-SIMPX|B-NX|B-VF|ART	0	_	B-1
+2	Scham	Scham	_	NN	_	_	_	_	_	T700	Scham	Scham	700	_	_	0	0	I-s38	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	kam	kommen	_	VVFIN	_	_	_	_	_	T701	kam	kam	701	_	_	0	0	I-s38	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	über	über	_	APPR	_	_	_	_	_	T702	über	über	702	_	_	0	0	I-s38	0	0	I-SIMPX|B-MF|ADJD|ADJX	0	_	I-1
+5	ihn	er	_	PPER	_	_	_	_	_	T703	ihn	ihn	703	_	_	0	0	I-s38	0	0	I-SIMPX|E-MF|PPER|NX	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T704	,	,	704	_	_	0	0	I-s38	0	0	I-SIMPX|$,	0	_	I-1
+7	weil	weil	_	KOUS	_	_	_	_	_	T705	weil	weil	705	_	_	0	0	I-s38	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+8	er	er	_	PPER	_	_	_	_	_	T706	er	er	706	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+9	ein	eine	_	ART	_	_	_	_	_	T707	ein	ein	707	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|ART	0	_	I-1
+10	Deutscher	Deutsche	_	NN	_	_	_	_	_	T708	Deutscher	Deutscher	708	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-NX|NN	0	_	I-1
+11	war	sein	_	VAFIN	_	_	_	_	_	T709	war	war	709	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|VAFIN|VXFIN|VC	0	_	I-1
+12	,	,	_	$,	_	_	_	_	_	T710	,	,	710	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|$,	0	_	I-1
+13	weil	weil	_	KOUS	_	_	_	_	_	T711	weil	weil	711	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+14	sein	sein	_	PPOSAT	_	_	_	_	_	T712	sein	sein	712	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|B-MF|B-NX|PPOSAT	0	_	I-1
+15	Land	Land	_	NN	_	_	_	_	_	T713	Land	Land	713	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+16	einen	eine	_	ART	_	_	_	_	_	T714	einen	einen	714	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-MF|B-NX|ART	0	_	I-1
+17	ungerechten	ungerecht	_	ADJA	_	_	_	_	_	T715	ungerechten	ungerechten	715	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-MF|I-NX|ADJA|ADJX	0	_	I-1
+18	Krieg	Krieg	_	NN	_	_	_	_	_	T716	Krieg	Krieg	716	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|E-MF|E-NX|NN	0	_	I-1
+19	führte	führen	_	VVFIN	_	_	_	_	_	T717	führte	führte	717	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|VVFIN|VXFIN|VC	0	_	I-1
+20	,	,	_	$,	_	_	_	_	_	T718	,	,	718	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|$,	0	_	I-1
+21	weil	weil	_	KOUS	_	_	_	_	_	T719	weil	weil	719	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+22	Hitler	Hitler	_	NE	_	_	_	_	_	T720	Hitler	Hitler	720	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|B-FKOORD|B-FKONJ|B-MF|NE|NX	0	_	I-1
+23	dem	die	_	ART	_	_	_	_	_	T721	dem	dem	721	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|B-NX|ART	0	_	I-1
+24	Ausland	Ausland	_	NN	_	_	_	_	_	T722	Ausland	Ausland	722	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-MF|E-NX|NN	0	_	I-1
+25	alles	alle	_	PIS	_	_	_	_	_	T723	alles	alles	723	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|PIS|NX	0	_	I-1
+26	versprochen	versprechen	_	VVPP	_	_	_	_	_	T724	versprochen	versprochen	724	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|E-FKONJ|VVPP|VXINF|VC	0	_	I-1
+27	,	,	_	$,	_	_	_	_	_	T725	,	,	725	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|$,	0	_	I-1
+28	aber	aber	_	ADV	_	_	_	_	_	T726	aber	aber	726	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|KON	0	_	I-1
+29	nichts	nichts	_	PIS	_	_	_	_	_	T727	nichts	nichts	727	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|B-FKONJ|PIS|NX|MF	0	_	I-1
+30	gehalten	halten	_	VVPP	_	_	_	_	_	T728	gehalten	gehalten	728	_	_	0	0	I-s38	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-NF|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|B-VC|VVPP|VXINF	0	_	I-1
+31	hatte	haben	_	VAFIN	_	_	_	_	_	T729	hatte	hatte	729	_	hat-te	0	0	I-s38	0	0	E-SIMPX|E-SIMPX|E-NF|E-SIMPX|E-NF|E-SIMPX|E-NF|E-FKOORD|E-FKONJ|E-VC|VAFIN|VXFIN	0	_	I-1
+32	.	.	_	$.	_	_	_	_	_	T730	.	.	730	_	_	0	0	E-s38	0	0	$.	0	_	E-1
+
+# sent_id = 38
+# text = Deutschland war zum Schrecken Europas geworden.
+1	Deutschland	Deutschland	_	NE	_	_	_	_	_	T731	Deutschland	Deutschland	731	_	_	0	0	B-s39	0	0	B-SIMPX|NE|NX|VF	0	_	B-1
+2	war	sein	_	VAFIN	_	_	_	_	_	T732	war	war	732	_	_	0	0	I-s39	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	zum	zu	_	APPRART	_	_	_	_	_	T733	zum	zum	733	_	_	0	0	I-s39	0	0	I-SIMPX|B-PX|B-MF|APPRART	0	_	I-1
+4	Schrecken	Schrecken	_	NN	_	_	_	_	_	T734	Schrecken	Schrecken	734	_	_	0	0	I-s39	0	0	I-SIMPX|I-PX|I-MF|B-NX|NN|NX	0	_	I-1
+5	Europas	Europa	_	NE	_	_	_	_	_	T735	Europas	Europas	735	_	Eu-ropas	0	0	I-s39	0	0	I-SIMPX|E-PX|E-MF|E-NX|NE|NX	0	_	I-1
+6	geworden	werden	_	VVPP	_	_	_	_	_	T736	geworden	geworden	736	_	_	0	0	I-s39	0	0	E-SIMPX|VAPP|VXINF|VC	0	_	I-1
+7	.	.	_	$.	_	_	_	_	_	T737	.	.	737	_	_	0	0	E-s39	0	0	$.	0	_	E-1
+
+# sent_id = 39
+# text = Millionen Juden mussten sterben, sie wurden von Deutschen ermordet.
+1	Millionen	Million	_	NN	_	_	_	_	_	T738	Millionen	Millionen	738	_	_	0	0	B-s40	0	0	B-SIMPX|B-NX|B-VF|NN|NX	0	_	B-1
+2	Juden	Jude	_	NN	_	_	_	_	_	T739	Juden	Juden	739	_	_	0	0	I-s40	0	0	I-SIMPX|E-NX|E-VF|NN|NX	0	_	I-1
+3	mussten	müssen	_	VMFIN	_	_	_	_	_	T740	mußten	mußten	740	XXX	muß-ten	0	0	I-s40	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	sterben	sterben	_	VVINF	_	_	_	_	_	T741	sterben	sterben	741	_	_	0	0	I-s40	0	0	I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T742	,	,	742	_	_	0	0	I-s40	0	0	I-SIMPX|$,	0	_	I-1
+6	sie	sie	_	PPER	_	_	_	_	_	T743	sie	sie	743	_	_	0	0	I-s40	0	0	I-SIMPX|B-SIMPX|B-NF|PPER|NX|VF	0	_	I-1
+7	wurden	werden	_	VAFIN	_	_	_	_	_	T744	wurden	wurden	744	_	_	0	0	I-s40	0	0	I-SIMPX|I-SIMPX|I-NF|VAFIN|VXFIN|LK	0	_	I-1
+8	von	von	_	APPR	_	_	_	_	_	T745	von	von	745	_	_	0	0	I-s40	0	0	I-SIMPX|I-SIMPX|I-NF|B-PX|B-MF|APPR	0	_	I-1
+9	Deutschen	Deutsche	_	NN	_	_	_	_	_	T746	Deutschen	Deutschen	746	_	_	0	0	I-s40	0	0	I-SIMPX|I-SIMPX|I-NF|E-PX|E-MF|NN|NX	0	_	I-1
+10	ermordet	ermorden	_	VVPP	_	_	_	_	_	T747	ermordet	ermordet	747	_	_	0	0	I-s40	0	0	E-SIMPX|E-SIMPX|E-NF|VVPP|VXINF|VC	0	_	I-1
+11	.	.	_	$.	_	_	_	_	_	T748	.	.	748	_	_	0	0	E-s40	0	0	$.	0	_	E-1
+
+# sent_id = 40
+# text = Geistliche und Laienführer wurden in Konzentrationslager gesteckt.
+1	Geistliche	Geistliche	_	NN	_	_	_	_	_	T749	Geistliche	Geistliche	749	_	_	0	0	B-s41	0	0	B-SIMPX|B-NX|B-VF|NN|NX	0	_	B-1
+2	und	und	_	KON	_	_	_	_	_	T750	und	und	750	_	_	0	0	I-s41	0	0	I-SIMPX|I-NX|I-VF|KON	0	_	I-1
+3	Laienführer	Laienführer	_	NN	_	_	_	_	_	T751	Laienführer	Laienführer	751	_	_	0	0	I-s41	0	0	I-SIMPX|E-NX|E-VF|NN|NX	0	_	I-1
+4	wurden	werden	_	VAFIN	_	_	_	_	_	T752	wurden	wurden	752	_	_	0	0	I-s41	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+5	in	in	_	APPR	_	_	_	_	_	T753	in	in	753	_	_	0	0	I-s41	0	0	I-SIMPX|B-PX|B-MF|APPR	0	_	I-1
+6	Konzentrationslager	Konzentrationslager	_	NN	_	_	_	_	_	T754	Konzentrationslager	Konzentrationslager	754	_	_	0	0	I-s41	0	0	I-SIMPX|E-PX|E-MF|NN|NX	0	_	I-1
+7	gesteckt	stecken	_	VVPP	_	_	_	_	_	T755	gesteckt	gesteckt	755	_	_	0	0	I-s41	0	0	E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+8	.	.	_	$.	_	_	_	_	_	T756	.	.	756	_	_	0	0	E-s41	0	0	$.	0	_	E-1
+
+# sent_id = 41
+# text = Künstler, die nicht linientreu arbeiteten, mussten emigrieren.
+1	Künstler	Künstler	_	NN	_	_	_	_	_	T757	Künstler	Künstler	757	_	_	0	0	B-s42	0	0	B-SIMPX|B-NX|B-VF|NN|NX	0	_	B-1
+2	,	,	_	$,	_	_	_	_	_	T758	,	,	758	_	_	0	0	I-s42	0	0	I-SIMPX|I-NX|I-VF|$,	0	_	I-1
+3	die	die	_	PRELS	_	_	_	_	_	T759	die	die	759	_	_	0	0	I-s42	0	0	I-SIMPX|I-NX|I-VF|B-R-SIMPX|PRELS|NX|C	0	_	I-1
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	T760	nicht	nicht	760	_	_	0	0	I-s42	0	0	I-SIMPX|I-NX|I-VF|I-R-SIMPX|B-MF|PTKNEG|ADVX	0	_	I-1
+5	linientreu	linientreu	_	ADJD	_	_	_	_	_	T761	linientreu	linientreu	761	_	_	0	0	I-s42	0	0	I-SIMPX|I-NX|I-VF|I-R-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+6	arbeiteten	arbeiten	_	VVFIN	_	_	_	_	_	T762	arbeiteten	arbeiteten	762	_	_	0	0	I-s42	0	0	I-SIMPX|E-NX|E-VF|E-R-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T763	,	,	763	_	_	0	0	I-s42	0	0	I-SIMPX|$,	0	_	I-1
+8	mussten	müssen	_	VMFIN	_	_	_	_	_	T764	mußten	mußten	764	XXX	_	0	0	I-s42	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+9	emigrieren	emigrieren	_	VVINF	_	_	_	_	_	T765	emigrieren	emigrieren	765	_	_	0	0	I-s42	0	0	E-SIMPX|ADJD|ADJX|MF	0	_	I-1
+10	.	.	_	$.	_	_	_	_	_	T766	.	.	766	_	_	0	0	E-s42	0	0	$.	0	_	E-1
+
+# sent_id = 42
+# text = Deutschlands Intelligenz versagte.
+1	Deutschlands	Deutschland	_	NE	_	_	_	_	_	T767	Deutschland	Deutschlands	767	XXX	_	1	FLEX	B-s43	0	0	B-SIMPX|B-NX|B-VF|NE|NX	0	_	B-1
+2	Intelligenz	Intelligenz	_	NN	_	_	_	_	_	T768	Intelligenz	Intelligenz	768	_	_	0	0	I-s43	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	versagte	versagen	_	VVFIN	_	_	_	_	_	T769	versagte	versagte	769	_	_	0	0	I-s43	0	0	E-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	.	.	_	$.	_	_	_	_	_	T770	.	.	770	_	_	0	0	E-s43	0	0	$.	0	_	E-1
+
+# sent_id = 43
+# text = Sie hatte Hitler bei der <B->Machtübernahme <E->Machtübernahme nicht erkannt, jetzt war sie Mitglied der Partei.
+1	Sie	Sie|sie	_	PPER	_	_	_	_	_	T771	Sie	Sie	771	_	_	0	0	B-s44	0	0	B-SIMPX|B-SIMPX|PPER|NX|VF	0	_	B-1
+2	hatte	haben	_	VAFIN	_	_	_	_	_	T772	hatte	hatte	772	_	_	0	0	I-s44	0	0	I-SIMPX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	Hitler	Hitler	_	NE	_	_	_	_	_	T773	Hitler	Hitler	773	_	_	0	0	I-s44	0	0	I-SIMPX|I-SIMPX|B-MF|NE|NX	0	_	I-1
+4	bei	bei	_	APPR	_	_	_	_	_	T774	bei	bei	774	_	_	0	0	I-s44	0	0	I-SIMPX|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+5	der	die	_	ART	_	_	_	_	_	T775	der	der	775	_	_	0	0	I-s44	0	0	I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+6	<B->Machtübernahme	<B->Machtübernahme	_	B-NN	_	_	_	_	_	T776	Macht	<B->Machtübernahme	776	XXX	_	B-1	B-GZS	I-s44	0	0	I-SIMPX|I-SIMPX|I-MF|I-PX|I-NX|B-NN	0	_	I-1
+7	<E->Machtübernahme	<E->Machtübernahme	_	E-NN	_	_	_	_	_	T777	Übernahme	<E->Machtübernahme	777	XXX	_	E-1	E-GZS	I-s44	0	0	I-SIMPX|I-SIMPX|I-MF|E-PX|E-NX|E-NN	0	_	I-1
+8	nicht	nicht	_	PTKNEG	_	_	_	_	_	T778	nicht	nicht	778	_	_	0	0	I-s44	0	0	I-SIMPX|I-SIMPX|E-MF|PTKNEG|ADVX	0	_	I-1
+9	erkannt	erkennen	_	VVPP	_	_	_	_	_	T779	erkannt	erkannt	779	_	_	0	0	I-s44	0	0	I-SIMPX|E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+10	,	,	_	$,	_	_	_	_	_	T780	,	,	780	_	_	0	0	I-s44	0	0	I-SIMPX|$,	0	_	I-1
+11	jetzt	jetzt	_	ADV	_	_	_	_	_	T781	jetzt	jetzt	781	_	_	0	0	I-s44	0	0	I-SIMPX|B-SIMPX|ADV|ADVX|VF	0	_	I-1
+12	war	sein	_	VAFIN	_	_	_	_	_	T782	war	war	782	_	_	0	0	I-s44	0	0	I-SIMPX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+13	sie	sie	_	PPER	_	_	_	_	_	T783	sie	sie	783	_	_	0	0	I-s44	0	0	I-SIMPX|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+14	Mitglied	Mitglied	_	NN	_	_	_	_	_	T784	Mitglied	Mitglied	784	_	_	0	0	I-s44	0	0	I-SIMPX|I-SIMPX|I-MF|B-NX|NN|NX	0	_	I-1
+15	der	die	_	ART	_	_	_	_	_	T785	der	der	785	_	_	0	0	I-s44	0	0	I-SIMPX|I-SIMPX|I-MF|I-NX|B-NX|ART	0	_	I-1
+16	Partei	Partei	_	NN	_	_	_	_	_	T786	Partei	Partei	786	_	_	0	0	I-s44	0	0	E-SIMPX|E-SIMPX|E-MF|E-NX|E-NX|NN	0	_	I-1
+17	.	.	_	$.	_	_	_	_	_	T787	.	.	787	_	_	0	0	E-s44	0	0	$.	0	_	E-1
+
+# sent_id = 44
+# text = Mut zum Widerstand hatten nur wenige.
+1	Mut	Mut	_	NN	_	_	_	_	_	T788	Mut	Mut	788	_	_	0	0	B-s45	0	0	B-SIMPX|B-NX|B-VF|NN|NX	0	_	B-1
+2	zum	zu	_	APPRART	_	_	_	_	_	T789	zum	zum	789	_	_	0	0	I-s45	0	0	I-SIMPX|I-NX|I-VF|B-PX|APPRART	0	_	I-1
+3	Widerstand	Widerstand	_	NN	_	_	_	_	_	T790	Widerstand	Widerstand	790	_	_	0	0	I-s45	0	0	I-SIMPX|E-NX|E-VF|E-PX|NN|NX	0	_	I-1
+4	hatten	haben	_	VAFIN	_	_	_	_	_	T791	hatten	hatten	791	_	_	0	0	I-s45	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+5	nur	nur	_	ADV	_	_	_	_	_	T792	nur	nur	792	_	_	0	0	I-s45	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+6	wenige	wenige	_	PIS	_	_	_	_	_	T793	wenige	wenige	793	_	_	0	0	I-s45	0	0	E-SIMPX|E-MF|PIS|NX	0	_	I-1
+7	.	.	_	$.	_	_	_	_	_	T794	.	.	794	_	_	0	0	E-s45	0	0	$.	0	_	E-1
+
+# sent_id = 45
+# text = Die Kinder wurden vom Staat beeinflusst, sie verrieten ihre Eltern bei der Gestapo.
+1	Die	die	_	ART	_	_	_	_	_	T795	Die	Die	795	_	_	0	0	B-s46	0	0	B-SIMPX|B-SIMPX|B-NX|B-VF|ART	0	_	B-1
+2	Kinder	Kind	_	NN	_	_	_	_	_	T796	Kinder	Kinder	796	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	wurden	werden	_	VAFIN	_	_	_	_	_	T797	wurden	wurden	797	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+4	vom	von	_	APPRART	_	_	_	_	_	T798	vom	vom	798	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|B-PX|B-MF|APPRART	0	_	I-1
+5	Staat	Staat	_	NN	_	_	_	_	_	T799	Staat	Staat	799	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|E-PX|E-MF|NN|NX	0	_	I-1
+6	beeinflusst	beeinflussen	_	VVPP	_	_	_	_	_	T800	beeinflusst	beeinflußt	800	_	_	1	WORT	I-s46	0	0	I-SIMPX|E-SIMPX|VVPP|VXINF|VC	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T801	,	,	801	_	_	0	0	I-s46	0	0	I-SIMPX|$,	0	_	I-1
+8	sie	sie	_	PPER	_	_	_	_	_	T802	sie	sie	802	_	_	0	0	I-s46	0	0	I-SIMPX|B-SIMPX|PPER|NX|VF	0	_	I-1
+9	verrieten	verraten	_	VVFIN	_	_	_	_	_	T803	verrieten	verrieten	803	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+10	ihre	ihr	_	PPOSAT	_	_	_	_	_	T804	ihre	ihre	804	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|B-MF|B-NX|PPOSAT	0	_	I-1
+11	Eltern	Eltern	_	NN	_	_	_	_	_	T805	Eltern	Eltern	805	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+12	bei	bei	_	APPR	_	_	_	_	_	T806	bei	bei	806	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+13	der	die	_	ART	_	_	_	_	_	T807	der	der	807	_	_	0	0	I-s46	0	0	I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+14	Gestapo	Gestapo	_	NN	_	_	_	_	_	T808	Gestapo	Gestapo	808	_	Gesta-po	0	0	I-s46	0	0	E-SIMPX|E-SIMPX|E-MF|E-PX|E-NX|NE	0	_	I-1
+15	.	.	_	$.	_	_	_	_	_	T809	.	.	809	_	_	0	0	E-s46	0	0	$.	0	_	E-1
+
+# sent_id = 46
+# text = Typen wie Dr. Schmidt-Lausitz schnüffelten überall herum.
+1	Typen	Typ	_	NN	_	_	_	_	_	T810	Typen	Typen	810	_	_	0	0	B-s47	0	0	B-SIMPX|B-NX|B-VF|B-NX|NN|NX	0	_	B-1
+2	wie	wie	_	KOKOM	_	_	_	_	_	T811	wie	wie	811	_	_	0	0	I-s47	0	0	I-SIMPX|I-NX|I-VF|I-NX|KON	0	_	I-1
+3	Dr.	Dr.	_	NN	_	_	_	_	_	T812	Dr.	Dr.	812	_	_	0	0	I-s47	0	0	I-SIMPX|I-NX|I-VF|E-NX|NN|NX	0	_	I-1
+4	Schmidt-Lausitz	Schmidt-Lausitz	_	NN	_	_	_	_	_	T813	Schmidt-Lausitz	Schmidt-Lausitz	813	_	_	0	0	I-s47	0	0	I-SIMPX|E-NX|E-VF|NN|NX	0	_	I-1
+5	schnüffelten	schnüffeln	_	VVFIN	_	_	_	_	_	T814	schnüffelten	schnüffelten	814	_	_	0	0	I-s47	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+6	überall	überall	_	ADV	_	_	_	_	_	T815	überall	überall	815	_	_	0	0	I-s47	0	0	I-SIMPX|ADJD|ADJX|MF	0	_	I-1
+7	herum	herum	_	PTKVZ	_	_	_	_	_	T816	herum	herum	816	_	_	0	0	I-s47	0	0	E-SIMPX|PTKVZ|VC	0	_	I-1
+8	.	.	_	$.	_	_	_	_	_	T817	.	.	817	_	_	0	0	E-s47	0	0	$.	0	_	E-1
+
+# sent_id = 47
+# text = Da überfliel ihn plötzlich die Scham, dass er zu einem solchen Volk gehörte.
+1	Da	da	_	ADV	_	_	_	_	_	T818	Da	Da	818	_	_	0	0	B-s48	0	0	B-SIMPX|ADV|ADVX|VF	0	_	B-1
+2	überfliel	überfliel	_	VVFIN	_	_	_	_	_	T819	überfliel	überfliel	819	_	über-fiel	0	0	I-s48	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	ihn	er	_	PPER	_	_	_	_	_	T820	ihn	ihn	820	_	_	0	0	I-s48	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+4	plötzlich	plötzlich	_	ADJD	_	_	_	_	_	T821	plötzlich	plötzlich	821	_	_	0	0	I-s48	0	0	I-SIMPX|I-MF|ADJD|ADJX	0	_	I-1
+5	die	die	_	ART	_	_	_	_	_	T822	die	die	822	_	_	0	0	I-s48	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+6	Scham	Scham	_	NN	_	_	_	_	_	T823	Scham	Scham	823	_	_	0	0	I-s48	0	0	I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T824	,	,	824	_	_	0	0	I-s48	0	0	I-SIMPX|$,	0	_	I-1
+8	dass	dass	_	KOUS	_	_	_	_	_	T825	daß	daß	825	XXX	_	0	0	I-s48	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+9	er	er	_	PPER	_	_	_	_	_	T826	er	er	826	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+10	zu	zu	_	APPR	_	_	_	_	_	T827	zu	zu	827	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+11	einem	eine	_	ART	_	_	_	_	_	T828	einem	einem	828	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-PX|B-NX|ART	0	_	I-1
+12	solchen	solche	_	PIAT	_	_	_	_	_	T829	solchen	solchen	829	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-PX|I-NX|PIDAT|ADJX	0	_	I-1
+13	Volk	Volk	_	NN	_	_	_	_	_	T830	Volk	Volk	830	_	_	0	0	I-s48	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|E-PX|E-NX|NN	0	_	I-1
+14	gehörte	gehören	_	VVFIN	_	_	_	_	_	T831	gehörte	gehörte	831	_	_	0	0	I-s48	0	0	E-SIMPX|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+15	.	.	_	$.	_	_	_	_	_	T832	.	.	832	_	_	0	0	E-s48	0	0	$.	0	_	E-1
+
+# sent_id = 48
+# text = Er konnte nicht mehr mitarbeiten, er musste etwas dagegen tun.
+1	Er	er	_	PPER	_	_	_	_	_	T833	Er	Er	833	_	_	0	0	B-s49	0	0	B-SIMPX|B-SIMPX|PPER|NX|VF	0	_	B-1
+2	konnte	können	_	VMFIN	_	_	_	_	_	T834	konnte	konnte	834	_	_	0	0	I-s49	0	0	I-SIMPX|I-SIMPX|VMFIN|VXFIN|LK	0	_	I-1
+3	nicht	nicht	_	PTKNEG	_	_	_	_	_	T835	nicht	nicht	835	_	_	0	0	I-s49	0	0	I-SIMPX|I-SIMPX|B-ADVX|B-MF|PTKNEG|ADVX	0	_	I-1
+4	mehr	mehr	_	ADV	_	_	_	_	_	T836	mehr	mehr	836	_	_	0	0	I-s49	0	0	I-SIMPX|I-SIMPX|E-ADVX|E-MF|ADV|ADVX	0	_	I-1
+5	mitarbeiten	mitarbeiten	_	VVINF	_	_	_	_	_	T837	mitarbeiten	mitarbeiten	837	_	_	0	0	I-s49	0	0	I-SIMPX|E-SIMPX|VVINF|VXINF|VC	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T838	,	,	838	_	_	0	0	I-s49	0	0	I-SIMPX|$,	0	_	I-1
+7	er	er	_	PPER	_	_	_	_	_	T839	er	er	839	_	_	0	0	I-s49	0	0	I-SIMPX|B-SIMPX|PPER|NX|VF	0	_	I-1
+8	musste	müssen	_	VMFIN	_	_	_	_	_	T840	mußte	mußte	840	XXX	_	0	0	I-s49	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+9	etwas	etwas	_	ADV	_	_	_	_	_	T841	etwas	etwas	841	_	_	0	0	I-s49	0	0	I-SIMPX|I-SIMPX|B-MF|PIS|NX	0	_	I-1
+10	dagegen	dagegen	_	PAV	_	_	_	_	_	T842	dagegen	dagegen	842	_	_	0	0	I-s49	0	0	I-SIMPX|I-SIMPX|E-MF|PROP|PX	0	_	I-1
+11	tun	tun	_	VVINF	_	_	_	_	_	T843	tun	tun	843	_	_	0	0	I-s49	0	0	E-SIMPX|E-SIMPX|VVINF|VXINF|VC	0	_	I-1
+12	.	.	_	$.	_	_	_	_	_	T844	.	.	844	_	_	0	0	E-s49	0	0	$.	0	_	E-1
+
+# sent_id = 49
+# text = Ein neues Deutschland musste geschaffen werden, auch wenn er sein Leben dabei verlieren würde.
+1	Ein	eine	_	ART	_	_	_	_	_	T845	Ein	Ein	845	_	_	0	0	B-s50	0	0	B-SIMPX|B-NX|B-VF|ART	0	_	B-1
+2	neues	neu	_	ADJA	_	_	_	_	_	T846	neues	neues	846	_	neu-es	0	0	I-s50	0	0	I-SIMPX|I-NX|I-VF|ADJA|ADJX	0	_	I-1
+3	Deutschland	Deutschland	_	NE	_	_	_	_	_	T847	Deutschland	Deutschland	847	_	_	0	0	I-s50	0	0	I-SIMPX|E-NX|E-VF|NE	0	_	I-1
+4	musste	müssen	_	VMFIN	_	_	_	_	_	T848	mußte	mußte	848	XXX	_	0	0	I-s50	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+5	geschaffen	schaffen	_	VVPP	_	_	_	_	_	T849	geschaffen	geschaffen	849	_	_	0	0	I-s50	0	0	I-SIMPX|B-VC|VVPP|VXINF	0	_	I-1
+6	werden	werden	_	VAINF	_	_	_	_	_	T850	werden	werden	850	_	wer-den	0	0	I-s50	0	0	I-SIMPX|E-VC|VAINF|VXINF	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T851	,	,	851	_	_	0	0	I-s50	0	0	I-SIMPX|$,	0	_	I-1
+8	auch	auch	_	ADV	_	_	_	_	_	T852	auch	auch	852	_	_	0	0	I-s50	0	0	I-SIMPX|B-ADVX|B-NF|ADV|ADVX	0	_	I-1
+9	wenn	wenn	_	KOUS	_	_	_	_	_	T853	wenn	wenn	853	_	_	0	0	I-s50	0	0	I-SIMPX|I-ADVX|I-NF|B-SIMPX|KOUS|C	0	_	I-1
+10	er	er	_	PPER	_	_	_	_	_	T854	er	er	854	_	_	0	0	I-s50	0	0	I-SIMPX|I-ADVX|I-NF|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+11	sein	sein	_	PPOSAT	_	_	_	_	_	T855	sein	sein	855	_	_	0	0	I-s50	0	0	I-SIMPX|I-ADVX|I-NF|I-SIMPX|I-MF|B-NX|PPOSAT	0	_	I-1
+12	Leben	Leben	_	NN	_	_	_	_	_	T856	Leben	Leben	856	_	_	0	0	I-s50	0	0	I-SIMPX|I-ADVX|I-NF|I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+13	dabei	dabei	_	PAV	_	_	_	_	_	T857	dabei	dabei	857	_	_	0	0	I-s50	0	0	I-SIMPX|I-ADVX|I-NF|I-SIMPX|E-MF|PROP|PX	0	_	I-1
+14	verlieren	verlieren	_	VVINF	_	_	_	_	_	T858	verlieren	verlieren	858	_	_	0	0	I-s50	0	0	I-SIMPX|I-ADVX|I-NF|I-SIMPX|B-VC|VVINF|VXINF	0	_	I-1
+15	würde	werden	_	VAFIN	_	_	_	_	_	T859	würde	würde	859	_	_	0	0	I-s50	0	0	E-SIMPX|E-ADVX|E-NF|E-SIMPX|E-VC|VVFIN|VXFIN	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T860	.	.	860	_	_	0	0	E-s50	0	0	$.	0	_	E-1
+
+# sent_id = 50
+# text = Oderbruch ist Christ.
+1	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T861	Oderbruch	Oderbruch	861	_	_	0	0	B-s51	0	0	B-SIMPX|ADV|ADVX|VF	0	_	B-1
+2	ist	sein	_	VAFIN	_	_	_	_	_	T862	ist	ist	862	_	_	0	0	I-s51	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	Christ	Christ	_	NE	_	_	_	_	_	T863	Christ	Christ	863	_	_	0	0	I-s51	0	0	E-SIMPX|NN|NX|MF	0	_	I-1
+4	.	.	_	$.	_	_	_	_	_	T864	.	.	864	_	_	0	0	E-s51	0	0	$.	0	_	E-1
+
+# sent_id = 51
+# text = Er hat von Gott den Auftrag, der Obrigkeit untertan zu sein, aber auch, alles Unrecht zu bekämpfen.
+1	Er	er	_	PPER	_	_	_	_	_	T865	Er	Er	865	_	_	0	0	B-s52	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	hat	haben	_	VAFIN	_	_	_	_	_	T866	hat	hat	866	_	_	0	0	I-s52	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	von	von	_	APPR	_	_	_	_	_	T867	von	von	867	_	_	0	0	I-s52	0	0	I-SIMPX|B-MF|B-PX|APPR	0	_	I-1
+4	Gott	Gott	_	NN	_	_	_	_	_	T868	Gott	Gott	868	_	_	0	0	I-s52	0	0	I-SIMPX|I-MF|E-PX|NE|NX	0	_	I-1
+5	den	die	_	ART	_	_	_	_	_	T869	den	den	869	_	_	0	0	I-s52	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+6	Auftrag	Auftrag	_	NN	_	_	_	_	_	T870	Auftrag	Auftrag	870	_	_	0	0	I-s52	0	0	I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T871	,	,	871	_	_	0	0	I-s52	0	0	I-SIMPX|$,	0	_	I-1
+8	der	die	_	ART	_	_	_	_	_	T872	der	der	872	_	_	0	0	I-s52	0	0	I-SIMPX|B-NF|B-SIMPX|B-NX|B-MF|ART	0	_	I-1
+9	Obrigkeit	Obrigkeit	_	NN	_	_	_	_	_	T873	Obrigkeit	Obrigkeit	873	_	_	0	0	I-s52	0	0	I-SIMPX|I-NF|I-SIMPX|E-NX|E-MF|NN	0	_	I-1
+10	untertan	untertan	_	ADJD	_	_	_	_	_	T874	untertan	untertan	874	_	un-tertan	0	0	I-s52	0	0	I-SIMPX|I-NF|I-SIMPX|B-VC|VVPP|VXINF	0	_	I-1
+11	zu	zu	_	PTKZU	_	_	_	_	_	T875	zu	zu	875	_	_	0	0	I-s52	0	0	I-SIMPX|I-NF|I-SIMPX|I-VC|B-VXINF|PTKZU	0	_	I-1
+12	sein	sein	_	VAINF	_	_	_	_	_	T876	sein	sein	876	_	_	0	0	I-s52	0	0	I-SIMPX|I-NF|E-SIMPX|E-VC|E-VXINF|VAINF	0	_	I-1
+13	,	,	_	$,	_	_	_	_	_	T877	,	,	877	_	_	0	0	I-s52	0	0	I-SIMPX|I-NF|$,	0	_	I-1
+14	aber	aber	_	KON	_	_	_	_	_	T878	aber	aber	878	_	_	0	0	I-s52	0	0	I-SIMPX|I-NF|B-NF|KON	0	_	I-1
+15	auch	auch	_	ADV	_	_	_	_	_	T879	auch	auch	879	_	_	0	0	I-s52	0	0	I-SIMPX|I-NF|I-NF|ADV|ADVX	0	_	I-1
+16	,	,	_	$,	_	_	_	_	_	T880	,	,	880	_	_	0	0	I-s52	0	0	I-SIMPX|I-NF|I-NF|$,	0	_	I-1
+17	alles	alle	_	PIAT	_	_	_	_	_	T881	alles	alles	881	_	_	0	0	I-s52	0	0	I-SIMPX|I-NF|I-NF|B-SIMPX|B-NX|B-MF|PIS|NX	0	_	I-1
+18	Unrecht	Unrecht	_	NN	_	_	_	_	_	T882	Unrecht	Unrecht	882	_	Un-recht	0	0	I-s52	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|E-NX|E-MF|NN|NX	0	_	I-1
+19	zu	zu	_	PTKZU	_	_	_	_	_	T883	zu	zu	883	_	_	0	0	I-s52	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|B-VXINF|B-VC|PTKZU	0	_	I-1
+20	bekämpfen	bekämpfen	_	VVINF	_	_	_	_	_	T884	bekämpfen	bekämpfen	884	_	_	0	0	I-s52	0	0	E-SIMPX|E-NF|E-NF|E-SIMPX|E-VXINF|E-VC|VVINF	0	_	I-1
+21	.	.	_	$.	_	_	_	_	_	T885	.	.	885	_	_	0	0	E-s52	0	0	$.	0	_	E-1
+
+# sent_id = 52
+# text = Seine Obrigkeit ist gottlos und tut Unrecht.
+1	Seine	sein	_	PPOSAT	_	_	_	_	_	T886	Seine	Seine	886	_	_	0	0	B-s53	0	0	B-SIMPX|B-NX|B-VF|PPOSAT	0	_	B-1
+2	Obrigkeit	Obrigkeit	_	NN	_	_	_	_	_	T887	Obrigkeit	Obrigkeit	887	_	_	0	0	I-s53	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	ist	sein	_	VAFIN	_	_	_	_	_	T888	ist	ist	888	_	_	0	0	I-s53	0	0	I-SIMPX|B-FKOORD|B-FKONJ|VAFIN|VXFIN|LK	0	_	I-1
+4	gottlos	gottlos	_	ADJD	_	_	_	_	_	T889	gottlos	gottlos	889	_	_	0	0	I-s53	0	0	I-SIMPX|I-FKOORD|E-FKONJ|ADJD|ADJX|MF	0	_	I-1
+5	und	und	_	KON	_	_	_	_	_	T890	und	und	890	_	_	0	0	I-s53	0	0	I-SIMPX|I-FKOORD|KON	0	_	I-1
+6	tut	tun	_	VVFIN	_	_	_	_	_	T891	tut	tut	891	_	_	0	0	I-s53	0	0	I-SIMPX|I-FKOORD|B-FKONJ|VVFIN|VXFIN|LK	0	_	I-1
+7	Unrecht	Unrecht	_	NN	_	_	_	_	_	T892	Unrecht	Unrecht	892	_	_	0	0	I-s53	0	0	E-SIMPX|E-FKOORD|E-FKONJ|NN|NX|MF	0	_	I-1
+8	.	.	_	$.	_	_	_	_	_	T893	.	.	893	_	_	0	0	E-s53	0	0	$.	0	_	E-1
+
+# sent_id = 53
+# text = So kommt er in einen Konflikt.
+1	So	so	_	ADV	_	_	_	_	_	T894	So	So	894	_	_	0	0	B-s54	0	0	B-SIMPX|ADV|ADVX|VF	0	_	B-1
+2	kommt	kommen	_	VVFIN	_	_	_	_	_	T895	kommt	kommt	895	_	_	0	0	I-s54	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	er	er	_	PPER	_	_	_	_	_	T896	er	er	896	_	_	0	0	I-s54	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+4	in	in	_	APPR	_	_	_	_	_	T897	in	in	897	_	_	0	0	I-s54	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+5	einen	eine	_	ART	_	_	_	_	_	T898	einen	einen	898	_	_	0	0	I-s54	0	0	I-SIMPX|I-MF|I-PX|B-NX|ART	0	_	I-1
+6	Konflikt	Konflikt	_	NN	_	_	_	_	_	T899	Konflikt	Konflikt	899	_	_	0	0	I-s54	0	0	E-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+7	.	.	_	$.	_	_	_	_	_	T900	.	.	900	_	_	0	0	E-s54	0	0	$.	0	_	E-1
+
+# sent_id = 54
+# text = Verstärkt wird dieser noch dadurch, dass er Hitler selbst oder andere Schuldige nicht umbringen kann, sondern dass unschuldige, tapfere Flieger sterben müssen.
+1	Verstärkt	verstärkt	_	ADJD	_	_	_	_	_	T901	Verstärkt	Verstärkt	901	_	_	0	0	B-s55	0	0	B-SIMPX|ADV|ADVX|VF	0	_	B-1
+2	wird	werden	_	VAFIN	_	_	_	_	_	T902	wird	wird	902	_	_	0	0	I-s55	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	dieser	dies	_	PDAT	_	_	_	_	_	T903	dieser	dieser	903	_	_	0	0	I-s55	0	0	I-SIMPX|B-MF|PDS|NX	0	_	I-1
+4	noch	noch	_	ADV	_	_	_	_	_	T904	noch	noch	904	_	_	0	0	I-s55	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+5	dadurch	dadurch	_	PAV	_	_	_	_	_	T905	dadurch	dadurch	905	_	_	0	0	I-s55	0	0	I-SIMPX|E-MF|PROP|PX	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T906	,	,	906	_	_	0	0	I-s55	0	0	I-SIMPX|$,	0	_	I-1
+7	dass	dass	_	KOUS	_	_	_	_	_	T907	daß	daß	907	XXX	_	0	0	I-s55	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+8	er	er	_	PPER	_	_	_	_	_	T908	er	er	908	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+9	Hitler	Hitler	_	NE	_	_	_	_	_	T909	Hitler	Hitler	909	_	Hit-ler	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|B-NX|B-NX|NE|NX	0	_	I-1
+10	selbst	selbst	_	ADV	_	_	_	_	_	T910	selbst	selbst	910	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|E-NX|NN	0	_	I-1
+11	oder	oder	_	KON	_	_	_	_	_	T911	oder	oder	911	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|KON	0	_	I-1
+12	andere	andere	_	PIS	_	_	_	_	_	T912	andere	andere	912	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|I-NX|B-NX|ADJA|ADJX	0	_	I-1
+13	Schuldige	Schuldige	_	NN	_	_	_	_	_	T913	Schuldige	Schuldige	913	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|E-NX|NN	0	_	I-1
+14	nicht	nicht	_	PTKNEG	_	_	_	_	_	T914	nicht	nicht	914	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|PTKNEG|ADVX	0	_	I-1
+15	umbringen	umbringen	_	VVINF	_	_	_	_	_	T915	umbringen	umbringen	915	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|B-VC|VVINF|VXINF	0	_	I-1
+16	kann	können	_	VMFIN	_	_	_	_	_	T916	kann	kann	916	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|E-VC|VMFIN|VXFIN	0	_	I-1
+17	,	,	_	$,	_	_	_	_	_	T917	,	,	917	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|$,	0	_	I-1
+18	sondern	sondern	_	KON	_	_	_	_	_	T918	sondern	sondern	918	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|KON	0	_	I-1
+19	dass	dass	_	KOUS	_	_	_	_	_	T919	daß	daß	919	XXX	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|B-NX|ADJA|ADJX|C	0	_	I-1
+20	unschuldige	unschuldig	_	ADJA	_	_	_	_	_	T920	unschuldige	unschuldige	920	_	unschul-dige	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|I-NX|B-MF|B-ADJX|ADJA|ADJX	0	_	I-1
+21	,	,	_	$,	_	_	_	_	_	T921	,	,	921	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|I-NX|I-MF|I-ADJX|$,	0	_	I-1
+22	tapfere	tapfer	_	ADJA	_	_	_	_	_	T922	tapfere	tapfere	922	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|I-NX|I-MF|E-ADJX|ADJA|ADJX	0	_	I-1
+23	Flieger	Flieger	_	NN	_	_	_	_	_	T923	Flieger	Flieger	923	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|E-NX|E-MF|NN	0	_	I-1
+24	sterben	sterben	_	VVINF	_	_	_	_	_	T924	sterben	sterben	924	_	_	0	0	I-s55	0	0	I-SIMPX|I-SIMPX|I-NF|B-VC|VVINF|VXINF	0	_	I-1
+25	müssen	müssen	_	VMINF	_	_	_	_	_	T925	müssen	müssen	925	_	_	0	0	I-s55	0	0	E-SIMPX|E-SIMPX|E-NF|E-VC|VVFIN|VXFIN	0	_	I-1
+26	.	.	_	$.	_	_	_	_	_	T926	.	.	926	_	_	0	0	E-s55	0	0	$.	0	_	E-1
+
+# sent_id = 55
+# text = Darf er Kameraden abstürzen lassen, die das Leben lieben?
+1	Darf	dürfen	_	VMFIN	_	_	_	_	_	T927	Darf	Darf	927	_	_	0	0	B-s56	0	0	B-SIMPX|VMFIN|VXFIN|LK	0	_	B-1
+2	er	er	_	PPER	_	_	_	_	_	T928	er	er	928	_	_	0	0	I-s56	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+3	Kameraden	Kamerad	_	NN	_	_	_	_	_	T929	Kameraden	Kameraden	929	_	_	0	0	I-s56	0	0	I-SIMPX|E-MF|NN|NX	0	_	I-1
+4	abstürzen	abstürzen	_	VVINF	_	_	_	_	_	T930	abstürzen	abstürzen	930	_	_	0	0	I-s56	0	0	I-SIMPX|B-VC|VVINF|VXINF	0	_	I-1
+5	lassen	lassen	_	VVINF	_	_	_	_	_	T931	lassen	lassen	931	_	_	0	0	I-s56	0	0	I-SIMPX|E-VC|VVINF|VXINF	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T932	,	,	932	_	_	0	0	I-s56	0	0	I-SIMPX|$,	0	_	I-1
+7	die	die	_	PRELS	_	_	_	_	_	T933	die	die	933	_	_	0	0	I-s56	0	0	I-SIMPX|B-R-SIMPX|B-NF|PRELS|NX|C	0	_	I-1
+8	das	die	_	ART	_	_	_	_	_	T934	das	das	934	_	_	0	0	I-s56	0	0	I-SIMPX|I-R-SIMPX|I-NF|B-NX|B-MF|ART	0	_	I-1
+9	Leben	Leben	_	NN	_	_	_	_	_	T935	Leben	Leben	935	_	_	0	0	I-s56	0	0	I-SIMPX|I-R-SIMPX|I-NF|E-NX|E-MF|NN	0	_	I-1
+10	lieben	lieben	_	VVINF	_	_	_	_	_	T936	lieben	lieben	936	_	_	0	0	I-s56	0	0	E-SIMPX|E-R-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+11	?	?	_	$.	_	_	_	_	_	T937	?	?	937	_	_	0	0	E-s56	0	0	$.	0	_	E-1
+
+# sent_id = 56
+# text = Er kann sich an niemandem ein Beispiel nehmen, weil die Widerstandskämpfer einander selten kennen.
+1	Er	er	_	PPER	_	_	_	_	_	T938	Er	Er	938	_	_	0	0	B-s57	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	kann	können	_	VMFIN	_	_	_	_	_	T939	kann	kann	939	_	_	0	0	I-s57	0	0	I-SIMPX|VMFIN|VXFIN|LK	0	_	I-1
+3	sich	sich	_	PRF	_	_	_	_	_	T940	sich	sich	940	_	_	0	0	I-s57	0	0	I-SIMPX|B-MF|PRF|NX	0	_	I-1
+4	an	an	_	APPR	_	_	_	_	_	T941	an	an	941	_	_	0	0	I-s57	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+5	niemandem	niemand	_	PIS	_	_	_	_	_	T942	niemanden	niemandem	942	XXX	_	1	FLEX	I-s57	0	0	I-SIMPX|I-MF|E-PX|PIS|NX	0	_	I-1
+6	ein	eine	_	ART	_	_	_	_	_	T943	ein	ein	943	_	_	0	0	I-s57	0	0	I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+7	Beispiel	Beispiel	_	NN	_	_	_	_	_	T944	Beispiel	Beispiel	944	_	_	0	0	I-s57	0	0	I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+8	nehmen	nehmen	_	VVINF	_	_	_	_	_	T945	nehmen	nehmen	945	_	_	0	0	I-s57	0	0	I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+9	,	,	_	$,	_	_	_	_	_	T946	,	,	946	_	_	0	0	I-s57	0	0	I-SIMPX|$,	0	_	I-1
+10	weil	weil	_	KOUS	_	_	_	_	_	T947	weil	weil	947	_	_	0	0	I-s57	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+11	die	die	_	ART	_	_	_	_	_	T948	die	die	948	_	_	0	0	I-s57	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|B-NX|ART	0	_	I-1
+12	Widerstandskämpfer	Widerstandskämpfer	_	NN	_	_	_	_	_	T949	Widerstandskämpfer	Widerstandskämpfer	949	_	_	0	0	I-s57	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|E-NX|NN	0	_	I-1
+13	einander	einander	_	PRF	_	_	_	_	_	T950	einander	einander	950	_	_	0	0	I-s57	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|PRF|NX	0	_	I-1
+14	selten	selten	_	ADJD	_	_	_	_	_	T951	selten	selten	951	_	sel-ten	0	0	I-s57	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|ADJD|ADJX	0	_	I-1
+15	kennen	kennen	_	VVINF	_	_	_	_	_	T952	kennen	kennen	952	_	_	0	0	I-s57	0	0	E-SIMPX|E-SIMPX|E-NF|VVFIN|VXFIN|VC	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T953	.	.	953	_	_	0	0	E-s57	0	0	$.	0	_	E-1
+
+# sent_id = 57
+# text = General Harras ist ein tüchtiger und tapferer Flieger, aber er leistet nur passiven Widerstand.
+1	General	General	_	NN	_	_	_	_	_	T954	General	General	954	_	_	0	0	B-s58	0	0	B-SIMPX|B-SIMPX|B-NX|B-VF|NN|NX	0	_	B-1
+2	Harras	Harras	_	NE	_	_	_	_	_	T955	Harras	Harras	955	_	_	0	0	I-s58	0	0	I-SIMPX|I-SIMPX|E-NX|E-VF|NE|NX	0	_	I-1
+3	ist	sein	_	VAFIN	_	_	_	_	_	T956	ist	ist	956	_	_	0	0	I-s58	0	0	I-SIMPX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+4	ein	eine	_	ART	_	_	_	_	_	T957	ein	ein	957	_	_	0	0	I-s58	0	0	I-SIMPX|I-SIMPX|B-NX|B-MF|ART	0	_	I-1
+5	tüchtiger	tüchtig	_	ADJA	_	_	_	_	_	T958	tüchtiger	tüchtiger	958	_	_	0	0	I-s58	0	0	I-SIMPX|I-SIMPX|I-NX|I-MF|B-ADJX|ADJA|ADJX	0	_	I-1
+6	und	und	_	KON	_	_	_	_	_	T959	und	und	959	_	_	0	0	I-s58	0	0	I-SIMPX|I-SIMPX|I-NX|I-MF|I-ADJX|KON	0	_	I-1
+7	tapferer	tapfer	_	ADJA	_	_	_	_	_	T960	tapferer	tapferer	960	_	_	0	0	I-s58	0	0	I-SIMPX|I-SIMPX|I-NX|I-MF|E-ADJX|ADJA|ADJX	0	_	I-1
+8	Flieger	Flieger	_	NN	_	_	_	_	_	T961	Flieger	Flieger	961	_	_	0	0	I-s58	0	0	I-SIMPX|E-SIMPX|E-NX|E-MF|NN	0	_	I-1
+9	,	,	_	$,	_	_	_	_	_	T962	,	,	962	_	_	0	0	I-s58	0	0	I-SIMPX|$,	0	_	I-1
+10	aber	aber	_	KON	_	_	_	_	_	T963	aber	aber	963	_	_	0	0	I-s58	0	0	I-SIMPX|KON	0	_	I-1
+11	er	er	_	PPER	_	_	_	_	_	T964	er	er	964	_	_	0	0	I-s58	0	0	I-SIMPX|B-SIMPX|PPER|NX|VF	0	_	I-1
+12	leistet	leisten	_	VVFIN	_	_	_	_	_	T965	leistet	leistet	965	_	_	0	0	I-s58	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+13	nur	nur	_	ADV	_	_	_	_	_	T966	nur	nur	966	_	_	0	0	I-s58	0	0	I-SIMPX|I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+14	passiven	passiv	_	ADJA	_	_	_	_	_	T967	passiven	passiven	967	_	_	0	0	I-s58	0	0	I-SIMPX|I-SIMPX|I-MF|B-NX|ADJA|ADJX	0	_	I-1
+15	Widerstand	Widerstand	_	NN	_	_	_	_	_	T968	Widerstand	Widerstand	968	_	_	0	0	I-s58	0	0	E-SIMPX|E-SIMPX|E-MF|E-NX|NN	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T969	.	.	969	_	_	0	0	E-s58	0	0	$.	0	_	E-1
+
+# sent_id = 58
+# text = Harras ist auch ein Gegner des Regimes, doch fehlt ihm die Bindung an Gott.
+1	Harras	Harras	_	NE	_	_	_	_	_	T970	Harras	Harras	970	_	_	0	0	B-s59	0	0	B-SIMPX|B-SIMPX|ADV|ADVX|VF	0	_	B-1
+2	ist	sein	_	VAFIN	_	_	_	_	_	T971	ist	ist	971	_	_	0	0	I-s59	0	0	I-SIMPX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+3	auch	auch	_	ADV	_	_	_	_	_	T972	auch	auch	972	_	_	0	0	I-s59	0	0	I-SIMPX|I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+4	ein	eine	_	ART	_	_	_	_	_	T973	ein	ein	973	_	_	0	0	I-s59	0	0	I-SIMPX|I-SIMPX|I-MF|B-NX|B-NX|ART	0	_	I-1
+5	Gegner	Gegner	_	NN	_	_	_	_	_	T974	Gegner	Gegner	974	_	_	0	0	I-s59	0	0	I-SIMPX|I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+6	des	die	_	ART	_	_	_	_	_	T975	des	des	975	_	_	0	0	I-s59	0	0	I-SIMPX|I-SIMPX|I-MF|I-NX|B-NX|ART	0	_	I-1
+7	Regimes	Regime	_	NN	_	_	_	_	_	T976	Regimes	Regimes	976	_	Re-gimes	0	0	I-s59	0	0	I-SIMPX|E-SIMPX|E-MF|E-NX|E-NX|NN	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T977	,	,	977	_	_	0	0	I-s59	0	0	I-SIMPX|$,	0	_	I-1
+9	doch	doch	_	KON	_	_	_	_	_	T978	doch	doch	978	_	_	0	0	I-s59	0	0	I-SIMPX|VF	0	_	I-1
+10	fehlt	fehlen	_	VVFIN	_	_	_	_	_	T979	fehlt	fehlt	979	_	_	0	0	I-s59	0	0	I-SIMPX|B-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+11	ihm	er	_	PPER	_	_	_	_	_	T980	ihm	ihm	980	_	_	0	0	I-s59	0	0	I-SIMPX|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+12	die	die	_	ART	_	_	_	_	_	T981	die	die	981	_	_	0	0	I-s59	0	0	I-SIMPX|I-SIMPX|I-MF|B-NX|ART	0	_	I-1
+13	Bindung	Bindung	_	NN	_	_	_	_	_	T982	Bindung	Bindung	982	_	_	0	0	I-s59	0	0	I-SIMPX|I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+14	an	an	_	APPR	_	_	_	_	_	T983	an	an	983	_	_	0	0	I-s59	0	0	I-SIMPX|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+15	Gott	Gott	_	NN	_	_	_	_	_	T984	Gott	Gott	984	_	_	0	0	I-s59	0	0	E-SIMPX|E-SIMPX|E-MF|E-PX|NE|NX	0	_	I-1
+16	.	.	_	$.	_	_	_	_	_	T985	.	.	985	_	_	0	0	E-s59	0	0	$.	0	_	E-1
+
+# sent_id = 59
+# text = Der letzte innere Anstoß.
+1	Der	die	_	ART	_	_	_	_	_	T986	Der	Der	986	_	_	0	0	B-s60	0	0	B-NX|ART	0	_	B-1
+2	letzte	letzt	_	ADJA	_	_	_	_	_	T987	letzte	letzte	987	_	_	0	0	I-s60	0	0	I-NX|ADJA|ADJX	0	_	I-1
+3	innere	inner	_	ADJA	_	_	_	_	_	T988	innere	innere	988	_	_	0	0	I-s60	0	0	I-NX|ADJA|ADJX	0	_	I-1
+4	Anstoß	Anstoß	_	NN	_	_	_	_	_	T989	Anstoß	Anstoß	989	_	_	0	0	I-s60	0	0	E-NX|NN	0	_	I-1
+5	.	.	_	$.	_	_	_	_	_	T990	.	.	990	_	_	0	0	E-s60	0	0	$.	0	_	E-1
+
+# sent_id = 60
+# text = Er sieht nicht, wofür er sich " schlachten " lassen soll.
+1	Er	er	_	PPER	_	_	_	_	_	T991	Er	Er	991	_	_	0	0	B-s61	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	sieht	sehen	_	VVFIN	_	_	_	_	_	T992	sieht	sieht	992	_	_	0	0	I-s61	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	nicht	nicht	_	PTKNEG	_	_	_	_	_	T993	nicht	nicht	993	_	_	0	0	I-s61	0	0	I-SIMPX|PTKNEG|ADVX|MF	0	_	I-1
+4	,	,	_	$,	_	_	_	_	_	T994	,	,	994	_	_	0	0	I-s61	0	0	I-SIMPX|$,	0	_	I-1
+5	wofür	wofür	_	PWAV	_	_	_	_	_	T995	wofür	wofür	995	_	_	0	0	I-s61	0	0	I-SIMPX|B-SIMPX|B-NF|PWAV|ADVX|C	0	_	I-1
+6	er	er	_	PPER	_	_	_	_	_	T996	er	er	996	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+7	sich	sich	_	PRF	_	_	_	_	_	T997	sich	sich	997	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|PRF|NX	0	_	I-1
+8	"	"	_	$(	_	_	_	_	_	T998	"	"	998	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|B-VC|$(	0	_	I-1
+9	schlachten	schlachten	_	VVINF	_	_	_	_	_	T999	schlachten	schlachten	999	_	schlach-ten	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|I-VC|VVPP|VXINF	0	_	I-1
+10	"	"	_	$(	_	_	_	_	_	T1000	"	"	1000	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|I-VC|$(	0	_	I-1
+11	lassen	lassen	_	VVINF	_	_	_	_	_	T1001	lassen	lassen	1001	_	_	0	0	I-s61	0	0	I-SIMPX|I-SIMPX|I-NF|I-VC|VVINF|VXINF	0	_	I-1
+12	soll	sollen	_	VMFIN	_	_	_	_	_	T1002	soll	soll	1002	_	_	0	0	I-s61	0	0	E-SIMPX|E-SIMPX|E-NF|E-VC|VMFIN|VXFIN	0	_	I-1
+13	.	.	_	$.	_	_	_	_	_	T1003	.	.	1003	_	_	0	0	E-s61	0	0	$.	0	_	E-1
+
+# sent_id = 61
+# text = Oderbruch aber weiß, wofür er kämpft und stirbt.
+1	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T1004	Oderbruch	Oderbruch	1004	_	_	0	0	B-s62	0	0	B-SIMPX|B-VF|ADJD|ADJX	0	_	B-1
+2	aber	aber	_	ADV	_	_	_	_	_	T1005	aber	aber	1005	_	_	0	0	I-s62	0	0	I-SIMPX|E-VF|ADV|ADVX	0	_	I-1
+3	weiß	wissen	_	VVFIN	_	_	_	_	_	T1006	weiß	weiß	1006	_	_	0	0	I-s62	0	0	I-SIMPX|VVIZU|VXINF|LK	0	_	I-1
+4	,	,	_	$,	_	_	_	_	_	T1007	,	,	1007	_	_	0	0	I-s62	0	0	I-SIMPX|$,	0	_	I-1
+5	wofür	wofür	_	PWAV	_	_	_	_	_	T1008	wofür	wofür	1008	_	_	0	0	I-s62	0	0	I-SIMPX|B-R-SIMPX|B-NF|PRELS|NX|C	0	_	I-1
+6	er	er	_	PPER	_	_	_	_	_	T1009	er	er	1009	_	_	0	0	I-s62	0	0	I-SIMPX|I-R-SIMPX|I-NF|PPER|NX|MF	0	_	I-1
+7	kämpft	kämpfen	_	VVFIN	_	_	_	_	_	T1010	kämpft	kämpft	1010	_	_	0	0	I-s62	0	0	I-SIMPX|I-R-SIMPX|I-NF|B-VXFIN|B-VC|VVFIN|VXFIN	0	_	I-1
+8	und	und	_	KON	_	_	_	_	_	T1011	und	und	1011	_	_	0	0	I-s62	0	0	I-SIMPX|I-R-SIMPX|I-NF|I-VXFIN|I-VC|KON	0	_	I-1
+9	stirbt	sterben	_	VVFIN	_	_	_	_	_	T1012	stirbt	stirbt	1012	_	_	0	0	I-s62	0	0	E-SIMPX|E-R-SIMPX|E-NF|E-VXFIN|E-VC|VVFIN|VXFIN	0	_	I-1
+10	.	.	_	$.	_	_	_	_	_	T1013	.	.	1013	_	_	0	0	E-s62	0	0	$.	0	_	E-1
+
+# sent_id = 62
+# text = Und er weiß auch, dass Gott ihn dafür belohnen wird.
+1	Und	und	_	KON	_	_	_	_	_	T1014	Und	Und	1014	_	_	0	0	B-s63	0	0	B-SIMPX|KON|KOORD	0	_	B-1
+2	er	er	_	PPER	_	_	_	_	_	T1015	er	er	1015	_	_	0	0	I-s63	0	0	I-SIMPX|PPER|NX|VF	0	_	I-1
+3	weiß	wissen	_	VVFIN	_	_	_	_	_	T1016	weiß	weiß	1016	_	_	0	0	I-s63	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	auch	auch	_	ADV	_	_	_	_	_	T1017	auch	auch	1017	_	_	0	0	I-s63	0	0	I-SIMPX|ADV|ADVX|MF	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T1018	,	,	1018	_	_	0	0	I-s63	0	0	I-SIMPX|$,	0	_	I-1
+6	dass	dass	_	KOUS	_	_	_	_	_	T1019	daß	daß	1019	XXX	_	0	0	I-s63	0	0	I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+7	Gott	Gott	_	NN	_	_	_	_	_	T1020	Gott	Gott	1020	_	_	0	0	I-s63	0	0	I-SIMPX|I-SIMPX|I-NF|B-MF|NE|NX	0	_	I-1
+8	ihn	er	_	PPER	_	_	_	_	_	T1021	ihn	ihn	1021	_	_	0	0	I-s63	0	0	I-SIMPX|I-SIMPX|I-NF|I-MF|PPER|NX	0	_	I-1
+9	dafür	dafür	_	PAV	_	_	_	_	_	T1022	dafür	dafür	1022	_	_	0	0	I-s63	0	0	I-SIMPX|I-SIMPX|I-NF|E-MF|ADJD|ADJX	0	_	I-1
+10	belohnen	belohnen	_	VVINF	_	_	_	_	_	T1023	belohnen	belohnen	1023	_	_	0	0	I-s63	0	0	I-SIMPX|I-SIMPX|I-NF|B-VC|VVINF|VXINF	0	_	I-1
+11	wird	werden	_	VAFIN	_	_	_	_	_	T1024	wird	wird	1024	_	_	0	0	I-s63	0	0	E-SIMPX|E-SIMPX|E-NF|E-VC|VAFIN|VXFIN	0	_	I-1
+12	.	.	_	$.	_	_	_	_	_	T1025	.	.	1025	_	_	0	0	E-s63	0	0	$.	0	_	E-1
+
+# sent_id = 63
+# text = In einer solch schweren Entscheidung, wie Oderbruch sie zu fällen hat, empfiehlt Bonhoeffer, sich nicht auf Freiheit oder Gewissen zu verlassen, sondern auf die absolute Bindung an Gott.
+1	In	in	_	APPR	_	_	_	_	_	T1026	In	In	1026	_	_	0	0	B-s64	0	0	B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	einer	eine	_	ART	_	_	_	_	_	T1027	einer	einer	1027	_	_	0	0	I-s64	0	0	I-SIMPX|I-PX|I-VF|B-NX|B-NX|ART	0	_	I-1
+3	solch	solche	_	PIAT	_	_	_	_	_	T1028	solch	solch	1028	_	_	0	0	I-s64	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|PIDAT|ADJX	0	_	I-1
+4	schweren	schwer	_	ADJA	_	_	_	_	_	T1029	schweren	schweren	1029	_	_	0	0	I-s64	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+5	Entscheidung	Entscheidung	_	NN	_	_	_	_	_	T1030	Entscheidung	Entscheidung	1030	_	Ent-scheidung	0	0	I-s64	0	0	I-SIMPX|I-PX|I-VF|I-NX|E-NX|NN	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T1031	,	,	1031	_	_	0	0	I-s64	0	0	I-SIMPX|I-PX|I-VF|I-NX|$,	0	_	I-1
+7	wie	wie	_	KOKOM	_	_	_	_	_	T1032	wie	wie	1032	_	_	0	0	I-s64	0	0	I-SIMPX|I-PX|I-VF|I-NX|B-SIMPX|KOUS|C	0	_	I-1
+8	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T1033	Oderbruch	Oderbruch	1033	_	_	0	0	I-s64	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-SIMPX|B-MF|NE|NX	0	_	I-1
+9	sie	sie	_	PPER	_	_	_	_	_	T1034	sie	sie	1034	_	_	0	0	I-s64	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-SIMPX|E-MF|PPER|NX	0	_	I-1
+10	zu	zu	_	PTKZU	_	_	_	_	_	T1035	zu	zu	1035	_	_	0	0	I-s64	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-SIMPX|B-VC|B-VXINF|PTKZU	0	_	I-1
+11	fällen	fällen	_	VVINF	_	_	_	_	_	T1036	fällen	fällen	1036	_	_	0	0	I-s64	0	0	I-SIMPX|I-PX|I-VF|I-NX|I-SIMPX|I-VC|E-VXINF|VVINF	0	_	I-1
+12	hat	haben	_	VAFIN	_	_	_	_	_	T1037	hat	hat	1037	_	_	0	0	I-s64	0	0	I-SIMPX|E-PX|E-VF|E-NX|E-SIMPX|E-VC|VAFIN|VXFIN	0	_	I-1
+13	,	,	_	$,	_	_	_	_	_	T1038	,	,	1038	_	_	0	0	I-s64	0	0	I-SIMPX|$,	0	_	I-1
+14	empfiehlt	empfehlen	_	VVFIN	_	_	_	_	_	T1039	empfiehlt	empfiehlt	1039	_	_	0	0	I-s64	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+15	Bonhoeffer	Bonhoeffer	_	NN	_	_	_	_	_	T1040	Bonhoeffer	Bonhoeffer	1040	_	_	0	0	I-s64	0	0	I-SIMPX|NE|NX|MF	0	_	I-1
+16	,	,	_	$,	_	_	_	_	_	T1041	,	,	1041	_	_	0	0	I-s64	0	0	I-SIMPX|$,	0	_	I-1
+17	sich	sich	_	PRF	_	_	_	_	_	T1042	sich	sich	1042	_	_	0	0	I-s64	0	0	I-SIMPX|B-NF|B-SIMPX|B-MF|PRF|NX	0	_	I-1
+18	nicht	nicht	_	PTKNEG	_	_	_	_	_	T1043	nicht	nicht	1043	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|I-SIMPX|I-MF|PTKNEG|ADVX	0	_	I-1
+19	auf	auf	_	APPR	_	_	_	_	_	T1044	auf	auf	1044	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+20	Freiheit	Freiheit	_	NN	_	_	_	_	_	T1045	Freiheit	Freiheit	1045	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX|NN|NX	0	_	I-1
+21	oder	oder	_	KON	_	_	_	_	_	T1046	oder	oder	1046	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|I-NX|KON	0	_	I-1
+22	Gewissen	Gewissen	_	NN	_	_	_	_	_	T1047	Gewissen	Gewissen	1047	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|I-SIMPX|E-MF|E-PX|E-NX|NN|NX	0	_	I-1
+23	zu	zu	_	PTKZU	_	_	_	_	_	T1048	zu	zu	1048	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|I-SIMPX|B-VXINF|B-VC|PTKZU	0	_	I-1
+24	verlassen	verlassen	_	VVINF	_	_	_	_	_	T1049	verlassen	verlassen	1049	_	ver-lassen	0	0	I-s64	0	0	I-SIMPX|I-NF|E-SIMPX|E-VXINF|E-VC|VVINF	0	_	I-1
+25	,	,	_	$,	_	_	_	_	_	T1050	,	,	1050	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|$,	0	_	I-1
+26	sondern	sondern	_	KON	_	_	_	_	_	T1051	sondern	sondern	1051	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|B-NF|KON	0	_	I-1
+27	auf	auf	_	APPR	_	_	_	_	_	T1052	auf	auf	1052	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|I-NF|B-PX|APPR	0	_	I-1
+28	die	die	_	ART	_	_	_	_	_	T1053	die	die	1053	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|I-NF|I-PX|B-NX|B-NX|ART	0	_	I-1
+29	absolute	absolut	_	ADJA	_	_	_	_	_	T1054	absolute	absolute	1054	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|I-NF|I-PX|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+30	Bindung	Bindung	_	NN	_	_	_	_	_	T1055	Bindung	Bindung	1055	_	Bin-dung	0	0	I-s64	0	0	I-SIMPX|I-NF|I-NF|I-PX|I-NX|E-NX|NN	0	_	I-1
+31	an	an	_	APPR	_	_	_	_	_	T1056	an	an	1056	_	_	0	0	I-s64	0	0	I-SIMPX|I-NF|I-NF|I-PX|I-NX|B-PX|APPR	0	_	I-1
+32	Gott	Gott	_	NN	_	_	_	_	_	T1057	Gott	Gott	1057	_	_	0	0	I-s64	0	0	E-SIMPX|E-NF|E-NF|E-PX|E-NX|E-PX|NE|NX	0	_	I-1
+33	.	.	_	$.	_	_	_	_	_	T1058	.	.	1058	_	_	0	0	E-s64	0	0	$.	0	_	E-1
+
+# sent_id = 64
+# text = Wenn wir dann irren, wird er uns auch verzeihen.
+1	Wenn	wenn	_	KOUS	_	_	_	_	_	T1059	Wenn	Wenn	1059	_	_	0	0	B-s65	0	0	B-SIMPX|B-SIMPX|B-VF|KOUS|C	0	_	B-1
+2	wir	wir	_	PPER	_	_	_	_	_	T1060	wir	wir	1060	_	_	0	0	I-s65	0	0	I-SIMPX|I-SIMPX|I-VF|B-MF|PPER|NX	0	_	I-1
+3	dann	dann	_	ADV	_	_	_	_	_	T1061	dann	dann	1061	_	_	0	0	I-s65	0	0	I-SIMPX|I-SIMPX|I-VF|E-MF|ADV|ADVX	0	_	I-1
+4	irren	irren	_	VVFIN	_	_	_	_	_	T1062	irren	irren	1062	_	_	0	0	I-s65	0	0	I-SIMPX|E-SIMPX|E-VF|VVFIN|VXFIN|VC	0	_	I-1
+5	,	,	_	$,	_	_	_	_	_	T1063	,	,	1063	_	_	0	0	I-s65	0	0	I-SIMPX|$,	0	_	I-1
+6	wird	werden	_	VAFIN	_	_	_	_	_	T1064	wird	wird	1064	_	_	0	0	I-s65	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+7	er	er	_	PPER	_	_	_	_	_	T1065	er	er	1065	_	_	0	0	I-s65	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+8	uns	wir	_	PRF	_	_	_	_	_	T1066	uns	uns	1066	_	_	0	0	I-s65	0	0	I-SIMPX|I-MF|PRF|NX	0	_	I-1
+9	auch	auch	_	ADV	_	_	_	_	_	T1067	auch	auch	1067	_	_	0	0	I-s65	0	0	I-SIMPX|E-MF|ADV|ADVX	0	_	I-1
+10	verzeihen	verzeihen	_	VVINF	_	_	_	_	_	T1068	verzeihen	verzeihen	1068	_	_	0	0	I-s65	0	0	E-SIMPX|VVINF|VXINF|VC	0	_	I-1
+11	.	.	_	$.	_	_	_	_	_	T1069	.	.	1069	_	_	0	0	E-s65	0	0	$.	0	_	E-1
+
+# sent_id = 65
+# text = Wenn ich auch die Art, wie Oderbruch Widerstand gegen das Regime leistet, nicht billigen kann, so ist es doch für unsere Generation trostvoll zu wissen, dass es Menschen, sicherlich waren es viele, gegeben hat, die unter dem Einsatz ihres Lebens an ihren Werten festgehalten haben.
+1	Wenn	wenn	_	KOUS	_	_	_	_	_	T1070	Wenn	Wenn	1070	_	_	0	0	B-s66	0	0	B-SIMPX|B-LV|KOUS|C	0	_	B-1
+2	ich	ich	_	PPER	_	_	_	_	_	T1071	ich	ich	1071	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|B-MF|PPER|NX	0	_	I-1
+3	auch	auch	_	ADV	_	_	_	_	_	T1072	auch	auch	1072	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|ADV|ADVX	0	_	I-1
+4	die	die	_	ART	_	_	_	_	_	T1073	die	die	1073	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|B-NX|B-NX|ART	0	_	I-1
+5	Art	Art	_	NN	_	_	_	_	_	T1074	Art	Art	1074	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|I-NX|E-NX|NN	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T1075	,	,	1075	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|I-NX|$,	0	_	I-1
+7	wie	wie	_	KOKOM	_	_	_	_	_	T1076	wie	wie	1076	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|I-NX|B-SIMPX|KOUS|C	0	_	I-1
+8	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T1077	Oderbruch	Oderbruch	1077	_	Oder-bruch	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|I-NX|I-SIMPX|B-MF|NE|NX	0	_	I-1
+9	Widerstand	Widerstand	_	NN	_	_	_	_	_	T1078	Widerstand	Widerstand	1078	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|I-NX|I-SIMPX|I-MF|B-NX|NN|NX	0	_	I-1
+10	gegen	gegen	_	APPR	_	_	_	_	_	T1079	gegen	gegen	1079	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|I-NX|I-SIMPX|I-MF|I-NX|B-PX|APPR	0	_	I-1
+11	das	die	_	ART	_	_	_	_	_	T1080	das	das	1080	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|I-NX|I-SIMPX|I-MF|I-NX|I-PX|B-NX|ART	0	_	I-1
+12	Regime	Regime	_	NN	_	_	_	_	_	T1081	Regime	Regime	1081	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|I-NX|I-SIMPX|E-MF|E-NX|E-PX|E-NX|NN	0	_	I-1
+13	leistet	leisten	_	VVFIN	_	_	_	_	_	T1082	leistet	leistet	1082	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|E-NX|E-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+14	,	,	_	$,	_	_	_	_	_	T1083	,	,	1083	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|I-MF|$,	0	_	I-1
+15	nicht	nicht	_	PTKNEG	_	_	_	_	_	T1084	nicht	nicht	1084	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|E-MF|PTKNEG|ADVX	0	_	I-1
+16	billigen	billigen	_	VVINF	_	_	_	_	_	T1085	billigen	billigen	1085	_	_	0	0	I-s66	0	0	I-SIMPX|I-LV|B-VC|VVINF|VXINF	0	_	I-1
+17	kann	können	_	VMFIN	_	_	_	_	_	T1086	kann	kann	1086	_	_	0	0	I-s66	0	0	I-SIMPX|E-LV|E-VC|VMFIN|VXFIN	0	_	I-1
+18	,	,	_	$,	_	_	_	_	_	T1087	,	,	1087	_	_	0	0	I-s66	0	0	I-SIMPX|$,	0	_	I-1
+19	so	so	_	ADV	_	_	_	_	_	T1088	so	so	1088	_	_	0	0	I-s66	0	0	I-SIMPX|B-SIMPX|ADV|ADVX|VF	0	_	I-1
+20	ist	sein	_	VAFIN	_	_	_	_	_	T1089	ist	ist	1089	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+21	es	es	_	PPER	_	_	_	_	_	T1090	es	es	1090	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+22	doch	doch	_	ADV	_	_	_	_	_	T1091	doch	doch	1091	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+23	für	für	_	APPR	_	_	_	_	_	T1092	für	für	1092	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+24	unsere	unser	_	PPOSAT	_	_	_	_	_	T1093	unsere	unsere	1093	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+25	Generation	Generation	_	NN	_	_	_	_	_	T1094	Generation	Generation	1094	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-MF|E-PX|E-NX|NN	0	_	I-1
+26	trostvoll	trostvoll	_	ADJD	_	_	_	_	_	T1095	trostvoll	trostvoll	1095	_	trost-voll	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+27	zu	zu	_	PTKZU	_	_	_	_	_	T1096	zu	zu	1096	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|B-VXINF|B-VC|PTKZU	0	_	I-1
+28	wissen	wissen	_	VVINF	_	_	_	_	_	T1097	wissen	wissen	1097	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|E-VXINF|E-VC|VVINF	0	_	I-1
+29	,	,	_	$,	_	_	_	_	_	T1098	,	,	1098	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|$,	0	_	I-1
+30	dass	dass	_	KOUS	_	_	_	_	_	T1099	daß	daß	1099	XXX	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+31	es	es	_	PPER	_	_	_	_	_	T1100	es	es	1100	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|B-FKOORD|B-MF|PPER|NX	0	_	I-1
+32	Menschen	Mensch	_	NN	_	_	_	_	_	T1101	Menschen	Menschen	1101	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|E-MF|NN|NX	0	_	I-1
+33	,	,	_	$,	_	_	_	_	_	T1102	,	,	1102	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|$,	0	_	I-1
+34	sicherlich	sicherlich	_	ADV	_	_	_	_	_	T1103	sicherlich	sicherlich	1103	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|ADV|ADVX	0	_	I-1
+35	waren	sein	_	VAFIN	_	_	_	_	_	T1104	waren	waren	1104	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|B-FKONJ|VAFIN|VXFIN|LK	0	_	I-1
+36	es	es	_	PPER	_	_	_	_	_	T1105	es	es	1105	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|B-MF|PPER|NX	0	_	I-1
+37	viele	viele	_	PIS	_	_	_	_	_	T1106	viele	viele	1106	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-MF|PIS|NX	0	_	I-1
+38	,	,	_	$,	_	_	_	_	_	T1107	,	,	1107	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|$,	0	_	I-1
+39	gegeben	geben	_	VVPP	_	_	_	_	_	T1108	gegeben	gegeben	1108	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|B-VC|VVPP|VXINF	0	_	I-1
+40	hat	haben	_	VAFIN	_	_	_	_	_	T1109	hat	hat	1109	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|E-VC|VAFIN|VXFIN	0	_	I-1
+41	,	,	_	$,	_	_	_	_	_	T1110	,	,	1110	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|$,	0	_	I-1
+42	die	die	_	PRELS	_	_	_	_	_	T1111	die	die	1111	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|B-R-SIMPX|B-NF|PRELS|NX|C	0	_	I-1
+43	unter	unter	_	APPR	_	_	_	_	_	T1112	unter	unter	1112	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-R-SIMPX|I-NF|B-MF|B-PX|APPR	0	_	I-1
+44	dem	die	_	ART	_	_	_	_	_	T1113	dem	dem	1113	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-R-SIMPX|I-NF|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+45	Einsatz	Einsatz	_	NN	_	_	_	_	_	T1114	Einsatz	Einsatz	1114	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-R-SIMPX|I-NF|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+46	ihres	ihr	_	PPOSAT	_	_	_	_	_	T1115	ihres	ihres	1115	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-R-SIMPX|I-NF|I-MF|I-PX|I-NX|B-NX|PPOSAT	0	_	I-1
+47	Lebens	Leben	_	NN	_	_	_	_	_	T1116	Lebens	Lebens	1116	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-R-SIMPX|I-NF|I-MF|E-PX|E-NX|E-NX|NN	0	_	I-1
+48	an	an	_	APPR	_	_	_	_	_	T1117	an	an	1117	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-R-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+49	ihren	ihr	_	PPOSAT	_	_	_	_	_	T1118	ihren	ihren	1118	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-R-SIMPX|I-NF|I-MF|I-PX|B-NX|PPOSAT	0	_	I-1
+50	Werten	Wert|Werten	_	NN	_	_	_	_	_	T1119	Werten	Werten	1119	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-R-SIMPX|I-NF|E-MF|E-PX|E-NX|NN	0	_	I-1
+51	festgehalten	festhalten	_	VVPP	_	_	_	_	_	T1120	festgehalten	festgehalten	1120	_	_	0	0	I-s66	0	0	I-SIMPX|I-SIMPX|I-SIMPX|I-NF|I-FKOORD|I-FKONJ|I-R-SIMPX|I-NF|B-VC|VVPP|VXINF	0	_	I-1
+52	haben	haben	_	VAFIN	_	_	_	_	_	T1121	haben	haben	1121	_	_	0	0	I-s66	0	0	E-SIMPX|E-SIMPX|E-SIMPX|E-NF|E-FKOORD|E-FKONJ|E-R-SIMPX|E-NF|E-VC|VAFIN|VXFIN	0	_	I-1
+53	.	.	_	$.	_	_	_	_	_	T1122	.	.	1122	_	_	0	0	E-s66	0	0	$.	0	_	E-1
+
+# sent_id = 66
+# text = Sie spürten ihre moralische Aufgabe Deutschland gegenüber, den Menschen in aller Welt zu zeigen, dass es auch noch anderes in Deutschland gab, als es nach außen den Anschein hatte.
+1	Sie	Sie|sie	_	PPER	_	_	_	_	_	T1123	Sie	Sie	1123	_	_	0	0	B-s67	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	spürten	spüren	_	VVFIN	_	_	_	_	_	T1124	spürten	spürten	1124	_	spür-ten	0	0	I-s67	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	ihre	ihr	_	PPOSAT	_	_	_	_	_	T1125	ihre	ihre	1125	_	_	0	0	I-s67	0	0	I-SIMPX|B-MF|B-NX|B-NX|PPOSAT	0	_	I-1
+4	moralische	moralisch	_	ADJA	_	_	_	_	_	T1126	moralische	moralische	1126	_	_	0	0	I-s67	0	0	I-SIMPX|I-MF|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+5	Aufgabe	Aufgabe	_	NN	_	_	_	_	_	T1127	Aufgabe	Aufgabe	1127	_	_	0	0	I-s67	0	0	I-SIMPX|I-MF|I-NX|E-NX|NN	0	_	I-1
+6	Deutschland	Deutschland	_	NE	_	_	_	_	_	T1128	Deutschland	Deutschland	1128	_	Deutsch-land	0	0	I-s67	0	0	I-SIMPX|I-MF|E-NX|NE|NX	0	_	I-1
+7	gegenüber	gegenüber	_	PTKVZ	_	_	_	_	_	T1129	gegenüber	gegenüber	1129	_	_	0	0	I-s67	0	0	I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+8	,	,	_	$,	_	_	_	_	_	T1130	,	,	1130	_	_	0	0	I-s67	0	0	I-SIMPX|$,	0	_	I-1
+9	den	die	_	ART	_	_	_	_	_	T1131	den	den	1131	_	_	0	0	I-s67	0	0	I-SIMPX|B-NF|B-SIMPX|B-MF|B-NX|ART	0	_	I-1
+10	Menschen	Mensch	_	NN	_	_	_	_	_	T1132	Menschen	Menschen	1132	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-SIMPX|I-MF|E-NX|NN	0	_	I-1
+11	in	in	_	APPR	_	_	_	_	_	T1133	in	in	1133	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+12	aller	alle	_	PIAT	_	_	_	_	_	T1134	aller	aller	1134	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-SIMPX|I-MF|I-PX|B-NX|PIDAT	0	_	I-1
+13	Welt	Welt	_	NN	_	_	_	_	_	T1135	Welt	Welt	1135	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-SIMPX|E-MF|E-PX|E-NX|NN	0	_	I-1
+14	zu	zu	_	PTKZU	_	_	_	_	_	T1136	zu	zu	1136	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-SIMPX|B-VXINF|B-VC|PTKZU	0	_	I-1
+15	zeigen	zeigen	_	VVINF	_	_	_	_	_	T1137	zeigen	zeigen	1137	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|E-SIMPX|E-VXINF|E-VC|VVINF	0	_	I-1
+16	,	,	_	$,	_	_	_	_	_	T1138	,	,	1138	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|$,	0	_	I-1
+17	dass	dass	_	KOUS	_	_	_	_	_	T1139	daß	daß	1139	XXX	_	0	0	I-s67	0	0	I-SIMPX|I-NF|B-NF|KOUS|C	0	_	I-1
+18	es	es	_	PPER	_	_	_	_	_	T1140	es	es	1140	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|B-MF|PPER|NX	0	_	I-1
+19	auch	auch	_	ADV	_	_	_	_	_	T1141	auch	auch	1141	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|I-MF|ADV|ADVX	0	_	I-1
+20	noch	noch	_	ADV	_	_	_	_	_	T1142	noch	noch	1142	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|I-MF|ADV|ADVX	0	_	I-1
+21	anderes	andere	_	PIS	_	_	_	_	_	T1143	anderes	anderes	1143	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|I-MF|PIS|NX	0	_	I-1
+22	in	in	_	APPR	_	_	_	_	_	T1144	in	in	1144	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|I-MF|B-PX|APPR	0	_	I-1
+23	Deutschland	Deutschland	_	NE	_	_	_	_	_	T1145	Deutschland	Deutschland	1145	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|E-MF|E-PX|NE|NX	0	_	I-1
+24	gab	geben	_	VVFIN	_	_	_	_	_	T1146	gab	gab	1146	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|VVFIN|VXFIN|VC	0	_	I-1
+25	,	,	_	$,	_	_	_	_	_	T1147	,	,	1147	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|$,	0	_	I-1
+26	als	als	_	KOUS	_	_	_	_	_	T1148	als	als	1148	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|B-SIMPX|B-NF|KOUS|C	0	_	I-1
+27	es	es	_	PPER	_	_	_	_	_	T1149	es	es	1149	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|I-NF|B-MF|PPER|NX	0	_	I-1
+28	nach	nach	_	APPR	_	_	_	_	_	T1150	nach	nach	1150	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+29	außen	außen	_	ADV	_	_	_	_	_	T1151	außen	außen	1151	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|I-NF|I-MF|E-PX|NN|NX	0	_	I-1
+30	den	die	_	ART	_	_	_	_	_	T1152	den	den	1152	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|I-NF|I-MF|B-NX|ART	0	_	I-1
+31	Anschein	Anschein	_	NN	_	_	_	_	_	T1153	Anschein	Anschein	1153	_	_	0	0	I-s67	0	0	I-SIMPX|I-NF|I-NF|I-SIMPX|I-NF|E-MF|E-NX|NN	0	_	I-1
+32	hatte	haben	_	VAFIN	_	_	_	_	_	T1154	hatte	hatte	1154	_	_	0	0	I-s67	0	0	E-SIMPX|E-NF|E-NF|E-SIMPX|E-NF|VAFIN|VXFIN|VC	0	_	I-1
+33	.	.	_	$.	_	_	_	_	_	T1155	.	.	1155	_	_	0	0	E-s67	0	0	$.	0	_	E-1
+
+# sent_id = 67
+# text = Voll Stolz schauen wir heute auf die Männer des zwanzigsten Juli 1944.
+1	Voll	voll	_	ADJD	_	_	_	_	_	T1156	Voll	Voll	1156	_	_	0	0	B-s68	0	0	B-SIMPX|B-ADJX|B-VF|ADJD|ADJX	0	_	B-1
+2	Stolz	Stolz	_	NN	_	_	_	_	_	T1157	Stolz	Stolz	1157	_	_	0	0	I-s68	0	0	I-SIMPX|E-ADJX|E-VF|ADJD	0	_	I-1
+3	schauen	schauen	_	VVFIN	_	_	_	_	_	T1158	schauen	schauen	1158	_	_	0	0	I-s68	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+4	wir	wir	_	PPER	_	_	_	_	_	T1159	wir	wir	1159	_	_	0	0	I-s68	0	0	I-SIMPX|B-MF|PPER|NX	0	_	I-1
+5	heute	heute	_	ADV	_	_	_	_	_	T1160	heute	heute	1160	_	_	0	0	I-s68	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+6	auf	auf	_	APPR	_	_	_	_	_	T1161	auf	auf	1161	_	_	0	0	I-s68	0	0	I-SIMPX|I-MF|B-PX|APPR	0	_	I-1
+7	die	die	_	ART	_	_	_	_	_	T1162	die	die	1162	_	_	0	0	I-s68	0	0	I-SIMPX|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+8	Männer	Mann	_	NN	_	_	_	_	_	T1163	Männer	Männer	1163	_	_	0	0	I-s68	0	0	I-SIMPX|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+9	des	die	_	ART	_	_	_	_	_	T1164	des	des	1164	_	_	0	0	I-s68	0	0	I-SIMPX|I-MF|I-PX|I-NX|B-NX|B-NX|ART	0	_	I-1
+10	zwanzigsten	zwanzigst	_	ADJA	_	_	_	_	_	T1165	zwanzigsten	zwanzigsten	1165	_	_	0	0	I-s68	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|I-NX|ADJA|ADJX	0	_	I-1
+11	Juli	Juli	_	NN	_	_	_	_	_	T1166	Juli	Juli	1166	_	_	0	0	I-s68	0	0	I-SIMPX|I-MF|I-PX|I-NX|I-NX|E-NX|NN	0	_	I-1
+12	1944	@card@	_	CARD	_	_	_	_	_	T1167	1944	1944	1167	_	_	0	0	I-s68	0	0	E-SIMPX|E-MF|E-PX|E-NX|E-NX|CARD|NX	0	_	I-1
+13	.	.	_	$.	_	_	_	_	_	T1168	.	.	1168	_	_	0	0	E-s68	0	0	$.	0	_	E-1
+
+# sent_id = 68
+# text = Wir fühlen, dass das, wofür sie starben, wirkliche Werte sind, und dass es sich lohnt, sich um sie zu bemühen.
+1	Wir	wir	_	PPER	_	_	_	_	_	T1169	Wir	Wir	1169	_	_	0	0	B-s69	0	0	B-SIMPX|B-SIMPX|PPER|NX|VF	0	_	B-1
+2	fühlen	fühlen	_	VVFIN	_	_	_	_	_	T1170	fühlen	fühlen	1170	_	_	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	,	,	_	$,	_	_	_	_	_	T1171	,	,	1171	_	_	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|$,	0	_	I-1
+4	dass	dass	_	KOUS	_	_	_	_	_	T1172	daß	daß	1172	XXX	_	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|B-NF|B-SIMPX|KOUS|C	0	_	I-1
+5	das	die	_	PDS	_	_	_	_	_	T1173	das	das	1173	_	_	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|B-MF|PDS|NX	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T1174	,	,	1174	_	_	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|$,	0	_	I-1
+7	wofür	wofür	_	PWAV	_	_	_	_	_	T1175	wofür	wofür	1175	_	_	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|B-SIMPX|PWAV|ADVX|C	0	_	I-1
+8	sie	sie	_	PPER	_	_	_	_	_	T1176	sie	sie	1176	_	_	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|I-SIMPX|PPER|NX|MF	0	_	I-1
+9	starben	sterben	_	VVFIN	_	_	_	_	_	T1177	starben	starben	1177	_	_	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|E-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+10	,	,	_	$,	_	_	_	_	_	T1178	,	,	1178	_	_	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|$,	0	_	I-1
+11	wirkliche	wirklich	_	ADJA	_	_	_	_	_	T1179	wirkliche	wirkliche	1179	_	wirk-liche	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|I-MF|B-NX|ADJA|ADJX	0	_	I-1
+12	Werte	Wert	_	NN	_	_	_	_	_	T1180	Werte	Werte	1180	_	_	0	0	I-s69	0	0	I-SIMPX|I-SIMPX|I-NF|I-SIMPX|E-MF|E-NX|NN	0	_	I-1
+13	sind	sein	_	VAFIN	_	_	_	_	_	T1181	sind	sind	1181	_	_	0	0	I-s69	0	0	I-SIMPX|E-SIMPX|E-NF|E-SIMPX|VAFIN|VXFIN|VC	0	_	I-1
+14	,	,	_	$,	_	_	_	_	_	T1182	,	,	1182	_	_	0	0	I-s69	0	0	I-SIMPX|B-NF|$,	0	_	I-1
+15	und	und	_	KON	_	_	_	_	_	T1183	und	und	1183	_	_	0	0	I-s69	0	0	I-SIMPX|I-NF|KON	0	_	I-1
+16	dass	dass	_	KOUS	_	_	_	_	_	T1184	daß	daß	1184	XXX	_	0	0	I-s69	0	0	I-SIMPX|I-NF|B-SIMPX|KOUS|C	0	_	I-1
+17	es	es	_	PPER	_	_	_	_	_	T1185	es	es	1185	_	_	0	0	I-s69	0	0	I-SIMPX|I-NF|I-SIMPX|B-MF|PPER|NX	0	_	I-1
+18	sich	sich	_	PRF	_	_	_	_	_	T1186	sich	sich	1186	_	_	0	0	I-s69	0	0	I-SIMPX|I-NF|I-SIMPX|E-MF|PRF|NX	0	_	I-1
+19	lohnt	lohnen	_	VVFIN	_	_	_	_	_	T1187	lohnt	lohnt	1187	_	_	0	0	I-s69	0	0	I-SIMPX|I-NF|I-SIMPX|VVFIN|VXFIN|VC	0	_	I-1
+20	,	,	_	$,	_	_	_	_	_	T1188	,	,	1188	_	_	0	0	I-s69	0	0	I-SIMPX|I-NF|I-SIMPX|$,	0	_	I-1
+21	sich	sich	_	PRF	_	_	_	_	_	T1189	sich	sich	1189	_	_	0	0	I-s69	0	0	I-SIMPX|I-NF|I-SIMPX|B-SIMPX|B-NF|B-MF|PRF|NX	0	_	I-1
+22	um	um	_	APPR	_	_	_	_	_	T1190	um	um	1190	_	_	0	0	I-s69	0	0	I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-NF|I-MF|B-PX|APPR	0	_	I-1
+23	sie	sie	_	PPER	_	_	_	_	_	T1191	sie	sie	1191	_	_	0	0	I-s69	0	0	I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-NF|E-MF|E-PX|PPER|NX	0	_	I-1
+24	zu	zu	_	PTKZU	_	_	_	_	_	T1192	zu	zu	1192	_	_	0	0	I-s69	0	0	I-SIMPX|I-NF|I-SIMPX|I-SIMPX|I-NF|B-VXINF|B-VC|PTKZU	0	_	I-1
+25	bemühen	bemühen	_	VVINF	_	_	_	_	_	T1193	bemühen	bemühen	1193	_	_	0	0	I-s69	0	0	E-SIMPX|E-NF|E-SIMPX|E-SIMPX|E-NF|E-VXINF|E-VC|VVINF	0	_	I-1
+26	.	.	_	$.	_	_	_	_	_	T1194	.	.	1194	_	_	0	0	E-s69	0	0	$.	0	_	E-1
+
+# sent_id = 69
+# text = Ich hätte Oderbruch vielleicht anders beurteilen können.
+1	Ich	ich	_	PPER	_	_	_	_	_	T1195	Ich	Ich	1195	_	_	0	0	B-s70	0	0	B-SIMPX|PPER|NX|VF	0	_	B-1
+2	hätte	haben	_	VAFIN	_	_	_	_	_	T1196	hätte	hätte	1196	_	_	0	0	I-s70	0	0	I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+3	Oderbruch	Oderbruch	_	NN	_	_	_	_	_	T1197	Oderbruch	Oderbruch	1197	_	_	0	0	I-s70	0	0	I-SIMPX|B-MF|NE|NX	0	_	I-1
+4	vielleicht	vielleicht	_	ADV	_	_	_	_	_	T1198	vielleicht	vielleicht	1198	_	_	0	0	I-s70	0	0	I-SIMPX|I-MF|ADV|ADVX	0	_	I-1
+5	anders	anders	_	ADV	_	_	_	_	_	T1199	anders	anders	1199	_	_	0	0	I-s70	0	0	I-SIMPX|E-MF|ADV|ADVX	0	_	I-1
+6	beurteilen	beurteilen	_	VVINF	_	_	_	_	_	T1200	beurteilen	beurteilen	1200	_	_	0	0	I-s70	0	0	I-SIMPX|B-VC|VVINF|VXINF	0	_	I-1
+7	können	können	_	VMINF	_	_	_	_	_	T1201	können	können	1201	_	_	0	0	I-s70	0	0	E-SIMPX|E-VC|VVIZU|VXINF	0	_	I-1
+8	.	.	_	$.	_	_	_	_	_	T1202	.	.	1202	_	_	0	0	E-s70	0	0	$.	0	_	E-1
+
+# sent_id = 70
+# text = Seine Motive sind sicherlich hoch anzuerkennen.
+1	Seine	sein	_	PPOSAT	_	_	_	_	_	T1203	Seine	Seine	1203	_	_	0	0	B-s71	0	0	B-SIMPX|B-NX|B-VF|PPOSAT	0	_	B-1
+2	Motive	Motiv	_	NN	_	_	_	_	_	T1204	Motive	Motive	1204	_	_	0	0	I-s71	0	0	I-SIMPX|E-NX|E-VF|NN	0	_	I-1
+3	sind	sein	_	VAFIN	_	_	_	_	_	T1205	sind	sind	1205	_	_	0	0	I-s71	0	0	I-SIMPX|VAFIN|VXFIN|LK	0	_	I-1
+4	sicherlich	sicherlich	_	ADV	_	_	_	_	_	T1206	sicherlich	sicherlich	1206	_	_	0	0	I-s71	0	0	I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+5	hoch	hoch	_	ADJD	_	_	_	_	_	T1207	hoch	hoch	1207	_	_	0	0	I-s71	0	0	I-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+6	anzuerkennen	anerkennen	_	VVIZU	_	_	_	_	_	T1208	anzuerkennen	anzuerkennen	1208	_	_	0	0	I-s71	0	0	E-SIMPX|VVIZU|VXINF|VC	0	_	I-1
+7	.	.	_	$.	_	_	_	_	_	T1209	.	.	1209	_	_	0	0	E-s71	0	0	$.	0	_	E-1
+
+# sent_id = 71
+# text = Aber wenn ich mich in die Notlage deutscher Frauen und Mütter hineinversetze, dann muss Widerstand dieser Art ablehnen.
+1	Aber	aber	_	KON	_	_	_	_	_	T1210	Aber	Aber	1210	_	_	0	0	B-s72	0	0	B-SIMPX|KON|KOORD	0	_	B-1
+2	wenn	wenn	_	KOUS	_	_	_	_	_	T1211	wenn	wenn	1211	_	_	0	0	I-s72	0	0	I-SIMPX|B-SIMPX|B-VF|KOUS|C	0	_	I-1
+3	ich	ich	_	PPER	_	_	_	_	_	T1212	ich	ich	1212	_	_	0	0	I-s72	0	0	I-SIMPX|I-SIMPX|I-VF|B-MF|PPER|NX	0	_	I-1
+4	mich	ich	_	PRF	_	_	_	_	_	T1213	mich	mich	1213	_	_	0	0	I-s72	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|PRF|NX	0	_	I-1
+5	in	in	_	APPR	_	_	_	_	_	T1214	in	in	1214	_	_	0	0	I-s72	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|B-PX|APPR	0	_	I-1
+6	die	die	_	ART	_	_	_	_	_	T1215	die	die	1215	_	_	0	0	I-s72	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-PX|B-NX|B-NX|ART	0	_	I-1
+7	Notlage	Notlage	_	NN	_	_	_	_	_	T1216	Notlage	Notlage	1216	_	_	0	0	I-s72	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-PX|I-NX|E-NX|NN	0	_	I-1
+8	deutscher	deutsch	_	ADJA	_	_	_	_	_	T1217	deutscher	deutscher	1217	_	deut-scher	0	0	I-s72	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-PX|I-NX|B-NX|B-NX|ADJA|ADJX	0	_	I-1
+9	Frauen	Frau	_	NN	_	_	_	_	_	T1218	Frauen	Frauen	1218	_	_	0	0	I-s72	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-PX|I-NX|I-NX|E-NX|NN	0	_	I-1
+10	und	und	_	KON	_	_	_	_	_	T1219	und	und	1219	_	_	0	0	I-s72	0	0	I-SIMPX|I-SIMPX|I-VF|I-MF|I-PX|I-NX|I-NX|KON	0	_	I-1
+11	Mütter	Mutter	_	NN	_	_	_	_	_	T1220	Mütter	Mütter	1220	_	_	0	0	I-s72	0	0	I-SIMPX|I-SIMPX|I-VF|E-MF|E-PX|E-NX|E-NX|NN|NX	0	_	I-1
+12	hineinversetze	hineinversetzen	_	VVFIN	_	_	_	_	_	T1221	hineinversetze	hineinversetze	1221	_	hineinver-setze	0	0	I-s72	0	0	I-SIMPX|E-SIMPX|E-VF|VVFIN|VXFIN|VC	0	_	I-1
+13	,	,	_	$,	_	_	_	_	_	T1222	,	,	1222	_	_	0	0	I-s72	0	0	I-SIMPX|$,	0	_	I-1
+14	dann	dann	_	ADV	_	_	_	_	_	T1223	dann	dann	1223	_	_	0	0	I-s72	0	0	I-SIMPX|ADV|ADVX|VF	0	_	I-1
+15	muss	müssen	_	VMFIN	_	_	_	_	_	T1224	muß	muß	1224	XXX	_	0	0	I-s72	0	0	I-SIMPX|B-NX|B-NX|PIAT|LK	0	_	I-1
+16	Widerstand	Widerstand	_	NN	_	_	_	_	_	T1226	Widerstand	Widerstand	1225	_	_	0	0	I-s72	0	0	I-SIMPX|I-NX|E-NX|MF|NN	0	_	I-1
+17	dieser	dies	_	PDAT	_	_	_	_	_	T1227	dieser	dieser	1226	_	die-ser	0	0	I-s72	0	0	I-SIMPX|I-NX|B-MF|B-NX|PDAT	0	_	I-1
+18	Art	Art	_	NN	_	_	_	_	_	T1228	Art	Art	1227	_	_	0	0	I-s72	0	0	I-SIMPX|E-NX|E-MF|E-NX|NN	0	_	I-1
+19	ablehnen	ablehnen	_	VVINF	_	_	_	_	_	T1229	ablehnen	ablehnen	1228	_	_	0	0	I-s72	0	0	E-SIMPX|VVINF|VXINF|VC	0	_	I-1
+20	.	.	_	$.	_	_	_	_	_	T1230	.	.	1229	_	_	0	0	E-s72	0	0	$.	0	_	E-1
+
+# sent_id = 72
+# text = In der Heimat wütete die Gestapo, im Felde fielen schon sehr viele.
+1	In	in	_	APPR	_	_	_	_	_	T1231	In	In	1230	_	_	0	0	B-s73	0	0	B-SIMPX|B-SIMPX|B-PX|B-VF|APPR	0	_	B-1
+2	der	die	_	ART	_	_	_	_	_	T1232	der	der	1231	_	_	0	0	I-s73	0	0	I-SIMPX|I-SIMPX|I-PX|I-VF|B-NX|ART	0	_	I-1
+3	Heimat	Heimat	_	NN	_	_	_	_	_	T1233	Heimat	Heimat	1232	_	_	0	0	I-s73	0	0	I-SIMPX|I-SIMPX|E-PX|E-VF|E-NX|NN	0	_	I-1
+4	wütete	wüten	_	VVFIN	_	_	_	_	_	T1234	wütete	wütete	1233	_	wü-tete	0	0	I-s73	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+5	die	die	_	ART	_	_	_	_	_	T1235	die	die	1234	_	_	0	0	I-s73	0	0	I-SIMPX|I-SIMPX|B-NX|B-MF|ART	0	_	I-1
+6	Gestapo	Gestapo	_	NN	_	_	_	_	_	T1236	Gestapo	Gestapo	1235	_	_	0	0	I-s73	0	0	I-SIMPX|E-SIMPX|E-NX|E-MF|NE	0	_	I-1
+7	,	,	_	$,	_	_	_	_	_	T1237	,	,	1236	_	_	0	0	I-s73	0	0	I-SIMPX|$,	0	_	I-1
+8	im	in	_	APPRART	_	_	_	_	_	T1238	im	im	1237	_	_	0	0	I-s73	0	0	I-SIMPX|B-SIMPX|B-PX|B-VF|APPRART	0	_	I-1
+9	Felde	Feld	_	NN	_	_	_	_	_	T1239	Felde	Felde	1238	_	_	0	0	I-s73	0	0	I-SIMPX|I-SIMPX|E-PX|E-VF|NN|NX	0	_	I-1
+10	fielen	fallen	_	VVFIN	_	_	_	_	_	T1240	fielen	fielen	1239	_	_	0	0	I-s73	0	0	I-SIMPX|I-SIMPX|VVFIN|VXFIN|LK	0	_	I-1
+11	schon	schon	_	ADV	_	_	_	_	_	T1241	schon	schon	1240	_	_	0	0	I-s73	0	0	I-SIMPX|I-SIMPX|B-MF|ADV|ADVX	0	_	I-1
+12	sehr	sehr	_	ADV	_	_	_	_	_	T1242	sehr	sehr	1241	_	_	0	0	I-s73	0	0	I-SIMPX|I-SIMPX|I-MF|B-NX|ADV|ADVX	0	_	I-1
+13	viele	viele	_	PIS	_	_	_	_	_	T1243	viele	viele	1242	_	_	0	0	I-s73	0	0	E-SIMPX|E-SIMPX|E-MF|E-NX|PIS	0	_	I-1
+14	.	.	_	$.	_	_	_	_	_	T1244	.	.	1243	_	_	0	0	E-s73	0	0	$.	0	_	E-1
+
+# sent_id = 73
+# text = Kann man es dann verantworten, durch eine Aktion, die nicht kriegsentscheidend ist, tapfere junge Männer zu töten?
+1	Kann	können	_	VMFIN	_	_	_	_	_	T1245	Kann	Kann	1244	_	_	0	0	B-s74	0	0	B-SIMPX|VMFIN|VXFIN|LK	0	_	B-1
+2	man	man	_	PIS	_	_	_	_	_	T1246	man	man	1245	_	_	0	0	I-s74	0	0	I-SIMPX|B-MF|PIS|NX	0	_	I-1
+3	es	es	_	PPER	_	_	_	_	_	T1247	es	es	1246	_	_	0	0	I-s74	0	0	I-SIMPX|I-MF|PPER|NX	0	_	I-1
+4	dann	dann	_	ADV	_	_	_	_	_	T1248	dann	dann	1247	_	_	0	0	I-s74	0	0	I-SIMPX|E-MF|ADV|ADVX	0	_	I-1
+5	verantworten	verantworten	_	VVINF	_	_	_	_	_	T1249	verantworten	verantworten	1248	_	_	0	0	I-s74	0	0	I-SIMPX|VVINF|VXINF|VC	0	_	I-1
+6	,	,	_	$,	_	_	_	_	_	T1250	_	,	_	XXX	_	1	PKT	I-s74	0	0	I-SIMPX|$,	0	_	I-1
+7	durch	durch	_	APPR	_	_	_	_	_	T1251	durch	durch	1249	_	_	0	0	I-s74	0	0	I-SIMPX|B-PX|B-NF|APPR	0	_	I-1
+8	eine	eine	_	ART	_	_	_	_	_	T1252	eine	eine	1250	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|B-NX|B-NX|ART	0	_	I-1
+9	Aktion	Aktion	_	NN	_	_	_	_	_	T1253	Aktion	Aktion	1251	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|E-NX|NN	0	_	I-1
+10	,	,	_	$,	_	_	_	_	_	T1254	,	,	1252	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|$,	0	_	I-1
+11	die	die	_	PRELS	_	_	_	_	_	T1255	die	die	1253	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|B-R-SIMPX|PRELS|NX|C	0	_	I-1
+12	nicht	nicht	_	PTKNEG	_	_	_	_	_	T1256	nicht	nicht	1254	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|I-R-SIMPX|B-MF|PTKNEG|ADVX	0	_	I-1
+13	kriegsentscheidend	kriegsentscheidend	_	ADJD	_	_	_	_	_	T1257	kriegsentscheidend	kriegsentscheidend	1255	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|I-R-SIMPX|E-MF|ADJD|ADJX	0	_	I-1
+14	ist	sein	_	VAFIN	_	_	_	_	_	T1258	ist	ist	1256	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|I-R-SIMPX|VAFIN|VXFIN|VC	0	_	I-1
+15	,	,	_	$,	_	_	_	_	_	T1259	,	,	1257	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|I-R-SIMPX|$,	0	_	I-1
+16	tapfere	tapfer	_	ADJA	_	_	_	_	_	T1260	tapfere	tapfere	1258	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|I-R-SIMPX|B-SIMPX|B-NF|B-NX|B-MF|ADJA|ADJX	0	_	I-1
+17	junge	jung	_	ADJA	_	_	_	_	_	T1261	junge	junge	1259	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|I-R-SIMPX|I-SIMPX|I-NF|I-NX|I-MF|ADJA|ADJX	0	_	I-1
+18	Männer	Mann	_	NN	_	_	_	_	_	T1262	Männer	Männer	1260	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|I-R-SIMPX|I-SIMPX|I-NF|E-NX|E-MF|NN	0	_	I-1
+19	zu	zu	_	PTKZU	_	_	_	_	_	T1263	zu	zu	1261	_	_	0	0	I-s74	0	0	I-SIMPX|I-PX|I-NF|I-NX|I-R-SIMPX|I-SIMPX|I-NF|B-VXINF|B-VC|PTKZU	0	_	I-1
+20	töten	töten	_	VVINF	_	_	_	_	_	T1264	töten	töten	1262	_	_	0	0	I-s74	0	0	E-SIMPX|E-PX|E-NF|E-NX|E-R-SIMPX|E-SIMPX|E-NF|E-VXINF|E-VC|VVINF	0	_	I-1
+21	?	?	_	$.	_	_	_	_	_	T1265	.	?	1263	XXX	_	1	PKT	E-s74	0	0	$.	0	_	E-1
