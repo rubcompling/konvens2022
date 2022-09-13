@@ -7,6 +7,7 @@ import re
 import statistics
 
 # Functions to plot from Student Data
+# author: Marco Müller
 
 def read_data(path):
 	"""function that reads data for plotting out of a .csv"""
